@@ -1,0 +1,127 @@
+.why-us{
+    // height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    padding: 10rem 4rem;
+    overflow: hidden;
+
+    
+
+    .container{
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10rem;
+        color: #fff;
+
+
+        .left{
+            flex: 1.5;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+            h2{
+                font-family: Poppins;
+                font-size: 5.8rem;
+                font-weight: 600;
+                line-height: 5.9rem;
+                letter-spacing: 0em;
+                text-align: left;
+                
+            }
+
+            p{
+                font-family: Poppins;
+                font-size: 2.2rem;
+                line-height: 3.3rem;
+                letter-spacing: 0em;
+                text-align: left;
+                // width: 70%;
+
+                span{
+                    color: #9852F2;
+                }
+            }
+        }
+
+        .right{
+            flex: 1;
+            // border: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            align-items: flex-start;
+
+
+            h2{
+                font-family: Poppins;
+                font-size: 4.7rem;
+                font-weight: 600;
+                line-height: 7.1rem;
+                letter-spacing: 0em;
+               
+
+            }
+
+            ul{
+
+                li{
+                    
+                    font-size: 2.2rem;
+                    line-height: 3.3rem;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 1rem;
+                    margin-bottom: 2rem;
+
+                    .image-container {
+                        width: 5rem;
+                      
+                        > div {
+                          position: unset !important;
+                        }
+                      
+                        .image {
+                          object-fit: contain;
+                          width: 100% !important;
+                          position: relative !important;
+                          height: unset !important;
+                        }
+                      }
+
+                }
+            }
+        }
+
+        
+    }
+}
+
+/* Font size for screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+    .why-us{
+        height: auto;
+
+        .container{
+            gap: 5rem;
+            flex-direction: column;
+        }
+        .left{
+            // border: 1px solid red;
+            flex: 1;
+        }
+        
+        .right{
+            flex: 1;
+            // border: 1px solid red;
+        }
+    }
+  }
+  

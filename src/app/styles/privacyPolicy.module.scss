@@ -1,0 +1,49 @@
+.privacy{
+    background-color: #111;
+    padding: 10rem 4rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+
+        h2{
+          
+            font-size: 5.8rem;
+            font-weight: 600;
+            line-height: 5.9rem;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        .content{
+            padding: 2rem;
+            
+
+            h4{
+                font-size: 2.8rem;
+                font-weight: 400;
+                line-height: 2.7rem;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 1rem;
+            }
+
+            p{
+                font-size: 2.0rem;
+                line-height: 2.7rem;
+                letter-spacing: 0em;
+                text-align: left;
+                color: gray;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+}

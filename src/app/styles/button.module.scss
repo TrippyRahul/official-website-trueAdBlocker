@@ -1,0 +1,29 @@
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    background: rgb(152,82,242);
+    background: linear-gradient(90deg, rgba(152,82,242,1) 0%, rgba(233,90,167,1) 100%);
+    border: none;
+    border-radius: 3rem;
+    color:#FFFFFF;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all .2s linear;
+
+    .chrome{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+
+    &:hover{
+        background: rgb(152,82,242);
+    background: linear-gradient(90deg,  rgba(233,90,167,1) 0%, rgba(152,82,242,1) 100%);
+        transform: translateX(-.5rem);
+    }
+}
+
+
