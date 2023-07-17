@@ -212,6 +212,7 @@
 /* Font size for screens that are 768px wide or less */
 @media screen and (max-width: 768px) {
     .top-points{
+        padding: 4rem 2rem;
         .bg1{
             left: -90%;
         }

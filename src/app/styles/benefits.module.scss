@@ -68,42 +68,6 @@
         }
     }
 
-    .bg1{
-        position: absolute;
-        left: -10%;
-        bottom: 0%;
-        
-
-        img{
-            width: 55.4rem;
-            height: 55.4rem;
-            object-fit: contain;
-        }
-    }
-    .bg2{
-        position: absolute;
-        left: 20%;
-       top: 20%;
-        
-
-        img{
-            width: 35.4rem;
-            height: 35.4rem;
-            object-fit: contain;
-        }
-    }
-    .bg3{
-        position: absolute;
-        right: -10%;
-        top: 0%;
-
-        img{
-            width: 55.4rem;
-            height: 55.4rem;
-            object-fit: contain;
-        }
-    }
-
     .container{
 
         height: 100%;
@@ -160,7 +124,7 @@
 
 @media only screen and (max-width: 768px) { 
    .benefits{
-
+        padding: 4rem 2rem;
     .container{
         flex-direction: column;
     }
