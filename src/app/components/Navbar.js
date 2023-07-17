@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link href="/">
               <div className="image-container">
                 <Image
-                  src="./nav-logo.svg"
+                  src="/nav-logo.svg"
                   alt="TrueAdBlockerLogo"
                   className="image"
                   fill={true}

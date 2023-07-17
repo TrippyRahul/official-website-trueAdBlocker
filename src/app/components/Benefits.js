@@ -10,7 +10,7 @@ const Benefits = () => {
           <Image
             className={styles["bg-image"]}
             fill={true}
-            src="./Ellipse 10.svg"
+            src="/Ellipse 10.svg"
             alt="Ellipse"
           />
         </div>
@@ -20,7 +20,7 @@ const Benefits = () => {
           <Image
             className={styles["bg-image"]}
             fill={true}
-            src="./Ellipse 9.svg"
+            src="/Ellipse 9.svg"
             alt="Ellipse"
           />
         </div>
@@ -30,7 +30,7 @@ const Benefits = () => {
           <Image
             className={styles["bg-image"]}
             fill={true}
-            src="./Ellipse 9.svg"
+            src="/Ellipse 9.svg"
             alt="Ellipse"
           />
         </div>
@@ -48,7 +48,7 @@ const Benefits = () => {
           <div className={styles.item}>
             <h3>Without exception</h3>
             <p>
-              Never allow anyone to impose a list of "acceptable ads" on your
+              Never allow anyone to impose a list of &quot;acceptable ads&quot; on your
               behalf. Make your own list of reputable websites to include on
               free adblock for chrome.
             </p>

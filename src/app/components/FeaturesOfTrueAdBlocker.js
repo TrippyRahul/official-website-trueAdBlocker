@@ -10,7 +10,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <Image
             className={styles["bg-image"]}
             fill={true}
-            src="./Ellipse 10.svg"
+            src="/Ellipse 10.svg"
             alt="Ellipse"
           />
         </div>
@@ -20,7 +20,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <Image
             className={styles["bg-image"]}
             fill={true}
-            src="./Ellipse 9.svg"
+            src="/Ellipse 9.svg"
             alt="Ellipse"
           />
         </div>
@@ -34,7 +34,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <Image
                 className={styles["image"]}
                 fill={true}
-                src="./Слой 2.svg"
+                src="/Слой 2.svg"
                 alt="Слой 2"
               />
             </div>
@@ -49,7 +49,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <Image
                 className={styles["image"]}
                 fill={true}
-                src="./Ресурс 1 2.svg"
+                src="/Ресурс 1 2.svg"
                 alt="Ресурс 1 2"
               />
             </div>
@@ -68,7 +68,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <Image
                 className={styles["image"]}
                 fill={true}
-                src="./Ресурс 2 6.svg"
+                src="/Ресурс 2 6.svg"
                 alt="Ресурс 2 6"
               />
             </div>
@@ -85,7 +85,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <Image
                 className={styles["image"]}
                 fill={true}
-                src="./Frame 20.svg"
+                src="/Frame 20.svg"
                 alt="Frame 20.svg"
               />
             </div>
@@ -119,7 +119,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <Image
                 className={styles["image"]}
                 fill={true}
-                src="./BlockAd.svg"
+                src="/BlockAd.svg"
                 alt="block-ad-logo"
               />
             </div>

@@ -11,13 +11,13 @@ const Use = () => {
           <Image
             className={styles['bg-image']}
             fill={true}
-            src="./Ellipse 10.svg"
+            src="/Ellipse 10.svg"
             alt="Ellipse"
           />
         </div>
       </div>
       <div className={styles.container}>
-        <h2>WHAT IS IT’S USE?</h2>
+        <h2>WHAT IS IT&apos;S USE?</h2>
 
         <div className={styles.content}>
           <div className={styles.left}>

@@ -88,7 +88,7 @@ const Reviews = () => {
           <div className={styles.cards}>
             {data.map((item) => {
               return (
-                <div className={styles.card}>
+                <div className={styles.card} key={item.id}>
                   <div className={styles.profile}>
                     <div className={styles["image-container"]}>
                       <Image
@@ -106,7 +106,7 @@ const Reviews = () => {
                         <Image
                           className="image"
                           fill={true}
-                          src="./stars.svg"
+                          src="/stars.svg"
                           alt="star"
                         />
                       </div>
@@ -116,7 +116,7 @@ const Reviews = () => {
                         <Image
                           className="image"
                           fill={true}
-                          src="./stars.svg"
+                          src="/stars.svg"
                           alt="star"
                         />
                       </div>
@@ -126,7 +126,7 @@ const Reviews = () => {
                         <Image
                           className="image"
                           fill={true}
-                          src="./stars.svg"
+                          src="/stars.svg"
                           alt="star"
                         />
                       </div>
@@ -136,7 +136,7 @@ const Reviews = () => {
                         <Image
                           className="image"
                           fill={true}
-                          src="./stars.svg"
+                          src="/stars.svg"
                           alt="star"
                         />
                       </div>
@@ -146,7 +146,7 @@ const Reviews = () => {
                         <Image
                           className="image"
                           fill={true}
-                          src="./stars.svg"
+                          src="/stars.svg"
                           alt="star"
                         />
                       </div>

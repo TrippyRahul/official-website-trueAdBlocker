@@ -60,7 +60,7 @@ const WhyTrueAdBlocker = () => {
           </div>
           <div className={styles.row}>
             <span>
-              Today's best adblock for chrome are generally good at what they
+              Today&apos;s best adblock for chrome are generally good at what they
               do.
             </span>
             <span className={styles.yes}>YES</span>

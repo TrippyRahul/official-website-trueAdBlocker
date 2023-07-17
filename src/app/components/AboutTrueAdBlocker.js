@@ -27,7 +27,7 @@ const AboutTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles["image-container"]}>
               <Image
-                src="./BlockAd.svg"
+                src="/BlockAd.svg"
                 alt="BlockAd Logo"
                 className={styles.image}
                 fill={true}

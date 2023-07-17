@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/header.module.scss";
 import { AiFillChrome } from "react-icons/ai";
 import Navbar from "./Navbar";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -15,14 +16,7 @@ const Header = () => {
           the <span>BEST</span> and <span>FREE</span> Adblock
         </p>
 
-        <a
-          href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
-          target="_blank"
-        >
-          <button className={styles.btn}>
-            <AiFillChrome /> Add to Chrome
-          </button>
-        </a>
+        <Button text="Add to Chrome" icon={true}/>
       </div>
     </div>
   );

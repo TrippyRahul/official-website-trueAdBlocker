@@ -11,6 +11,7 @@ const TopPoints = () => {
             className={styles["bg-image"]}
             fill={true}
             src="./Ellipse 5.svg"
+            alt="bg-image"
           />
         </div>
       </div>
@@ -20,6 +21,7 @@ const TopPoints = () => {
             className={styles["bg-image"]}
             fill={true}
             src="./Ellipse 6.svg"
+            alt="bg-image"
           />
         </div>
       </div>
@@ -155,7 +157,7 @@ const TopPoints = () => {
                       alt="/material-symbols_wall-art-rounded.svg"
                     />
                   </div>
-                  keeps the site's design and functionality intact
+                  keeps the site&apos;s design and functionality intact
                 </li>
               </ul>
             </div>

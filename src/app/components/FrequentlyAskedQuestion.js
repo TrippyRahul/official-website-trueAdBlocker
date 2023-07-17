@@ -57,7 +57,7 @@ const FrequentlyAskedQuestion = () => {
                   <Image
                     className={styles["image"]}
                     fill={true}
-                    src="./addLogo.svg"
+                    src="/addLogo.svg"
                     alt="add-logo"
                   />
                 </div>

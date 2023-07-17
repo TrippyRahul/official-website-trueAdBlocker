@@ -1,7 +1,7 @@
 import Script from "next/script";
 import React from "react";
 
-const Schema = () => {
+const   Schema = () => {
   return (
     <>
       <Script
