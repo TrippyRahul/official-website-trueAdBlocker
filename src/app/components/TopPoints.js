@@ -37,10 +37,7 @@ const TopPoints = () => {
               />
             </div>
             <h3>Boost your speed</h3>
-            <p>
-              Experience a quicker Internet while improving page load times with
-              <span>twitch adblock extension</span>
-            </p>
+            <p>Experience a quicker Internet while improving page load times</p>
           </div>
           <div className={styles.card}>
             <div className={styles["image-container"]}>
@@ -64,10 +61,7 @@ const TopPoints = () => {
               />
             </div>
             <h3>Eliminate Distractions </h3>
-            <p>
-              Remove pop-ups, banners, and video advertising with{" "}
-              <span>chrome extension adblock.</span>
-            </p>
+            <p>Remove pop-ups, banners, and video advertising</p>
           </div>
           <div className={styles.card}>
             <div className={styles["image-container"]}>
@@ -78,7 +72,7 @@ const TopPoints = () => {
                 alt="eva_cube-fill.svg"
               />
             </div>
-            <h3>Assistance Websites </h3>
+            <h3>Assistance Websites</h3>
             <p>
               By permitting Acceptable Ads, you may promote a robust online
               environment for websites.
@@ -176,8 +170,8 @@ const TopPoints = () => {
                       alt="/Group.svg"
                     />
                   </div>
-                  Banner, pop-ups and video adverts are removed using adblock
-                  chrome.
+                  Banner, pop-ups and video adverts are removed using the
+                  extension.
                 </li>
                 <li>
                   <div className={styles["image-container"]}>

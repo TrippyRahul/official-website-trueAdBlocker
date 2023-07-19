@@ -11,8 +11,10 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>True AdBlocker</h2>
         <p>
-          True Adblocker removes all unwanted ads and block pop-ups ads. It is
-          the <span>BEST</span> and <span>FREE</span> Adblock
+          True adblocker blocks all annoying ads on spotify, hulu, twitch and
+          youtube. But if you want a separate adblocker of these extension then
+          we have spotify adblocker, hulu adblocker, twitch adblocker and
+          youtube adblocker.
         </p>
 
         <Button text="GET TRUE ADBLOCKER NOW" />
@@ -24,9 +26,9 @@ const Footer = () => {
             <p>
               <span>Popular Searches : </span> youtube no ads, chrome youtube
               adblocker, hulu without ads, pop up blocker chrome, adblock
-              fireforx, twitch adblock firefox, adguard ablocker, twitch adblock
-              chrome, adblock extension chrome, ad blocker chrome extension,
-              pop-up ads, ad blocker google chrome and google chrome ad blocker.
+              fireforx, twitch adblock firefox, adguard ablocker, pop-up ads, ad
+              blocker google chrome, chrome extension adblock and google chrome
+              ad blocker.
             </p>
           </div>
           <ul>

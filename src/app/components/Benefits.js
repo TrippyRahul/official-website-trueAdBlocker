@@ -40,17 +40,17 @@ const Benefits = () => {
           <div className={styles.item}>
             <h3>Excellent ad-blocking software</h3>
             <p>
-              Utilize the best ad-blocking technology available in free adblock
-              for chrome. Block all video advertisements, pop-ups, display
-              adverts, and so forth.
+              Utilize the best ad-blocking technology available in this
+              extension. Block all video advertisements, pop-ups and display
+              adverts with this extension.
             </p>
           </div>
           <div className={styles.item}>
             <h3>Without exception</h3>
             <p>
-              Never allow anyone to impose a list of &quot;acceptable ads&quot; on your
-              behalf. Make your own list of reputable websites to include on
-              free adblock for chrome.
+              Never allow anyone to impose a list of "acceptable ads" on your
+              behalf. Make your own list of reputable websites to including in
+              this extension.
             </p>
           </div>
         </div>
@@ -58,22 +58,19 @@ const Benefits = () => {
           <div className={styles.item}>
             <h3>High Definition Streaming</h3>
             <p>
-              With free adblock for chrome, you can block unwanted ads without
-              affecting streaming quality.
+              With this extension, you can block unwanted ads without affecting
+              streaming quality.
             </p>
           </div>
           <div className={styles.item}>
             <h3>Blocking Warnings</h3>
-            <p>
-              displays the notice following ad blocking with free adblock for
-              chrome.
-            </p>
+            <p>displays the notice following ad blocking</p>
           </div>
           <div className={styles.item}>
             <h3>Select Enable or Disable</h3>
             <p>
-              Simply click the toggle button to enable blocking with free ablock
-              for chrome.
+              Simply click the toggle button to enable blocking with
+              <span>free ablock for chrome.</span>
             </p>
           </div>
         </div>

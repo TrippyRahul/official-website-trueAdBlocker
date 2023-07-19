@@ -39,9 +39,9 @@ const FeaturesOfTrueAdBlocker = () => {
               />
             </div>
             <span>
-              Take control on your <span>Twitch </span>experience with free
-              Adblock for chrome or Twitch ad blocker and watch ad free series.
-              You can enjoy your favorite content with twitch adblock.
+              Take control on your Twitch experience with{" "}
+              <span>Twitch ad blocker</span> and watch ad free series. You can
+              enjoy your favorite content with twitch.
             </span>
           </div>
           <div className={styles.card}>
@@ -54,12 +54,10 @@ const FeaturesOfTrueAdBlocker = () => {
               />
             </div>
             <span>
-              Experience uninterrupted video ads on Youtube with free Adblock
-              for chrome or youtube adblock chrome and watch your favroite show
-              freely with youtube ad blocker. In adblocker youtube,
-              <span>
-                you can watch your favroite content without any annoying ads.
-              </span>
+              Experience uninterrupted video ads on Youtube with youtube adblock
+              chrome and watch your favroite show freely with{" "}
+              <span>youtube ad blocker for chrome.</span> In adblocker youtube,
+              you can watch your favroite content without any annoying ads.
             </span>
           </div>
 
@@ -73,11 +71,9 @@ const FeaturesOfTrueAdBlocker = () => {
               />
             </div>
             <span>
-              Enhance your spotify experience by blocking annoying ads at
-              spotify adblocker and immerse yourself with uninterrupted music
-              with free Adblock for chrome. With{" "}
-              <span> Spotify adblocker </span>, you can listen your favroite
-              song.
+              Enhance your spotify experience by blocking annoying ads and
+              immerse yourself with uninterrupted music with this extension.
+              With this extension, you can listen your favroite song.
             </span>
           </div>
           <div className={styles.card}>
@@ -90,9 +86,8 @@ const FeaturesOfTrueAdBlocker = () => {
               />
             </div>
             <span>
-              Say hulu no ads with total adblock and watch your favroite content
-              without interruptions in adblock for hulu. By this you can watch
-              your most loved show with hulu adblocker.
+              Watch your favroite content without interruptions in adblock for
+              hulu. By this you can watch your most loved show with hulu.
             </span>
           </div>
         </div>
@@ -102,15 +97,14 @@ const FeaturesOfTrueAdBlocker = () => {
             <div className={styles.item}>
               <span className={styles["item-title"]}>Block Sponsered ads</span>
               <span className={styles["item-text"]}>
-                Say goodbye to <span>sponsored ads </span>with free Adblock for
-                chrome
+                Say goodbye to <span>sponsored ads </span>
               </span>
             </div>
             <div className={styles.item}>
               <span className={styles["item-title"]}>Popup Ads blocker</span>
               <span className={styles["item-text"]}>
-                Block unwanted ads and give control over your online space with
-                <span>free Adblock for chrome or pop up adblocker.</span>
+                Block unwanted ads and give control over your online space with{" "}
+                <span>pop up adblocker.</span>
               </span>
             </div>
           </div>
@@ -128,8 +122,7 @@ const FeaturesOfTrueAdBlocker = () => {
             <div className={styles.item}>
               <span className={styles["item-title"]}>Block Google Ads</span>
               <span className={styles["item-text"]}>
-                Take control on your online <span>privacy</span> and block
-                google ads with total adblock.
+                Take control on your online privacy and block google ads
               </span>
             </div>
             <div className={styles.item}>
@@ -137,8 +130,8 @@ const FeaturesOfTrueAdBlocker = () => {
                 Preventing Online Threats
               </span>
               <span className={styles["item-text"]}>
-                Helps you avoid all phishing sites and domains that are known to
-                spread malware in <span>total adblock.</span>
+                helps you avoid all phishing sites and domains that are known to
+                spread malware in the extension.
               </span>
             </div>
           </div>

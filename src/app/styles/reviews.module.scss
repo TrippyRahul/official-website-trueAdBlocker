@@ -95,12 +95,14 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 1rem;
+            width: 100%;
             
            
 
             .card{
                 z-index: 99;
-                width: 40.96rem;
+                width: 40rem;
+                // width: 32%;;
                 // flex: 1;
                 height: 28rem;
                 padding: 4rem;
@@ -190,3 +192,14 @@
     }
 }
 
+@media screen and (max-width: 768px ) {
+    .reviews{
+        .container{
+            .cards{
+                .card{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

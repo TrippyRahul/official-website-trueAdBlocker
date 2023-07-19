@@ -32,7 +32,7 @@ const WhyTrueAdBlocker = () => {
           <div className={styles.row1}>
             <span>WHY TRUE ADBLOCKER</span>
             <span>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
                   className={styles.image}
                   fill={true}
@@ -43,7 +43,7 @@ const WhyTrueAdBlocker = () => {
               TRUE ADBLOCKER
             </span>
             <span>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
                   className={styles.image}
                   fill={true}
@@ -60,8 +60,8 @@ const WhyTrueAdBlocker = () => {
           </div>
           <div className={styles.row}>
             <span>
-              Today&apos;s best adblock for chrome are generally good at what they
-              do.
+              Today&apos;s best adblock for chrome are generally good at what
+              they do.
             </span>
             <span className={styles.yes}>YES</span>
             <span>YES</span>
@@ -73,9 +73,8 @@ const WhyTrueAdBlocker = () => {
           </div>
           <div className={styles.row}>
             <span>
-              Trueadblocker removes advert before they are downloaded to your
-              device by your browser, as opposed to twitch adblock chrome
-              extension.
+              It removes advert before they are downloaded to your device by
+              your browser, as opposed to twitch adblock chrome extension.
             </span>
             <span className={styles.yes}>YES</span>
             <span>YES</span>
@@ -84,9 +83,7 @@ const WhyTrueAdBlocker = () => {
             <span colSpan="3">Eliminates Irritants</span>
           </div>
           <div className={styles.row}>
-            <span>
-              Filters in adguard adblocker can block obtrusive components.
-            </span>
+            <span>It can block obtrusive components.</span>
             <span className={styles.yes}>YES</span>
             <span>PARTLY</span>
           </div>
@@ -95,8 +92,8 @@ const WhyTrueAdBlocker = () => {
           </div>
           <div className={styles.row}>
             <span>
-              After deleting ad sections, the majority of best adblock Firefox
-              keep their page functionally
+              After deleting ad sections, the majority of it keep their page
+              functionally
             </span>
             <span className={styles.yes}>YES</span>
             <span className={styles.no}>NO</span>

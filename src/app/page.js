@@ -18,9 +18,9 @@ export default function Home() {
       <FeaturesOfTrueAdBlocker />
       <Benefits />
       <Use />
-      <AboutTrueAdBlocker />
       <FrequentlyAskedQuestion />
       <Reviews />
+      <AboutTrueAdBlocker />
     </>
   );
 }
