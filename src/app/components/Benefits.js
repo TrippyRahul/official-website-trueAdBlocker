@@ -48,9 +48,9 @@ const Benefits = () => {
           <div className={styles.item}>
             <h3>Without exception</h3>
             <p>
-              Never allow anyone to impose a list of "acceptable ads" on your
-              behalf. Make your own list of reputable websites to including in
-              this extension.
+              Never allow anyone to impose a list of &quot;acceptable ads&quot;
+              on your behalf. Make your own list of reputable websites to
+              including in this extension.
             </p>
           </div>
         </div>
