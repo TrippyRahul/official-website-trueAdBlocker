@@ -77,7 +77,7 @@ const WhyUs = () => {
               Block pop up ads with total adblock.
             </li>
           </ul>
-          <Button text="GET TRUE ADBLOCKER NOW" />
+          <Button text="Add to Chrome" icon={true} />
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ const Use = () => {
               blocks all unwanted advertisements. It does not come with a
               pre-defined whitelist as its competitors do.
             </p>
-            <Button text="GET TRUE ADBLOCKER NOW" />
+            <Button text="Add to Chrome" icon={true} />
           </div>
         </div>
       </div>

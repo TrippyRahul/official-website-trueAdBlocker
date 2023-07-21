@@ -19,7 +19,7 @@ const AboutTrueAdBlocker = () => {
             </p>
           </div>
           <div className={styles.right}>
-            <Button text="GET TRUE ADBLOCKER NOW" />
+            <Button text="Add to Chrome" icon={true} />
           </div>
         </div>
         <div className={styles.bottom}>

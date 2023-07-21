@@ -17,7 +17,7 @@ const Footer = () => {
           adblocker.
         </p>
 
-        <Button text="GET TRUE ADBLOCKER NOW" />
+        <Button text="Add to Chrome" icon={true} />
 
         <hr className={styles.line} style={{ color: "gray" }} />
 

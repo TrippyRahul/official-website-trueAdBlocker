@@ -77,7 +77,7 @@ const FrequentlyAskedQuestion = () => {
             </li>
           ))}
         </ol>
-        <Button text="GET TRUE ADBLOCKER NOW" />
+        <Button text="Add to Chrome" icon={true} />
       </div>
     </div>
   );
