@@ -70,7 +70,7 @@ const Benefits = () => {
             <h3>Select Enable or Disable</h3>
             <p>
               Simply click the toggle button to enable blocking with
-              <span>free ablock for chrome.</span>
+              <span> free ablock for chrome.</span>
             </p>
           </div>
         </div>

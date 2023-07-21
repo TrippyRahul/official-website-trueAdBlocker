@@ -37,7 +37,9 @@ const TopPoints = () => {
               />
             </div>
             <h3>Boost your speed</h3>
-            <p>Experience a quicker Internet while improving page load times</p>
+            <p>
+              Experience a quicker Internet while improving page load times{" "}
+            </p>
           </div>
           <div className={styles.card}>
             <div className={styles["image-container"]}>

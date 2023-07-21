@@ -162,8 +162,20 @@
                     justify-content: flex-start;
                     gap: .5rem;
                     span{
-                        img{
+                        
+                        .image-container {
                             width: 1.226rem;
+                        
+                            > div {
+                            position: unset !important;
+                            }
+                        
+                            .image {
+                            object-fit: contain;
+                            width: 100% !important;
+                            position: relative !important;
+                            height: unset !important;
+                            }
                         }
                     }
                 }

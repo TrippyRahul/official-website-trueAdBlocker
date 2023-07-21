@@ -23,14 +23,14 @@ const data = [
     img: "/avatar-2.png",
     username: " Michael Garcia",
     stars: 5,
-    desc: "My favourite extension is adblocker google chrome the one that blocks everything! Now I can shop online and avoid having to look at the dress I didn't buy for the rest of time on the side of my screen! This is the best chrome.",
+    desc: "My favourite extension is adblocker google chrome the one that blocks everything! Now I can shop online and avoid having to look at the dress I didn't buy for the rest of time on the side of my screen! This is the best chrome.    ",
   },
   {
     id: 4,
     img: "/avatar-3.png",
     username: "Benjamin Brown",
     stars: 3,
-    desc: " My browsing experience has changed dramatically thanks to TrueAdBlocker. It successfully suppresses adverts and pop-ups so I can concentrate on the content I want to view. Very strongly advised!",
+    desc: " My browsing experience has changed dramatically thanks to this extension. It successfully suppresses adverts and pop-ups so I can concentrate on the content I want to view. Very strongly advised!",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const data = [
     img: "/avatar-5.png",
     username: "William Smith",
     stars: 3,
-    desc: " I've used a number of ad-blockers, It stands out for providing the best performance. My web browsing is quicker and more fun as a result of the seamless ad blocking across numerous websites.    ",
+    desc: "I've used a number of ad-blockers, It stands out for providing the best performance. My web browsing is quicker and more fun as a result of the seamless ad blocking across numerous websites. ",
   },
   {
     id: 7,
@@ -124,9 +124,9 @@ const Reviews = () => {
                   <div className={styles.rating}>
                     {Array.from({ length: item.stars }, (_, i) => (
                       <span key={i}>
-                        <div className="image-container">
+                        <div className={styles["image-container"]}>
                           <Image
-                            className="image"
+                            className={styles.image}
                             fill={true}
                             src="/stars.svg"
                             alt="star"

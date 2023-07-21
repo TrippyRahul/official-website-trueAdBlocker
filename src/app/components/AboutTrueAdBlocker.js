@@ -11,12 +11,11 @@ const AboutTrueAdBlocker = () => {
           <div className={styles.left}>
             <h2>ABOUT TRUE ADBLOCKER</h2>
             <p>
-              True Adblocker is the best browser addon that shields users from
-              third-party trackers and deletes adverts from chrome. It is
-              actually the most popular adblock for chrome and it is used by
-              millions of people to stop unnecessary ads. It also supports
-              privacy protection and this is simple to use and completely
-              customizable.
+              It is the best browser addon that shields users from third-party
+              trackers and deletes adverts from chrome. It is actually the most
+              popular adblock for chrome and it is used by millions of people to
+              stop unnecessary ads. It also supports privacy protection and this
+              is simple to use and completely customizable.
             </p>
           </div>
           <div className={styles.right}>

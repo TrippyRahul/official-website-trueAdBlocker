@@ -19,11 +19,21 @@
         .logo{
             width: 7rem;
             height: 7rem;
-            z-index: 99;
 
-            img{
+            
+            .image-container {
                 width: 100%;
-                height: 100%;
+            
+                > div {
+                position: unset !important;
+                }
+            
+                .image {
+                object-fit: contain;
+                width: 100% !important;
+                position: relative !important;
+                height: unset !important;
+                }
             }
         }
 
@@ -122,11 +132,29 @@
     flex-direction: column;
     gap: 1rem;
     transition: all .5s ease-in-out;
+
+    .logo{
+        
+        .image-container {
+            width: 100%;
+        
+            > div {
+            position: unset !important;
+            }
+        
+            .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+            }
+        }
+    }
     .links{
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: column;
         .link{
             font-size: 1.5rem;

@@ -12,20 +12,19 @@ const WhyUs = () => {
             FREE ADBLOCK FOR <br /> CHROME
           </h2>
           <p>
-            The features of <span>TRUEADBLOCKER</span> free adblock for chrome
-            for Windows go beyond ad blocking. It is a multifunctional
-            application that guards kids from unsuitable content, prevents
-            adverts, restricts access to risky websites, and speeds up page
-            loading.
+            The features of this extension for Windows go beyond ad blocking. It
+            is a multifunctional application that guards kids from unsuitable
+            content, prevents adverts, restricts access to risky websites, and
+            speeds up page loading with this extension.
           </p>
         </div>
         <div className={styles.right}>
           <h2>CHOOSE US</h2>
           <ul>
             <li>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
-                  className={styles['image']}
+                  className={styles["image"]}
                   fill={true}
                   src="./uil_youtube.svg"
                   alt="uil_youtube"
@@ -34,9 +33,9 @@ const WhyUs = () => {
               Block youtube ads chrome
             </li>
             <li>
-              <div  className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
-                 className={styles['image']}
+                  className={styles["image"]}
                   fill={true}
                   src="./mdi_twitch.svg"
                   alt="mdi_twitch"
@@ -45,9 +44,9 @@ const WhyUs = () => {
               Blocks unwanted twitch adblock extension
             </li>
             <li>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
-                 className={styles['image']}
+                  className={styles["image"]}
                   fill={true}
                   src="./fontisto_spotify.svg"
                   alt="fontisto_spotify"
@@ -56,9 +55,9 @@ const WhyUs = () => {
               Listen your favorite music with spotify adblock
             </li>
             <li>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
-                 className={styles['image']}
+                  className={styles["image"]}
                   fill={true}
                   src="./simple-icons_hulu.svg"
                   alt="icons_hulu"
@@ -67,9 +66,9 @@ const WhyUs = () => {
               Watch endless series with hulu no ads
             </li>
             <li>
-              <div className={styles['image-container']}>
+              <div className={styles["image-container"]}>
                 <Image
-                 className={styles['image']}
+                  className={styles["image"]}
                   fill={true}
                   src="./simple-icons_adblock.svg"
                   alt="icons_adblock"

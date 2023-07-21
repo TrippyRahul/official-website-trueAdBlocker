@@ -19,11 +19,11 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <div className="image-container">
+              <div className={styles["image-container"]}>
                 <Image
                   src="/nav-logo.svg"
                   alt="TrueAdBlockerLogo"
-                  className="image"
+                  className={styles.image}
                   fill={true}
                 />
               </div>
@@ -64,6 +64,18 @@ const Navbar = () => {
       {isOpen && (
         <div className={styles.mobile}>
           <ul className={styles.links}>
+            <li className={styles.logo}>
+              <Link href="/">
+                <div className={styles["image-container"]}>
+                  <Image
+                    src="/nav-logo.svg"
+                    alt="TrueAdBlockerLogo"
+                    className={styles.image}
+                    fill={true}
+                  />
+                </div>
+              </Link>
+            </li>
             <li className={styles.link}>
               <Link href="/">Home</Link>
             </li>

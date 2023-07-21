@@ -7,16 +7,16 @@ import Button from "./Button";
 const Header = () => {
   return (
     <div className={styles.hero}>
-      <Navbar/>
+      <Navbar />
       <div className={styles.container}>
         <h2 className={styles.subtitle1}>YOUR BEST CHOICE</h2>
         <h1 className={styles.heading}>True AdBlocker</h1>
         <p className={styles.subtitle2}>
-          True Adblocker removes all unwanted ads and block pop-ups ads. It is
-          the <span>BEST</span> and <span>FREE</span> Adblock
+          It removes all unwanted ads and <span>block pop-ups ads.</span> It is the best
+          extension where you can enjoy all your videos without unnecessary ads.
         </p>
 
-        <Button text="Add to Chrome" icon={true}/>
+        <Button text="Add to Chrome" icon={true} />
       </div>
     </div>
   );

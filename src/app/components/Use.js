@@ -28,7 +28,7 @@ const Use = () => {
               4. On <span> ad blocker youtube </span>you can play any video
               without any unwanted ads with <span>adguard ablock.</span>
             </p>
-            <p>5. BBingo! You can now view movies without commercials</p>
+            <p>5. Bingo! You can now view movies without commercials</p>
           </div>
           <div className={styles.right}>
             <h3>BROWSERS ADD-ON</h3>
