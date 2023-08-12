@@ -9,7 +9,7 @@ const AboutTrueAdBlocker = () => {
       <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.left}>
-            <h2>ABOUT TRUE ADBLOCKER</h2>
+            <h2>ABOUT EXPERT ADBLOCKER</h2>
             <p>
               It is the best browser addon that shields users from third-party
               trackers and deletes adverts from chrome. It is actually the most
@@ -41,8 +41,7 @@ const AboutTrueAdBlocker = () => {
               youtube ads, pop up ads, hulu no ads and twitch. You can regain
               your control over your online activities, enhancing both speed and
               privacy. So, say goodbye to all annoying ads and enjoy a faster,
-              smoother and enjoyable internet experience with one and only true
-              adblocker.
+              smoother and enjoyable internet experience with one and only Expert AdBlocker.
             </p>
           </div>
         </div>

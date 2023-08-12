@@ -33,7 +33,7 @@ const Use = () => {
           <div className={styles.right}>
             <h3>BROWSERS ADD-ON</h3>
             <p>
-              A free online browser add-on called True adblocker, completely
+              A free online browser add-on called Expert AdBlocker, completely
               blocks all unwanted advertisements. It does not come with a
               pre-defined whitelist as its competitors do.
             </p>

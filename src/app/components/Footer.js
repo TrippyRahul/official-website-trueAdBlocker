@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <h2>True AdBlocker</h2>
+        <h2>Expert AdBlocker</h2>
         <p>
           It blocks all annoying ads on spotify, hulu, twitch and youtube. But
           if you want a separate adblocker of these extension then we have

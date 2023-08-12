@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/disclaimer.module.scss";
 
-
 const Disclaimer = () => {
   return (
     <div className={styles.disclaimer}>
@@ -12,14 +11,14 @@ const Disclaimer = () => {
           <div className={styles.item}>
             <p>
               All the information on this website -{" "}
-              <a href="https://TrueAdBlocker.com/" target="_blank">
-                https://TrueAdBlocker.com/
+              <a href="https://ExpertAdBlocker.net/" target="_blank">
+                https://ExpertAdBlocker.net/
               </a>
               - is published in good faith and for general information purpose
-              only. True AdBlocker does not make any warranties about the
+              only. Expert AdBlocker does not make any warranties about the
               completeness, reliability and accuracy of this information. Any
               action you take upon the information you find on this website
-              (True AdBlocker), is strictly at your own risk. True AdBlocker
+              (Expert AdBlocker), is strictly at your own risk. Expert AdBlocker
               will not be liable for any losses and/or damages in connection
               with the use of our website.
             </p>
@@ -41,8 +40,8 @@ const Disclaimer = () => {
               Please be also aware that when you leave our website, other sites
               may have different privacy policies and terms which are beyond our
               control. Please be sure to check the Privacy Policies of these
-              sites as well as their &quot;Terms of Service&quot; before engaging in any
-              business or uploading any information.
+              sites as well as their &quot;Terms of Service&quot; before
+              engaging in any business or uploading any information.
             </p>
           </div>
           <div className={styles.item}>
