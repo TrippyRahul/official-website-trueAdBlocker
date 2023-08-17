@@ -11,10 +11,41 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>Expert AdBlocker</h2>
         <p>
-          It blocks all annoying ads on spotify, hulu, twitch and youtube. But
-          if you want a separate adblocker of these extension then we have
-          spotify adblocker, hulu adblocker, adblocker for twitch and youtube
-          adblocker.
+          It blocks all annoying ads on{" "}
+          <a href="https://www.spotifyadblocker.co/" target="_blank">
+            {" "}
+            spotify
+          </a>
+          ,{" "}
+          <a href="https://www.huluadblocker.net/" target="_blank">
+            hulu
+          </a>
+          ,{" "}
+          <a href="https://www.twitchadblocker.co/" target="_blank">
+            twitch
+          </a>{" "}
+          and{" "}
+          <a href="https://www.youtubeadblocker.net/" target="_blank">
+            youtube
+          </a>
+          . But if you want a separate adblocker of these extension then we have
+          <a href="https://www.spotifyadblocker.co/" target="_blank">
+            {" "}
+            spotify adblocker
+          </a>
+          ,{" "}
+          <a href="https://www.huluadblocker.net/" target="_blank">
+            hulu adblocker
+          </a>
+          ,{" "}
+          <a href="https://www.twitchadblocker.co/" target="_blank">
+            adblocker for twitch{" "}
+          </a>
+          and{" "}
+          <a href="https://www.youtubeadblocker.net/" target="_blank">
+            youtube adblocker
+          </a>
+          .
         </p>
 
         <Button text="Add to Chrome" icon={true} />
