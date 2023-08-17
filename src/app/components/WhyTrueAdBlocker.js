@@ -26,11 +26,11 @@ const WhyTrueAdBlocker = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <h2> WHY EXPERT ADBLOCKER</h2>
+        <h2> WHY TRUE ADBLOCKER</h2>
 
         <div className={styles.content}>
           <div className={styles.row1}>
-            <span>WHY EXPERT ADBLOCKER</span>
+            <span>WHY TRUE ADBLOCKER</span>
             <span>
               <div className={styles["image-container"]}>
                 <Image
@@ -40,7 +40,7 @@ const WhyTrueAdBlocker = () => {
                   alt="ant-design_safety-outlined"
                 />
               </div>
-              EXPERT ADBLOCKER
+              TRUE ADBLOCKER
             </span>
             <span>
               <div className={styles["image-container"]}>

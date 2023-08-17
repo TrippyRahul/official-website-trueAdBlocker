@@ -96,7 +96,7 @@ const TopPoints = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <h2>TOP POINTS FOR EXPERT ADBLOCKER</h2>
+          <h2>TOP POINTS FOR TRUE ADBLOCKER</h2>
           <div className={styles.content}>
             <div className={styles.item}>
               <ul>

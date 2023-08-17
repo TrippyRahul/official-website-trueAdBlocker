@@ -11,14 +11,14 @@ const Disclaimer = () => {
           <div className={styles.item}>
             <p>
               All the information on this website -{" "}
-              <a href="https://ExpertAdBlocker.net/" target="_blank">
-                https://ExpertAdBlocker.net/
+              <a href="https://TrueAdBlocker.net/" target="_blank">
+                https://TrueAdBlocker.net/
               </a>
               - is published in good faith and for general information purpose
-              only. Expert AdBlocker does not make any warranties about the
+              only. True AdBlocker does not make any warranties about the
               completeness, reliability and accuracy of this information. Any
               action you take upon the information you find on this website
-              (Expert AdBlocker), is strictly at your own risk. Expert AdBlocker
+              (True AdBlocker), is strictly at your own risk. True AdBlocker
               will not be liable for any losses and/or damages in connection
               with the use of our website.
             </p>

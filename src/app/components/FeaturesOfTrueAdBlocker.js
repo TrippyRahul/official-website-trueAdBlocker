@@ -26,7 +26,7 @@ const FeaturesOfTrueAdBlocker = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <h2>FEATURES OF EXPERT ADBLOCKER</h2>
+        <h2>FEATURES OF TRUE ADBLOCKER</h2>
 
         <div className={styles.top}>
           <div className={styles.card}>

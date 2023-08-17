@@ -11,7 +11,7 @@ const TermsAndCondition = () => {
           <div className={styles.item}>
             <p>
               By accessing this website we assume you accept these terms and
-              conditions. Do not continue to use Expert AdBlocker if you do not
+              conditions. Do not continue to use True AdBlocker if you do not
               agree to take all of the terms and conditions stated on this page.
             </p>
           </div>
@@ -39,8 +39,8 @@ const TermsAndCondition = () => {
           <div className={styles.item}>
             <h4>Cookies</h4>
             <p>
-              We employ the use of cookies. By accessing Expert AdBlocker, you
-              agreed to use cookies in agreement with the Expert
+              We employ the use of cookies. By accessing True AdBlocker, you
+              agreed to use cookies in agreement with the True
               AdBlocker&apos;s Privacy Policy.
             </p>
           </div>
@@ -56,28 +56,28 @@ const TermsAndCondition = () => {
           <div className={styles.item}>
             <h4>License</h4>
             <p>
-              Unless otherwise stated, Expert AdBlocker and/or its licensors own
+              Unless otherwise stated, True AdBlocker and/or its licensors own
               the intellectual property rights for all material on True
               AdBlocker. All intellectual property rights are reserved. You may
-              access this from Expert AdBlocker for your own personal use
+              access this from True AdBlocker for your own personal use
               subjected to restrictions set in these terms and conditions.
             </p>
           </div>
           <div className={styles.item}>
             <p>
-              Unless otherwise stated, Expert AdBlocker and/or its licensors own
+              Unless otherwise stated, True AdBlocker and/or its licensors own
               the intellectual property rights for all material on True
               AdBlocker. All intellectual property rights are reserved. You may
-              access this from Expert AdBlocker for your own personal use
+              access this from True AdBlocker for your own personal use
               subjected to restrictions set in these terms and conditions.
             </p>
             <ul>
-              <li>Republish material from Expert AdBlocker</li>
-              <li>Sell, rent or sub-license material from Expert AdBlocker</li>
+              <li>Republish material from True AdBlocker</li>
+              <li>Sell, rent or sub-license material from True AdBlocker</li>
               <li>
-                Reproduce, duplicate or copy material from Expert AdBlocker
+                Reproduce, duplicate or copy material from True AdBlocker
               </li>
-              <li>Redistribute content from Expert AdBlocker</li>
+              <li>Redistribute content from True AdBlocker</li>
             </ul>
           </div>
           <div className={styles.item}>
@@ -87,12 +87,12 @@ const TermsAndCondition = () => {
             <p>
               Parts of this website offer an opportunity for users to post and
               exchange opinions and information in certain areas of the website.
-              Expert AdBlocker does not filter, edit, publish or review Comments
+              True AdBlocker does not filter, edit, publish or review Comments
               prior to their presence on the website. Comments do not reflect
-              the views and opinions of Expert AdBlocker,its agents and/or
+              the views and opinions of True AdBlocker,its agents and/or
               affiliates. Comments reflect the views and opinions of the person
               who post their views and opinions. To the extent permitted by
-              applicable laws, Expert AdBlocker shall not be liable for the
+              applicable laws, True AdBlocker shall not be liable for the
               Comments or for any liability, damages or expenses caused and/or
               suffered as a result of any use of and/or posting of and/or
               appearance of the Comments on this website.
@@ -100,7 +100,7 @@ const TermsAndCondition = () => {
           </div>
           <div className={styles.item}>
             <p>
-              Expert AdBlocker reserves the right to monitor all Comments and to
+              True AdBlocker reserves the right to monitor all Comments and to
               remove any Comments which can be considered inappropriate,
               offensive or causes breach of these Terms and Conditions. Our
               Terms and Conditions were created with the help of the{" "}
@@ -134,7 +134,7 @@ const TermsAndCondition = () => {
           </div>
           <div className={styles.item}>
             <p>
-              You hereby grant Expert AdBlocker a non-exclusive license to use,
+              You hereby grant True AdBlocker a non-exclusive license to use,
               reproduce, edit and authorize others to use, reproduce and edit
               any of your Comments in any and all forms, formats or media.
             </p>
@@ -195,7 +195,7 @@ const TermsAndCondition = () => {
               ourselves or to our accredited businesses; (b) the organization
               does not have any negative records with us; (c) the benefit to us
               from the visibility of the hyperlink compensates the absence of
-              Expert AdBlocker; and (d) the link is in the context of general
+              True AdBlocker; and (d) the link is in the context of general
               resource information.
             </p>
           </div>
@@ -212,7 +212,7 @@ const TermsAndCondition = () => {
             <p>
               If you are one of the organizations listed in paragraph 2 above
               and are interested in linking to our website, you must inform us
-              by sending an e-mail to Expert AdBlocker. Please include your
+              by sending an e-mail to True AdBlocker. Please include your
               name, your organization name, contact information as well as the
               URL of your site, a list of any URLs from which you intend to link
               to our Website, and a list of the URLs on our site to which you
@@ -237,7 +237,7 @@ const TermsAndCondition = () => {
           </div>
           <div className={styles.item}>
             <p>
-              No use of Expert AdBlocker&apos;s logo or other artwork will be
+              No use of True AdBlocker&apos;s logo or other artwork will be
               allowed for linking absent a trademark license agreement.
             </p>
           </div>

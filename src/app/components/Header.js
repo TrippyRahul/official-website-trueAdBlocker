@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar />
       <div className={styles.container}>
         <h2 className={styles.subtitle1}>YOUR BEST CHOICE</h2>
-        <h1 className={styles.heading}>Expert AdBlocker</h1>
+        <h1 className={styles.heading}>True AdBlocker</h1>
         <p className={styles.subtitle2}>
           It removes all unwanted ads and <span>block pop-ups ads.</span> It is the best
           extension where you can enjoy all your videos without unnecessary ads.

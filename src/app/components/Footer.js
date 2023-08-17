@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <h2>Expert AdBlocker</h2>
+        <h2>True AdBlocker</h2>
         <p>
           It blocks all annoying ads on{" "}
           <a href="https://www.spotifyadblocker.co/" target="_blank">
