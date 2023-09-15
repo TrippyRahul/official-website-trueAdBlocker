@@ -8,10 +8,13 @@ import Use from "./components/Use";
 import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import FrequentlyAskedQuestion from "./components/FrequentlyAskedQuestion";
 import Reviews from "./components/Reviews";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <WhyUs />
       <TopPoints />
       <WhyTrueAdBlocker />
@@ -21,6 +24,7 @@ export default function Home() {
       <FrequentlyAskedQuestion />
       <Reviews />
       <AboutTrueAdBlocker />
+      <Footer />
     </>
   );
 }

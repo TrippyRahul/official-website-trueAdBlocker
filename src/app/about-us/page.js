@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/aboutUs.module.scss";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const data = [
   {
@@ -43,19 +44,23 @@ const data = [
 
 const AboutUs = () => {
   return (
-    <div className={styles.about}>
-      <div className={styles.container}>
-        <h2>About Us</h2>
-        <div className={styles.content}>
-          {data.map((item) => (
-            <div className={styles.item} key={item.id}>
-              <h4>{item.heading}</h4>
-              <p>{item.desc}</p>
-            </div>
-          ))}
+    <>
+      <Header />
+      <div className={styles.about}>
+        <div className={styles.container}>
+          <h2>About Us</h2>
+          <div className={styles.content}>
+            {data.map((item) => (
+              <div className={styles.item} key={item.id}>
+                <h4>{item.heading}</h4>
+                <p>{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 

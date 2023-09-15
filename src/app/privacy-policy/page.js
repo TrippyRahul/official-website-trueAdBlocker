@@ -1,9 +1,12 @@
 import React from "react";
 import styles from "../styles/privacyPolicy.module.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const PrivacyPolicy = () => {
   return (
     <>
+      <Header />
       <div className={styles.privacy}>
         <div className={styles.container}>
           <h2>Privacy Policy for True AdBlocker</h2>
@@ -12,9 +15,9 @@ const PrivacyPolicy = () => {
             <div className={styles.item}>
               <h4>Log Files</h4>
               <p>
-                True AdBlocker follows a standard procedure of using log
-                files. These files log visitors when they visit websites. All
-                hosting companies do this and a part of hosting services&apos;
+                True AdBlocker follows a standard procedure of using log files.
+                These files log visitors when they visit websites. All hosting
+                companies do this and a part of hosting services&apos;
                 analytics. The information collected by log files include
                 internet protocol (IP) addresses, browser type, Internet Service
                 Provider (ISP), date and time stamp, referring/exit pages, and
@@ -28,13 +31,13 @@ const PrivacyPolicy = () => {
             <div className={styles.item}>
               <h4>Cookies and Web Beacons</h4>
               <p>
-                Like any other website, True AdBlocker uses
-                &quot;cookies&quot;. These cookies are used to store information
-                including visitors&apos; preferences, and the pages on the
-                website that the visitor accessed or visited. The information is
-                used to optimize the users&apos; experience by customizing our
-                web page content based on visitors&apos; browser type and/or
-                other information.
+                Like any other website, True AdBlocker uses &quot;cookies&quot;.
+                These cookies are used to store information including
+                visitors&apos; preferences, and the pages on the website that
+                the visitor accessed or visited. The information is used to
+                optimize the users&apos; experience by customizing our web page
+                content based on visitors&apos; browser type and/or other
+                information.
               </p>
             </div>
             <div className={styles.item}>
@@ -82,9 +85,9 @@ const PrivacyPolicy = () => {
                 receive your IP address when this occurs. These technologies are
                 used to measure the effectiveness of their advertising campaigns
                 and/or to personalize the advertising content that you see on
-                websites that you visit. Note that True AdBlocker has no
-                access to or control over these cookies that are used by
-                third-party advertisers.
+                websites that you visit. Note that True AdBlocker has no access
+                to or control over these cookies that are used by third-party
+                advertisers.
               </p>
             </div>
             <div className={styles.item}>
@@ -107,12 +110,12 @@ const PrivacyPolicy = () => {
                 Another part of our priority is adding protection for children
                 while using the internet. We encourage parents and guardians to
                 observe, participate in, and/or monitor and guide their online
-                activity. True AdBlocker does not knowingly collect any
-                Personal Identifiable Information from children under the age of
-                13. If you think that your child provided this kind of
-                information on our website, we strongly encourage you to contact
-                us immediately and we will do our best efforts to promptly
-                remove such information from our records.
+                activity. True AdBlocker does not knowingly collect any Personal
+                Identifiable Information from children under the age of 13. If
+                you think that your child provided this kind of information on
+                our website, we strongly encourage you to contact us immediately
+                and we will do our best efforts to promptly remove such
+                information from our records.
               </p>
             </div>
             <div className={styles.item}>
@@ -135,6 +138,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
