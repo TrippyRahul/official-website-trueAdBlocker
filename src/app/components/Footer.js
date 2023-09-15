@@ -53,6 +53,35 @@ const Footer = () => {
         <hr className={styles.line} style={{ color: "gray" }} />
 
         <div className={styles.content}>
+          <ul className={styles.lang}>
+            <li>
+              <Link href="/germany">Germany</Link>
+            </li>
+            <li>
+              <Link href="/portuguese">Portuguese</Link>
+            </li>
+            <li>
+              <Link href="/dutch">Dutch</Link>
+            </li>
+            <li>
+              <Link href="/turkish">Turkish</Link>
+            </li>
+            <li>
+              <Link href="/spanish">Spanish</Link>
+            </li>
+            <li>
+              <Link href="/polish">Polish</Link>
+            </li>
+            <li>
+              <Link href="/korean">Korean</Link>
+            </li>
+            <li>
+              <Link href="/italian">Italian</Link>
+            </li>
+            <li>
+              <Link href="/french">French</Link>
+            </li>
+          </ul>
           <div className={styles["popular-searches"]}>
             <p>
               <span>Popular Searches : </span> youtube no ads, chrome youtube
