@@ -11,18 +11,22 @@ import Reviews from "./components/Reviews";
 import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "Najlepszy adblock Chrome do blokowania niechcianych reklam",
+  description:
+    " Adblock Chrome to najlepsze rozszerzenie, które pomoże Ci cieszyć się podróżą po Internecie bez reklam. Pożegnaj więc natrętne reklamy i przejmij pełną kontrolę nad swoją przeglądarką.",
+  openGraph: {
+    title: "Najlepszy adblock Chrome do blokowania niechcianych reklam",
+    description:
+      " Adblock Chrome to najlepsze rozszerzenie, które pomoże Ci cieszyć się podróżą po Internecie bez reklam. Pożegnaj więc natrętne reklamy i przejmij pełną kontrolę nad swoją przeglądarką.",
+    url: "https://www.trueadblocker.net/polish",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <html lang="pl">
-      <head>
-        <title>
-          Najlepszy adblock Chrome do blokowania niechcianych reklam
-        </title>
-        <meta
-          name="description"
-          content="- Adblock Chrome to najlepsze rozszerzenie, które pomoże Ci cieszyć się podróżą po Internecie bez reklam. Pożegnaj więc natrętne reklamy i przejmij pełną kontrolę nad swoją przeglądarką. "
-        />
-      </head>
       <body>
         <Header />
         <WhyUs />

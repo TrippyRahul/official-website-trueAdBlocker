@@ -11,19 +11,24 @@ import Reviews from "./components/Reviews";
 import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title:
+    " El mejor bloqueador de anuncios de Chrome para bloquear anuncios no deseados",
+  description:
+    "Adblock Chrome es la mejor extensión que te ayudará a disfrutar de tu viaje por Internet sin anuncios. Diga adiós a los anuncios intrusivos y tome el control total de su navegador.",
+  openGraph: {
+    title:
+      " El mejor bloqueador de anuncios de Chrome para bloquear anuncios no deseados",
+    description:
+      "Adblock Chrome es la mejor extensión que te ayudará a disfrutar de tu viaje por Internet sin anuncios. Diga adiós a los anuncios intrusivos y tome el control total de su navegador.",
+    url: "https://www.trueadblocker.net/spanish",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <html lang="es">
-      <head>
-        <title>
-          El mejor bloqueador de anuncios de Chrome para bloquear anuncios no
-          deseados
-        </title>
-        <meta
-          name="description"
-          content=" Adblock Chrome es la mejor extensión que te ayudará a disfrutar de tu viaje por Internet sin anuncios. Diga adiós a los anuncios intrusivos y tome el control total de su navegador. "
-        />
-      </head>
       <body>
         <Header />
         <WhyUs />

@@ -11,18 +11,22 @@ import Reviews from "./components/Reviews";
 import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
+  description:
+    "Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser.",
+  openGraph: {
+    title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
+    description:
+      "Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser.",
+    url: "https://www.trueadblocker.net/germany",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <html lang="de">
-      <head>
-        <title>
-          Bester Adblocker Chrome zum Blockieren unerwünschter Werbung
-        </title>
-        <meta
-          name="description"
-          content="Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser."
-        />
-      </head>
       <body>
         <Header />
         <WhyUs />
