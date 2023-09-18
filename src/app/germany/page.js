@@ -15,6 +15,8 @@ export const metadata = {
   title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
   description:
     "Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser.",
+  keywords:
+    "ad blocker, ad blocker chrome, ad blocker firefox, ad blocker youtube, ad blocker safari, ad blocker free, ad blocker google chrome, chrome ad blocker, twitch ad blocker, youtube ad blocker chrome, Spotify ad blocker, hulu ad blocker, adblocker.360, adblock opera, adblocker ultimate",
   openGraph: {
     title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
     description:
@@ -27,6 +29,25 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="de">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/germany"
+          hreflang="de-de"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/germany"
+          hreflang="de-lu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/germany"
+          hreflang="de-li"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

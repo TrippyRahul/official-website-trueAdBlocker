@@ -16,6 +16,8 @@ export const metadata = {
     " Le migliori estensioni di Chrome per bloccare gli annunci pubblicitari indesiderati",
   description:
     " Le estensioni Adblock di Chrome sono la migliore estensione che ti aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio agli annunci intrusivi e assumi il pieno controllo del tuo browser.",
+  keywords:
+    "adblock, chrome extensions, chrome web store, adblock chrome, ad blocker, adblock plus, adblock extension, google web store, web store chrome  ",
   openGraph: {
     title:
       " Le migliori estensioni di Chrome per bloccare gli annunci pubblicitari indesiderati",
@@ -29,6 +31,25 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="it">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/italian"
+          hreflang="it-it"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/italian"
+          hreflang="it-sm"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/italian"
+          hreflang="it-ch"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

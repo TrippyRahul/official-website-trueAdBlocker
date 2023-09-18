@@ -15,6 +15,8 @@ export const metadata = {
   title: "Najlepszy adblock Chrome do blokowania niechcianych reklam",
   description:
     " Adblock Chrome to najlepsze rozszerzenie, które pomoże Ci cieszyć się podróżą po Internecie bez reklam. Pożegnaj więc natrętne reklamy i przejmij pełną kontrolę nad swoją przeglądarką.",
+  keywords:
+    "adblock, ad blocker, adblock chrome, adblock firefox, adblock plus, how to disable adblock, blocking ads, chrome adblock, adblock plus chrome, adblock for chrome  ",
   openGraph: {
     title: "Najlepszy adblock Chrome do blokowania niechcianych reklam",
     description:
@@ -27,6 +29,25 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="pl">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/polish"
+          hreflang="pl-pl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/polish"
+          hreflang="pl-cz"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/polish"
+          hreflang="pl-de"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

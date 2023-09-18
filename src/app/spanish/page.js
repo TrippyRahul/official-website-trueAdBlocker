@@ -16,6 +16,8 @@ export const metadata = {
     " El mejor bloqueador de anuncios de Chrome para bloquear anuncios no deseados",
   description:
     "Adblock Chrome es la mejor extensión que te ayudará a disfrutar de tu viaje por Internet sin anuncios. Diga adiós a los anuncios intrusivos y tome el control total de su navegador.",
+  keywords:
+    "adblock, adblocker, adblock chrome, adblock plus, adblock firefox, twitch adblock, adblock for youtube, adblock youtube",
   openGraph: {
     title:
       " El mejor bloqueador de anuncios de Chrome para bloquear anuncios no deseados",
@@ -29,6 +31,79 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="es">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-es"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-ar"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-co"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-pe"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-mx"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-cl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-cr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-uy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-bo"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-ve"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-cu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/spanish"
+          hreflang="es-br"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

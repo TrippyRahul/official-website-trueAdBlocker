@@ -15,6 +15,8 @@ export const metadata = {
   title: "İstenmeyen reklamları engellemek için en iyi reklam engelleme Chrome",
   description:
     "Adblock Chrome, internet yolculuğunuzun reklamsız keyfini çıkarmanıza yardımcı olacak en iyi uzantıdır. Bu nedenle, araya giren reklamlara elveda deyin ve tarayıcınızın tam kontrolünü elinize alın.",
+  keywords:
+    "adblock, chrome web store, ad blocker, adblock chrome, youtube adblock, chrome extensions, google extension, chrome adblock, what is adblock, firefox adblock, google chrome web store, turn off adblock",
   openGraph: {
     title:
       "İstenmeyen reklamları engellemek için en iyi reklam engelleme Chrome",
@@ -28,6 +30,43 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="tr">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-tr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-gr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-bg"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-cy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-rs"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/turkish"
+          hreflang="tr-iq"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

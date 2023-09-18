@@ -15,6 +15,8 @@ export const metadata = {
   title: "Meilleur adblock Chrome pour bloquer les publicités indésirables",
   description:
     "Adblock Chrome est la meilleure extension qui vous aidera à profiter de votre parcours Internet sans publicité. Alors dites adieu aux publicités intrusives et prenez le contrôle total de votre navigateur",
+  keywords:
+    "adblock chrome, extension chrome, adblock firefox, bloqueur de pub, chrome extension, adblock safari, total adblock, adblock extension chrome, google chrome web store",
   openGraph: {
     title: "Meilleur adblock Chrome pour bloquer les publicités indésirables",
     description:
@@ -27,6 +29,43 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="fr">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-fr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-be"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-ch"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-ca"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-be"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/french"
+          hreflang="fr-mc"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />

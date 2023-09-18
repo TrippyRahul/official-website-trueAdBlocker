@@ -121,6 +121,9 @@ const Footer = () => {
             <li>
               <Link href="/terms-and-conditions">Terms & Condition</Link>
             </li>
+            <li>
+              <Link href="/sitemap.xml">Sitemap</Link>
+            </li>
           </ul>
 
           <div className={styles.copyright}>

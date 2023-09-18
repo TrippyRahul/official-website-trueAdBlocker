@@ -16,6 +16,9 @@ export const metadata = {
     title: "True Ad Blocker",
     description:
       "True Adblocker removes all unwanted ads and block pop-ups ads. It is the BEST and FREE Adblock",
+    url: "https://www.trueadblocker.net/",
+    type: "website",
+    image: "https://www.trueadblocker.net/nav-logo.svg",
   },
 };
 

@@ -15,6 +15,8 @@ export const metadata = {
   title: "Beste adblocker Chrome om ongewenste advertenties te blokkeren",
   description:
     "Adblocker Chrome is de beste extensie waarmee u zonder advertenties van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige advertenties en neem de volledige controle over uw browser over.",
+  keywords:
+    "adblocker, adblocker chrome, adblocker firefox, adblocker safari, adblocker test",
   openGraph: {
     title: "Beste adblocker Chrome om ongewenste advertenties te blokkeren",
     description:
@@ -27,6 +29,25 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="nl">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/dutch"
+          hreflang="nl-nl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/dutch"
+          hreflang="nl-be"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.trueadblocker.net/dutch"
+          hreflang="nl-sr"
+        />
+      </head>
       <body>
         <Header />
         <WhyUs />
