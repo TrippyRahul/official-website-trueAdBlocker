@@ -27,7 +27,7 @@ const TopPoints = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.bottom}>
-          <h2>Kluczowe punkty dotyczące blokowania reklam</h2>
+          <h2>Kluczowe punkty dotyczące ad blocker</h2>
           <div className={styles.content}>
             <div className={styles.item}>
               <ul>
@@ -53,7 +53,7 @@ const TopPoints = () => {
                     />
                   </div>
                   Będzie chronić Twoją przeglądarkę przed wszystkimi
-                  niebezpiecznymi stronami internetowymi{" "}
+                  niebezpiecznymi stronami internetowymi
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -64,7 +64,7 @@ const TopPoints = () => {
                       alt="/fluent_top-speed-20-filled.svg"
                     />
                   </div>
-                  Zabezpieczy Twoje dane przed hakerami internetowymi{" "}
+                  Zabezpieczy Twoje dane przed hakerami internetowymi
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -75,7 +75,7 @@ const TopPoints = () => {
                       alt="/akar-icons_network.svg"
                     />
                   </div>
-                  Dzieci są chronione przed nieodpowiednimi treściami{" "}
+                  Dzieci są chronione przed nieodpowiednimi treściami
                 </li>
               </ul>
             </div>
@@ -102,7 +102,7 @@ const TopPoints = () => {
                       alt="/Group.svg"
                     />
                   </div>
-                  Zablokuje przeszkadzające elementy{" "}
+                  Zablokuje przeszkadzające elementy
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -113,8 +113,8 @@ const TopPoints = () => {
                       alt="/twemoji_top-arrow.svg"
                     />
                   </div>
-                  W przeciwieństwie do Adblock Opera ma najlepsze wsparcie
-                  techniczne{" "}
+                  W przeciwieństwie do chrome Adblock Opera ma najlepsze
+                  wsparcie techniczne
                 </li>
               </ul>
             </div>

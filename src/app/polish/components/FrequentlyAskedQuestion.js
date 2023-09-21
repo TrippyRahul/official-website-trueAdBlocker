@@ -33,8 +33,8 @@ const questions = [
   },
   {
     id: 6,
-    ques: "Jak wyłączyć blokadę reklam?",
-    ans: "Jest to bardzo łatwe i proste. Przejdź na prawą stronę rozszerzenia, kliknij pasek narzędzi i kliknij przycisk zatrzymania. ",
+    ques: "jak wyłączyć adblocka? ",
+    ans: "Jest to bardzo łatwe i proste. Przejdź na prawą stronę rozszerzenia, kliknij pasek narzędzi i kliknij przycisk zatrzymania.",
   },
 ];
 

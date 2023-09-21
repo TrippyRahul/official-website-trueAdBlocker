@@ -66,7 +66,7 @@ const Benefits = () => {
             <p>
               Pobierając to rozszerzenie, Twoje dane są chronione przed modułami
               śledzącymi w Internecie, a my nie przechowujemy ani nie ujawniamy
-              żadnych informacji
+              żadnych informacji.
             </p>
           </div>
         </div>
