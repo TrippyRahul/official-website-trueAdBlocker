@@ -16,7 +16,7 @@ const data = [
     img: "/avatar-1.png",
     username: "Peter Smith",
     stars: 4,
-    desc: "É uma extensão excelente, pois agora posso curtir todos os meus programas favoritos no YouTube sem anúncios indesejados",
+    desc: "É uma extensão excelente, pois agora posso curtir todos os meus programas favoritos no YouTube sem anúncios indesejados.",
   },
   {
     id: 3,

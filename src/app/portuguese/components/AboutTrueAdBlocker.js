@@ -14,11 +14,11 @@ const AboutTrueAdBlocker = () => {
               É a melhor extensão do navegador para bloquear todos os anúncios
               problemáticos. Ele também protege sua web contra rastreadores de
               terceiros e remove todos os anúncios indesejados. Seja Spotify,
-              YouTube, Hulu ou Twitch, agora você pode assistir seu conteúdo
-              favorito sem qualquer perturbação. Também aumenta sua privacidade
-              e acelera sua página da web. A melhor parte é que seu uso é
-              gratuito. Portanto, baixe e instale a extensão e tenha uma
-              experiência mais rápida e tranquila..
+              YouTube, Hulu ou Twitch adblock, agora você pode assistir seu
+              conteúdo favorito sem qualquer perturbação. Também aumenta sua
+              privacidade e acelera sua página da web. A melhor parte é que seu
+              uso é gratuito. Portanto, baixe e instale a extensão e tenha uma
+              experiência mais rápida e tranquila.
             </p>
           </div>
           <div className={styles.right}>

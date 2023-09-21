@@ -63,7 +63,7 @@ const TopPoints = () => {
                       alt="/fluent_top-speed-20-filled.svg"
                     />
                   </div>
-                  Ele protegerá seus dados contra hackers da Interne
+                  Ele protegerá seus dados contra hackers da Internet
                 </li>
                 <li>
                   <div className={styles["image-container"]}>

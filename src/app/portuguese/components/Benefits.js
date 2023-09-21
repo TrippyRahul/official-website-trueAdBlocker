@@ -38,7 +38,10 @@ const Benefits = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.item}>
-            <h3> Experimente vídeos ininterruptos com adblock</h3>
+            <h3>
+              {" "}
+              Experimente vídeos ininterruptos com adblock Chrome Extension
+            </h3>
             <p>
               Transmita seus programas e filmes favoritos gratuitamente, sem os
               anúncios de phishing que aparecem no meio. Portanto, mime-se sem o

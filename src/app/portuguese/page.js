@@ -12,13 +12,13 @@ import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Melhor adblock do Chrome para bloquear anúncios indesejados",
+  title: "Melhor adblock chrome para bloquear anúncios indesejados",
   description:
     "Adblock Chrome é a melhor extensão que o ajudará a aproveitar sua jornada na Internet sem anúncios. Então diga adeus aos anúncios intrusivos e assuma o controle total do seu navegador.",
   keywords:
     "adblock, adblock chrome, adblock plus, twitch adblock, adblock firefox, How to disable adblock, adblock chrome extension, adblock google chrome",
   openGraph: {
-    title: "Melhor adblock do Chrome para bloquear anúncios indesejados",
+    title: "Melhor adblock chrome para bloquear anúncios indesejados",
     description:
       "Adblock Chrome é a melhor extensão que o ajudará a aproveitar sua jornada na Internet sem anúncios. Então diga adeus aos anúncios intrusivos e assuma o controle total do seu navegador.",
     url: "https://www.trueadblocker.net/portuguese",
@@ -33,13 +33,13 @@ const page = () => {
         <link
           rel="alternate"
           href="https://www.trueadblocker.net/portuguese"
-          hreflang="pt-pt"
+          hrefLang="pt-pt"
         />
 
         <link
           rel="alternate"
           href="https://www.trueadblocker.net/portuguese"
-          hreflang="pt-ao"
+          hrefLang="pt-ao"
         />
 
         <link

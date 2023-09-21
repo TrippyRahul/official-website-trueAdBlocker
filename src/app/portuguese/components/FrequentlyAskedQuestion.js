@@ -28,13 +28,13 @@ const questions = [
   },
   {
     id: 5,
-    ques: " Que tipos de anúncios ele bloqueia?",
-    ans: "Ele bloqueia todos os tipos de anúncios irritantes, incluindo anúncios pop-up, banners, anúncios em vídeo e muito mais.r",
+    ques: "Que tipos de anúncios ele bloqueia?",
+    ans: "Ele bloqueia todos os tipos de anúncios irritantes, incluindo anúncios pop-up, banners, anúncios em vídeo e muito mais.",
   },
   {
     id: 6,
-    ques: " Como desativar o Adblock?",
-    ans: "É muito fácil e simples. Vá para o lado direito da sua extensão, clique na barra de ferramentas e clique no botão parar",
+    ques: "Como desativar o Adblock firefox?",
+    ans: "É muito fácil e simples. Vá para o lado direito da sua extensão, clique na barra de ferramentas e clique no botão parar.",
   },
 ];
 

@@ -55,7 +55,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Aumente sua velocidade com o adblock Google Chrome
+              Aumente sua velocidade com o adblock Google Chrome.
             </li>
             <li>
               <div className={styles["image-container"]}>

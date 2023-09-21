@@ -11,10 +11,9 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>verdadeiro bloqueador de anúncios</h2>
         <p>
-          Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre
-          Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also
-          von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über
-          Ihren Browser
+          Adblock Chrome é a melhor extensão que o ajudará a aproveitar sua
+          jornada na Internet sem anúncios. Então diga adeus aos anúncios
+          intrusivos e assuma o controle total do seu navegador.
         </p>
 
         <Button text="adicionar ao Chrome" icon={true} />
