@@ -37,7 +37,7 @@ const FeaturesOfTrueAdBlocker = () => {
               <span className={styles["item-text"]}>
                 Elimineer storende advertenties die uw online reis onderbreken
                 en zeg nee tegen pop-ups, banners, videoadvertenties en meer.
-                Door deze advertenties te blokkeren, ervaart u uw webpagina's
+                Door deze advertenties te blokkeren, ervaart u uw webpagina&apos;s
                 sneller.
               </span>
             </div>

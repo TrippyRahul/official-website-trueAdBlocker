@@ -38,9 +38,9 @@ const Benefits = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.item}>
-            <h3>Ervaar ononderbroken video's met deze extensie</h3>
+            <h3>Ervaar ononderbroken video&apos;s met deze extensie</h3>
             <p>
-              Stream uw favoriete programmas en films gratis zonder de
+              Stream uw favoriete programma&apos;s en films gratis zonder de
               phishing-advertenties die ertussen komen. Verwen uzelf dus zonder
               het gedoe van advertenties en blokkeer ze van YouTube en Hulu.
             </p>
@@ -53,7 +53,7 @@ const Benefits = () => {
               Met deze add-on kun je zonder onderbrekingen door advertenties
               genieten van je favoriete muziek of afspeellijst. Download en
               installeer gewoon de extensie, zodat u alle ongewenste
-              advertenties erop kunt blokkeren
+              advertenties erop kunt blokkeren.
             </p>
           </div>
           <div className={styles.item}>

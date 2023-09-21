@@ -27,7 +27,7 @@ const TopPoints = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.bottom}>
-          <h2>Belangrijkste punten voor adblocker</h2>
+          <h2>Belangrijkste punten voor adblocker Chrome</h2>
           <div className={styles.content}>
             <div className={styles.item}>
               <ul>
@@ -89,7 +89,7 @@ const TopPoints = () => {
                       alt="/material-symbols_wall-art-rounded.svg"
                     />
                   </div>
-                  In vergelijking met de adblocker-test versnelt het het laden
+                  In vergelijking met de adblocker test versnelt het het laden
                   van de pagina
                 </li>
                 <li>

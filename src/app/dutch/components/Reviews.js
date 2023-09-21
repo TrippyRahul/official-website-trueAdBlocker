@@ -23,7 +23,7 @@ const data = [
     img: "/avatar-2.png",
     username: " Michael Garcia",
     stars: 5,
-    desc: ". Dit is het beste hulpmiddel, omdat het alle verontrustende advertenties gratis blokkeert",
+    desc: "Dit is het beste hulpmiddel, omdat het alle verontrustende advertenties gratis blokkeert",
   },
   {
     id: 4,
