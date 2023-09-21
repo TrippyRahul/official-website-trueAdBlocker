@@ -46,7 +46,7 @@ const WhyUs = () => {
                   alt="mdi_twitch"
                 />
               </div>
-              Blockieren Sie Popup-Anzeigen mit dem Werbeblocker YouTube, um
+              Blockieren Sie Popup-Anzeigen mit dem werbeblocker youtube, um
               Ihre Lieblingsmusik zu genießen
             </li>
             <li>
@@ -58,7 +58,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Steigern Sie Ihre Geschwindigkeit mit dem Werbeblocker Google
+              Steigern Sie Ihre Geschwindigkeit mit dem ad blocker Google
               Chrome.
             </li>
             <li>
@@ -81,7 +81,7 @@ const WhyUs = () => {
                   alt="icons_adblock"
                 />
               </div>
-              Ad Blocker Free ist ein Open-Source-Programm
+              Chrome Werbeblocker kostenlos ist ein Open-Source-Programm
             </li>
           </ul>
           <Button text="Zu Chrome hinzufügen" icon={true} />

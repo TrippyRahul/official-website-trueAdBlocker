@@ -27,7 +27,7 @@ const TopPoints = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.bottom}>
-          <h2>Wichtige Punkte für Werbeblocker</h2>
+          <h2>Wichtige Punkte für werbeblocker firefox</h2>
           <div className={styles.content}>
             <div className={styles.item}>
               <ul>

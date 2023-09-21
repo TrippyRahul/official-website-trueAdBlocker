@@ -12,17 +12,18 @@ import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
+  title: "Bester Ad blocker Chrome zum Blockieren unerwünschter Werbung",
   description:
-    "Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser.",
+    "ad blocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser",
   keywords:
     "ad blocker, ad blocker chrome, ad blocker firefox, ad blocker youtube, ad blocker safari, ad blocker free, ad blocker google chrome, chrome ad blocker, twitch ad blocker, youtube ad blocker chrome, Spotify ad blocker, hulu ad blocker, adblocker.360, adblock opera, adblocker ultimate",
   openGraph: {
-    title: "Bester Adblocker Chrome zum Blockieren unerwünschter Werbung",
+    title: "Bester Ad blocker Chrome zum Blockieren unerwünschter Werbung",
     description:
-      "Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser.",
+      "ad blocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über Ihren Browser",
     url: "https://www.trueadblocker.net/germany",
     type: "website",
+    images: "https://www.trueadblocker.net/nav-logo.svg",
   },
 };
 

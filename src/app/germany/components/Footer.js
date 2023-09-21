@@ -11,10 +11,10 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>echter Werbeblocker</h2>
         <p>
-          Werbeblocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre
+          ad blocker Chrome ist die beste Erweiterung, die Ihnen hilft, Ihre
           Internetreise ohne Werbung zu genießen. Verabschieden Sie sich also
           von aufdringlicher Werbung und übernehmen Sie die volle Kontrolle über
-          Ihren Browser
+          Ihren Browser.
         </p>
 
         <Button text="Zu Chrome hinzufügen" icon={true} />
@@ -24,11 +24,8 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular Searches : </span> youtube no ads, chrome youtube
-              adblocker, hulu without ads, pop up blocker chrome, Best ad
-              blocker fireforx, twitch adblock firefox, adguard ablocker, Pop-
-              up ads, ad blocker google chrome, chrome extension adblock and
-              google chrome ad blocker.
+              <span>Popular Searches : </span> werbeblocker chrome, ad blocker
+              Chrome,
             </p>
           </div>
           <ul>

@@ -18,18 +18,18 @@ const questions = [
   },
   {
     id: 3,
-    ques: "Ist die Nutzung dieses Tools kostenlos?",
-    ans: "Ja, die Nutzung ist absolut kostenlos. Blockieren Sie also mit diesem kostenlosen Tool alle lästigen Werbeanzeigen, die dazwischenkommen. ",
+    ques: "Ist die Nutzung dieses Tools kostenlos? ",
+    ans: "Ja, die Nutzung ist absolut kostenlos. Blockieren Sie also mit diesem kostenlosen Tool alle lästigen Werbeanzeigen, die dazwischenkommen.",
   },
   {
     id: 4,
     ques: "Wie blockiere ich Werbung mit diesem Tool?",
-    ans: "Es ist nur ein einfacher Vorgang. Sie müssen lediglich die Erweiterung herunterladen, installieren und zu Chrome hinzufügen. ",
+    ans: "Es ist nur ein einfacher Vorgang. Sie müssen lediglich die Erweiterung herunterladen, installieren und zu Chrome hinzufügen.",
   },
   {
     id: 5,
-    ques: " Welche Arten von Werbung werden blockiert?",
-    ans: "Es blockiert alle Arten lästiger Werbung, einschließlich Pop-up-Anzeigen, Banner-Anzeigen, Video-Anzeigen und viele mehr",
+    ques: "Welche Arten von Werbung werden blockiert?",
+    ans: "Es blockiert alle Arten lästiger Werbung, einschließlich Pop-up-Anzeigen, Banner-Anzeigen, Video-Anzeigen und viele mehr.",
   },
 ];
 

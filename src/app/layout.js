@@ -18,7 +18,7 @@ export const metadata = {
       "True Adblocker removes all unwanted ads and block pop-ups ads. It is the BEST and FREE Adblock",
     url: "https://www.trueadblocker.net/",
     type: "website",
-    image: "https://www.trueadblocker.net/nav-logo.svg",
+    images: "https://www.trueadblocker.net/nav-logo.svg",
   },
 };
 
@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/nav-logo.svg" />
         <link rel="canonical" href="https://www.trueadblocker.net/" />
+        <meta
+          name="google-site-verification"
+          content="rwLCYcKflIrCJTtSYgtlR4D-zYf7oU-EoopjuOtBa6I"
+        />
       </head>
       <body className={inter.className}>
         <Schema />

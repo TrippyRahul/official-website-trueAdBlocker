@@ -40,7 +40,21 @@ const Benefits = () => {
           <div className={styles.item}>
             <h3>
               {" "}
-              Verbessern Sie Ihr Spotify-Erlebnis mit einem Spotify-Werbeblocker
+              Erleben Sie unterbrechungsfreie Videos mit Hulu und dem YouTube ad
+              blocker Chrome
+            </h3>
+            <p>
+              Streamen Sie Ihre Lieblingssendungen und -filme kostenlos, ohne
+              die dazwischen liegende Phishing-Werbung. Gönnen Sie sich also den
+              Ärger mit Werbung und blockieren Sie diese von werbeblocker
+              youtube YouTube und Hulu ad blocker.
+            </p>
+          </div>
+        </div>
+        <div className={styles.right}>
+          <div className={styles.item}>
+            <h3>
+              Verbessern Sie Ihr Spotify-Erlebnis mit einem Spotify ad blocker
             </h3>
             <p>
               Mit diesem Add-on können Sie Ihre Lieblingsmusik oder Playlist
@@ -49,25 +63,12 @@ const Benefits = () => {
               unerwünschten Anzeigen darauf blockieren können.
             </p>
           </div>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.item}>
-            <h3>
-              Erleben Sie unterbrechungsfreie Videos mit Hulu und dem
-              YouTube-Werbeblocker Chrome
-            </h3>
-            <p>
-              Streamen Sie Ihre Lieblingssendungen und -filme kostenlos, ohne
-              die dazwischen liegende Phishing-Werbung. Gönnen Sie sich also den
-              Ärger mit Werbung und blockieren Sie diese von YouTube und Hulu.
-            </p>
-          </div>
           <div className={styles.item}>
             <h3>Datenschutz</h3>
             <p>
               Durch das Herunterladen dieser Erweiterung werden Ihre Daten vor
               Internet-Trackern geschützt und wir speichern keine Ihrer
-              Informationen oder geben sie weiter
+              Informationen oder geben sie weiter.
             </p>
           </div>
         </div>

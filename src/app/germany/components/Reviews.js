@@ -9,14 +9,14 @@ const data = [
     img: "/avatar.svg",
     username: "Jese Leo",
     stars: 5,
-    desc: " Dies ist ein erstaunliches Tool, das alle unterbrochenen Anzeigen verhindert, während Sie im Internet surfen",
+    desc: " Dies ist ein erstaunliches Tool, das alle unterbrochenen Anzeigen verhindert, während Sie im Internet surfen.",
   },
   {
     id: 2,
     img: "/avatar-1.png",
     username: "Peter Smith",
     stars: 4,
-    desc: "Es ist eine hervorragende Erweiterung, da ich jetzt alle meine Lieblingssendungen auf YouTube ohne unerwünschte Werbung genießen kann",
+    desc: "Es ist eine hervorragende Erweiterung, da ich jetzt alle meine Lieblingssendungen auf YouTube ohne unerwünschte Werbung genießen kann.",
   },
   {
     id: 3,
