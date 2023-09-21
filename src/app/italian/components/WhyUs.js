@@ -17,7 +17,7 @@ const WhyUs = () => {
             gli annunci, sei nel posto giusto. Come con questo componente
             aggiuntivo, puoi avere il pieno controllo sulle tue attività online
             e puoi anche eliminare tutte le pubblicità fastidiose e indesiderate
-            che possono rovinare l&apos;utilizzo del tuo browser
+            che possono rovinare l'utilizzo del tuo browser.
           </p>
         </div>
         <div className={styles.right}>
@@ -44,8 +44,8 @@ const WhyUs = () => {
                   alt="mdi_twitch"
                 />
               </div>
-              Blocca gli annunci pop-up con il blocco annunci Youtube per
-              goderti la tua musica preferita
+              Blocca gli annunci pop-up con the ad blocker Youtube per goderti
+              la tua musica preferita
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -56,7 +56,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Aumenta la tua velocità con il Chrome Store adblock.
+              Aumenta la tua velocità con the Chrome Store adblock.
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -78,7 +78,7 @@ const WhyUs = () => {
                   alt="icons_adblock"
                 />
               </div>
-              Ad blocker free è un programma open source da utilizzare
+              adblock extension free è un programma open source da utilizzare
             </li>
           </ul>
           <Button text="Aggiungi a Chrome" icon={true} />

@@ -11,10 +11,9 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>Vero blocco degli annunci</h2>
         <p>
-          Le estensioni Adblock di Chrome sono la migliore estensione che ti
-          aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi
-          dì addio agli annunci intrusivi e assumi il pieno controllo del tuo
-          browser.
+          Adblock Chrome extensions sono la migliore estensione che ti aiuterà a
+          goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio
+          agli annunci intrusivi e assumi il pieno controllo del tuo browser.
         </p>
 
         <Button text="Aggiungi a Chrome" icon={true} />

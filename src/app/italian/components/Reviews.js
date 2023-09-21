@@ -37,7 +37,7 @@ const data = [
     img: "/avatar-4.png",
     username: "James Johnson",
     stars: 4,
-    desc: "Non solo elimina la pubblicità, ma protegge anche il nostro browser da alcuni siti Web pericolos",
+    desc: "Non solo elimina la pubblicità, ma protegge anche il nostro browser da alcuni siti Web pericolosi",
   },
 ];
 

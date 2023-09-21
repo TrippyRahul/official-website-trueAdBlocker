@@ -32,13 +32,13 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Goditi la navigazione veloce con Google Web Store
+                Goditi la navigazione veloce con Google Chrome Web Store
               </span>
               <span className={styles["item-text"]}>
                 Elimina le pubblicità fastidiose che interrompono il tuo viaggio
-                online e di&apos; no a pop-up, banner, annunci video e altro ancora.
+                online e di' no a pop-up, banner, annunci video e altro ancora.
                 Bloccando questi annunci, potrai visualizzare le tue pagine web
-                con maggiore velocità
+                con maggiore velocità.
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.right}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Proteggi la tua navigazione web con Adblock Chrome{" "}
+                Proteggi la tua navigazione web con Adblock Chrome Extension
               </span>
               <span className={styles["item-text"]}>
                 Rispetto a Safari con blocco annunci, questa estensione ti

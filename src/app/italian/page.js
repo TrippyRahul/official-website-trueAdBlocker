@@ -13,16 +13,16 @@ import Footer from "./components/Footer";
 
 export const metadata = {
   title:
-    " Le migliori estensioni di Chrome per bloccare gli annunci pubblicitari indesiderati",
+    " Le migliori adblock Chrome extensions per bloccare gli annunci pubblicitari indesiderati",
   description:
-    " Le estensioni Adblock di Chrome sono la migliore estensione che ti aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio agli annunci intrusivi e assumi il pieno controllo del tuo browser.",
+    "Adblock Chrome extensions sono la migliore estensione che ti aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio agli annunci intrusivi e assumi il pieno controllo del tuo browser.",
   keywords:
     "adblock, chrome extensions, chrome web store, adblock chrome, ad blocker, adblock plus, adblock extension, google web store, web store chrome  ",
   openGraph: {
     title:
-      " Le migliori estensioni di Chrome per bloccare gli annunci pubblicitari indesiderati",
+      " Le migliori adblock Chrome extensions per bloccare gli annunci pubblicitari indesiderati",
     description:
-      " Le estensioni Adblock di Chrome sono la migliore estensione che ti aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio agli annunci intrusivi e assumi il pieno controllo del tuo browser.",
+      "Adblock Chrome extensions sono la migliore estensione che ti aiuterà a goderti il tuo viaggio su Internet senza pubblicità. Quindi dì addio agli annunci intrusivi e assumi il pieno controllo del tuo browser.",
     url: "https://www.trueadblocker.net/italian",
     type: "website",
   },
