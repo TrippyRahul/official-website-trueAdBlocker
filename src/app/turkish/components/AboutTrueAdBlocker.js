@@ -12,14 +12,14 @@ const AboutTrueAdBlocker = () => {
             <h2>Hakkımızda</h2>
             <p>
               Tüm sorunlu reklamları engellemek için en iyi tarayıcı
-              uzantısıdır. Ayrıca web&apos;inizi üçüncü taraf izleyicilerden korur ve
+              uzantısıdır. Ayrıca web'inizi üçüncü taraf izleyicilerden korur ve
               tüm istenmeyen reklamları kaldırır. Spotify, YouTube, Hulu veya
               Twitch olsun, artık favori içeriklerinizi hiçbir rahatsızlık
               duymadan izleyebilirsiniz. Ayrıca gizliliğinizi artırır ve web
               sayfanızı hızlandırır. En iyi yanı, kullanımının ücretsiz olması
-              ve istediğiniz zaman reklam engelleyiciyi kapatabilmenizdir . Bu
-              nedenle uzantıyı indirip yükleyin ve daha hızlı ve sorunsuz bir
-              deneyim yaşayın.
+              ve istediğiniz zaman You can turn off ad blocker . Bu nedenle
+              uzantıyı indirip yükleyin ve daha hızlı ve sorunsuz bir deneyim
+              yaşayın.
             </p>
           </div>
           <div className={styles.right}>

@@ -55,7 +55,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Adblock Google Chrome uzantılarıyla hızınızı artırın .
+              Adblock Google Chrome extensions hızınızı artırın .
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -77,8 +77,7 @@ const WhyUs = () => {
                   alt="icons_adblock"
                 />
               </div>
-              Ücretsiz reklam engelleyici, kullanımı açık kaynaklı bir
-              programdır
+              Ücretsiz ad blocker, kullanımı açık kaynaklı bir programdır
             </li>
           </ul>
           <Button text="Chrome'a ​​ekle" icon={true} />

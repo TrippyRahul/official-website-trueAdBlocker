@@ -39,21 +39,19 @@ const Benefits = () => {
         <div className={styles.left}>
           <div className={styles.item}>
             <h3>
-              Hulu ve Youtube reklam engelleyici Google Chrome web mağazasıyla
+              Hulu ve Youtube reklam engelleyici Google Chrome web store
               kesintisiz video deneyimini yaşayın
             </h3>
             <p>
               Araya giren kimlik avı reklamları olmadan favori programlarınızı
               ve filmlerinizi özgürce yayınlayın. Yani, reklamlarla uğraşmadan
-              kendinizi şımartın ve onları YouTube ve Hulu&apos;dan engelleyin.
+              kendinizi şımartın ve onları YouTube ve Hulu'dan engelleyin.
             </p>
           </div>
         </div>
         <div className={styles.right}>
           <div className={styles.item}>
-            <h3>
-              Spotify reklam engelleyiciyle Spotify deneyiminizi geliştirin
-            </h3>
+            <h3>Spotify ad blocker le Spotify deneyiminizi geliştirin</h3>
             <p>
               Bu eklentiyle, reklamlardan herhangi bir kesinti yaşamadan en
               sevdiğiniz müziğin veya çalma listesinin keyfini çıkarabilirsiniz.

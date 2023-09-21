@@ -33,8 +33,8 @@ const questions = [
   },
   {
     id: 6,
-    ques: "Adblock nedir?",
-    ans: "Tarayıcınızdaki her türlü reklamı durdurmanıza yardımcı olan bir yazılımdır. Ayrıca gizliliğinizi artıracak ve sizi kötü amaçlı yazılım web sitelerinden koruyacaktır. ",
+    ques: "what is Chrome adblock?",
+    ans: " Tarayıcınızdaki her türlü reklamı durdurmanıza yardımcı olan bir yazılımdır. Ayrıca gizliliğinizi artıracak ve sizi kötü amaçlı yazılım web sitelerinden koruyacaktır.",
   },
 ];
 

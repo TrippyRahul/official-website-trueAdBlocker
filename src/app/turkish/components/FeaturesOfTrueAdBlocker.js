@@ -32,7 +32,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Chrome reklam engellemesiyle hızlı gezinmenin keyfini çıkarın
+                Chrome ad engellemesiyle hızlı gezinmenin keyfini çıkarın
               </span>
               <span className={styles["item-text"]}>
                 Çevrimiçi yolculuğunuzu kesintiye uğratan ve pop-up&apos;lara,
@@ -55,14 +55,14 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.right}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Firefox reklam engellemesiyle web taramanızı güvence altına alın
+                firefox adblock engellemesiyle web taramanızı güvence altına
+                alın
               </span>
               <span className={styles["item-text"]}>
-                Reklam engelleyici Safari ile karşılaştırıldığında bu uzantı,
-                kötü amaçlı yazılım yaydığı bilinen tüm tehlikeli sitelerden
-                kaçınmanıza yardımcı olacaktır. Bu aynı zamanda bilgisayar
-                korsanlarının çevrimiçi etkinliğinizi takip etmesini de
-                engelleyecektir.
+                adblock Safari ile karşılaştırıldığında bu uzantı, kötü amaçlı
+                yazılım yaydığı bilinen tüm tehlikeli sitelerden kaçınmanıza
+                yardımcı olacaktır. Bu aynı zamanda bilgisayar korsanlarının
+                çevrimiçi etkinliğinizi takip etmesini de engelleyecektir.
               </span>
             </div>
           </div>

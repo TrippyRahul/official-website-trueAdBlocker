@@ -112,7 +112,7 @@ const TopPoints = () => {
                       alt="/twemoji_top-arrow.svg"
                     />
                   </div>
-                  Reklam engelleyicide en iyi teknik desteğe sahiptir
+                  ad blocker de en iyi teknik desteğe sahiptir
                 </li>
               </ul>
             </div>
