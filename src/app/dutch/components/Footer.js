@@ -11,8 +11,8 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>Echte adblocker</h2>
         <p>
-          dblocker Chrome is de beste extensie waarmee u zonder advertenties van
-          uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige
+          Adblocker Chrome is de beste extensie waarmee u zonder advertenties
+          van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige
           advertenties en neem de volledige controle over uw browser over.
         </p>
 

@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <link rel="canonical" href="https://www.trueadblocker.net/" />
         <meta
           name="google-site-verification"
-          content="rwLCYcKflIrCJTtSYgtlR4D-zYf7oU-EoopjuOtBa6I"
+          content="RMU1dnFSr5mi_9G6B3hNmX8J43xkiP9WhxxZshOsYNI"
         />
       </head>
       <body className={inter.className}>

@@ -34,19 +34,19 @@ const page = () => {
         <link
           rel="alternate"
           href="https://www.trueadblocker.net/germany"
-          hreflang="de-de"
+          hrefLang="de-de"
         />
 
         <link
           rel="alternate"
           href="https://www.trueadblocker.net/germany"
-          hreflang="de-lu"
+          hrefLang="de-lu"
         />
 
         <link
           rel="alternate"
           href="https://www.trueadblocker.net/germany"
-          hreflang="de-li"
+          hrefLang="de-li"
         />
       </head>
       <body>

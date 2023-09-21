@@ -38,9 +38,9 @@ const Benefits = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.item}>
-            <h3>Ervaar ononderbroken video&apos;s met deze extensie</h3>
+            <h3>Ervaar ononderbroken video's met deze extensie</h3>
             <p>
-              Stream uw favoriete programma&apos;s en films gratis zonder de
+              Stream uw favoriete programmas en films gratis zonder de
               phishing-advertenties die ertussen komen. Verwen uzelf dus zonder
               het gedoe van advertenties en blokkeer ze van YouTube en Hulu.
             </p>

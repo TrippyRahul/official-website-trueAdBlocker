@@ -32,12 +32,12 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Geniet van snel browsen met adblocker
+                Geniet van snel browsen met adblocker Chrome
               </span>
               <span className={styles["item-text"]}>
                 Elimineer storende advertenties die uw online reis onderbreken
                 en zeg nee tegen pop-ups, banners, videoadvertenties en meer.
-                Door deze advertenties te blokkeren, ervaart u uw webpagina&apos;s
+                Door deze advertenties te blokkeren, ervaart u uw webpagina's
                 sneller.
               </span>
             </div>
@@ -55,13 +55,13 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.right}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Beveilig uw internetgebruik met adblocker
+                Beveilig uw internetgebruik met adblocker Firefox
               </span>
               <span className={styles["item-text"]}>
                 In vergelijking met Adblocker Safari helpt deze extensie u alle
                 gevaarlijke sites te vermijden waarvan bekend is dat ze malware
                 verspreiden. Dit voorkomt ook dat hackers uw online activiteiten
-                volgen
+                volgen.
               </span>
             </div>
           </div>

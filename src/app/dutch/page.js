@@ -12,15 +12,15 @@ import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Beste adblocker Chrome om ongewenste advertenties te blokkeren",
+  title: " Beste adblocker Chrome om ongewenste advertenties te blokkeren",
   description:
-    "Adblocker Chrome is de beste extensie waarmee u zonder advertenties van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige advertenties en neem de volledige controle over uw browser over.",
+    " Adblocker Chrome is de beste extensie waarmee u zonder advertenties van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige advertenties en neem de volledige controle over uw browser over.",
   keywords:
     "adblocker, adblocker chrome, adblocker firefox, adblocker safari, adblocker test",
   openGraph: {
-    title: "Beste adblocker Chrome om ongewenste advertenties te blokkeren",
+    title: "Beste adblocker Chrome om ongewenste advertenties te blokkeren    ",
     description:
-      "Adblocker Chrome is de beste extensie waarmee u zonder advertenties van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige advertenties en neem de volledige controle over uw browser over.",
+      " Adblocker Chrome is de beste extensie waarmee u zonder advertenties van uw internetreis kunt genieten. Zeg dus vaarwel tegen opdringerige advertenties en neem de volledige controle over uw browser over.",
     url: "https://www.trueadblocker.net/dutch",
     type: "website",
   },

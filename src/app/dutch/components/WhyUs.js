@@ -65,7 +65,7 @@ const WhyUs = () => {
                   alt="icons_hulu"
                 />
               </div>
-              Behoud uw privacy{" "}
+              Behoud uw privacy
             </li>
             <li>
               <div className={styles["image-container"]}>
