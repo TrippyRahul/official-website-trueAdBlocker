@@ -45,7 +45,7 @@ const Benefits = () => {
             <p>
               Araya giren kimlik avı reklamları olmadan favori programlarınızı
               ve filmlerinizi özgürce yayınlayın. Yani, reklamlarla uğraşmadan
-              kendinizi şımartın ve onları YouTube ve Hulu'dan engelleyin.
+              kendinizi şımartın ve onları YouTube ve Hulu&apos;dan engelleyin.
             </p>
           </div>
         </div>

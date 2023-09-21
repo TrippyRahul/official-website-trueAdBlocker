@@ -17,7 +17,8 @@ const WhyUs = () => {
             publicités, vous êtes au bon endroit. Comme avec cet add-on, vous
             pouvez avoir un contrôle total sur vos activités en ligne et vous
             pouvez également éliminer toutes les publicités ennuyeuses et
-            indésirables qui peuvent ruiner l&apos;utilisation de votre navigateur.
+            indésirables qui peuvent ruiner l&apos;utilisation de votre
+            navigateur.
           </p>
         </div>
         <div className={styles.right}>
@@ -56,7 +57,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Augmentez votre vitesse avec l&apos;extension Adblock Chrome.
+              Augmentez votre vitesse avec Adblock Chrome extension.
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -78,7 +79,7 @@ const WhyUs = () => {
                   alt="icons_adblock"
                 />
               </div>
-              Ad Blocker Free est un programme open source à utiliser{" "}
+              Ad Blocker Free est un programme open source à utiliser
             </li>
           </ul>
           <Button text="Ajouter à Chrome" icon={true} />

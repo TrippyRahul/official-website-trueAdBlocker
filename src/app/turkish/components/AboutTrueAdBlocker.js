@@ -12,7 +12,7 @@ const AboutTrueAdBlocker = () => {
             <h2>Hakkımızda</h2>
             <p>
               Tüm sorunlu reklamları engellemek için en iyi tarayıcı
-              uzantısıdır. Ayrıca web'inizi üçüncü taraf izleyicilerden korur ve
+              uzantısıdır. Ayrıca web&apos;inizi üçüncü taraf izleyicilerden korur ve
               tüm istenmeyen reklamları kaldırır. Spotify, YouTube, Hulu veya
               Twitch olsun, artık favori içeriklerinizi hiçbir rahatsızlık
               duymadan izleyebilirsiniz. Ayrıca gizliliğinizi artırır ve web

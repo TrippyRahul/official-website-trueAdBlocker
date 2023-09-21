@@ -40,8 +40,8 @@ const TopPoints = () => {
                       alt="icon-park-outline_ad.svg"
                     />
                   </div>
-                  En utilisant cette extension, vous pouvez supprimer toutes les
-                  publicités dérangeantes
+                  En utilisant cette extension chrome, vous pouvez supprimer
+                  toutes les publicités dérangeantes
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -52,7 +52,7 @@ const TopPoints = () => {
                       alt="/uiw_chrome.svg"
                     />
                   </div>
-                  Il protégera votre navigateur de tous les sites Web dangereux{" "}
+                  Il protégera votre navigateur de tous les sites Web dangereux
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -63,7 +63,7 @@ const TopPoints = () => {
                       alt="/fluent_top-speed-20-filled.svg"
                     />
                   </div>
-                  Il sécurisera vos données contre les pirates Interne{" "}
+                  Il sécurisera vos données contre les pirates Internet
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -74,7 +74,7 @@ const TopPoints = () => {
                       alt="/akar-icons_network.svg"
                     />
                   </div>
-                  Les enfants sont protégés des contenus inappropriés{" "}
+                  Les enfants sont protégés des contenus inappropriés
                 </li>
               </ul>
             </div>
@@ -89,8 +89,8 @@ const TopPoints = () => {
                       alt="/material-symbols_wall-art-rounded.svg"
                     />
                   </div>
-                  Par rapport au blocage total des publicités , cela accélérera
-                  le chargement des pages.
+                  Par rapport au total adblock , cela accélérera le chargement
+                  des pages.
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -101,7 +101,7 @@ const TopPoints = () => {
                       alt="/Group.svg"
                     />
                   </div>
-                  Il bloquera les composants intrusifs{" "}
+                  Il bloquera les composants intrusifs
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -112,7 +112,7 @@ const TopPoints = () => {
                       alt="/twemoji_top-arrow.svg"
                     />
                   </div>
-                  Il dispose du meilleur support technique{" "}
+                  Il dispose du meilleur support technique
                 </li>
               </ul>
             </div>

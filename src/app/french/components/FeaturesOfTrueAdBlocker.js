@@ -32,8 +32,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Profitez d&apos;une navigation rapide avec la boutique en ligne
-                Google Chrome{" "}
+                Profitez d&apos;une navigation rapide avec la google chrome web store
               </span>
               <span className={styles["item-text"]}>
                 Éliminez les publicités perturbatrices qui interrompent votre
@@ -56,7 +55,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.right}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Sécurisez votre navigation Web avec l&apos;extension Adblock Chrome{" "}
+                Sécurisez votre navigation Web avec Adblock Chrome extension
               </span>
               <span className={styles["item-text"]}>
                 Par rapport à Adblock Safari, cette extension vous aidera à

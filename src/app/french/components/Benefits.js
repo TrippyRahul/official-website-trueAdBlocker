@@ -52,7 +52,7 @@ const Benefits = () => {
         </div>
         <div className={styles.right}>
           <div className={styles.item}>
-            <h3>Améliorez votre expérience Spotify avec un adblock Spotify </h3>
+            <h3>Améliorez votre expérience Spotify avec un adblock Spotify</h3>
             <p>
               Avec cet addon, vous pouvez profiter de votre musique ou playlist
               préférée sans aucune interruption due aux publicités. Téléchargez

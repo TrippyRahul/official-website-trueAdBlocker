@@ -14,13 +14,13 @@ import Footer from "./components/Footer";
 export const metadata = {
   title: "Meilleur adblock Chrome pour bloquer les publicités indésirables",
   description:
-    "Adblock Chrome est la meilleure extension qui vous aidera à profiter de votre parcours Internet sans publicité. Alors dites adieu aux publicités intrusives et prenez le contrôle total de votre navigateur",
+    "Adblock Chrome est la meilleure extension qui vous aidera à profiter de votre parcours Internet sans publicité. Alors dites adieu aux publicités intrusives et prenez le contrôle total de votre navigateur.",
   keywords:
     "adblock chrome, extension chrome, adblock firefox, bloqueur de pub, chrome extension, adblock safari, total adblock, adblock extension chrome, google chrome web store",
   openGraph: {
     title: "Meilleur adblock Chrome pour bloquer les publicités indésirables",
     description:
-      "Adblock Chrome est la meilleure extension qui vous aidera à profiter de votre parcours Internet sans publicité. Alors dites adieu aux publicités intrusives et prenez le contrôle total de votre navigateur",
+      "Adblock Chrome est la meilleure extension qui vous aidera à profiter de votre parcours Internet sans publicité. Alors dites adieu aux publicités intrusives et prenez le contrôle total de votre navigateur.",
     url: "https://www.trueadblocker.net/french",
     type: "website",
   },

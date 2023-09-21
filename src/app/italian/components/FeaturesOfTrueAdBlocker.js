@@ -36,7 +36,7 @@ const FeaturesOfTrueAdBlocker = () => {
               </span>
               <span className={styles["item-text"]}>
                 Elimina le pubblicità fastidiose che interrompono il tuo viaggio
-                online e di' no a pop-up, banner, annunci video e altro ancora.
+                online e di&apos; no a pop-up, banner, annunci video e altro ancora.
                 Bloccando questi annunci, potrai visualizzare le tue pagine web
                 con maggiore velocità.
               </span>

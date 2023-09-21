@@ -58,7 +58,7 @@ const Benefits = () => {
             <p>
               Con questo componente aggiuntivo puoi goderti la tua musica o
               playlist preferita senza interruzioni dovute alla pubblicità.
-              Basta scaricare e installare l'estensione in modo da poter
+              Basta scaricare e installare l&apos;estensione in modo da poter
               bloccare tutti gli annunci indesiderati su di essa.
             </p>
           </div>

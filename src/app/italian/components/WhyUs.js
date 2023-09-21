@@ -17,7 +17,7 @@ const WhyUs = () => {
             gli annunci, sei nel posto giusto. Come con questo componente
             aggiuntivo, puoi avere il pieno controllo sulle tue attività online
             e puoi anche eliminare tutte le pubblicità fastidiose e indesiderate
-            che possono rovinare l'utilizzo del tuo browser.
+            che possono rovinare l&apos;utilizzo del tuo browser.
           </p>
         </div>
         <div className={styles.right}>
