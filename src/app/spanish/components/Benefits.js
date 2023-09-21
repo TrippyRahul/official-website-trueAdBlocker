@@ -39,8 +39,8 @@ const Benefits = () => {
         <div className={styles.left}>
           <div className={styles.item}>
             <h3>
-              Experimente vídeos ininterrumpidos con Hulu y el bloqueador de
-              anuncios de YouTube Chrome
+              Experimente vídeos ininterrumpidos con Hulu y el adblocker de
+              YouTube Chrome
             </h3>
             <p>
               Transmita sus programas y películas favoritos libremente sin esos
@@ -52,14 +52,13 @@ const Benefits = () => {
         <div className={styles.right}>
           <div className={styles.item}>
             <h3>
-              Mejore su experiencia en Spotify con un bloqueador de anuncios de
-              Spotify
+              Mejore su experiencia en Spotify con un adblocker de Spotify
             </h3>
             <p>
               Con este complemento, puedes disfrutar de tu música o lista de
               reproducción favorita sin interrupciones de anuncios. Simplemente
               descargue e instale la extensión para poder bloquear todos los
-              anuncios no deseados que contiene
+              anuncios no deseados que contiene.
             </p>
           </div>
           <div className={styles.item}>

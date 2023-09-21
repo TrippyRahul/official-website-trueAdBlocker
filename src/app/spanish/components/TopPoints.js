@@ -27,7 +27,7 @@ const TopPoints = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.bottom}>
-          <h2>Puntos clave para el bloqueador de anuncios</h2>
+          <h2>Puntos clave para el adbblocker</h2>
           <div className={styles.content}>
             <div className={styles.item}>
               <ul>
@@ -41,7 +41,7 @@ const TopPoints = () => {
                     />
                   </div>
                   Al utilizar este bloqueador de anuncios, puede eliminar todos
-                  los anuncios molestos
+                  los anuncios molestos.
                 </li>
                 <li>
                   <div className={styles["image-container"]}>
@@ -74,7 +74,7 @@ const TopPoints = () => {
                       alt="/akar-icons_network.svg"
                     />
                   </div>
-                  Los niños están protegidos contra contenidos inapropiados{" "}
+                  Los niños están protegidos contra contenidos inapropiados
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@ const TopPoints = () => {
                       alt="/twemoji_top-arrow.svg"
                     />
                   </div>
-                  Tiene el mejor soporte técnico{" "}
+                  Tiene el mejor soporte técnico.
                 </li>
               </ul>
             </div>

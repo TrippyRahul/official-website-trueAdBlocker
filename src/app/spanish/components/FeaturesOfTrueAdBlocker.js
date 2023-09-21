@@ -55,7 +55,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.right}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                Asegure su navegación web con adblock para youtube
+                Asegure su navegación web con adblock for youtube
               </span>
               <span className={styles["item-text"]}>
                 En comparación con el bloqueador de anuncios Safari, esta

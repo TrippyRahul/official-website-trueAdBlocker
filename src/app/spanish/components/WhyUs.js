@@ -55,7 +55,7 @@ const WhyUs = () => {
                   alt="fontisto_spotify"
                 />
               </div>
-              Aumente su velocidad con el bloqueador de anuncios Google Chrome.
+              Aumente su velocidad con el adblocker Google Chrome.
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -66,7 +66,7 @@ const WhyUs = () => {
                   alt="icons_hulu"
                 />
               </div>
-              Mantenga su privacidad
+              Mantenga su privacidad{" "}
             </li>
             <li>
               <div className={styles["image-container"]}>
@@ -78,7 +78,7 @@ const WhyUs = () => {
                 />
               </div>
               El bloqueador de anuncios gratuito es un programa de código
-              abierto para usar{" "}
+              abierto para usar
             </li>
           </ul>
           <Button text="Añadir a Chrome" icon={true} />
