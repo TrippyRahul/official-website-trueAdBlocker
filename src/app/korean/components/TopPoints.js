@@ -111,7 +111,8 @@ const TopPoints = () => {
                       alt="/twemoji_top-arrow.svg"
                     />
                   </div>
-                  Adblock Opera와는 달리 최고의 기술 지원을 제공합니다.
+                  유튜브용 애드블록 Opera 와는 달리 최고의 기술 지원을
+                  제공합니다.
                 </li>
               </ul>
             </div>

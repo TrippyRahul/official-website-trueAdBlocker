@@ -47,7 +47,7 @@ const FrequentlyAskedQuestion = () => {
   return (
     <div className={styles.frequently}>
       <div className={styles.container}>
-        <h2>자주 묻는 질문</h2>
+        <h2>FAQ</h2>
         <ol>
           {questions.map((question) => (
             <li key={question.id} onClick={() => toggleAnswer(question.id)}>

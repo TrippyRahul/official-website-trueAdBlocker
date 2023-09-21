@@ -38,7 +38,7 @@ const Benefits = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.item}>
-            <h3>YouTube용 광고 차단 으로 중단 없는 동영상을 경험하세요</h3>
+            <h3>Adblock for YouTube 으로 중단 없는 동영상을 경험하세요</h3>
             <p>
               중간에 나오는 피싱 광고 없이 좋아하는 프로그램과 영화를 자유롭게
               스트리밍하세요. 따라서 번거로운 광고 없이 마음껏 즐기시고
@@ -56,7 +56,7 @@ const Benefits = () => {
             </p>
           </div>
           <div className={styles.item}>
-            <h3> 데이터 보호</h3>
+            <h3>데이터 보호</h3>
             <p>
               이 확장 프로그램을 다운로드하면 귀하의 데이터가 인터넷
               추적기로부터 보호되며 당사는 귀하의 정보를 저장하거나 유출하지

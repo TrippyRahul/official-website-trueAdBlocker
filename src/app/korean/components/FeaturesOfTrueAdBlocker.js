@@ -32,7 +32,7 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.left}>
             <div className={styles.item}>
               <span className={styles["item-title"]}>
-                adblock 확장 프로그램 으로 빠른 탐색을 즐겨보세요
+                adblock extension 으로 빠른 탐색을 즐겨보세요
               </span>
               <span className={styles["item-text"]}>
                 온라인 여정을 방해하는 방해가 되는 광고를 제거하고 팝업, 배너,
