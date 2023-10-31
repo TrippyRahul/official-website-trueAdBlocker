@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,18 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content="RMU1dnFSr5mi_9G6B3hNmX8J43xkiP9WhxxZshOsYNI"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-S0CGQ7TCDR" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S0CGQ7TCDR');
+          `,
+          }}
         />
       </head>
       <body className={inter.className}>
