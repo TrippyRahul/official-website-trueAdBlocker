@@ -1,6 +1,4 @@
-import Image from "next/image";
-import WhyUs from "./components/WhyUs";
-import TopPoints from "./components/TopPoints";
+import TopPoints from "./components/Usage";
 import WhyTrueAdBlocker from "./components/WhyTrueAdBlocker";
 import FeaturesOfTrueAdBlocker from "./components/FeaturesOfTrueAdBlocker";
 import Benefits from "./components/Benefits";
@@ -10,12 +8,13 @@ import FrequentlyAskedQuestion from "./components/FrequentlyAskedQuestion";
 import Reviews from "./components/Reviews";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Feature from "./components/Features";
 
 export default function Home() {
   return (
-    <>
+    <div style={{background: "linear-gradient(90deg, #210938, #210937)"}}>
       <Header />
-      <WhyUs />
+      <Feature />
       <TopPoints />
       <WhyTrueAdBlocker />
       <FeaturesOfTrueAdBlocker />
@@ -25,6 +24,6 @@ export default function Home() {
       <Reviews />
       <AboutTrueAdBlocker />
       <Footer />
-    </>
+    </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/header.module.scss";
-import { AiFillChrome } from "react-icons/ai";
 import Navbar from "./Navbar";
 import Button from "./Button";
 
@@ -9,18 +8,23 @@ const Header = () => {
     <div className={styles.hero}>
       <Navbar />
       <div className={styles.container}>
-        <h2 className={styles.subtitle1}>YOUR BEST CHOICE</h2>
-        <h1 className={styles.heading}>True AdBlocker</h1>
+        <Button
+          customClass={styles.headerButton}
+          text="Block All Ads Now - it's Free"
+        />
+        <h2 className={styles.subtitle1}>Your Best Choice</h2>
+        <h1 className={styles.heading}>
+          Trueadblocker Chrome Extension <br /> Ultimate Ad Detector
+        </h1>
         <p className={styles.subtitle2}>
-          It removes all unwanted ads and <span>block pop-ups ads.</span> It is the best
-          extension where you can enjoy all your videos without unnecessary ads.
+          It is the best Adblocker Chrome Extension That Blocks All Annoying
+          Ads.
         </p>
-
-        <Button text="Add to Chrome" icon={true} />
+        <Button text="Block All Ads Now - it's Free" />
+        {/* <img className={styles.pattern} src={pattern}></img> */}
       </div>
     </div>
   );
 };
 
 export default Header;
-Header;

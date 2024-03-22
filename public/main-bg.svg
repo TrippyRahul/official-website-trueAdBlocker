@@ -69,11 +69,11 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_127_9" x1="28.4999" y1="8.80376e-05" x2="1315" y2="739.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4900A4"/>
-<stop offset="1" stop-color="#4B1142" stop-opacity="0.84"/>
+<stop stopColor="#4900A4"/>
+<stop offset="1" stopColor="#4B1142" stop-opacity="0.84"/>
 </linearGradient>
 <linearGradient id="paint1_linear_127_9" x1="1965" y1="723.042" x2="1973.11" y2="1623.29" gradientUnits="userSpaceOnUse">
-<stop stop-color="#232323"/>
+<stop stopColor="#232323"/>
 <stop offset="1" stop-opacity="0"/>
 </linearGradient>
 <clipPath id="clip0_127_9">
