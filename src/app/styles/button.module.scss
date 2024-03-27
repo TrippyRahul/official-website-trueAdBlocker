@@ -12,6 +12,7 @@
   justify-content: center;
   gap: 1rem;
   transition: all 0.2s linear;
+  z-index: 100 !important;
 
   &:hover {
     background: linear-gradient(

@@ -106,7 +106,7 @@ const Navbar = () => {
                 </radialGradient>
               </defs>
             </svg>
-            <h1 className={styles.logoText}>Trueadblocker</h1>
+            <h2 className={styles.logoText}>Trueadblocker</h2>
           </div>
         </Link>
         <div className={styles.linksContainer}>
@@ -235,7 +235,7 @@ const Navbar = () => {
                 </radialGradient>
               </defs>
             </svg>
-            <h1 className={styles.logoText}>Trueadblocker</h1>
+            <h2 className={styles.logoText}>Trueadblocker</h2>
           </Link>
           <ul className={styles.links}>
             <li className={styles.link}>

@@ -102,7 +102,7 @@
   box-shadow: 0 0.8rem 3.2rem 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2.4rem);
   -webkit-backdrop-filter: blur(2.4rem);
-  border-radius: 1rem;
+  border-radius: 0 0 2rem 2rem;
   padding: 2rem;
   display: none;
   align-items: center;
@@ -110,6 +110,7 @@
   flex-direction: column;
   gap: 1rem;
   transition: all 0.5s ease-in-out;
+  z-index: 10;
 
   .logoContainer {
     display: flex;

@@ -1,3 +1,51 @@
-.blogs{
-    
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 4rem;
+  color: #ffffff;
+  flex-direction: column;
+  gap: 8rem;
+  position: relative;
+  overflow: hidden;
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+  }
+  .blogsBackground {
+    position: absolute;
+    top: -70%;
+    right: -20%;
+    z-index: 2;
+    opacity: 1;
+  }
+  .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    z-index: 10;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: auto;
+  }
+}
+
+.card {
+  width: 30%;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  min-width: 300px;
 }

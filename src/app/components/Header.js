@@ -2,10 +2,14 @@ import React from "react";
 import styles from "../styles/header.module.scss";
 import Navbar from "./Navbar";
 import Button from "./Button";
-
+import Image from "next/image";
+import header from "../../../public/header.png";
+import element from "../../../public/1.png";
 const Header = () => {
   return (
     <div className={styles.hero}>
+      <Image src={header} className={styles.background} />
+      <Image src={element} className={styles.element} />
       <Navbar />
       <div className={styles.container}>
         <Button
@@ -21,7 +25,6 @@ const Header = () => {
           Ads.
         </p>
         <Button text="Block All Ads Now - it's Free" />
-        {/* <img className={styles.pattern} src={pattern}></img> */}
       </div>
     </div>
   );

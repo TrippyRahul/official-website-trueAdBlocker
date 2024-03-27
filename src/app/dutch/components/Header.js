@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillChrome } from "react-icons/ai";
 import Navbar from "./Navbar";
 import Button from "./Button";
 import styles from "@/app/styles/header.module.scss";

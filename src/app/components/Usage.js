@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../styles/usage.module.scss";
 import Image from "next/image";
+import background from "../../../public/3.png";
+import usage1 from "../../../public/usage1.png";
+import usage2 from "../../../public/usage2.png";
 
 const Usage = () => {
   const usage = [
@@ -9,8 +12,8 @@ const Usage = () => {
       text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
       icon: (
         <svg
-          width="50"
-          height="50"
+          width="100%"
+          height="100%"
           viewBox="0 0 50 50"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +30,8 @@ const Usage = () => {
       text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
       icon: (
         <svg
-          width="51"
-          height="50"
+          width="100%"
+          height="100%"
           viewBox="0 0 51 50"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +48,8 @@ const Usage = () => {
       text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +66,8 @@ const Usage = () => {
       text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -79,9 +82,12 @@ const Usage = () => {
   ];
   return (
     <div className={styles.usageContainer}>
-      <h1 className={styles.heading}>
-        Enjoy Ad-Free Content with <br /> this adblocker Chrome extension
-      </h1>
+      <Image src={background} className={styles.background} />
+      <Image src={usage1} className={styles.usage1} />
+      <Image src={usage2} className={styles.usage2} />
+      <h2 className={styles.heading}>
+        Enjoy Ad-Free Content with this adblocker Chrome extension
+      </h2>
       <div className={styles.experienceCard}>
         <h2 className={styles.heading}>
           Have the best online experience with this adblock Chrome

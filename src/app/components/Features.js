@@ -1,13 +1,15 @@
 import styles from "../styles/features.module.scss";
-
+import background from "../../../public/2.png";
+import featuresBackground from "../../../public/features1Background.png";
+import Image from "next/image";
 const Feature = () => {
   const features = [
     {
       text: "Eliminate all kinds of ads including banner ads, pop-ups, YouTube ads, and many more",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +25,8 @@ const Feature = () => {
       text: "Fasten up your page loading",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +42,8 @@ const Feature = () => {
       text: "Block distracting web elements",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -57,8 +59,8 @@ const Feature = () => {
       text: "It maintains the site properly",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -74,8 +76,8 @@ const Feature = () => {
       text: "It works in Chrome extensions like Google and Firefox",
       icon: (
         <svg
-          width="60"
-          height="60"
+          width="100%"
+          height="100%"
           viewBox="0 0 60 60"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +104,9 @@ const Feature = () => {
   ];
   return (
     <div className={styles.featureContainer}>
-      <h1 className={styles.heading}>Browse The Web Freely And Safely</h1>
+      <Image src={background} className={styles.background} />
+      <Image src={featuresBackground} className={styles.featuresBackground} />
+      <h2 className={styles.heading}>Browse The Web Freely And Safely</h2>
       <div className={styles.featureCardContainer}>
         {features.map((feature, index) => (
           <FeatureCard key={index} text={feature.text} icon={feature.icon} />

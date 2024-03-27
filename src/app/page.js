@@ -1,27 +1,29 @@
-import TopPoints from "./components/Usage";
+import Usage from "./components/Usage";
 import WhyTrueAdBlocker from "./components/WhyTrueAdBlocker";
 import FeaturesOfTrueAdBlocker from "./components/FeaturesOfTrueAdBlocker";
-import Benefits from "./components/Benefits";
-import Use from "./components/Use";
+import Blogs from "./components/Blogs";
+import HowToUse from "./components/HowToUse";
 import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
-import FrequentlyAskedQuestion from "./components/FrequentlyAskedQuestion";
+import FrequentlyAskedQuestion from "./components/FAQ";
 import Reviews from "./components/Reviews";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Feature from "./components/Features";
+import Privacy from "./components/Privacy";
 
 export default function Home() {
   return (
-    <div style={{background: "linear-gradient(90deg, #210938, #210937)"}}>
+    <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header />
       <Feature />
-      <TopPoints />
+      <Usage />
+      <Privacy />
       <WhyTrueAdBlocker />
       <FeaturesOfTrueAdBlocker />
-      <Benefits />
-      <Use />
+      <HowToUse />
       <FrequentlyAskedQuestion />
       <Reviews />
+      <Blogs />
       <AboutTrueAdBlocker />
       <Footer />
     </div>
