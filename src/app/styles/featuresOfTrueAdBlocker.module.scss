@@ -1,250 +1,81 @@
-.featuresOfTrueAdBlocker{
-    background-color: #111;
-    padding: 10rem 4rem;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-
-
-    .bg1{
-        position: absolute;
-        left: -10%;
-        bottom: 10%;
-
-        .bg-container{
-            width: 55rem;
-                  
-            > div {
-              position: unset !important;
-            }
-          
-            .bg-image {
-              object-fit: contain;
-              width: 100% !important;
-              position: relative !important;
-              height: unset !important;
-            }
-        }
-    }
-    .bg2{
-        position: absolute;
-        right: -10%;
-        top: 20%;
-       
-        .bg-container{
-            width: 55rem;
-                  
-            > div {
-              position: unset !important;
-            }
-          
-            .bg-image {
-              object-fit: contain;
-              width: 100% !important;
-              position: relative !important;
-              height: unset !important;
-            }
-        }
-    }
-
-    .container{
-        // border: 1px solid red;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 5rem;
-
-        h2{
-            font-size: 5.8rem;
-            font-weight: 600;
-            line-height: 5.9rem;
-            letter-spacing: 0em;
-            text-align: left;
-        }
-
-        .top{
-            margin-top: 5rem;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            gap: 3rem;
-
-            .card{
-                width: 48%;
-                height: 20rem;
-                padding: 2rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 2rem;
-
-                background: rgba( 255, 255, 255, 0.25 );
-                box-shadow: 0 .8rem 3.2rem 0 rgba( 31, 38, 135, 0.37 );
-                backdrop-filter: blur( .4rem );
-                -webkit-backdrop-filter: blur( .4rem );
-                border-radius: 1rem;
-
-
-                .image-container{
-                    width: 10rem;
-                          
-                    > div {
-                      position: unset !important;
-                    }
-                  
-                    .image {
-                      object-fit: contain;
-                      width: 100% !important;
-                      position: relative !important;
-                      height: unset !important;
-                    }
-                }
-
-    
-                span{
-                    font-size: 1.5rem;
-                    font-weight: 400;
-                    line-height: 2.3rem;
-                    letter-spacing: 0em;
-                    text-align: left;
-
-                    span{
-                        color: #9852F2;
-                    }
-                }
-
-            }           
-        }
-
-        .bottom{
-            background: rgba( 255, 255, 255, 0.25 );
-            box-shadow: 0 .8rem 3.2rem 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 2.4rem );
-            -webkit-backdrop-filter: blur( 2.4rem );
-            border-radius: 1rem;
-        
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            padding: 2rem;
-
-
-            .left, .right{
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                // align-items: center;
-                // justify-content: center;
-                gap: 4rem;
-                padding: 2rem;
-
-                .item{
-                    display: flex;
-                    flex-direction: column;
-                   
-                    gap: 2rem;
-                    &-title{
-
-                        font-size: 2.8rem;
-                        font-weight: 600;
-                        line-height: 3.4rem;
-                        letter-spacing: 0em;
-                        text-align: left;
-
-                    }
-
-                    &-text{
-                        font-size: 2.2rem;
-                        line-height: 3.0rem;
-                        letter-spacing: 0em;
-                        text-align: left;
-
-                        span{
-                            color: #9852F2;
-                        }
-
-                    }
-                }
-            }
-
-            .middle{
-                flex: 1;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                // border: 1px solid red;
-
-                
-                .image-container{
-                    width: 36.1rem;
-                          
-                    > div {
-                      position: unset !important;
-                    }
-                  
-                    .image {
-                      object-fit: contain;
-                      width: 100% !important;
-                      position: relative !important;
-                      height: unset !important;
-                    }
-                }
-
-            }
-        }
-    }
-
+.container {
+  min-height: 100vh;
+  padding: 6rem 4rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  position: relative;
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 2;
+  }
+  .featuresBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.7;
+  }
+  .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .cardContainer {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
 }
 
-@media only screen and (max-width: 978px) { 
-    .featuresOfTrueAdBlocker{
-        .container{
-            .top{
-                
-                .card{
-                    width: 46%;
-                    // gap: 1rem;
-                    padding: 1rem;
-                    height: 28rem;
-                    flex-direction: column;
-
-                    span{
-                        text-align: center;
-                    }
-                }  
-            }
-
-            .bottom{
-
-                flex-direction: column;
-
-            }
-        }
+.card {
+  display: flex;
+  background-color: #101010;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  &:hover {
+    .text {
+      border-image: linear-gradient(
+      90deg,
+      rgb(151, 82, 242) 0%,
+      rgb(233, 90, 166) 100%
+    ) 30;
     }
-}
-@media only screen and (max-width: 780px) { 
-    .featuresOfTrueAdBlocker{
-        padding: 4rem 2rem;
-        .container{
-            gap: 2rem;
-            .top{
-                
-                .card{
-                    width: 100%;
-                    gap: 1rem;
-                    // font-size: 1.5rem;
-                }  
-            }
-
-           
-        }
-    }
+  }
+  .text {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    border-left: solid 2px white;
+    padding: 2rem;
+  }
 }
 
-
-
- 
+@media screen and (max-width: 600px) {
+  .container {
+    .cardContainer {
+      width: 90%;
+    }
+  }
+}

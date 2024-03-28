@@ -1,142 +1,38 @@
 import React from "react";
 import styles from "../styles/featuresOfTrueAdBlocker.module.scss";
+import background from "../../../public/3.png";
+import featuresBackground from "../../../public/featuresBackground.png";
 import Image from "next/image";
 
 const FeaturesOfTrueAdBlocker = () => {
+  const featuresOfTrueAdBlocker = [
+    "By downloading an advertisement blocker, you can fully control your Twitch experience with Twitch ad blocker.",
+    "You can also block all the Spotify that ruin your interrupt you while listening to your favorite song. Now play your list without any disturbance.",
+    "Install the blocker Chrome and have the best experience on YouTube. Enjoy your videos without any ads.",
+    "Now you can stream your most preferred content without any interruptions.",
+  ];
   return (
-    <div className={styles.featuresOfTrueAdBlocker}>
-      <div className={styles.bg1}>
-        <div className={styles["bg-container"]}>
-          <Image
-            className={styles["bg-image"]}
-            fill={true}
-            src="/Ellipse 10.svg"
-            alt="Ellipse"
-          />
-        </div>
+    <div className={styles.container}>
+      <h2 className={styles.heading}>Features Of Trueadblocker</h2>
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image
+        src={featuresBackground}
+        className={styles.featuresBackground}
+        alt="featuresBackground"
+      />
+      <div className={styles.cardContainer}>
+        {featuresOfTrueAdBlocker.map((feature, index) => (
+          <Card key={index} text={feature} />
+        ))}
       </div>
-      <div className={styles.bg2}>
-        <div className={styles["bg-container"]}>
-          <Image
-            className={styles["bg-image"]}
-            fill={true}
-            src="/Ellipse 9.svg"
-            alt="Ellipse"
-          />
-        </div>
-      </div>
-      <div className={styles.container}>
-        <h2>FEATURES OF TRUE ADBLOCKER</h2>
+    </div>
+  );
+};
 
-        <div className={styles.top}>
-          <div className={styles.card}>
-            <div className={styles["image-container"]}>
-              <Image
-                className={styles["image"]}
-                fill={true}
-                src="/Слой 2.svg"
-                alt="Слой 2"
-              />
-            </div>
-            <span>
-              Take control on your Twitch experience with{" "}
-              <span>Twitch ad blocker</span> and watch ad free series. You can
-              enjoy your favorite content with twitch.
-            </span>
-          </div>
-          <div className={styles.card}>
-            <div className={styles["image-container"]}>
-              <Image
-                className={styles["image"]}
-                fill={true}
-                src="/Ресурс 1 2.svg"
-                alt="Ресурс 1 2"
-              />
-            </div>
-            <span>
-              Experience uninterrupted video ads on Youtube with youtube adblock
-              chrome and watch your favroite show freely with{" "}
-              <span>youtube ad blocker for chrome.</span> In adblocker youtube,
-              you can watch your favroite content without any annoying ads.
-            </span>
-          </div>
-
-          <div className={styles.card}>
-            <div className={styles["image-container"]}>
-              <Image
-                className={styles["image"]}
-                fill={true}
-                src="/Ресурс 2 6.svg"
-                alt="Ресурс 2 6"
-              />
-            </div>
-            <span>
-              Enhance your spotify experience by blocking annoying ads and
-              immerse yourself with uninterrupted music with this extension.
-              With this extension, you can listen your favroite song.
-            </span>
-          </div>
-          <div className={styles.card}>
-            <div className={styles["image-container"]}>
-              <Image
-                className={styles["image"]}
-                fill={true}
-                src="/Frame 20.svg"
-                alt="Frame 20.svg"
-              />
-            </div>
-            <span>
-              Watch your favroite content without interruptions in adblock for
-              hulu. By this you can watch your most loved show with hulu.
-            </span>
-          </div>
-        </div>
-
-        <div className={styles.bottom}>
-          <div className={styles.left}>
-            <div className={styles.item}>
-              <span className={styles["item-title"]}>Block Sponsered ads</span>
-              <span className={styles["item-text"]}>
-                Say goodbye to <span>sponsored ads </span>
-              </span>
-            </div>
-            <div className={styles.item}>
-              <span className={styles["item-title"]}>Popup Ads blocker</span>
-              <span className={styles["item-text"]}>
-                Block unwanted ads and give control over your online space with{" "}
-                <span>pop up adblocker.</span>
-              </span>
-            </div>
-          </div>
-          <div className={styles.middle}>
-            <div className={styles["image-container"]}>
-              <Image
-                className={styles["image"]}
-                fill={true}
-                src="/BlockAd.svg"
-                alt="block-ad-logo"
-              />
-            </div>
-          </div>
-          <div className={styles.right}>
-            <div className={styles.item}>
-              <span className={styles["item-title"]}>Block Google Ads</span>
-              <span className={styles["item-text"]}>
-                Take control on your online privacy and block google ads
-              </span>
-            </div>
-            <div className={styles.item}>
-              <span className={styles["item-title"]}>
-                Preventing Online Threats
-              </span>
-              <span className={styles["item-text"]}>
-                helps you avoid all phishing sites and domains that are known to
-                spread malware in the extension.
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+const Card = ({ text }) => {
+  return (
+    <div className={styles.card}>
+      <h3 className={styles.text}>{text}</h3>
     </div>
   );
 };

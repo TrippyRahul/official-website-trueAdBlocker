@@ -1,0 +1,51 @@
+.container {
+  height: 100vh;
+  padding: 6rem 4rem;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 1;
+  }
+  .wrapper {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6rem;
+
+    .heading {
+      font-size: 4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .textContainer {
+      height: 40rem;
+      width: 40rem;
+      border-radius: 50%;
+      box-shadow: 0 0 10px 10px rgba(76, 18, 147, 0.64);
+      background-color: #252525;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+
+      .text {
+        width: 80%;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 300;
+        z-index: 10;
+      }
+    }
+  }
+}

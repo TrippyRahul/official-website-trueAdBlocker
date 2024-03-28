@@ -1,109 +1,175 @@
-.frequently{
-    background-color: #111;
-    padding: 10rem 4rem;
-    color: #fff;
+.frequently {
+  padding: 10rem 4rem;
+  color: #fff;
+  position: relative;
+  position: relative;
+  display: flex;
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 1;
+  }
+  .faqBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    z-index: 10;
+    width: 70%;
+    margin: auto;
     position: relative;
-    overflow: hidden;
+    .heading {
+      letter-spacing: 0em;
+      font-size: 4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+    }
 
-    .container{
-        // border: 1px solid red;
+    ol {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 4rem;
+
+      li {
         display: flex;
-        align-items: center;
         flex-direction: column;
-        gap: 4rem;
+        border-top: 0.1rem solid gray;
+        padding-top: 2rem;
+        cursor: pointer;
 
-        h2{
-          
-            font-size: 5.8rem;
-            font-weight: 600;
-            line-height: 5.9rem;
+        .question {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 0 3rem 1rem;
+
+          & > :first-child,
+          .questionHeading {
+            flex: 1;
+            font-size: 2.2rem;
+            font-weight: 400;
+            line-height: 2.7rem;
             letter-spacing: 0em;
             text-align: left;
-
-        }
-
-        ol{
-            width: 100%;
+          }
+          .questionHeading {
+            flex: 5;
+          }
+          & > :last-child {
+            // flex: .5;
             display: flex;
-            flex-direction: column;
-            gap: 4rem;
-            margin-top: 4rem;
-            
-            li{
-                display: flex;
-                flex-direction: column;
-                border-bottom: .1rem solid gray;
-                cursor: pointer;
-
-                .question{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: flex-start;
-                    padding-bottom: 1rem;
-
-                    &>:first-child{
-                        flex: 3;
-                        font-size: 2.8rem;
-                        font-weight: 400;
-                        line-height: 2.7rem;
-                        letter-spacing: 0em;
-                        text-align: left;
-                    }
-
-                    &>:last-child{
-                        // flex: .5;
-                        display: flex;
-                        align-items: center;
-                        justify-content: flex-end;
-                        cursor: pointer;
-                        
-                    }
-                }
-
-                .answer{
-                    display: none;
-                    font-size: 2.5rem;
-                    line-height: 2.7rem;
-                    letter-spacing: 0em;
-                    text-align: left;
-
-                    p{
-                        padding-bottom: 2rem;
-                        padding-top: 2rem;
-                        color: gray;
-                    }
-                   
-                }
-
-                .active{
-                    display: block;
-                }
-
-                .image-container{
-                    width:5rem;
-                            
-                    > div {
-                        position: unset !important;
-                    }
-                    
-                    .image {
-                        object-fit: contain;
-                        width: 100% !important;
-                        position: relative !important;
-                        height: unset !important;
-                    }
-                }
-
-
-            }
+            align-items: center;
+            justify-content: flex-end;
+            cursor: pointer;
+          }
         }
 
-      a{
-        width: 100%;
-        button{
-            width: 100%;
+        .answer {
+          display: none;
+          font-size: 1.5rem;
+          line-height: 2.7rem;
+          letter-spacing: 0em;
+          text-align: center;
+          width: 70%;
+          margin: auto;
+
+          p {
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            color: gray;
+          }
+        }
+        
+
+        .active {
+          display: block;
+        }
+
+        .image-container {
+          width: 5rem;
+
+          > div {
+            position: unset !important;
+          }
+
+          .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+          }
         }
       }
     }
+
+    a {
+      width: 100%;
+      button {
+        width: 100%;
+      }
+    }
+    .button {
+          padding: 1rem 2rem;
+          font-size: 1.5rem;
+          font-weight: 200;
+          background-color: transparent;
+          border: solid 1px #ffffff;
+          border-radius: 3rem;
+          color: #ffffff;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          transition: all 0.2s linear;
+          z-index: 100 !important;
+          width: fit-content;
+          position: absolute;
+          bottom: -8rem;
+          right: 0;
+
+          &:hover {
+            background: linear-gradient(
+              90deg,
+              rgb(151, 82, 242) 0%,
+              rgb(233, 90, 166) 100%
+            );
+            border: solid 1px transparent;
+          }
+        }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frequently {
+    .container {
+      width: 90%;
+      ol {
+        li {
+          .questionHeading {
+            font-size: 2.5rem;
+          }
+          .answer {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,7 +1,7 @@
 import Script from "next/script";
 import React from "react";
 
-const   Schema = () => {
+const Schema = () => {
   return (
     <>
       <Script
@@ -14,42 +14,91 @@ const   Schema = () => {
               mainEntity: [
                 {
                   "@type": "Question",
-                  name: "What is an Trueadblocker?",
+                  name: "What is Trueadblocker and how does it work?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "A TrueAdblocker is a tool that is made to preserve your privacy and make the internet safer and cleaner with total adblock. Pop-up advertising, banners, and video ads are all blocked by this extension, even on YouTube. It eliminates tracking requests and cookies. It assures you don't visit any of the risky websites by knowing which ones to avoid. From TrueAdblocker, you can block all unwanted ads such as youtube adblocker, pop up ads, hulu no ads.",
+                    text: "It is the best extension that is designed to improve your online experience by eliminating all unwanted ads. It also protects your privacy and saves your data usage. The best part is it is free to use.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Why is TrueAdblocker is a superior to others?",
+                  name: "Does this extension block all types of ads?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "The majority of free ad block for chrome are browser add-ons that can't get rid of all advertising. For ad blocker youtube you'll need to install an ad-blocking extension on each browser you use if you use more than one. Additionally, you won't be able to ban app adverts if you wish to.  Apps for Window  available from TrueAdblocker. With toal adblock and TrueAdblocker, you can stop websites and businesses from tracking you, block adverts in browsers and applications, and safeguard yourself against malware and scams. This also includes in-app support, speeds up page loading, and lets you control DNS servers and web queries. From our comparison table, you may discover more.",
+                    text: "Yes, this adblocker Chrome extension blocks all types of ads including banner ads, pop-ups, video ads, and many more.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Are there any free versions of TrueAdblocker?",
+                  name: "Can this extension affect your web browsing speed?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "You can test out all the features TrueAdblocker and total adblock has to offer with a free trial of our full-featured programs for Windows. TrueAdblocker’s  free versions for windows also have the ability to block advertising and trackers in Safari, which is another way they might be useful. However, their usefulness is constrained; a full version is required to accomplish things like block app adverts, manage DNS requests, safeguard oneself from fraudulent domains, and more. Additionally it offers totally free browser add-ons. Check out adguard adblocker comparison table to discover more about the differences between extensions and full-featured programs.",
+                    text: "It can speed up your page loading by blocking all the unwanted ads.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Can I utilize TrueAdblocker across several platforms?",
+                  name: "How to whitelist websites in Trueadblocker?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Sure! All windows are supported by TrueAdblocker. Purchasing a license, downloading the TrueAdblocker app for the required platform, and signing in with your license key or TrueAdblocker account details are the best ways to use TrueAdblocker across many devices.",
+                    text: "You can whitelist websites by adding them to the allowed list in its settings then it will permit all the ads on those selected sites.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Is using TrueAdblocker secure?",
+                  name: "Is using this adblocker Chrome extension legal?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "We have been creating privacy-focused solutions, and we currently have more than 45 million users globally. We have only the data that is absolutely essential to run our websites and apps collected by chrome ad blocker; google chrome adblocker  never share your personal information with anyone. Read more about it in our privacy policy.",
+                    text: "Yes, this extension is absolutely legal and safe to use.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Is this extension compatible with other websites?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "This adblocker Chrome extension is compatible with most of the major browsers including Google and Firefox.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How can I install Trueadblocker on my web browser?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "It is very simple as you just need to search for the extension or you can visit our website and download the extension from there.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Is it safe to use Trueadblocker on multiple sites?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, it is absolutely safe to the extension on multiple browsers including Google Chrome and Firefox.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Is there any free version of Trueadblocker?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, our extension is free to use. You can block all types of ads for free and enhance your online experience.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Why Trueadblocker is better than other adblockers?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "The majority of adblockers can not get rid of unnecessary ads, but by installing our extension you can block all types of hidden ads that may ruin your experience. It not only blocks ads but also protects your browser from dangerous websites.",
+                  },
+                },
+
+                {
+                  "@type": "Question",
+                  name: "Who do I contact if I have questions?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "For any questions, you can always contact us",
                   },
                 },
               ],

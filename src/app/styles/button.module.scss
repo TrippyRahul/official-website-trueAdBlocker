@@ -1,29 +1,25 @@
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1.8rem;
-    background: rgb(152,82,242);
-    background: linear-gradient(90deg, rgba(152,82,242,1) 0%, rgba(233,90,167,1) 100%);
-    border: none;
-    border-radius: 3rem;
-    color:#FFFFFF;
-    cursor: pointer;
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 3rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.2s linear;
+  z-index: 100 !important;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    transition: all .2s linear;
-
-    .chrome{
-        width: 1.9rem;
-        height: 1.9rem;
-    }
-
-    &:hover{
-        background: rgb(152,82,242);
-    background: linear-gradient(90deg,  rgba(233,90,167,1) 0%, rgba(152,82,242,1) 100%);
-        transform: translateX(-.5rem);
-    }
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgb(151, 82, 242) 0%,
+      rgb(233, 90, 166) 100%
+    );
+    border: solid 1px transparent;
+  }
 }
-
-
