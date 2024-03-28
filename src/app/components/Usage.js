@@ -24,6 +24,8 @@ const Usage = () => {
           />
         </svg>
       ),
+      gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)"
+
     },
     {
       title: "Maintain the privacy",
@@ -42,6 +44,7 @@ const Usage = () => {
           />
         </svg>
       ),
+      gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)"
     },
     {
       title: "Parenting Contro",
@@ -60,6 +63,7 @@ const Usage = () => {
           />
         </svg>
       ),
+      gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)"
     },
     {
       title: "Website Assistance",
@@ -78,13 +82,14 @@ const Usage = () => {
           />
         </svg>
       ),
+      gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)"
     },
   ];
   return (
     <div className={styles.usageContainer}>
-      <Image src={background} className={styles.background} />
-      <Image src={usage1} className={styles.usage1} />
-      <Image src={usage2} className={styles.usage2} />
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image src={usage1} className={styles.usage1} alt="usage1" />
+      <Image src={usage2} className={styles.usage2} alt="usage2" />
       <h2 className={styles.heading}>
         Enjoy Ad-Free Content with this adblocker Chrome extension
       </h2>
@@ -109,6 +114,7 @@ const Usage = () => {
             text={data.text}
             icon={data.icon}
             title={data.title}
+            gradient={data.gradient}
           />
         ))}
       </div>
@@ -116,14 +122,12 @@ const Usage = () => {
   );
 };
 
-const UsageCard = ({ text, icon: Icon, title }) => {
+const UsageCard = ({ text, icon: Icon, title, gradient }) => {
   return (
-    <div>
-      <div className={styles.usageCard}>
+      <div className={styles.usageCard} style={{ background: gradient }}>
         <div className={styles.usageIcon}>{Icon}</div>
         <h3 className={styles.usageHeading}>{title}</h3>
         <p className={styles.usagetext}>{text}</p>
-      </div>
     </div>
   );
 };

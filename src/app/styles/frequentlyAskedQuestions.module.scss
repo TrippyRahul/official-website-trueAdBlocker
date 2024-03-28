@@ -13,8 +13,8 @@
     width: 100%;
     z-index: 1;
   }
-  .faqBackground{
-     position: absolute;
+  .faqBackground {
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -29,6 +29,7 @@
     z-index: 10;
     width: 70%;
     margin: auto;
+    position: relative;
     .heading {
       letter-spacing: 0em;
       font-size: 4rem;
@@ -61,7 +62,7 @@
           & > :first-child,
           .questionHeading {
             flex: 1;
-            font-size: 2.8rem;
+            font-size: 2.2rem;
             font-weight: 400;
             line-height: 2.7rem;
             letter-spacing: 0em;
@@ -94,6 +95,7 @@
             color: gray;
           }
         }
+        
 
         .active {
           display: block;
@@ -120,6 +122,53 @@
       width: 100%;
       button {
         width: 100%;
+      }
+    }
+    .button {
+          padding: 1rem 2rem;
+          font-size: 1.5rem;
+          font-weight: 200;
+          background-color: transparent;
+          border: solid 1px #ffffff;
+          border-radius: 3rem;
+          color: #ffffff;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          transition: all 0.2s linear;
+          z-index: 100 !important;
+          width: fit-content;
+          position: absolute;
+          bottom: -8rem;
+          right: 0;
+
+          &:hover {
+            background: linear-gradient(
+              90deg,
+              rgb(151, 82, 242) 0%,
+              rgb(233, 90, 166) 100%
+            );
+            border: solid 1px transparent;
+          }
+        }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .frequently {
+    .container {
+      width: 90%;
+      ol {
+        li {
+          .questionHeading {
+            font-size: 2.5rem;
+          }
+          .answer {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }

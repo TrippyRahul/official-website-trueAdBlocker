@@ -8,8 +8,8 @@ import element from "../../../public/1.png";
 const Header = () => {
   return (
     <div className={styles.hero}>
-      <Image src={header} className={styles.background} />
-      <Image src={element} className={styles.element} />
+      <Image src={header} className={styles.background} alt="bg" />
+      <Image src={element} className={styles.element} alt="element" />
       <Navbar />
       <div className={styles.container}>
         <Button

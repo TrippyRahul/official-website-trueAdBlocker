@@ -50,5 +50,11 @@
     text-align: center;
     height: 70%;
   }
-
+}
+@media screen and (max-width: 600px) {
+  .container{
+    .contentContainer{
+      width: 100%;
+    }
+  }
 }

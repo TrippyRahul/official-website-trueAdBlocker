@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  
 }
 
 li {
@@ -36,14 +35,15 @@ a {
 html {
   font-size: 62.5%; /* 10px */
 }
- ::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* Font size for screens that are 768px wide or less */
 @media screen and (max-width: 768px) {
   html {
     font-size: 50%; /* 8px */
+    overflow-x: hidden;
   }
 }
 

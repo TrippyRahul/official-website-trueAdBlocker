@@ -23,7 +23,7 @@ export default function Home() {
       <HowToUse />
       <FrequentlyAskedQuestion />
       <Reviews />
-      <Blogs />
+      {/* <Blogs /> */}
       <AboutTrueAdBlocker />
       <Footer />
     </div>

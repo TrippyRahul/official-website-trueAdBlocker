@@ -110,14 +110,14 @@ const Navbar = () => {
           </div>
         </Link>
         <div className={styles.linksContainer}>
-          <button className={styles.btn}>English</button>
+          {/* <button className={styles.btn}>English</button> */}
           <ul className={styles.links}>
-            <li className={styles.link}>
+            {/* <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
-            </li>
-            <li className={styles.link}>
+            </li> */}
+            {/* <li className={styles.link}>
               <Link href="/blogs">All Adblockers</Link>
-            </li>
+            </li> */}
             <li className={styles.link}>
               <Link href="/about-us">About us</Link>
             </li>
@@ -238,12 +238,12 @@ const Navbar = () => {
             <h2 className={styles.logoText}>Trueadblocker</h2>
           </Link>
           <ul className={styles.links}>
-            <li className={styles.link}>
+            {/* <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
-            </li>
-            <li className={styles.link}>
+            </li> */}
+            {/* <li className={styles.link}>
               <Link href="/blogs">All Adblockers</Link>
-            </li>
+            </li> */}
             <li className={styles.link}>
               <Link href="/about-us">About us</Link>
             </li>

@@ -104,8 +104,12 @@ const Feature = () => {
   ];
   return (
     <div className={styles.featureContainer}>
-      <Image src={background} className={styles.background} />
-      <Image src={featuresBackground} className={styles.featuresBackground} />
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image
+        src={featuresBackground}
+        className={styles.featuresBackground}
+        alt="featuresBackground"
+      />
       <h2 className={styles.heading}>Browse The Web Freely And Safely</h2>
       <div className={styles.featureCardContainer}>
         {features.map((feature, index) => (

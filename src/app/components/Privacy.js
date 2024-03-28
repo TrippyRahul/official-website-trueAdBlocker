@@ -79,7 +79,7 @@ const Privacy = () => {
 
   return (
     <div className={styles.container}>
-      <Image src={background} className={styles.background} />
+      <Image src={background} className={styles.background} alt="bg"/>
       <h2 className={styles.heading}>
         Protect your Privacy and clear all your browsing data
       </h2>

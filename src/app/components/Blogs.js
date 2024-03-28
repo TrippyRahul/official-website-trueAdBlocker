@@ -6,8 +6,12 @@ import Image from "next/image";
 const Benefits = () => {
   return (
     <div className={styles.container}>
-      <Image src={background} className={styles.background} />
-      <Image src={blogsBackground} className={styles.blogsBackground} />
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image
+        src={blogsBackground}
+        className={styles.blogsBackground}
+        alt="blogsBackground"
+      />
       <h2 className={styles.heading}>Blogs</h2>
       <div className={styles.cardContainer}>
         <Card />

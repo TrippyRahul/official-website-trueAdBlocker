@@ -7,10 +7,11 @@ import aboutImageBackground from "../../../public/aboutTrueAdBlocker.png";
 const AboutTrueAdBlocker = () => {
   return (
     <div className={styles.container}>
-      <Image src={background} className={styles.background} />
+      <Image src={background} className={styles.background} alt="bg" />
       <Image
         src={aboutImageBackground}
         className={styles.aboutImageBackground}
+        alt="aboutImageBackground"
       />
       <h2 className={styles.heading}>About Trueadblocker</h2>
       <div className={styles.contentContainer}>

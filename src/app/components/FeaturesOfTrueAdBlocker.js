@@ -14,8 +14,12 @@ const FeaturesOfTrueAdBlocker = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.heading}>Features Of Trueadblocker</h2>
-      <Image src={background} className={styles.background} />
-      <Image src={featuresBackground} className={styles.featuresBackground} />
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image
+        src={featuresBackground}
+        className={styles.featuresBackground}
+        alt="featuresBackground"
+      />
       <div className={styles.cardContainer}>
         {featuresOfTrueAdBlocker.map((feature, index) => (
           <Card key={index} text={feature} />

@@ -8,8 +8,12 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <Image src={background} className={styles.background} />
-      <Image src={footerBackground} className={styles.footerbackground} />
+      <Image src={background} className={styles.background} alt="bg" />
+      <Image
+        src={footerBackground}
+        className={styles.footerbackground}
+        alt="footerbackground"
+      />
       <div className={styles.container}>
         <h2 className={styles.heading}>Get it free and block ads</h2>
         <p className={styles.subHeading}>
@@ -23,10 +27,18 @@ const Footer = () => {
         <hr className={styles.line} />
         <div className={styles.content}>
           <ul className={styles.contentLinkContainer}>
-            <li>Contact Us</li>
-            <li>EULA</li>
-            <li>Terms Of Services</li>
-            <li>Privacy Policy</li>
+            <li>
+              <Link href="/contact-us">Contact Us</Link>
+            </li>
+            <li>
+              <Link href="/terms-of-services">EULA</Link>
+            </li>
+            <li>
+              <Link href="/terms-of-services">Terms Of Services</Link>
+            </li>
+            <li>
+              <Link href="/privacy-policy">Privacy Policy</Link>
+            </li>
           </ul>
           <ul className={styles.socials}>
             <li>
