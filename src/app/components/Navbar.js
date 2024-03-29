@@ -3,11 +3,12 @@
 import React, { useState } from "react";
 import styles from "../styles/navbar.module.scss";
 import Link from "next/link";
+import Button from "./Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
+    <div className={styles.navbarContainer}>
       <nav className={styles.navbar}>
         <Link href="/">
           <div className={styles.logoContainer}>
@@ -106,7 +107,7 @@ const Navbar = () => {
                 </radialGradient>
               </defs>
             </svg>
-            <h2 className={styles.logoText}>Trueadblocker</h2>
+            <span className={styles.logoText}>Trueadblocker</span>
           </div>
         </Link>
         <div className={styles.linksContainer}>
@@ -139,7 +140,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className={styles.mobile}>
-          <Link href="/" className={styles.logoContainer}>
+          {/* <Link href="/" className={styles.logoContainer}>
             <svg
               width="6rem"
               height="6rem"
@@ -236,7 +237,7 @@ const Navbar = () => {
               </defs>
             </svg>
             <h2 className={styles.logoText}>Trueadblocker</h2>
-          </Link>
+          </Link> */}
           <ul className={styles.links}>
             {/* <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
@@ -251,9 +252,12 @@ const Navbar = () => {
               <Link href="/contact-us">Contact Us</Link>
             </li>
           </ul>
+          <div className={styles.buttonContainer}>
+            <Button text="Block All Ads Now - it's Free" />
+          </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

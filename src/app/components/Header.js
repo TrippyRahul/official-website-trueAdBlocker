@@ -16,13 +16,17 @@ const Header = () => {
           customClass={styles.headerButton}
           text="Block All Ads Now - it's Free"
         />
-        <h2 className={styles.subtitle1}>Your Best Choice</h2>
+        <p className={styles.subtitle1}>Your Best Choice</p>
         <h1 className={styles.heading}>
           Trueadblocker Chrome Extension <br /> Ultimate Ad Detector
         </h1>
         <p className={styles.subtitle2}>
-          It is the best Adblocker Chrome Extension That Blocks All Annoying
-          Ads.
+          It is the best
+          <a href="https://www.trueadblocker.net/">
+            {" "}
+            Adblocker Chrome Extension{" "}
+          </a>
+          That Blocks All Annoying Ads.
         </p>
         <Button text="Block All Ads Now - it's Free" />
       </div>

@@ -14,10 +14,10 @@ export const metadata = {
   openGraph: {
     title: "Trueadblocker chrome extension - Ultimate Ad detector",
     description:
-      "It is the best adblocker Chrome extension that blocks all annoying ads",
+      "Trueadblocker is the best adblocker Chrome extension that removes all unwanted ads, pop-up ads and the best part is it is free to use.",
     url: "https://www.trueadblocker.net/",
     type: "website",
-    images: "https://www.trueadblocker.net/nav-logo.svg",
+    images: "https://www.trueadblocker.net/favicon.png",
   },
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/nav-logo.svg" />
+        <link rel="icon" type="image/x-icon" href="/favicon.png" />
         <link rel="canonical" href="https://www.trueadblocker.net/" />
         <meta
           name="google-site-verification"

@@ -23,3 +23,9 @@
     border: solid 1px transparent;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .btn{
+    font-size: 2rem;
+  }
+}

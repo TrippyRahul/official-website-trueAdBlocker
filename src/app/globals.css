@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+body {
+  overflow-x: hidden;
+}
 li {
   list-style: none;
 }
@@ -43,7 +45,6 @@ html {
 @media screen and (max-width: 768px) {
   html {
     font-size: 50%; /* 8px */
-    overflow-x: hidden;
   }
 }
 
