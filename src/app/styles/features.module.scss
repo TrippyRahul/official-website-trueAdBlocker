@@ -44,6 +44,7 @@
     height: 70%;
     min-width: 300px;
     z-index: 10;
+    overflow: hidden;
   }
 }
 
@@ -57,24 +58,33 @@
   padding: 3rem;
   border-radius: 2rem;
   width: 45%;
-  min-width: 300px;
+  // min-width: 300px;
   margin-bottom: 3rem;
-  height: 30%;
+  height: auto;
 
   .featureIcon {
-    width: 30%;
-    height: 60%;
+    width: 10%;
+    height: 10%;
   }
 
   .featureText {
     font-size: 2rem;
     font-weight: 400;
-    width: 70%;
+    width: 90%;
   }
 }
 
 .featureCard:last-child {
   width: 100%;
+  .featureIcon{
+    width:5%;
+    height: 5%;
+  }
+  .featureText{
+    width: 95%;
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 1250px) {

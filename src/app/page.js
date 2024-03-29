@@ -11,6 +11,9 @@ import Footer from "./components/Footer";
 import Feature from "./components/Features";
 import Privacy from "./components/Privacy";
 
+
+
+
 export default function Home() {
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>

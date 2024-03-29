@@ -184,9 +184,9 @@ const FrequentlyAskedQuestion = () => {
           </ol>
         )}
         {pathname === "/" ? (
-          <Link className={styles.button} href="/faq">
+          <div className={styles.buttonContainer}><Link className={styles.button} href="/faq">
             More Questions
-          </Link>
+          </Link></div>
         ) : null}
       </div>
     </div>
