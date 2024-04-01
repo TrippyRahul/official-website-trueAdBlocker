@@ -4,17 +4,10 @@ import background from "../../../public/3.png";
 import featuresBackground from "../../../public/featuresBackground.png";
 import Image from "next/image";
 
-const FeaturesOfTrueAdBlocker = () => {
-  const featuresOfTrueAdBlocker = [
-    "By downloading an advertisement blocker, you can fully control your Twitch experience with Twitch ad blocker.",
-    "You can also block all the Spotify that ruin your interrupt you while listening to your favorite song. Now play your list without any disturbance.",
-    "Install the blocker Chrome and have the best experience on YouTube. Enjoy your videos without any ads.",
-    " If you love watching Hulu but cannot because of frustrating ads, then you stream your most preferred movies or series on Hulu.",
-    "Now you can stream your most preferred content without any interruptions.",
-  ];
+const FeaturesOfTrueAdBlocker = ({ data }) => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>Features Of Trueadblocker</h2>
+      <h2 className={styles.heading}>{data.title}</h2>
       <Image src={background} className={styles.background} alt="bg" />
       <Image
         src={featuresBackground}
@@ -22,7 +15,7 @@ const FeaturesOfTrueAdBlocker = () => {
         alt="featuresBackground"
       />
       <div className={styles.cardContainer}>
-        {featuresOfTrueAdBlocker.map((feature, index) => (
+        {data.featuresOfTrueAdBlocker.map((feature, index) => (
           <Card key={index} text={feature} />
         ))}
       </div>

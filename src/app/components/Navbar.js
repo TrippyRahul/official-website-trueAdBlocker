@@ -1,12 +1,50 @@
 "use client";
-
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/navbar.module.scss";
 import Link from "next/link";
 import Button from "./Button";
+import { usePathname, useRouter } from "next/navigation";
 
-const Navbar = () => {
+const Navbar = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState("");
+  const [logoRedirectUrl, setlogoRedirectUrl] = useState("");
+  const router = useRouter();
+  const pathname = usePathname();
+  useEffect(() => {
+    const currentLanguage = pathname.substring(1);
+    console.log("CURRENT LAG : ", currentLanguage);
+    setSelectedLanguage(currentLanguage);
+  }, [pathname]);
+
+  useEffect(() => {
+    switch (selectedLanguage) {
+      case "french":
+        setlogoRedirectUrl("/french");
+        break;
+
+      case "german":
+        setlogoRedirectUrl("/german");
+        break;
+
+      case "dutch":
+        setlogoRedirectUrl("/dutch");
+        break;
+
+      default:
+        setlogoRedirectUrl("/");
+        break;
+    }
+  }, [selectedLanguage]);
+
+  const handleLanguageChange = (language) => {
+    if (language === "english") {
+      router.push("/");
+    } else {
+      router.push(`/${language}`);
+    }
+    setSelectedLanguage(language);
+  };
   return (
     <div className={styles.navbarContainer}>
       <nav className={styles.navbar}>
@@ -112,6 +150,16 @@ const Navbar = () => {
         </Link>
         <div className={styles.linksContainer}>
           {/* <button className={styles.btn}>English</button> */}
+          <select
+            value={selectedLanguage}
+            onChange={(e) => handleLanguageChange(e.target.value)}
+            className={styles.button}
+          >
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+            <option value="dutch">Dutch</option>
+          </select>
           <ul className={styles.links}>
             {/* <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
@@ -120,14 +168,13 @@ const Navbar = () => {
               <Link href="/blogs">All Adblockers</Link>
             </li> */}
             <li className={styles.link}>
-              <Link href="/about-us">About us</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
             <li className={styles.link}>
               <Link href="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
-
         <div
           className={`${styles.mobileMenuBtn}  ${isOpen && styles.animate}`}
           onClick={() => setIsOpen((prev) => !prev)}
@@ -246,10 +293,10 @@ const Navbar = () => {
               <Link href="/blogs">All Adblockers</Link>
             </li> */}
             <li className={styles.link}>
-              <Link href="/about-us">About us</Link>
+              <Link href="/about-us">{data.title1}</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/contact-us">Contact Us</Link>
+              <Link href="/contact-us">{data.title2}</Link>
             </li>
           </ul>
           <div className={styles.buttonContainer}>

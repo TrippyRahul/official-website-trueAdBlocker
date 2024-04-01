@@ -78,14 +78,32 @@
         gap: 1rem;
         transition: all 0.2s linear;
         z-index: 100 !important;
-
-        &:hover {
+        position: relative;
+        &::before {
+          top: 0;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-radius: 3rem;
+          z-index: -1;
+          transform-origin: center;
+          transition: transform 0.3s ease;
+          transform: scaleX(0);
           background: linear-gradient(
             90deg,
             rgb(151, 82, 242) 0%,
             rgb(233, 90, 166) 100%
           );
           border: solid 1px transparent;
+        }
+        &:hover {
+          border: transparent;
+        }
+        &:hover::before {
+          transform: scaleX(1);
         }
       }
     }
