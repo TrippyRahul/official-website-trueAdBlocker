@@ -55,6 +55,7 @@
     .text {
       height: auto;
       visibility: visible;
+      opacity: 1;
     }
   }
   .icon {
@@ -71,8 +72,9 @@
     font-size: 1.5rem;
     font-weight: 500;
     height: 0;
+    opacity: 0;
     visibility: hidden;
-    transition: height 0.5s ease;
+    transition: all 1s ease;
   }
 }
 

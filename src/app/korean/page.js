@@ -1,39 +1,63 @@
-import Usage from "./components/Usage";
-import WhyTrueAdBlocker from "./components/WhyTrueAdBlocker";
-import FeaturesOfTrueAdBlocker from "./components/FeaturesOfTrueAdBlocker";
-import Blogs from "./components/Blogs";
-import HowToUse from "./components/HowToUse";
-import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
-import FrequentlyAskedQuestion from "./components/FAQ";
-import Reviews from "./components/Reviews";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Feature from "./components/Features";
-import Privacy from "./components/Privacy";
-import avatar1 from "../../public/avatar_1.png";
-import avatar2 from "../../public/avatar_2.png";
-import avatar3 from "../../public/avatar_3.png";
-import avatar4 from "../../public/avatar_4.png";
-import avatar5 from "../../public/avatar_5.png";
+import Usage from "../components/Usage";
+import WhyTrueAdBlocker from "../components/WhyTrueAdBlocker";
+import FeaturesOfTrueAdBlocker from "../components/FeaturesOfTrueAdBlocker";
+import Blogs from "../components/Blogs";
+import HowToUse from "../components/HowToUse";
+import AboutTrueAdBlocker from "../components/AboutTrueAdBlocker";
+import FrequentlyAskedQuestion from "../components/FAQ";
+import Reviews from "../components/Reviews";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Feature from "../components/Features";
+import Privacy from "../components/Privacy";
+import avatar1 from "../../../public/avatar_1.png";
+import avatar2 from "../../../public/avatar_2.png";
+import avatar3 from "../../../public/avatar_3.png";
+import avatar4 from "../../../public/avatar_4.png";
+import avatar5 from "../../../public/avatar_5.png";
 
-export default function Home() {
+export const metadata = {
+  title: "Trueadblocker chrome extension - 최고의 광고 탐지기",
+  description:
+    "Trueadblocker 최고다 adblocker Chrome extension 모든 종류의 광고를 제거합니다.",
+  keywords:
+    "광고 차단기 크롬 확장, adblock plus chrome, ad blocker google chrome, advertisement blocker chrome, blocker chrome, abp plus chrome, ad blocker in chrome, adb plus chrome, adblock browser chrome, adblock chrome, youtube no ads, chrome youtube adblocker, hulu without ads, pop up blocker chrome, 최고의 광고 차단기 Firefox, twitch adblock firefox, adguard ablocker, Pop- up ads, ad blocker google chrome, chrome extension adblock and google chrome ad blocker.",
+  openGraph: {
+    title: "Trueadblocker chrome extension - 최고의 광고 탐지기",
+    description:
+      "Trueadblocker 최고다 adblocker Chrome extension 모든 종류의 광고를 제거합니다.",
+    url: "https://www.trueadblocker.net/korean",
+    type: "website",
+    images: "https://www.trueadblocker.net/favicon.png",
+  },
+  htmlAttributes: {
+    lang: "ko",
+  },
+  metadataBase: new URL("https://www.trueadblocker.net/korean"),
+  alternates: {
+    canonical: "/",
+    dutch: [{ href: "/", hreflang: "ko" }],
+  },
+};
+
+const page = () => {
   const data = {
     hero: {
-      title: "TRUEADBLOCKER CHROME EXTENSION | ULTIMATE AD DETECTOR",
-      subHeading: "Your Best Choice",
+      title: "TRUEADBLOCKER CHROME EXTENSION | 최고의 광고 탐지기",
+      subHeading: "최선의 선택",
       subTitle:
-        "It is the best Adblocker Chrome Extension That Blocks All Annoying Ads.",
-      button: "Block All Ads Now - it's Free",
+        "모든 성가신 광고를 차단하는 최고의 Adblocker Chrome 확장 프로그램입니다.",
+      button: "지금 모든 광고를 차단하세요 - 무료입니다",
       Navbar: {
-        title1: "About Us",
-        title2: "Contact Us",
+        title1: "회사 소개",
+        title2: "문의하기",
       },
     },
     features: {
-      title: "Browse The Web Freely And Safely",
+      title: "웹을 제대로 탐색하세요",
       features: [
         {
-          text: "Eliminate all kinds of ads including banner ads, pop-ups, YouTube ads, and many more",
+          text: "배너 광고, 팝업, YouTube 광고 등과 같은 모든 종류의 광고를 제거하는 최고의 브라우저 확장 프로그램입니다.",
           icon: (
             <svg
               width="100%"
@@ -50,7 +74,7 @@ export default function Home() {
           ),
         },
         {
-          text: "Fasten up your page loading",
+          text: "방해가 되는 모든 웹 요소를 차단하세요.",
           icon: (
             <svg
               width="100%"
@@ -67,7 +91,7 @@ export default function Home() {
           ),
         },
         {
-          text: "Block distracting web elements",
+          text: "또한 페이지 로딩 속도를 높이고 위험한 웹사이트로부터 사용자를 보호합니다.",
           icon: (
             <svg
               width="100%"
@@ -84,7 +108,7 @@ export default function Home() {
           ),
         },
         {
-          text: "It maintains the site properly",
+          text: "Google과 Firefox 모두에서 작동합니다.",
           icon: (
             <svg
               width="100%"
@@ -101,7 +125,7 @@ export default function Home() {
           ),
         },
         {
-          text: "It works in Chrome extensions like Google and Firefox",
+          text: "웹사이트를 적절하게 규제합니다.",
           icon: (
             <svg
               width="100%"
@@ -132,15 +156,15 @@ export default function Home() {
       ],
     },
     usage: {
-      title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
-      expTitle: "Have the best online experience with this adblock Chrome",
+      title: "최고의 광고 없는 콘텐츠를 경험하고 원활한 온라인 경험을 누리세요",
+      expTitle: "",
       expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
-      subTitle: " Download and install the Adblocker | Chrome extension now.",
+        "Adblock Chrome은 온라인 경험을 향상시킵니다. 이 확장 프로그램은 원치 않는 광고를 차단하는 데 완벽하게 작동하며 광고 없는 여행을 제공합니다. 이제 모든 성가신 광고에 작별을 고할 시간입니다.",
+      subTitle: "다운로드 및 설치 Adblocker | Chrome extension 지금.",
       usage: [
         {
-          title: "Fasten up your speed",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Chrome Adblock은 페이지 로딩 속도를 높여줍니다.",
+          text: "이것을 다운로드하여 adblocker 브라우징 경험을 망치는 성가신 광고를 모두 차단합니다. 귀하의 경험을 망칠 수 있는 모든 성가신 광고에 마침내 작별 인사를 할 수 있습니다.",
           icon: (
             <svg
               width="100%"
@@ -158,8 +182,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Maintain the privacy",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "개인 정보를 유지하세요",
+          text: "이 adblock Chrome은 광고를 차단할 뿐만 아니라 데이터와 개인정보를 유지하는 데에도 도움이 됩니다. 브라우저에 해를 끼칠 수 있는 모든 악성 코드 사이트를 차단합니다. 이 확장 프로그램을 사용하면 장치를 안전하게 보호할 수 있습니다.",
           icon: (
             <svg
               width="100%"
@@ -177,8 +201,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Parenting Contro",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "웹사이트 지원",
+          text: "Chrome adblock 웹사이트를 위한 강력한 온라인 환경을 홍보하는 허용 가능한 광고를 허용할 수 있습니다.",
           icon: (
             <svg
               width="100%"
@@ -196,8 +220,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
         {
-          title: "Website Assistance",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "이를 통해 자녀 양육 통제 adblocker Chrome extension",
+          text: "다운로드하여 Chrome adblock, 보고 싶지 않은 모든 성인 콘텐츠를 제한할 수 있으므로 브라우저를 제어할 수 있습니다.",
           icon: (
             <svg
               width="100%"
@@ -217,11 +241,11 @@ export default function Home() {
       ],
     },
     privacy: {
-      title: "Protect your Privacy and clear all your browsing data",
+      title: "개인 정보를 보호하고 모든 검색 기록을 확보하세요.",
       subTitle: "Avoid trafficking with Trueadblocker",
       privacy: [
         {
-          title: "Clear History",
+          title: "기록 지우기",
           icon: (
             <svg
               width="100%"
@@ -236,10 +260,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "Clear all your browsing history of every website that you visit.",
+          text: "모든 검색 기록을 확보하세요.",
         },
         {
-          title: "Delete Cookies",
+          title: "쿠키 삭제",
           icon: (
             <svg
               width="100%"
@@ -254,10 +278,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "Avoid being tracked by blocking all the cookies.",
+          text: "추적할 수 없도록 모든 종류의 쿠키를 차단하세요.",
         },
         {
-          title: "Remove Cache",
+          title: "캐시 제거",
           icon: (
             <svg
               width="100%"
@@ -272,10 +296,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "With this adblocker Chrome extension, you can free up all your space by removing unnecessary images and files in your browser. ",
+          text: "브라우저에서 원하지 않는 콘텐츠를 삭제하여 모든 공간을 제거할 수 있습니다.",
         },
         {
-          title: "Stop Notification",
+          title: "알림 중지",
           icon: (
             <svg
               width="100%"
@@ -290,15 +314,16 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "By simply downloading the extension, you can stop the unnecessary notification. ",
+          text: "확장 프로그램을 다운로드하면 알림을 중지할 수 있습니다.",
         },
       ],
     },
     whyTrueAdBlocker: {
-      title: "Why True Adblocker",
+      title: "왜 진정한 ADBLOCKER인가?",
+      otherExt: "기타 확장",
       text: [
         {
-          title: "Stop online advertisements",
+          title: "온라인 광고를 제거하세요",
           icon1: (
             <svg
               width="100%"
@@ -333,7 +358,7 @@ export default function Home() {
           ),
         },
         {
-          title: "Maintain your privacy",
+          title: "유해한 웹사이트로부터 개인정보를 보호하세요",
           icon1: (
             <svg
               width="100%"
@@ -368,7 +393,7 @@ export default function Home() {
           ),
         },
         {
-          title: "Save data usage and fasten up the page loading",
+          title: "데이터 사용량을 절약하고 웹 페이지 로딩 속도를 높이세요",
           icon1: (
             <svg
               width="100%"
@@ -401,7 +426,7 @@ export default function Home() {
           ),
         },
         {
-          title: "Keep your regular sites maintain",
+          title: "일반 사이트를 적절하게 유지하세요",
           icon1: (
             <svg
               width="100%"
@@ -434,7 +459,7 @@ export default function Home() {
           ),
         },
         {
-          title: "It is compatible with various browsers",
+          title: "Google 및 Firefox와 같은 다른 브라우저와 호환됩니다.",
           icon1: (
             <svg
               width="100%"
@@ -469,7 +494,7 @@ export default function Home() {
           ),
         },
         {
-          title: "It has the best technical assistance",
+          title: "최고의 기술 지원을 보유하고 있습니다.",
           icon1: (
             <svg
               width="100%"
@@ -506,119 +531,118 @@ export default function Home() {
       ],
     },
     featuresOfTrueAdBlocker: {
-      title: "Features Of Trueadblocker",
+      title: "진정한 ADBLOCKER의 특징",
       featuresOfTrueAdBlocker: [
-        "By downloading an advertisement blocker, you can fully control your Twitch experience with Twitch ad blocker.",
-        "You can also block all the Spotify that ruin your interrupt you while listening to your favorite song. Now play your list without any disturbance.",
-        "Install the blocker Chrome and have the best experience on YouTube. Enjoy your videos without any ads.",
-        " If you love watching Hulu but cannot because of frustrating ads, then you stream your most preferred movies or series on Hulu.",
-        "Now you can stream your most preferred content without any interruptions.",
+        "확장 프로그램을 다운로드하여 웹 브라우저를 제어하세요.",
+        "또한 좋아하는 콘텐츠를 즐기면서 경험을 망치는 모든 종류의 방해적인 광고를 차단할 수도 있습니다.",
+        "설치하다 Adblocker Chrome extension 그리고 최고의 경험을 해보세요.",
+        "중단 없이 좋아하는 콘텐츠를 시청할 준비를 하세요.",
       ],
     },
     howToUse: {
-      title: "How to use Trueadblocker",
+      title: "확장 프로그램을 사용하는 방법",
       steps: [
         {
           id: "1",
-          text: "First, you need to search for the extension or you can visit its official website",
+          text: "공식 웹사이트를 방문하세요",
         },
         {
           id: "2",
-          text: "Install the ad blocker Google Chrome",
+          text: "확장 프로그램 설치",
         },
         {
           id: "3",
-          text: "Right-click the extension to the toolbar",
+          text: "도구 모음에서 마우스 오른쪽 버튼을 클릭하세요.",
         },
         {
           id: "4",
-          text: "Now add to Chrome and successfully turn on adblocking ",
+          text: "Chrome에 추가하고 광고 차단을 켜세요",
         },
         {
           id: "5",
-          text: "Watch your favorite video freely as it will block all the disturbing ads",
+          text: "Hulu, Twitch, YouTube 등에서 좋아하는 콘텐츠를 번거로움 없이 시청하세요.",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "지금 모든 광고를 차단하세요 - 무료입니다",
     },
     faq: {
       title: "FAQs",
-      button: "More Questions",
+      button: "더 많은 질문",
       questions: [
         {
           id: 1,
-          ques: "What is Trueadblocker and how does it work?",
-          ans: "It is the best extension that is designed to improve your online experience by eliminating all unwanted ads. It also protects your privacy and saves your data usage. The best part is it is free to use. ",
+          ques: "Trueadblocker는 무엇이며 어떻게 작동하나요?",
+          ans: "모든 유형의 성가신 광고를 차단하여 온라인 경험을 향상시키도록 설계된 최고의 확장 프로그램입니다. 또한 귀하의 개인 정보를 보호하고 데이터 사용량을 절약합니다. 가장 좋은 점은 무료로 사용할 수 있다는 것입니다.",
         },
         {
           id: 2,
-          ques: "Does this extension block all types of ads?",
-          ans: "Yes, this adblocker Chrome extension blocks all types of ads including banner ads, pop-ups, video ads, and many more.",
+          ques: "이 확장 프로그램은 모든 유형의 광고를 차단합니까?",
+          ans: "응, 이거 adblocker Chrome extension 배너 광고, 팝업, 비디오 광고 등을 포함한 모든 유형의 광고를 차단합니다.",
         },
         {
           id: 3,
-          ques: "Can this extension affect your web browsing speed?    ",
-          ans: "It can speed up your page loading by blocking all the unwanted ads.",
+          ques: "이 확장 프로그램이 웹 검색 속도에 영향을 미칠 수 있나요?",
+          ans: "원치 않는 광고를 모두 차단하여 페이지 로딩 속도를 높일 수 있습니다.",
         },
         {
           id: 4,
-          ques: "How to whitelist websites in Trueadblocker?",
-          ans: "You can whitelist websites by adding them to the allowed list in its settings then it will permit all the ads on those selected sites.",
+          ques: "Trueadblocker에서 웹사이트를 화이트리스트에 추가하는 방법은 무엇입니까?",
+          ans: "설정에서 허용된 목록에 웹사이트를 추가하여 화이트리스트에 추가할 수 있으며, 그러면 선택한 사이트의 모든 광고가 허용됩니다.",
         },
         {
           id: 5,
-          ques: "Is using this adblocker Chrome extension legal?",
-          ans: "Yes, this extension is absolutely legal and safe to use.",
+          ques: "이것을 사용하고 있다 adblocker Chrome extension 합법적인?",
+          ans: "예, 이 확장 프로그램은 합법적이고 사용하기에 안전합니다.",
         },
         {
           id: 6,
-          ques: "Is this extension compatible with other websites?",
-          ans: "This adblocker Chrome extension is compatible with most of the major browsers including Google and Firefox.",
+          ques: "이 확장 프로그램은 다른 웹사이트와 호환됩니까?",
+          ans: "이것 adblocker Chrome extension Google 및 Firefox를 포함한 대부분의 주요 브라우저와 호환됩니다.",
         },
         {
           id: 7,
-          ques: "How can I install Trueadblocker on my web browser?",
-          ans: "It is very simple as you just need to search for the extension or you can visit our website and download the extension from there.",
+          ques: "웹 브라우저에 Trueadblocker를 어떻게 설치하나요?",
+          ans: "확장 프로그램을 검색하거나 당사 웹사이트를 방문하여 거기에서 확장 프로그램을 다운로드하면 되므로 매우 쉽습니다.",
         },
         {
           id: 8,
-          ques: "Is it safe to use Trueadblocker on multiple sites?",
-          ans: "Yes, it is absolutely safe to the extension on multiple browsers including Google Chrome and Firefox.",
+          ques: "여러 사이트에서 Trueadblocker를 사용해도 안전합니까?",
+          ans: "예, Google Chrome 및 Firefox를 포함한 여러 브라우저에서 확장 프로그램을 사용하는 것은 절대적으로 안전합니다.",
         },
         {
           id: 9,
-          ques: "Is there any free version of Trueadblocker?",
-          ans: "Yes, our extension is free to use. You can block all types of ads for free and enhance your online experience.",
+          ques: "Trueadblocker의 무료 버전이 있나요?",
+          ans: "예, 확장 프로그램은 무료로 사용할 수 있습니다. 모든 유형의 광고를 무료로 차단하고 온라인 경험을 향상시킬 수 있습니다.",
         },
         {
           id: 10,
-          ques: "Why Trueadblocker is better than other adblockers?",
-          ans: "The majority of adblockers can not get rid of unnecessary ads, but by installing our extension you can block all types of hidden ads that may ruin your experience. It not only blocks ads but also protects your browser from dangerous websites.",
+          ques: "Trueadblocker가 다른 것보다 나은 이유 adblockers?",
+          ans: "대부분의 광고 차단기는 불필요한 광고를 제거할 수 없지만 확장 프로그램을 설치하면 경험을 망칠 수 있는 모든 유형의 숨겨진 광고를 차단할 수 있습니다. 광고를 차단할 뿐만 아니라 위험한 웹사이트로부터 브라우저를 보호합니다.",
         },
       ],
     },
     reviews: {
-      title: "REVIEWS",
+      title: "리뷰",
       reviewLeft: [
         {
           image: avatar1,
           name: "Rahul Rawat",
           data: "March 20,24",
           reviewText:
-            "This is the best adblocker Chrome extension as I can watch all my favorite shows without ads.",
+            "이게 최선이다t adblocker Chrome extension 내가 좋아하는 프로그램을 모두 광고 없이 볼 수 있으니까요.",
         },
         {
           image: avatar2,
           name: "Ronaldo",
           data: "feb 09,24",
           reviewText:
-            "I have been using this extension for years and I had a great experience.",
+            "저는 이 확장 프로그램을 수년간 사용해 왔으며 좋은 경험을 했습니다.",
         },
         {
           image: avatar3,
           name: "Adarsh",
           data: "feb 09,24",
-          reviewText: "Wow now I can use the extension for free.",
+          reviewText: "와 이제 확장 프로그램을 무료로 사용할 수 있어요",
         },
       ],
       reviewRight: [
@@ -627,20 +651,20 @@ export default function Home() {
           name: "Gaurav Kumar",
           data: "March 11,24",
           reviewText:
-            "I can’t even say how much the Adblocker Chrome extension helped me. It has helped me not only block ads but also save my data and privacy.",
+            "얼마인지도 말할 수 없다. Adblocker Chrome extension 나를 도와 주었다. 광고를 차단할 뿐만 아니라 데이터와 개인정보를 보호하는 데도 도움이 되었습니다.",
         },
         {
           image: avatar5,
           name: "Shehnaaz",
           data: "March 20,24",
           reviewText:
-            " Such a wonderful app!! It removes all the disgusting ads that can ruin your online experience..",
+            "정말 멋진 앱이에요!! 온라인 경험을 망칠 수 있는 모든 역겨운 광고를 제거합니다.",
         },
       ],
     },
     about: {
-      title: "About Trueadblocker",
-      text: "It is the best browser extension that protects you from third-party trackers and blocks all unnecessary ads. This adblocker Chrome extension is the most popular adblocker and is used by thousands of people around the globe. It is very easy to use and also supports privacy protection. | | Its aim is to give you the best experience by eliminating all the disturbing ads that distract you while working or watching your favorite shows. It also fastens up your page loading and blocks all the malware that can harm your browser. So, enjoy your internet experience and the best part is this adblocker Chrome extension is free to use.",
+      title: "Trueadblocker 정보",
+      text: "이것 adblocker Chrome extension 제3자 해커로부터 사용자를 보호하고 모든 유형의 짜증나는 광고를 차단하므로 최고입니다. 가장 널리 알려진 광고 차단기이며 전 세계 수천 명의 사람들이 사용합니다. 개인 정보 보호를 지원하며 가장 좋은 점은 확장 프로그램을 무료로 사용할 수 있다는 것입니다. | | 유일한 목표는 탐색하는 동안 방해가 되는 모든 중단된 광고를 차단하여 최고의 경험을 제공하는 것입니다. 또한 페이지 로딩 속도를 높이고 브라우저에 해를 끼칠 수 있는 모든 악성 코드를 차단합니다. 그래서, 당신은 무엇을 기다리고 있습니까? 파트너와 함께 가상 영화를 계획하고 최고의 경험을 해보세요.",
     },
     footer: {
       title: "Get it free and block ads",
@@ -648,9 +672,9 @@ export default function Home() {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
-      button2: "About Us",
-      button3: "Contact Us",
+      button1: "지금 모든 광고를 차단하세요 - 무료입니다",
+      button2: " 회사 소개",
+      button3: "문의하기",
       popularSearch: [
         {
           data: "adblocker chrome extension",
@@ -710,22 +734,22 @@ export default function Home() {
         },
       ],
       popularKeywords:
-        "advertisement blocker chrome, abp plus chrome, adb plus chrome, browser chrome, youtube no ads, hulu without ads, adguard ablocker and Pop-up ads",
+        "애드블록, adblock, 크롬 광고 차단, 애드블럭, adblock plus, ad block, 애드블록 플러스, doemqmffhr, 크롬 애드블록, 에드블록, 애드블락, 광고제거, adblcok, adblock chrome, 광고차단 확장프로그램, addblock",
       links: [
         {
-          name: "Contact Us",
+          name: "문의하기",
           link: "/contact-us",
         },
         {
-          name: "EULA",
+          name: "율라",
           link: "/terms",
         },
         {
-          name: "Terms of service",
+          name: " 서비스 약관",
           link: "/terms",
         },
         {
-          name: " Privacy Policy",
+          name: "개인 정보 정책",
           link: "privacy-policy",
         },
       ],
@@ -747,4 +771,6 @@ export default function Home() {
       <Footer data={data.footer} />
     </div>
   );
-}
+};
+
+export default page;

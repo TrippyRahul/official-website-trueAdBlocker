@@ -1,39 +1,63 @@
-import Usage from "./components/Usage";
-import WhyTrueAdBlocker from "./components/WhyTrueAdBlocker";
-import FeaturesOfTrueAdBlocker from "./components/FeaturesOfTrueAdBlocker";
-import Blogs from "./components/Blogs";
-import HowToUse from "./components/HowToUse";
-import AboutTrueAdBlocker from "./components/AboutTrueAdBlocker";
-import FrequentlyAskedQuestion from "./components/FAQ";
-import Reviews from "./components/Reviews";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Feature from "./components/Features";
-import Privacy from "./components/Privacy";
-import avatar1 from "../../public/avatar_1.png";
-import avatar2 from "../../public/avatar_2.png";
-import avatar3 from "../../public/avatar_3.png";
-import avatar4 from "../../public/avatar_4.png";
-import avatar5 from "../../public/avatar_5.png";
+import Usage from "../components/Usage";
+import WhyTrueAdBlocker from "../components/WhyTrueAdBlocker";
+import FeaturesOfTrueAdBlocker from "../components/FeaturesOfTrueAdBlocker";
+import Blogs from "../components/Blogs";
+import HowToUse from "../components/HowToUse";
+import AboutTrueAdBlocker from "../components/AboutTrueAdBlocker";
+import FrequentlyAskedQuestion from "../components/FAQ";
+import Reviews from "../components/Reviews";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Feature from "../components/Features";
+import Privacy from "../components/Privacy";
+import avatar1 from "../../../public/avatar_1.png";
+import avatar2 from "../../../public/avatar_2.png";
+import avatar3 from "../../../public/avatar_3.png";
+import avatar4 from "../../../public/avatar_4.png";
+import avatar5 from "../../../public/avatar_5.png";
 
-export default function Home() {
+export const metadata = {
+  title: "Trueadblocker chrome extension - Ultieme advertentiedetector",
+  description:
+    "Trueadblocker is de beste adblocker Chrome extension dat alle soorten advertenties elimineert.",
+  keywords:
+    "adblocker chrome-extensie, adblock plus chrome, ad blocker google chrome, advertisement blocker chrome, blocker chrome, abp plus chrome, ad blocker in chrome, adb plus chrome, adblock browser chrome, adblock chrome, youtube no ads, chrome youtube adblocker, hulu without ads, pop up blocker chrome, Best ad blocker fireforx, twitch adblock firefox, adguard ablocker, Pop- up ads, ad blocker google chrome, chrome extension adblock and google chrome ad blocker.",
+  openGraph: {
+    title: "Trueadblocker chrome extension - Ultieme advertentiedetector",
+    description:
+      "Trueadblocker is de beste adblocker Chrome extension dat alle soorten advertenties elimineert.",
+    url: "https://www.trueadblocker.net/dutch",
+    type: "website",
+    images: "https://www.trueadblocker.net/favicon.png",
+  },
+  htmlAttributes: {
+    lang: "nl",
+  },
+  metadataBase: new URL("https://www.trueadblocker.net/dutch"),
+  alternates: {
+    canonical: "/",
+    dutch: [{ href: "/", hreflang: "nl-be" }],
+  },
+};
+
+const page = () => {
   const data = {
     hero: {
-      title: "TRUEADBLOCKER CHROME EXTENSION | ULTIMATE AD DETECTOR",
-      subHeading: "Your Best Choice",
+      title: "TRUEADBLOCKER CHROME EXTENSION | Uw beste keuze",
+      subHeading: "Uw beste keuze",
       subTitle:
-        "It is the best Adblocker Chrome Extension That Blocks All Annoying Ads.",
-      button: "Block All Ads Now - it's Free",
+        "Het is de beste Adblocker Chrome-extensie die alle vervelende advertenties blokkeert.",
+      button: "Blokkeer nu alle advertenties - het is gratis",
       Navbar: {
         title1: "About Us",
         title2: "Contact Us",
       },
     },
     features: {
-      title: "Browse The Web Freely And Safely",
+      title: "Surf veilig op internet",
       features: [
         {
-          text: "Eliminate all kinds of ads including banner ads, pop-ups, YouTube ads, and many more",
+          text: "Het verwijdert alle soorten advertenties, allerlei soorten advertenties, waaronder banneradvertenties, pop-ups, YouTube-advertenties en nog veel meer",
           icon: (
             <svg
               width="100%"
@@ -50,7 +74,7 @@ export default function Home() {
           ),
         },
         {
-          text: "Fasten up your page loading",
+          text: "Verwijder alle vervelende webelementen",
           icon: (
             <svg
               width="100%"
@@ -67,7 +91,7 @@ export default function Home() {
           ),
         },
         {
-          text: "Block distracting web elements",
+          text: "Versnel het laden van uw webpagina",
           icon: (
             <svg
               width="100%"
@@ -84,7 +108,7 @@ export default function Home() {
           ),
         },
         {
-          text: "It maintains the site properly",
+          text: "Het werkt perfect in Chrome-extensies, zowel in Google als Firefox",
           icon: (
             <svg
               width="100%"
@@ -101,7 +125,7 @@ export default function Home() {
           ),
         },
         {
-          text: "It works in Chrome extensions like Google and Firefox",
+          text: "Zij onderhoudt de website goed",
           icon: (
             <svg
               width="100%"
@@ -132,15 +156,16 @@ export default function Home() {
       ],
     },
     usage: {
-      title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
-      expTitle: "Have the best online experience with this adblock Chrome",
+      title:
+        "Geniet hiermee van de beste advertentievrije inhoud Adblock Chrome extension",
+      expTitle: "Beleef hiermee een naadloze online ervaring adblocker Chrome",
       expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
-      subTitle: " Download and install the Adblocker | Chrome extension now.",
+        "Deze extensie verbetert uw online ervaring. Deze extensie werkt perfect bij het blokkeren van ongewenste advertenties en biedt een advertentievrij traject. Het is dus tijd om afscheid te nemen van alle vervelende advertenties die uw ervaring verpesten.",
+      subTitle: " Download en installeer de Adblocker | Chrome extension nu.",
       usage: [
         {
-          title: "Fasten up your speed",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Versnel het laden van uw webpagina",
+          text: "Het blokkeert alle verontrustende advertenties die uw surfervaring onderbreken. Hiermee adblock Chrome extension, u kunt eindelijk afscheid nemen van alle verontrustende advertenties die uw ervaring kunnen verpesten.",
           icon: (
             <svg
               width="100%"
@@ -158,8 +183,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Maintain the privacy",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Behoud de privacy",
+          text: "Adblocker Chrome blokkeert niet alleen advertenties, maar helpt u ook uw gegevens en privacy te behouden. Ze blokkeren ook die malwaresites die uw browser kunnen beschadigen. Houd uw apparaat veilig door deze extensie te downloaden.",
           icon: (
             <svg
               width="100%"
@@ -177,8 +202,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Parenting Contro",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Website-assistentie",
+          text: "Dit adblock for Chrome Hiermee kunt u acceptabele advertenties toestaan ​​die een robuuste online omgeving voor websites promoten.",
           icon: (
             <svg
               width="100%"
@@ -196,8 +221,8 @@ export default function Home() {
           gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
         {
-          title: "Website Assistance",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Ouderschapscontrole",
+          text: "Door deze beste adblocker voor Chrome te downloaden, kunt u uw browser beheren, omdat u al die inhoud voor volwassenen kunt beperken die u niet wilt zien.",
           icon: (
             <svg
               width="100%"
@@ -217,11 +242,11 @@ export default function Home() {
       ],
     },
     privacy: {
-      title: "Protect your Privacy and clear all your browsing data",
+      title: "Bescherm uw privacy en wis uw hele browsegeschiedenis.",
       subTitle: "Avoid trafficking with Trueadblocker",
       privacy: [
         {
-          title: "Clear History",
+          title: "Geschiedenis wissen",
           icon: (
             <svg
               width="100%"
@@ -236,10 +261,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "Clear all your browsing history of every website that you visit.",
+          text: "u kunt uw hele browsegeschiedenis wissen.",
         },
         {
-          title: "Delete Cookies",
+          title: "Verwijder cookies",
           icon: (
             <svg
               width="100%"
@@ -254,10 +279,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "Avoid being tracked by blocking all the cookies.",
+          text: " u kunt alle cookies blokkeren en voorkomen dat u wordt gevolgd.",
         },
         {
-          title: "Remove Cache",
+          title: "Cache verwijderen",
           icon: (
             <svg
               width="100%"
@@ -272,10 +297,10 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "With this adblocker Chrome extension, you can free up all your space by removing unnecessary images and files in your browser. ",
+          text: "Hiermee adblocker Chrome extension, u kunt al uw ruimte vrijmaken door onnodige inhoud in uw browser te verwijderen.",
         },
         {
-          title: "Stop Notification",
+          title: "Melding stoppen",
           icon: (
             <svg
               width="100%"
@@ -290,15 +315,15 @@ export default function Home() {
               />
             </svg>
           ),
-          text: "By simply downloading the extension, you can stop the unnecessary notification. ",
+          text: "Door simpelweg onze extensie te downloaden, kunt u de onnodige meldingen stoppen.",
         },
       ],
     },
     whyTrueAdBlocker: {
-      title: "Why True Adblocker",
+      title: "WAAROM ECHTE ADBLOCKER",
       text: [
         {
-          title: "Stop online advertisements",
+          title: "Verwijder online advertenties",
           icon1: (
             <svg
               width="100%"
@@ -333,7 +358,7 @@ export default function Home() {
           ),
         },
         {
-          title: "Maintain your privacy",
+          title: "Bescherm uw privacy tegen malware",
           icon1: (
             <svg
               width="100%"
@@ -368,7 +393,8 @@ export default function Home() {
           ),
         },
         {
-          title: "Save data usage and fasten up the page loading",
+          title:
+            "Bescherm het datagebruik en versnel het laden van uw pagina's",
           icon1: (
             <svg
               width="100%"
@@ -401,7 +427,7 @@ export default function Home() {
           ),
         },
         {
-          title: "Keep your regular sites maintain",
+          title: "Houd uw gewone sites veilig",
           icon1: (
             <svg
               width="100%"
@@ -434,7 +460,7 @@ export default function Home() {
           ),
         },
         {
-          title: "It is compatible with various browsers",
+          title: "Het is compatibel met andere browsers",
           icon1: (
             <svg
               width="100%"
@@ -469,7 +495,7 @@ export default function Home() {
           ),
         },
         {
-          title: "It has the best technical assistance",
+          title: "Het heeft de beste technische ondersteuning",
           icon1: (
             <svg
               width="100%"
@@ -506,119 +532,118 @@ export default function Home() {
       ],
     },
     featuresOfTrueAdBlocker: {
-      title: "Features Of Trueadblocker",
+      title: "EIGENSCHAPPEN VAN ECHTE ADBLOCKER",
       featuresOfTrueAdBlocker: [
-        "By downloading an advertisement blocker, you can fully control your Twitch experience with Twitch ad blocker.",
-        "You can also block all the Spotify that ruin your interrupt you while listening to your favorite song. Now play your list without any disturbance.",
-        "Install the blocker Chrome and have the best experience on YouTube. Enjoy your videos without any ads.",
-        " If you love watching Hulu but cannot because of frustrating ads, then you stream your most preferred movies or series on Hulu.",
-        "Now you can stream your most preferred content without any interruptions.",
+        "Door deze extensie te downloaden, heeft u volledige controle over uw webbrowser.",
+        "Je kunt ook allerlei vervelende advertenties blokkeren die je ervaring verpesten terwijl je naar je favoriete nummer luistert. Speel nu uw lijst af zonder enige verstoring.",
+        "Installeer de adblocker Chrome-extensie en beleef de beste ervaring op YouTube.",
+        "Nu kunt u uw favoriete inhoud zonder onderbrekingen streamen.",
       ],
     },
     howToUse: {
-      title: "How to use Trueadblocker",
+      title: "Hoe Trueadblocker te gebruiken",
       steps: [
         {
           id: "1",
-          text: "First, you need to search for the extension or you can visit its official website",
+          text: "Eerst moet u naar deze extensie zoeken of u kunt de Adblocker Chrome extension's officiële website",
         },
         {
           id: "2",
-          text: "Install the ad blocker Google Chrome",
+          text: "Installeer nu de ad blocker Chrome",
         },
         {
           id: "3",
-          text: "Right-click the extension to the toolbar",
+          text: "Klik vervolgens met de rechtermuisknop op de extensie van de werkbalk",
         },
         {
           id: "4",
-          text: "Now add to Chrome and successfully turn on adblocking ",
+          text: "Nu kunt u advertenties toevoegen aan Chrome en adblocking inschakelen",
         },
         {
           id: "5",
-          text: "Watch your favorite video freely as it will block all the disturbing ads",
+          text: "Bekijk probleemloos je favoriete video op Twitch, YouTube en nog veel meer",
         },
       ],
       button: "Block All Ads Now - it's Free",
     },
     faq: {
       title: "FAQs",
-      button: "More Questions",
+      button: "Meer vragen",
       questions: [
         {
           id: 1,
-          ques: "What is Trueadblocker and how does it work?",
-          ans: "It is the best extension that is designed to improve your online experience by eliminating all unwanted ads. It also protects your privacy and saves your data usage. The best part is it is free to use. ",
+          ques: "Wat is Trueadblocker en hoe werkt het?",
+          ans: "Het is de beste extensie die is ontworpen om uw online ervaring te verbeteren door alle soorten vervelende advertenties te blokkeren. Het beschermt ook uw privacy en bespaart uw datagebruik. Het beste deel is dat het gratis te gebruiken is.",
         },
         {
           id: 2,
-          ques: "Does this extension block all types of ads?",
-          ans: "Yes, this adblocker Chrome extension blocks all types of ads including banner ads, pop-ups, video ads, and many more.",
+          ques: "Blokkeert deze extensie alle soorten advertenties?",
+          ans: "Ja dit adblocker Chrome extension blokkeert alle soorten advertenties, waaronder banneradvertenties, pop-ups, videoadvertenties en nog veel meer.",
         },
         {
           id: 3,
-          ques: "Can this extension affect your web browsing speed?    ",
-          ans: "It can speed up your page loading by blocking all the unwanted ads.",
+          ques: "Kan deze extensie uw surfsnelheid beïnvloeden?",
+          ans: "Het kan het laden van uw pagina versnellen door alle ongewenste advertenties te blokkeren.",
         },
         {
           id: 4,
-          ques: "How to whitelist websites in Trueadblocker?",
-          ans: "You can whitelist websites by adding them to the allowed list in its settings then it will permit all the ads on those selected sites.",
+          ques: "Hoe websites op de witte lijst zetten in Trueadblocker?",
+          ans: "U kunt websites op de witte lijst zetten door ze toe te voegen aan de toegestane lijst in de instellingen. Vervolgens worden alle advertenties op die geselecteerde sites toegestaan.",
         },
         {
           id: 5,
-          ques: "Is using this adblocker Chrome extension legal?",
-          ans: "Yes, this extension is absolutely legal and safe to use.",
+          ques: "Gebruikt dit adblocker Chrome extension legaal?",
+          ans: "Ja, deze extensie is legaal en veilig te gebruiken.",
         },
         {
           id: 6,
-          ques: "Is this extension compatible with other websites?",
-          ans: "This adblocker Chrome extension is compatible with most of the major browsers including Google and Firefox.",
+          ques: "Is deze extensie compatibel met andere websites?",
+          ans: "Dit adblocker Chrome extension is compatibel met de meeste grote browsers, waaronder Google en Firefox.",
         },
         {
           id: 7,
-          ques: "How can I install Trueadblocker on my web browser?",
-          ans: "It is very simple as you just need to search for the extension or you can visit our website and download the extension from there.",
+          ques: "Hoe kan ik Trueadblocker in mijn webbrowser installeren?",
+          ans: "Het is heel eenvoudig, u hoeft alleen maar naar de extensie te zoeken of u kunt onze website bezoeken en de extensie vanaf daar downloaden.",
         },
         {
           id: 8,
-          ques: "Is it safe to use Trueadblocker on multiple sites?",
-          ans: "Yes, it is absolutely safe to the extension on multiple browsers including Google Chrome and Firefox.",
+          ques: "Is het veilig om Trueadblocker op meerdere sites te gebruiken?",
+          ans: "Ja, het is absoluut veilig om de extensie in meerdere browsers te gebruiken, waaronder Google Chrome en Firefox.",
         },
         {
           id: 9,
-          ques: "Is there any free version of Trueadblocker?",
-          ans: "Yes, our extension is free to use. You can block all types of ads for free and enhance your online experience.",
+          ques: "Bestaat er een gratis versie van Trueadblocker?",
+          ans: "Ja, onze extensie is gratis te gebruiken. U kunt gratis alle soorten advertenties blokkeren en uw online ervaring verbeteren.",
         },
         {
           id: 10,
-          ques: "Why Trueadblocker is better than other adblockers?",
-          ans: "The majority of adblockers can not get rid of unnecessary ads, but by installing our extension you can block all types of hidden ads that may ruin your experience. It not only blocks ads but also protects your browser from dangerous websites.",
+          ques: "Waarom Trueadblocker beter is dan andere adblockers?",
+          ans: "De meeste adblockers kunnen onnodige advertenties niet verwijderen, maar door onze extensie te installeren kunt u alle soorten verborgen advertenties blokkeren die uw ervaring kunnen verpesten. Het blokkeert niet alleen advertenties, maar beschermt uw browser ook tegen gevaarlijke websites.",
         },
       ],
     },
     reviews: {
-      title: "REVIEWS",
+      title: "Recensies",
       reviewLeft: [
         {
           image: avatar1,
           name: "Rahul Rawat",
           data: "March 20,24",
           reviewText:
-            "This is the best adblocker Chrome extension as I can watch all my favorite shows without ads.",
+            "Dit is de best adblocker Chrome extension omdat ik al mijn favoriete programma's zonder advertenties kan bekijken.",
         },
         {
           image: avatar2,
           name: "Ronaldo",
           data: "feb 09,24",
           reviewText:
-            "I have been using this extension for years and I had a great experience.",
+            "Ik gebruik deze extensie al jaren en heb er geweldige ervaringen mee.",
         },
         {
           image: avatar3,
           name: "Adarsh",
           data: "feb 09,24",
-          reviewText: "Wow now I can use the extension for free.",
+          reviewText: "Wauw, nu kan ik de extensie gratis gebruiken",
         },
       ],
       reviewRight: [
@@ -627,20 +652,20 @@ export default function Home() {
           name: "Gaurav Kumar",
           data: "March 11,24",
           reviewText:
-            "I can’t even say how much the Adblocker Chrome extension helped me. It has helped me not only block ads but also save my data and privacy.",
+            "Ik kan niet eens zeggen hoeveel Adblocker Chrome extension hielp mij. Het heeft me niet alleen geholpen advertenties te blokkeren, maar ook mijn gegevens en privacy te behouden.",
         },
         {
           image: avatar5,
           name: "Shehnaaz",
           data: "March 20,24",
           reviewText:
-            " Such a wonderful app!! It removes all the disgusting ads that can ruin your online experience..",
+            "Wat een geweldige app!! Het verwijdert alle walgelijke advertenties die uw online ervaring kunnen verpesten.",
         },
       ],
     },
     about: {
-      title: "About Trueadblocker",
-      text: "It is the best browser extension that protects you from third-party trackers and blocks all unnecessary ads. This adblocker Chrome extension is the most popular adblocker and is used by thousands of people around the globe. It is very easy to use and also supports privacy protection. | | Its aim is to give you the best experience by eliminating all the disturbing ads that distract you while working or watching your favorite shows. It also fastens up your page loading and blocks all the malware that can harm your browser. So, enjoy your internet experience and the best part is this adblocker Chrome extension is free to use.",
+      title: "Over Trueadblocker",
+      text: "Trueadblocker is de beste omdat het u beschermt tegen hackers van derden en alle onnodige advertenties elimineert. Dit adblocker Chrome extension is de bekendste bekende adblocker en wordt door duizenden mensen over de hele wereld gebruikt. Het is het beste en zeer gemakkelijk te gebruiken. Het ondersteunt ook privacybescherming. | | Ons doel is om u de beste ervaring te bieden door alle onderbroken advertenties te blokkeren die u afleiden tijdens het browsen of streamen van uw favoriete programma's. Het versnelt ook het laden van uw pagina en blokkeert alle malware die uw browser kan beschadigen. Geniet dus van je langverwachte films en series en het beste is dat deze extensie gratis te gebruiken is.",
     },
     footer: {
       title: "Get it free and block ads",
@@ -648,9 +673,9 @@ export default function Home() {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
-      button2: "About Us",
-      button3: "Contact Us",
+      button1: " Blokkeer nu alle advertenties - het is gratis",
+      button2: "Over ons",
+      button3: "Neem contact met ons op",
       popularSearch: [
         {
           data: "adblocker chrome extension",
@@ -710,10 +735,10 @@ export default function Home() {
         },
       ],
       popularKeywords:
-        "advertisement blocker chrome, abp plus chrome, adb plus chrome, browser chrome, youtube no ads, hulu without ads, adguard ablocker and Pop-up ads",
+        "adblock plus, ad block, advertenties blokkeren, ad blocker google chrome, add blocker, adblocker android, adblocker firefox, youtube ad blocker, brave, browser, adblocker uitschakelen, adblock safari",
       links: [
         {
-          name: "Contact Us",
+          name: "Neem contact met ons op",
           link: "/contact-us",
         },
         {
@@ -721,11 +746,11 @@ export default function Home() {
           link: "/terms",
         },
         {
-          name: "Terms of service",
+          name: "Servicevoorwaarden",
           link: "/terms",
         },
         {
-          name: " Privacy Policy",
+          name: "Privacybeleid",
           link: "privacy-policy",
         },
       ],
@@ -747,4 +772,6 @@ export default function Home() {
       <Footer data={data.footer} />
     </div>
   );
-}
+};
+
+export default page;

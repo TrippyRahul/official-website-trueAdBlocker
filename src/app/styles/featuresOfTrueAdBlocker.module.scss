@@ -54,15 +54,6 @@
   border-radius: 2rem;
   width: 100%;
   margin-bottom: 3rem;
-  &:hover {
-    .text {
-      border-image: linear-gradient(
-      90deg,
-      rgb(151, 82, 242) 0%,
-      rgb(233, 90, 166) 100%
-    ) 30;
-    }
-  }
   .text {
     font-size: 2rem;
     font-weight: 300;
@@ -70,6 +61,16 @@
     border-left: solid 2px white;
     padding: 2rem;
     width: 100%;
+  }
+  &:hover {
+    .text {
+      border-image: linear-gradient(
+          90deg,
+          rgb(151, 82, 242) 0%,
+          rgb(233, 90, 166) 100%
+        )
+        30;
+    }
   }
 }
 
