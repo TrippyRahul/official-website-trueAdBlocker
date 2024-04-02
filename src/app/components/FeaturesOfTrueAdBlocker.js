@@ -7,7 +7,7 @@ import Image from "next/image";
 const FeaturesOfTrueAdBlocker = ({ data }) => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>{data.title}</h2>
+      <h2 className={styles.heading}>{data?.title}</h2>
       <Image src={background} className={styles.background} alt="bg" />
       <Image
         src={featuresBackground}
@@ -15,7 +15,7 @@ const FeaturesOfTrueAdBlocker = ({ data }) => {
         alt="featuresBackground"
       />
       <div className={styles.cardContainer}>
-        {data.featuresOfTrueAdBlocker.map((feature, index) => (
+        {data?.featuresOfTrueAdBlocker.map((feature, index) => (
           <Card key={index} text={feature} />
         ))}
       </div>

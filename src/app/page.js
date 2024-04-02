@@ -24,6 +24,10 @@ export default function Home() {
       subTitle:
         "It is the best Adblocker Chrome Extension That Blocks All Annoying Ads.",
       button: "Block All Ads Now - it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
     },
     features: {
       title: "Browse The Web Freely And Safely",
@@ -654,7 +658,7 @@ export default function Home() {
         },
         {
           data: "adblock plus chrome",
-          // link: "https://www.trueadblocker.net/korean",
+          link: "https://www.trueadblocker.net/korean",
         },
         {
           data: "ad blocker google chrome",
@@ -662,7 +666,7 @@ export default function Home() {
         },
         {
           data: "blocker chrome",
-          // link: "https://www.trueadblocker.net/italian",
+          link: "https://www.trueadblocker.net/italian",
         },
         {
           data: "ad blocker in chrome",
@@ -682,7 +686,7 @@ export default function Home() {
         },
         {
           data: "pop up blocker chrome",
-          // link: "https://www.trueadblocker.net/polish",
+          link: "https://www.trueadblocker.net/polish",
         },
         {
           data: "Best ad blocker firefox",
@@ -694,15 +698,15 @@ export default function Home() {
         },
         {
           data: "ad blocker google chrome",
-          // link: "https://www.trueadblocker.net/turkish",
+          link: "https://www.trueadblocker.net/turkish",
         },
         {
           data: "chrome extension",
-          // link: "https://www.trueadblocker.net/spanish",
+          link: "https://www.trueadblocker.net/spanish",
         },
         {
           data: "chrome ad blocker",
-          // link: "https://www.trueadblocker.net/portuguese",
+          link: "https://www.trueadblocker.net/portuguese",
         },
       ],
       popularKeywords:

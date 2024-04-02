@@ -10,7 +10,7 @@ const HowToUse = ({ data }) => {
 
   const handleNextStep = () => {
     setCurrentStep((prevStep) =>
-      prevStep === data.steps.length - 1 ? 0 : prevStep + 1
+      prevStep === data?.steps.length - 1 ? 0 : prevStep + 1
     );
   };
   useEffect(() => {
@@ -25,15 +25,15 @@ const HowToUse = ({ data }) => {
     <div className={styles.container}>
       <Image src={background} className={styles.background} alt="bg" />
       <div className={styles.wrapper} onClick={handleNextStep}>
-        <h2 className={styles.heading}>{data.title}</h2>
+        <h2 className={styles.heading}>{data?.title}</h2>
         <div className={styles.textContainer}>
           <p className={styles.text}>
             {currentStep + 1}
             {".  "}
-            {data.steps[currentStep].text}
+            {data?.steps[currentStep].text}
           </p>
         </div>
-        <Button text={data.button} />
+        <Button text={data?.button} />
       </div>
     </div>
   );

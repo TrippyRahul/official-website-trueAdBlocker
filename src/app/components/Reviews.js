@@ -9,10 +9,10 @@ const Reviews = ({ data }) => {
       <div className={styles.reviews}>
         <Image src={background} className={styles.background} alt="bg" />
         <div className={styles.container}>
-          <h2 className={styles.heading}>{data.title}</h2>
+          <h2 className={styles.heading}>{data?.title}</h2>
           <div className={styles.cards}>
             <div className={styles.containerOne}>
-              {data.reviewLeft.map((data, index) => (
+              {data?.reviewLeft.map((data, index) => (
                 <div className={styles.cardOne} key={index}>
                   <Image
                     className={styles.avatar}
@@ -26,7 +26,7 @@ const Reviews = ({ data }) => {
               ))}
             </div>
             <div className={styles.containerTwo}>
-              {data.reviewRight.map((data, index) => (
+              {data?.reviewRight.map((data, index) => (
                 <div className={styles.card} key={index}>
                   <Image
                     className={styles.avatar}

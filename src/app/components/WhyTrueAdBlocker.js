@@ -13,7 +13,7 @@ const WhyTrueAdBlocker = ({ data }) => {
         alt="whyTrueAdBlocker1"
       />
 
-      <h2 className={styles.heading}>{data.title}</h2>
+      <h2 className={styles.heading}>{data?.title}</h2>
       <div className={styles.subContainer}>
         <div className={styles.content}>
           <div className={styles.row}>
@@ -153,10 +153,10 @@ const WhyTrueAdBlocker = ({ data }) => {
               </div>
             </div>
           </div>
-          {data.text.map((data, index) => (
+          {data?.text.map((data, index) => (
             <div className={styles.row} key={index}>
               <div className={styles.col}>
-                <p>{data.title}</p>
+                <p>{data?.title}</p>
               </div>
               <div className={styles.col}>
                 <div className={styles.icon}>{data.icon1}</div>

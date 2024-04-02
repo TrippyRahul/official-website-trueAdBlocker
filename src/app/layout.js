@@ -19,6 +19,10 @@ export const metadata = {
     type: "website",
     images: "https://www.trueadblocker.net/favicon.png",
   },
+  metadataBase: new URL("https://www.trueadblocker.net/"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +30,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.png" />
-        <link rel="canonical" href="https://www.trueadblocker.net/" />
         <meta
           name="google-site-verification"
           content="RMU1dnFSr5mi_9G6B3hNmX8J43xkiP9WhxxZshOsYNI"

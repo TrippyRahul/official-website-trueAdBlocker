@@ -16,24 +16,48 @@ import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
 
+export const metadata = {
+  title: "Trueadblocker chrome extension - Ultimate Reklam dedektörü.",
+  description:
+    "Trueadblocker en iyisi adblocker Chrome extension bu, her türlü reklamı ortadan kaldırır.",
+  keywords:
+    " reklam engelleyici krom uzantısı, adblock plus chrome, ad blocker google chrome, advertisement blocker chrome, blocker chrome, abp plus chrome, ad blocker in chrome, adb plus chrome, adblock browser chrome, adblock chrome, youtube no ads, chrome youtube adblocker, hulu without ads, pop up blocker chrome, Best ad blocker fireforx, twitch adblock firefox, adguard ablocker, Pop- up ads, ad blocker google chrome, chrome extension adblock and google chrome ad blocker.",
+  openGraph: {
+    title: "Trueadblocker chrome extension - Ultimate Reklam dedektörü.",
+    description:
+      "Trueadblocker en iyisi adblocker Chrome extension bu, her türlü reklamı ortadan kaldırır.",
+    url: "https://www.trueadblocker.net/turkish",
+    type: "website",
+    images: "https://www.trueadblocker.net/favicon.png",
+  },
+  htmlAttributes: {
+    lang: "tr",
+  },
+  metadataBase: new URL("https://www.trueadblocker.net/turkish"),
+  alternates: {
+    canonical: "/",
+    dutch: [{ href: "/", hreflang: "tr" }],
+  },
+};
+
 const page = () => {
   const data = {
     hero: {
-      title: "TRUEADBLOCKER CHROME EXTENSION | ULTIMATIVER WERBEDETEKTOR",
-      subHeading: "Deine beste Wahl",
+      title: "GERÇEK ADBLOKER KROM UZATMA | EN ÜST DÜZEY REKLAM DEDEKTÖRÜ",
+      subHeading: "En iyi seçimin",
       subTitle:
-        "Es ist die beste Adblocker-Erweiterung für Chrome, die alle lästigen Anzeigen blockiert.",
-      button: "Block All Ads Now - it's Free",
+        "Bu en iyisi Adblocker Chrome Extension Bu, Tüm Sinir bozucu Reklamları Engeller.",
+      button: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
       Navbar: {
-        title1: "About Us",
-        title2: "Contact Us",
+        title1: "Hakkımızda",
+        title2: "Bize Ulaşın",
       },
     },
     features: {
-      title: "Surfen Sie sicher im Internet",
+      title: "Web'de güvenle gezinin",
       features: [
         {
-          text: "Es blockiert alle Arten von Werbung, einschließlich Bannerwerbung, Pop-ups, YouTube-Anzeigen und viele mehr",
+          text: "Banner reklamlar, pop-up'lar, YouTube reklamları ve çok daha fazlası dahil olmak üzere her türlü reklamı engeller",
           icon: (
             <svg
               width="100%"
@@ -50,7 +74,7 @@ const page = () => {
           ),
         },
         {
-          text: "Beseitigen Sie störende Webelemente",
+          text: "Rahatsız edici tüm web öğelerini kaldırın",
           icon: (
             <svg
               width="100%"
@@ -67,7 +91,7 @@ const page = () => {
           ),
         },
         {
-          text: "Beschleunigen Sie das Laden Ihrer Seite",
+          text: "Sayfa yüklemenizi hızlandırın",
           icon: (
             <svg
               width="100%"
@@ -84,7 +108,7 @@ const page = () => {
           ),
         },
         {
-          text: "Es funktioniert in Chrome-Erweiterungen, einschließlich Google und Firefox",
+          text: "Hem Google'da hem de Firefox'ta her iki Chrome uzantısında da mükemmel çalışır",
           icon: (
             <svg
               width="100%"
@@ -101,7 +125,7 @@ const page = () => {
           ),
         },
         {
-          text: "Es pflegt die Website perfekt",
+          text: "Web sitesini düzgün bir şekilde korur",
           icon: (
             <svg
               width="100%"
@@ -133,17 +157,16 @@ const page = () => {
     },
     usage: {
       title:
-        "Erleben Sie damit die besten werbefreien Inhalte adblocker Chrome extension",
+        "Bununla en iyi Reklamsız İçeriğe sahip olun Adblock Chrome extension",
       expTitle:
-        "Erleben Sie damit die besten werbefreien Inhalte adblock Chrome",
+        "Bununla kusursuz bir çevrimiçi deneyim yaşayın adblocker Chrome",
       expText:
-        "Es ist die beste Erweiterung, die Ihr Online-Erlebnis verbessert. Diese Erweiterung blockiert unerwünschte Werbung perfekt und ermöglicht eine werbefreie Reise. Es ist also an der Zeit, sich von all der störenden Werbung zu verabschieden, die Ihr Erlebnis ruiniert.",
-      subTitle:
-        " Laden Sie das herunter und installieren Sie es Adblocker | Chrome extension Jetz",
+        "Bu uzantı çevrimiçi deneyiminizi geliştirir. Bu uzantı, istenmeyen reklamları engellemede mükemmel bir şekilde çalışır ve reklamsız bir yolculuk sağlar. Artık deneyiminizi mahveden tüm sinir bozucu reklamlara veda etmenin zamanı geldi. İle chrome youtube reklam engelleme, En sevdiğiniz videoyu izlerken araya giren tüm YouTube reklamlarını görebilirsiniz.",
+      subTitle: "İndirip yükleyin Adblocker | Chrome extension Şimdi.",
       usage: [
         {
-          title: "Beschleunigen Sie das Laden Ihrer Seite",
-          text: "Es blockiert alle störenden Anzeigen, die Ihr Surferlebnis stören. Mit diesem adblock Chrome, Sie können sich endlich von Bannerwerbung, Videoanzeigen, Pop-ups und vielem mehr verabschieden.",
+          title: "Web sayfanızın yüklenmesini hızlandırın",
+          text: "Bu, tarama deneyiminizi kesintiye uğratan her türlü sinir bozucu reklamı engelleyen en iyi uzantıdır. Bununla Chrome adblock, Deneyiminizi mahvedebilecek tüm rahatsız edici reklamlara nihayet elveda diyebilirsiniz.",
           icon: (
             <svg
               width="100%"
@@ -161,8 +184,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Behalten Sie die Privatsphäre bei",
-          text: "Adblocker Chrome extension hilft Ihnen, Ihre Daten und Privatsphäre zu wahren. Sie blockieren auch die Malware-Seiten, die Ihrem Browser schaden können. Schützen Sie Ihr Gerät, indem Sie diese Erweiterung herunterladen.",
+          title: "Gizliliği koruyun",
+          text: "en iyi adblock ayrıca verilerinizi ve gizliliğinizi korumanıza da yardımcı olur. Ayrıca tarayıcınıza zarar verebilecek zararlı siteleri de engeller. Bu nedenle, bunu indirerek cihazınızı güvende tutun free adblocker.",
           icon: (
             <svg
               width="100%"
@@ -180,8 +203,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Website-Unterstützung",
-          text: "Im Vergleich zu adblock 360, Das Adblocker Chrome extension ermöglicht es Ihnen, akzeptable Anzeigen zuzulassen, die eine robuste Online-Umgebung für Websites fördern.",
+          title: "Web Sitesi Yardımı",
+          text: "Web siteleri için güçlü bir çevrimiçi ortamı teşvik edecek kabul edilebilir reklamlara izin vermenizi sağlar.",
           icon: (
             <svg
               width="100%"
@@ -199,8 +222,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
         {
-          title: "Elternkontrolle",
-          text: "Indem Sie dies herunterladen adblocker Chrome extension, Sie können Ihren Browser steuern und alle Inhalte für Erwachsene einschränken, die Sie nicht sehen möchten.",
+          title: "Ebeveynlik Kontrolü",
+          text: "Bu uzantıyı indirerek, görmek istemediğiniz tüm yetişkinlere yönelik içeriği kısıtlayabileceğiniz için tarayıcınızı kontrol edebilirsiniz.",
           icon: (
             <svg
               width="100%"
@@ -220,12 +243,11 @@ const page = () => {
       ],
     },
     privacy: {
-      title:
-        "Schützen Sie Ihre Privatsphäre und löschen Sie alle Ihre Browserdaten. Vermeiden Sie Trafficking mit Trueadblocker",
+      title: "Gizliliğinizi koruyun ve tüm tarama geçmişinizi temizleyin.",
       subTitle: "Avoid trafficking with Trueadblocker",
       privacy: [
         {
-          title: "Verlauf löschen",
+          title: "Geçmişi Temizle",
           icon: (
             <svg
               width="100%"
@@ -240,10 +262,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "Löschen Sie den gesamten Browserverlauf Ihrer Website.",
+          text: "tüm tarama geçmişinizi temizlemeniz yeterli.",
         },
         {
-          title: "Cookies löschen",
+          title: "Çerezleri sil",
           icon: (
             <svg
               width="100%"
@@ -258,10 +280,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "Vermeiden Sie Hackerangriffe, indem Sie alle Cookies blockieren.",
+          text: "tüm çerezleri engelleyebilir ve saldırıya uğramayı önleyebilirsiniz.",
         },
         {
-          title: "Cache entfernen",
+          title: "Önbelleği Kaldır",
           icon: (
             <svg
               width="100%"
@@ -276,10 +298,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "Mit diesem adblocker Chrome extension, Sie können Ihren gesamten Speicherplatz freigeben, indem Sie unnötige Inhalte in Ihrem Browser löschen.",
+          text: "Bununla adblocker Chrome extension, tarayıcınızdaki tüm alanınızı temizleyebilirsiniz.",
         },
         {
-          title: "Stoppe die Benachrichtigung",
+          title: "Bildirimleri durdur",
           icon: (
             <svg
               width="100%"
@@ -294,15 +316,16 @@ const page = () => {
               />
             </svg>
           ),
-          text: "Durch einfaches Herunterladen der Erweiterung können Sie unnötige Benachrichtigungen stoppen.",
+          text: "Uzantımızı yükleyerek istenmeyen bildirimleri durdurabilirsiniz.",
         },
       ],
     },
     whyTrueAdBlocker: {
-      title: "WARUM ECHTER ADBLOCKER",
+      title: "NEDEN TRUE ADBLOCKER",
+      otherExt: "DİĞER UZATMALAR",
       text: [
         {
-          title: "Entfernen Sie Online-Werbung",
+          title: "İstenmeyen çevrimiçi reklamları kaldırın",
           icon1: (
             <svg
               width="100%"
@@ -337,7 +360,7 @@ const page = () => {
           ),
         },
         {
-          title: "Beschütze deine Privatsphäre",
+          title: "Gizliliğinizi tehlikeli web sitelerinden koruyun",
           icon1: (
             <svg
               width="100%"
@@ -373,7 +396,7 @@ const page = () => {
         },
         {
           title:
-            "Sparen Sie Datenverbrauch und beschleunigen Sie das Laden der Seite",
+            "Veri kullanımını koruyun ve web sayfanızın yüklenmesini hızlandırın",
           icon1: (
             <svg
               width="100%"
@@ -406,7 +429,7 @@ const page = () => {
           ),
         },
         {
-          title: "Behalten Sie die Pflege Ihrer regulären Websites bei",
+          title: "Normal sitelerinizi güvende tutun",
           icon1: (
             <svg
               width="100%"
@@ -439,7 +462,7 @@ const page = () => {
           ),
         },
         {
-          title: "Es ist mit anderen Browsern kompatibel",
+          title: "Diğer tarayıcılarla uyumludur",
           icon1: (
             <svg
               width="100%"
@@ -474,7 +497,7 @@ const page = () => {
           ),
         },
         {
-          title: "Es verfügt über die beste technische Unterstützung",
+          title: "En iyi teknik yardıma sahiptir",
           icon1: (
             <svg
               width="100%"
@@ -511,118 +534,118 @@ const page = () => {
       ],
     },
     featuresOfTrueAdBlocker: {
-      title: "FUNKTIONEN DES ECHTEN ADBLOCKERS",
+      title: "ÖZELLİKLERİ TRUE ADBLOCKER",
       featuresOfTrueAdBlocker: [
-        "Durch das Herunterladen eines Webblockers Chrome können Sie Ihr Twitch-Erlebnis mit dem Twitch-Werbeblocker vollständig steuern.",
-        "Sie können auch alle Arten von Werbung blockieren, die Sie beim Hören Ihres Lieblingsliedes stört. Spielen Sie nun Ihre Liste ungestört ab.",
-        "Installieren Sie die Erweiterung und genießen Sie das beste YouTube-Erlebnis. Genießen Sie Ihre Videos ohne Werbung.",
-        "Jetzt können Sie Ihre Lieblingsinhalte ohne Unterbrechungen ansehen.",
+        "Bu uzantıyı yükleyerek web tarayıcınızı tam olarak kontrol edebilirsiniz.",
+        "En sevdiğiniz şarkıyı dinlerken deneyiminizi bozan her türlü sinir bozucu reklamı ortadan kaldırın. Artık listenizi herhangi bir rahatsızlık duymadan oynatın.",
+        "İndir Adblocker Chrome extension ve favori çevrimiçi platformunuzda en iyi deneyimi yaşayın.",
+        "En çok tercih ettiğiniz içeriği kesintisiz olarak yayınlayın.",
       ],
     },
     howToUse: {
-      title: "So verwenden Sie die Erweiterung",
+      title: "Nasıl kullanılır Trueadblocker",
       steps: [
         {
           id: "1",
-          text: "Tout d’abord, recherchez l’extension ou vous pouvez simplement visiter son site officielZuerst müssen Sie danach suchen adblocker Chrome extension oder Sie können die offizielle Website besuchen",
+          text: "İlk önce aramanız gerekir truedblocker veya ziyaret edebilirsiniz Adblocker Chrome extension's resmi internet sitesi",
         },
         {
           id: "2",
-          text: "Install the ad blocker Chrome",
+          text: "Şimdi uzantıyı yükleyin",
         },
         {
           id: "3",
-          text: "Klicken Sie mit der rechten Maustaste auf die Erweiterung der Symbolleiste",
+          text: "Daha sonra araç çubuğu uzantısına sağ tıklayabilirsiniz",
         },
         {
           id: "4",
-          text: "Fügen Sie es nun zu Chrome hinzu und aktivieren Sie den Werbeblocker erfolgreich",
+          text: "Artık Chrome'a ​​ekleyebilir ve reklam engellemeyi başarıyla açabilirsiniz",
         },
         {
           id: "5",
-          text: "Sehen Sie sich Ihr Lieblingsvideo problemlos an, da alle störenden Werbeanzeigen blockiert werden",
+          text: "En sevdiğiniz videoyu en çok tercih ettiğiniz çevrimiçi platformda yayınlayabilirsiniz.",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
     },
     faq: {
       title: "FAQs",
-      button: "More Questions",
+      button: "Daha çok soru",
       questions: [
         {
           id: 1,
-          ques: "Was ist Trueadblocker und wie funktioniert es?",
-          ans: "Es ist die beste Erweiterung, die Ihr Online-Erlebnis verbessern soll, indem sie alle Arten lästiger Werbung blockiert. Es schützt auch Ihre Privatsphäre und speichert Ihre Datennutzung. Das Beste daran ist, dass die Nutzung kostenlos ist.",
+          ques: "Trueadblocker nedir ve nasıl çalışır?",
+          ans: "Her türlü sinir bozucu reklamı engelleyerek çevrimiçi deneyiminizi geliştirmek için tasarlanmış en iyi uzantıdır. Ayrıca gizliliğinizi korur ve veri kullanımınızdan tasarruf sağlar. En iyi yanı, kullanımının ücretsiz olmasıdır.",
         },
         {
           id: 2,
-          ques: "Blockiert diese Erweiterung alle Arten von Werbung?",
-          ans: "Ja das adblocker Chrome extension Blockiert alle Arten von Werbung, einschließlich Bannerwerbung, Pop-ups, Videoanzeigen und vielem mehr.",
+          ques: "Bu uzantı tüm reklam türlerini engelliyor mu?",
+          ans: "Evet bu adblocker Chrome extension banner reklamlar, pop-up'lar, video reklamlar ve çok daha fazlası dahil olmak üzere her türlü reklamı engeller.",
         },
         {
           id: 3,
-          ques: "Kann diese Erweiterung Ihre Geschwindigkeit beim Surfen im Internet beeinträchtigen?",
-          ans: "Es kann das Laden Ihrer Seite beschleunigen, indem es alle unerwünschten Anzeigen blockiert.",
+          ques: "Bu uzantı web tarama hızınızı etkileyebilir mi?",
+          ans: "Tüm istenmeyen reklamları engelleyerek sayfanızın yüklenmesini hızlandırabilir.",
         },
         {
           id: 4,
-          ques: "Wie kann ich Websites in Trueadblocker auf die Whitelist setzen?",
-          ans: "Sie können Websites auf die Whitelist setzen, indem Sie sie in den Einstellungen zur Liste der zulässigen Websites hinzufügen. Dann werden alle Anzeigen auf den ausgewählten Websites zugelassen.",
+          ques: "Trueadblocker'da web siteleri nasıl beyaz listeye alınır?",
+          ans: "Web sitelerini ayarlarında izin verilenler listesine ekleyerek beyaz listeye ekleyebilirsiniz; bu, seçilen sitelerdeki tüm reklamlara izin verecektir.",
         },
         {
           id: 5,
-          ques: "Ist die Verwendung dieser Adblocker-Chrome-Erweiterung legal?",
-          ans: "Ja, diese Erweiterung ist absolut legal und sicher in der Anwendung.",
+          ques: "Bunu kullanıyor adblocker Chrome extension yasal?",
+          ans: "Evet, bu uzantının kullanımı yasal ve güvenlidir.",
         },
         {
           id: 6,
-          ques: "Ist diese Erweiterung mit anderen Websites kompatibel?",
-          ans: "Das adblocker Chrome extension ist mit den meisten gängigen Browsern kompatibel, einschließlich Google und Firefox.",
+          ques: "Bu uzantı diğer web siteleriyle uyumlu mu?",
+          ans: "Bu adblocker Chrome extension dahil olmak üzere başlıca tarayıcıların çoğuyla uyumludur Google and Firefox.",
         },
         {
           id: 7,
-          ques: "Wie kann ich Trueadblocker in meinem Webbrowser installieren?",
-          ans: "Es ist sehr einfach, da Sie nur nach der Erweiterung suchen müssen oder unsere Website besuchen und die Erweiterung von dort herunterladen können.",
+          ques: "Trueadblocker'ı web tarayıcıma nasıl yükleyebilirim?",
+          ans: "Sadece uzantıyı aramanız gerektiğinden çok basittir veya web sitemizi ziyaret edip uzantıyı oradan indirebilirsiniz.",
         },
         {
           id: 8,
-          ques: "Ist es sicher, Trueadblocker auf mehreren Websites zu verwenden?",
-          ans: "Ja, die Erweiterung ist in mehreren Browsern, einschließlich Google Chrome und Firefox, absolut sicher.",
+          ques: "Trueadblocker'ı birden fazla sitede kullanmak güvenli midir?",
+          ans: "Evet, uzantıyı Google Chrome ve Firefox dahil birden fazla tarayıcıda kullanmak kesinlikle güvenlidir.",
         },
         {
           id: 9,
-          ques: "Gibt es eine kostenlose Version von Trueadblocker?",
-          ans: "Ja, die Nutzung unserer Erweiterung ist kostenlos. Sie können alle Arten von Werbung kostenlos blockieren und Ihr Online-Erlebnis verbessern.",
+          ques: "Trueadblocker'ın ücretsiz bir sürümü var mı?",
+          ans: "Evet, uzantımızın kullanımı ücretsizdir. Her türlü reklamı ücretsiz olarak engelleyebilir ve çevrimiçi deneyiminizi geliştirebilirsiniz.",
         },
         {
           id: 10,
-          ques: "Warum ist Trueadblocker besser als andere Adblocker?",
-          ans: "Die meisten Adblocker können unnötige Werbung nicht entfernen, aber durch die Installation unserer Erweiterung können Sie alle Arten von versteckter Werbung blockieren, die Ihr Erlebnis ruinieren könnte. Es blockiert nicht nur Werbung, sondern schützt Ihren Browser auch vor gefährlichen Websites.",
+          ques: "Neden Trueadblocker diğerlerinden daha iyi adblockers?",
+          ans: "Reklam engelleyicilerin çoğu gereksiz reklamlardan kurtulamaz, ancak uzantımızı yükleyerek deneyiminizi bozabilecek her türlü gizli reklamı engelleyebilirsiniz. Yalnızca reklamları engellemekle kalmaz, aynı zamanda tarayıcınızı tehlikeli web sitelerinden de korur.",
         },
       ],
     },
     reviews: {
-      title: "Rezensionen",
+      title: "Yorumlar",
       reviewLeft: [
         {
           image: avatar1,
           name: "Rahul Rawat",
           data: "March 20,24",
           reviewText:
-            "Dies ist das best adblocker Chrome extension da ich alle meine Lieblingssendungen ohne Werbung ansehen kann.",
+            "Bu best adblocker Chrome extension Çünkü en sevdiğim programların hepsini reklamsız izleyebiliyorum.",
         },
         {
           image: avatar2,
           name: "Ronaldo",
           data: "feb 09,24",
           reviewText:
-            "Ich benutze diese Erweiterung seit Jahren und habe eine tolle Erfahrung gemacht.",
+            "Bu uzantıyı yıllardır kullanıyorum ve harika bir deneyim yaşadım.",
         },
         {
           image: avatar3,
           name: "Adarsh",
           data: "feb 09,24",
-          reviewText: "Wow, jetzt kann ich die Erweiterung kostenlos nutzen",
+          reviewText: "Artık uzantıyı ücretsiz olarak kullanabilirim",
         },
       ],
       reviewRight: [
@@ -631,20 +654,20 @@ const page = () => {
           name: "Gaurav Kumar",
           data: "March 11,24",
           reviewText:
-            "Ich kann nicht einmal sagen, wie viel Adblocker Chrome extension half mir. Es hat mir nicht nur geholfen, Werbung zu blockieren, sondern auch meine Daten und Privatsphäre zu schützen.",
+            "ne kadar olduğunu bile söyleyemem Adblocker Chrome extension bana yardımcı oldu. Yalnızca reklamları engellememe değil, aynı zamanda verilerimi ve gizliliğimi de korumama yardımcı oldu.",
         },
         {
           image: avatar5,
           name: "Shehnaaz",
           data: "March 20,24",
           reviewText:
-            "half mir. Es hat mir nicht nur geholfen, Werbung zu blockieren, sondern auch meine Daten und Privatsphäre zu schützen.",
+            "Harika bir uygulama!! Çevrimiçi deneyiminizi mahvedebilecek tüm iğrenç reklamları kaldırır.",
         },
       ],
     },
     about: {
-      title: "Über Trueadblocker",
-      text: "Es ist die beste Browsererweiterung, die Sie vor Hackern Dritter schützt und alle unnötigen Anzeigen eliminiert. Dasadblocker Chrome extension ist der beliebteste Adblocker und wird von Tausenden von Menschen auf der ganzen Welt verwendet. Es ist sehr einfach zu bedienen und unterstützt zudem den Schutz der Privatsphäre. | | Ziel ist es, Ihnen das bestmögliche Erlebnis zu bieten, indem alle störenden Werbeanzeigen blockiert werden, die Sie beim Arbeiten oder Streamen Ihrer Lieblingssendungen ablenken. Außerdem beschleunigt es das Laden Ihrer Seite und blockiert sämtliche Malware, die Ihrem Browser schaden kann. Genießen Sie also Ihre am meisten erwarteten Shows und das Beste daran ist, dass die Nutzung dieser Erweiterung kostenlos ist.",
+      title: "Trueadblocker Hakkında",
+      text: "Sizi üçüncü taraf bilgisayar korsanlarından koruyan ve gereksiz tüm reklamları ortadan kaldıran en iyi uzantıdır. Bu adblocker Chrome extension bilinen en ünlü reklam engelleyicidir ve dünya çapında binlerce kişi tarafından kullanılmaktadır. Kullanımı çok kolaydır. Ayrıca gizlilik korumasını da destekler. | | Amacımız, favori programlarınıza göz atarken veya yayın yaparken dikkatinizi dağıtan tüm kesintiye uğramış reklamları kaldırarak size en iyi deneyimi sunmaktır. Ayrıca sayfanızın yüklenmesini hızlandırır ve tarayıcınıza zarar verebilecek tüm kötü amaçlı yazılımları engeller. Bu nedenle, en çok beklediğiniz filmlerin ve dizilerin keyfini çıkarın ve en iyi yanı, bu uzantının kullanımının ücretsiz olmasıdır.",
     },
     footer: {
       title: "Get it free and block ads",
@@ -652,9 +675,9 @@ const page = () => {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
-      button2: "About Us",
-      button3: "Contact Us",
+      button1: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
+      button2: "Hakkımızda",
+      button3: "Bize Ulaşın",
       popularSearch: [
         {
           data: "adblocker chrome extension",
@@ -662,7 +685,7 @@ const page = () => {
         },
         {
           data: "adblock plus chrome",
-          // link: "https://www.trueadblocker.net/korean",
+          link: "https://www.trueadblocker.net/korean",
         },
         {
           data: "ad blocker google chrome",
@@ -670,7 +693,7 @@ const page = () => {
         },
         {
           data: "blocker chrome",
-          // link: "https://www.trueadblocker.net/italian",
+          link: "https://www.trueadblocker.net/italian",
         },
         {
           data: "ad blocker in chrome",
@@ -690,7 +713,7 @@ const page = () => {
         },
         {
           data: "pop up blocker chrome",
-          // link: "https://www.trueadblocker.net/polish",
+          link: "https://www.trueadblocker.net/polish",
         },
         {
           data: "Best ad blocker firefox",
@@ -702,22 +725,22 @@ const page = () => {
         },
         {
           data: "ad blocker google chrome",
-          // link: "https://www.trueadblocker.net/turkish",
+          link: "https://www.trueadblocker.net/turkish",
         },
         {
           data: "chrome extension",
-          // link: "https://www.trueadblocker.net/spanish",
+          link: "https://www.trueadblocker.net/spanish",
         },
         {
           data: "chrome ad blocker",
-          // link: "https://www.trueadblocker.net/portuguese",
+          link: "https://www.trueadblocker.net/portuguese",
         },
       ],
       popularKeywords:
-        "adblocker, adblock, ad blocker, adblocker chrome, adguard, adblock plus, werbeblocker, adblock chrome, werbung blockieren, adblocker android, add blocker, werbung blockieren android kostenlos, total adblock chip, adblock plus firefox",
+        "chrome youtube reklam engelleme, en iyi adblock, adblocker chrome, chrome extension, hulu adbblocker, youtube adblocker, Spotify adblocker, twitch adblocker, Chrome extension, reklam engelleyici, krom uzantısı",
       links: [
         {
-          name: "Contact Us",
+          name: "Bize Ulaşın",
           link: "/contact-us",
         },
         {
@@ -725,11 +748,11 @@ const page = () => {
           link: "/terms",
         },
         {
-          name: "Terms of service",
+          name: "Hizmet şartları",
           link: "/terms",
         },
         {
-          name: " Privacy Policy",
+          name: "Gizlilik Politikası",
           link: "privacy-policy",
         },
       ],

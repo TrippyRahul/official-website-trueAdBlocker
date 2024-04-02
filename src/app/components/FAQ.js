@@ -4,14 +4,14 @@ import styles from "../styles/frequentlyAskedQuestions.module.scss";
 import Image from "next/image";
 import background from "../../../public/3.png";
 import faqBackground from "../../../public/faqBackground.png";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 
 const FrequentlyAskedQuestion = ({ data }) => {
   const pathname = usePathname();
   const [showAnswer, setShowAnswer] = useState(null);
-  const limitedQuestions = data.questions.slice(0, 5);
-  console.log(data.button);
+  const limitedQuestions = data?.questions.slice(0, 5);
+  const router = useRouter();
 
   const toggleAnswer = (questionId) => {
     if (showAnswer === questionId) {
@@ -30,8 +30,8 @@ const FrequentlyAskedQuestion = ({ data }) => {
         alt="faqBackground"
       />
       <div className={styles.container}>
-        <h2 className={styles.heading}>{data.title}</h2>
-        {pathname === "/" ? (
+        <h2 className={styles.heading}>{data?.title}</h2>
+        {pathname !== "/faq" ? (
           <ol>
             {limitedQuestions.map((question) => (
               <li key={question.id} onClick={() => toggleAnswer(question.id)}>
@@ -82,7 +82,7 @@ const FrequentlyAskedQuestion = ({ data }) => {
           </ol>
         ) : (
           <ol>
-            {data.questions.map((question) => (
+            {data?.questions.map((question) => (
               <li key={question.id} onClick={() => toggleAnswer(question.id)}>
                 <div className={styles.question}>
                   <p>{question.id}</p>
@@ -130,11 +130,16 @@ const FrequentlyAskedQuestion = ({ data }) => {
             ))}
           </ol>
         )}
-        {pathname === "/" ? (
+        {pathname !== "/faq" ? (
           <div className={styles.buttonContainer}>
-            <Link className={styles.button} href="/faq">
-              {data.button}
-            </Link>
+            <button
+              className={styles.button}
+              onClick={() => {
+                router.push("/faq");
+              }}
+            >
+              {data?.button}
+            </button>
           </div>
         ) : null}
       </div>

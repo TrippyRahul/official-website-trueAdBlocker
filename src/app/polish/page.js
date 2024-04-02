@@ -17,47 +17,47 @@ import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
 
 export const metadata = {
-  title: "Trueadblocker chrome extension - Détecteur de publicité ultime",
+  title: "Trueadblocker chrome extension - Najlepszy wykrywacz reklam",
   description:
-    "Trueadblocker est le meilleur adblocker Chrome extension cela élimine toutes sortes de publicités.",
+    "Trueadblocker jest najlepszy adblocker Chrome extension co eliminuje wszelkiego rodzaju reklamy.",
   keywords:
-    "extension Chrome du bloqueur de publicités, adblock plus chrome, ad blocker google chrome, advertisement blocker chrome, blocker chrome, abp plus chrome, ad blocker in chrome, adb plus chrome, adblock browser chrome, adblock chrome, youtube no ads, chrome youtube adblocker, hulu without ads, pop up blocker chrome, Best ad blocker fireforx, twitch adblock firefox, adguard ablocker, Pop- up ads, ad blocker google chrome, chrome extension adblock and google chrome ad blocker.",
+    "rozszerzenie Chrome do blokowania reklam, adblock plus chrome, ad blocker google chrome, advertisement blocker chrome, blocker chrome, abp plus chrome, ad blocker in chrome, adb plus chrome, adblock browser chrome, adblock chrome, youtube no ads, chrome youtube adblocker, hulu without ads, pop up blocker chrome, Best ad blocker fireforx, twitch adblock firefox, adguard ablocker, Pop- up ads, ad blocker google chrome, chrome extension adblock and google chrome ad blocker.",
   openGraph: {
-    title: "Trueadblocker chrome extension - Détecteur de publicité ultime",
+    title: "Trueadblocker chrome extension - Najlepszy wykrywacz reklam",
     description:
-      "Trueadblocker est le meilleur adblocker Chrome extension cela élimine toutes sortes de publicités.",
-    url: "https://www.trueadblocker.net/french",
+      "Trueadblocker jest najlepszy adblocker Chrome extension co eliminuje wszelkiego rodzaju reklamy.",
+    url: "https://www.trueadblocker.net/polish",
     type: "website",
     images: "https://www.trueadblocker.net/favicon.png",
   },
   htmlAttributes: {
-    lang: "fr",
+    lang: "pl",
   },
-  metadataBase: new URL("https://www.trueadblocker.net/french"),
+  metadataBase: new URL("https://www.trueadblocker.net/polish"),
   alternates: {
     canonical: "/",
-    dutch: [{ href: "/", hreflang: "fr" }],
+    dutch: [{ href: "/", hreflang: "pl" }],
   },
 };
 
 const page = () => {
   const data = {
     hero: {
-      title: "TRUEADBLOCKER CHROME EXTENSION | DÉTECTEUR DE PUBLICITÉ ULTIME",
-      subHeading: "Votre meilleur choix",
+      title: "TRUEADBLOCKER CHROME EXTENSION | NAJLEPSZY WYKRYWACZ REKLAM",
+      subHeading: "Twój najlepszy wybór",
       subTitle:
-        "Il s'agit de la meilleure extension Chrome Adblocker qui bloque toutes les publicités ennuyeuses.",
-      button: "Block All Ads Now - it's Free",
+        "To najlepsze rozszerzenie Adblocker do Chrome, które blokuje wszystkie irytujące reklamy.",
+      button: "Zablokuj wszystkie reklamy teraz – to nic nie kosztuje",
       Navbar: {
-        title1: "À propos de nous",
-        title2: "Contactez-nous",
+        title1: "O nas",
+        title2: "Skontaktuj się z nami",
       },
     },
     features: {
-      title: "Naviguez sur le Web en toute sécurité",
+      title: "Przeglądaj Internet prawidłowo",
       features: [
         {
-          text: "Il bloque tous les types de publicités, y compris les bannières publicitaires, les pop-ups, les publicités YouTube et bien d'autres.",
+          text: "Jest to najlepsze rozszerzenie, które blokuje wszelkiego rodzaju reklamy, wszelkiego rodzaju reklamy, takie jak banery reklamowe, wyskakujące okienka, reklamy YouTube i wiele innych",
           icon: (
             <svg
               width="100%"
@@ -74,7 +74,7 @@ const page = () => {
           ),
         },
         {
-          text: "Il supprime tous les éléments Web dérangeants",
+          text: "Usuń wszystkie irytujące elementy internetowe",
           icon: (
             <svg
               width="100%"
@@ -91,7 +91,7 @@ const page = () => {
           ),
         },
         {
-          text: "Il supprime tous les éléments Web dérangeants",
+          text: "Przyspiesza także ładowanie strony i chroni przed szkodliwymi stronami internetowymi",
           icon: (
             <svg
               width="100%"
@@ -108,7 +108,7 @@ const page = () => {
           ),
         },
         {
-          text: "Cela fonctionne correctement dans les extensions Chrome dans Google et Firefox",
+          text: "Działa zarówno w Google, jak i Firefoksie",
           icon: (
             <svg
               width="100%"
@@ -125,7 +125,7 @@ const page = () => {
           ),
         },
         {
-          text: "Il maintient parfaitement le site Web",
+          text: "Utrzymuje prawidłowo witrynę",
           icon: (
             <svg
               width="100%"
@@ -157,16 +157,15 @@ const page = () => {
     },
     usage: {
       title:
-        "Le meilleur contenu sans publicité et bénéficiez d'une expérience en ligne transparente",
-      expTitle:
-        "Téléchargez et installez le Adblocker Chrome extension maintenant.",
+        "Dzięki temu możesz cieszyć się najlepszą zawartością bez reklam Adblock Chrome extension",
+      expTitle: "Poznaj płynne korzystanie z Internetu",
       expText:
-        "Adblocker Chrome extension améliore votre expérience en ligne. Il fonctionne en bloquant les publicités indésirables et offre un voyage sans publicité. Il est donc temps de télécharger l’extension et de dire adieu à toutes les publicités ennuyeuses qui gâchent votre expérience.",
-      subTitle: " Download en installeer de Adblocker | Chrome extension nu.",
+        "Adblock Chrome poprawia jakość korzystania z Internetu. To rozszerzenie doskonale sprawdza się w blokowaniu niepotrzebnych reklam i zapewnia podróż bez reklam. Czas więc pożegnać się ze wszystkimi irytującymi reklamami.",
+      subTitle: "Pobierz i zainstaluj Adblocker | Chrome extension Teraz.",
       usage: [
         {
-          title: "Adblock Chrome accélère le chargement de votre page Web",
-          text: "Il élimine toutes les publicités interrompues qui gâchent votre expérience de navigation. Avec ça adblock Chrome extension, vous pouvez enfin dire adieu à toutes les publicités irritantes qui apparaissent sur votre écran.",
+          title: "Chrome Adblock przyspiesza ładowanie strony",
+          text: "Pobierając blokuje wszystkie irytujące reklamy, które psują komfort przeglądania. Z tym webblocker Chrome,możesz w końcu pożegnać się ze wszystkimi niepokojącymi reklamami, które mogą zrujnować Twoje wrażenia.",
           icon: (
             <svg
               width="100%"
@@ -184,8 +183,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Préservez la confidentialité avec Chrome adblock",
-          text: "Addblock Chrome bloque non seulement les publicités, mais vous aide également à préserver vos données et votre confidentialité. C'est la meilleure extension qui bloque les éléments dangereux susceptibles de nuire à votre navigateur. Ainsi, en téléchargeant notre bloqueur de publicités, vous pouvez protéger votre appareil.",
+          title: "Zachowaj swoją prywatność",
+          text: "Ten adblock for Chrome blokuje reklamy, ale także pomaga zachować dane i prywatność. Blokują wszystkie witryny ze złośliwym oprogramowaniem, które mogą uszkodzić Twoją przeglądarkę. Chroń swoje urządzenie, pobierając to rozszerzenie.",
           icon: (
             <svg
               width="100%"
@@ -203,8 +202,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Assistance du site Web avec Adblocker Chrome extension",
-          text: "Il vous permet d'autoriser des publicités acceptables qui favoriseront un environnement en ligne robuste pour les sites Web.",
+          title: "Pomoc internetowa",
+          text: "Adblocker Chrome pozwala na zezwolenie na akceptowalne reklamy, które będą promować solidne środowisko online dla witryn internetowych.",
           icon: (
             <svg
               width="100%"
@@ -222,8 +221,8 @@ const page = () => {
           gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
         {
-          title: "Contrôle parental",
-          text: "En téléchargeant cette extension, vous pouvez contrôler votre navigateur et restreindre tout le contenu pour adultes que vous ne voulez pas voir.",
+          title: "Kontrola rodzicielska z tym adblocker chrome extension",
+          text: "Pobierając Chrome adblock, możesz kontrolować swoją przeglądarkę, ponieważ możesz ograniczyć wszystkie treści dla dorosłych, których nie chcesz oglądać.",
           icon: (
             <svg
               width="100%"
@@ -243,12 +242,11 @@ const page = () => {
       ],
     },
     privacy: {
-      title:
-        "Protégez votre vie privée et effacez tout votre historique de navigation.",
+      title: "Chroń swoją prywatność i uwolnij całą historię przeglądania.",
       subTitle: "Avoid trafficking with Trueadblocker",
       privacy: [
         {
-          title: "Histoire claire",
+          title: "Czysta historia",
           icon: (
             <svg
               width="100%"
@@ -263,10 +261,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "effacez tout votre historique de navigation avec cette extension.",
+          text: "Zwolnij wszystkie dane przeglądania.",
         },
         {
-          title: "Supprimer les cookies",
+          title: "Usuń ciasteczka",
           icon: (
             <svg
               width="100%"
@@ -281,10 +279,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "vous pouvez éliminer tous les cookies et éviter d'être piraté.",
+          text: "usuń wszystkie pliki cookie, aby nie można było Cię śledzić.",
         },
         {
-          title: "Supprimer le cache",
+          title: "Usuń pamięć podręczną",
           icon: (
             <svg
               width="100%"
@@ -299,10 +297,10 @@ const page = () => {
               />
             </svg>
           ),
-          text: "Avec ça adblocker Chrome extension, vous pouvez libérer tout votre espace en supprimant le contenu indésirable de votre navigateur.",
+          text: "możesz usunąć całą swoją przestrzeń, usuwając niepotrzebne treści w przeglądarce.",
         },
         {
-          title: "Supprimer le cache",
+          title: "Zatrzymaj powiadomienie",
           icon: (
             <svg
               width="100%"
@@ -317,15 +315,16 @@ const page = () => {
               />
             </svg>
           ),
-          text: " arrêtez toutes les notifications inutiles en installant l’extension.",
+          text: "Po prostu pobierając plik adblocker Chrome extension, możesz zatrzymać powiadomienie.",
         },
       ],
     },
     whyTrueAdBlocker: {
-      title: "POURQUOI UN VRAI ADBLOCKER",
+      title: "DLACZEGO TRUE ADBLOCKER",
+      otherExt: "INNE ROZSZERZENIA",
       text: [
         {
-          title: "Bloquer les publicités en ligne",
+          title: "Blokuj reklamy w Internecie",
           icon1: (
             <svg
               width="100%"
@@ -360,7 +359,8 @@ const page = () => {
           ),
         },
         {
-          title: "Protégez votre vie privée des sites malveillants",
+          title:
+            "Chroń swoją prywatność przed niebezpiecznymi stronami internetowymi",
           icon1: (
             <svg
               width="100%"
@@ -396,7 +396,7 @@ const page = () => {
         },
         {
           title:
-            "Protégez l'utilisation des données et accélérez le chargement de votre page Web",
+            "Oszczędź zużycie danych i przyspiesz ładowanie strony internetowej",
           icon1: (
             <svg
               width="100%"
@@ -429,7 +429,7 @@ const page = () => {
           ),
         },
         {
-          title: "Maintenez la sécurité de vos sites",
+          title: "Utrzymuj prawidłowo swoje zwykłe witryny",
           icon1: (
             <svg
               width="100%"
@@ -463,7 +463,7 @@ const page = () => {
         },
         {
           title:
-            "Il est compatible avec d'autres navigateurs dont Google et Firefox",
+            "Jest kompatybilny z innymi przeglądarkami, takimi jak Google i Firefox",
           icon1: (
             <svg
               width="100%"
@@ -498,7 +498,7 @@ const page = () => {
           ),
         },
         {
-          title: "Il dispose de la meilleure assistance technique",
+          title: "Ma najlepszą pomoc techniczną",
           icon1: (
             <svg
               width="100%"
@@ -535,120 +535,118 @@ const page = () => {
       ],
     },
     featuresOfTrueAdBlocker: {
-      title: "CARACTÉRISTIQUES DU VRAI ADBLOCKER",
+      title: "CECHY TRUE ADBLOCKER",
       featuresOfTrueAdBlocker: [
-        "En quelques clics, vous pouvez contrôler entièrement votre navigateur Web.",
-        "Avec cette extension, vous pouvez également supprimer toutes sortes d'éléments perturbateurs qui gâchent votre expérience.",
-        "Installez le Adblocker Chrome extension et vivez la meilleure expérience sur votre plateforme en ligne préférée.",
-        "Vous pouvez désormais diffuser votre contenu préféré sans aucune interruption.",
-        "Avec Twitch Adblock Chrome, vous pouvez diffuser des diffusions sans être dérangé. Non seulement Twitch, vous pouvez diffuser du contenu sur YouTube, Hulu, Prime et bien d'autres.",
+        "Pobierając rozszerzenie, możesz kontrolować swoją przeglądarkę internetową.",
+        "Możesz także blokować wszelkiego rodzaju irytujące reklamy, które zakłócają Twoje wrażenia podczas słuchania lub oglądania ulubionych treści.",
+        "Install the Adblocker Chrome extension i mieć najlepsze doświadczenia.",
+        "Przygotuj się na strumieniowe przesyłanie ulubionych treści bez żadnych przerw.",
       ],
     },
     howToUse: {
-      title: "Comment utiliser Trueadblocker",
+      title: "Jak używać Trueadblocker",
       steps: [
         {
           id: "1",
-          text: "Tout d’abord, recherchez l’extension ou vous pouvez simplement visiter son site officiel",
+          text: "Możesz odwiedzić naszą oficjalną stronę internetową",
         },
         {
           id: "2",
-          text: "Maintenant, téléchargez le ad blocker Chrome extension",
+          text: "Teraz możesz zainstalować rozszerzenie",
         },
         {
           id: "3",
-          text: "Ensuite, faites un clic droit sur la barre d'outils",
+          text: "Kliknij prawym przyciskiem myszy pasek narzędzi",
         },
         {
           id: "4",
-          text: "Ajoutez à Chrome et activez le blocage des publicités sur votre navigateur",
+          text: "Dodaj do Chrome i pomyślnie włącz blokowanie reklam",
         },
         {
           id: "5",
-          text: "Enfin, vous pouvez diffuser toutes vos vidéos préférées sur Twitch, YouTube et bien d'autres sans aucun problème.",
+          text: "Bez problemu przesyłaj strumieniowo swoje ulubione filmy do serwisów Hulu, Twitch, YouTube i wielu innych.",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "Zablokuj wszystkie reklamy teraz – to nic nie kosztuje",
     },
     faq: {
       title: "FAQs",
-      button: "Plus de questions",
+      button: "Więcej pytań",
       questions: [
         {
           id: 1,
-          ques: "Qu'est-ce que Trueadblocker et comment ça marche ?",
-          ans: "Il s'agit de la meilleure extension conçue pour améliorer votre expérience en ligne en bloquant tous les types de publicités gênantes. Il protège également votre vie privée et enregistre votre utilisation des données. La meilleure partie est que son utilisation est gratuite.",
+          ques: "Co to jest Trueadblocker i jak działa?",
+          ans: "Jest to najlepsze rozszerzenie, które ma na celu poprawę komfortu korzystania z Internetu poprzez blokowanie wszelkiego rodzaju irytujących reklam. Chroni także Twoją prywatność i oszczędza wykorzystanie danych. Najlepsze jest to, że korzystanie z niego jest bezpłatne.",
         },
         {
           id: 2,
-          ques: "Cette extension bloque-t-elle tous les types de publicités ?",
-          ans: "Oui ca adblocker Chrome extension bloque tous les types de publicités, y compris les bannières publicitaires, les pop-ups, les publicités vidéo et bien d'autres.",
+          ques: "Czy to rozszerzenie blokuje wszystkie typy reklam?",
+          ans: "Tak to adblocker Chrome extension blokuje wszystkie typy reklam, w tym banery reklamowe, wyskakujące okienka, reklamy wideo i wiele innych.",
         },
         {
           id: 3,
-          ques: "Cette extension peut-elle affecter votre vitesse de navigation sur le Web ?",
-          ans: "Il peut accélérer le chargement de votre page en bloquant toutes les publicités indésirables.",
+          ques: "Czy to rozszerzenie może mieć wpływ na szybkość przeglądania Internetu??",
+          ans: "Może przyspieszyć ładowanie strony, blokując wszystkie niechciane reklamy.",
         },
         {
           id: 4,
-          ques: "Comment mettre sur liste blanche des sites Web dans Trueadblocker ?",
-          ans: "Vous pouvez ajouter des sites Web à la liste blanche en les ajoutant à la liste autorisée dans ses paramètres. Toutes les annonces seront alors autorisées sur ces sites sélectionnés.",
+          ques: "Jak dodać witryny do białej listy w Trueadblocker?",
+          ans: "Możesz dodać strony internetowe do białej listy, dodając je do listy dozwolonych w swoich ustawieniach, a wtedy zezwolisz na wszystkie reklamy w tych wybranych witrynach.",
         },
         {
           id: 5,
-          ques: "Utilise ceci adblocker Chrome extension légal?",
-          ans: "Oui, cette extension est légale et sûre à utiliser.",
+          ques: "Używa tego adblocker Chrome extension prawny?",
+          ans: "Tak, to rozszerzenie jest legalne i bezpieczne w użyciu.",
         },
         {
           id: 6,
-          ques: "Cette extension est-elle compatible avec d'autres sites Web ?",
-          ans: "Ce adblocker Chrome extension est compatible avec la plupart des principaux navigateurs, dont Google et Firefox.",
+          ques: "Czy to rozszerzenie jest kompatybilne z innymi stronami internetowymi?",
+          ans: "Ten adblocker Chrome extension jest kompatybilny z większością głównych przeglądarek, w tym Google i Firefox.",
         },
         {
           id: 7,
-          ques: "Comment puis-je installer Trueadblocker sur mon navigateur Web ?",
-          ans: "C'est très simple car il vous suffit de rechercher l'extension ou vous pouvez visiter notre site Web et télécharger l'extension à partir de là.",
+          ques: "Jak mogę zainstalować Trueadblocker w mojej przeglądarce internetowej?",
+          ans: "Nie wymaga to żadnego wysiłku, wystarczy wyszukać rozszerzenie lub odwiedzić naszą stronę internetową i pobrać stamtąd rozszerzenie.",
         },
         {
           id: 8,
-          ques: "Est-il sûr d'utiliser Trueadblocker sur plusieurs sites ?",
-          ans: "Oui, l'extension est absolument sûre sur plusieurs navigateurs, notamment Google Chrome et Firefox.",
+          ques: "Czy używanie Trueadblockera w wielu witrynach jest bezpieczne??",
+          ans: "Tak, rozszerzenie jest całkowicie bezpieczne w wielu przeglądarkach, w tym Google Chrome i Firefox.",
         },
         {
           id: 9,
-          ques: "Existe-t-il une version gratuite de Trueadblocker ?",
-          ans: "Oui, notre extension est gratuite. Vous pouvez bloquer gratuitement tous les types de publicités et améliorer votre expérience en ligne.",
+          ques: "Czy istnieje darmowa wersja Trueadblocker?",
+          ans: "Tak, korzystanie z naszego rozszerzenia jest bezpłatne. Możesz bezpłatnie blokować wszystkie typy reklam i ulepszać swoje doświadczenia online.",
         },
         {
           id: 10,
-          ques: "Pourquoi Trueadblocker est meilleur que les autres adblockers ?",
-          ans: "La majorité des bloqueurs de publicités ne peuvent pas se débarrasser des publicités inutiles, mais en installant notre extension, vous pouvez bloquer tous les types de publicités cachées susceptibles de gâcher votre expérience. Il bloque non seulement les publicités, mais protège également votre navigateur des sites Web dangereux.",
+          ques: "Dlaczego Trueadblocker jest lepszy od innych programów blokujących reklamy?",
+          ans: "Większość programów blokujących reklamy nie może pozbyć się niepotrzebnych reklam, ale instalując nasze rozszerzenie, możesz zablokować wszelkiego rodzaju ukryte reklamy, które mogą zrujnować Twoje wrażenia. Nie tylko blokuje reklamy, ale także chroni przeglądarkę przed niebezpiecznymi stronami internetowymi.",
         },
       ],
     },
     reviews: {
-      title: "Commentaires",
+      title: "Opinie",
       reviewLeft: [
         {
           image: avatar1,
           name: "Rahul Rawat",
           data: "March 20,24",
           reviewText:
-            "C'est le meilleur adblocker Chrome extension car je peux regarder toutes mes émissions préférées sans publicité.",
+            "To jest najlepszy adblocker Chrome extension ponieważ mogę oglądać wszystkie moje ulubione programy bez reklam.",
         },
         {
           image: avatar2,
           name: "Ronaldo",
           data: "feb 09,24",
           reviewText:
-            "J'utilise cette extension depuis des années et j'ai eu une super expérience.",
+            "Używam tego rozszerzenia od lat i mam świetne doświadczenia.",
         },
         {
           image: avatar3,
           name: "Adarsh",
           data: "feb 09,24",
-          reviewText:
-            "Wow, je peux maintenant utiliser l'extension gratuitement",
+          reviewText: "Wow, teraz mogę korzystać z rozszerzenia za darmo",
         },
       ],
       reviewRight: [
@@ -657,20 +655,20 @@ const page = () => {
           name: "Gaurav Kumar",
           data: "March 11,24",
           reviewText:
-            "Ik kan niet eens zeggen hoeveel Adblocker Chrome extension hielp mij. Het heeft me niet alleen geholpen advertenties te blokkeren, maar ook mijn gegevens en privacy te behouden.",
+            "Nie mogę nawet powiedzieć, jak bardzo pomogło mi rozszerzenie Adblocker do Chrome. Pomogło mi to nie tylko zablokować reklamy, ale także uratować moje dane i prywatność.",
         },
         {
           image: avatar5,
           name: "Shehnaaz",
           data: "March 20,24",
           reviewText:
-            "Je ne peux même pas dire à quel point Adblocker Chrome extension m'a aidé. Cela m'a aidé non seulement à bloquer les publicités, mais également à sauvegarder mes données et ma confidentialité.Une application tellement merveilleuse !! Il supprime toutes les publicités dégoûtantes qui peuvent gâcher votre expérience en ligne.",
+            "Taka cudowna aplikacja!! Usuwa wszystkie obrzydliwe reklamy, które mogą zrujnować Twoje wrażenia z Internetu.",
         },
       ],
     },
     about: {
-      title: "À propos de Trueadblocker",
-      text: "C'est le best adblocker qui bloque non seulement les publicités, mais vous protège également des pirates tiers. Ce adblocker Chrome extension est le bloqueur de publicités le plus populaire utilisé par des milliers de personnes dans le monde. Il prend également en charge la protection de la vie privée et le meilleur, c’est que son utilisation est gratuite. | | Notre objectif est d'offrir à nos clients la meilleure expérience en éliminant toutes les publicités interrompues qui peuvent gâcher votre humeur lors de la diffusion de vos émissions préférées. Il accélère également le chargement de votre page et supprime tous les logiciels malveillants cachés qui peuvent nuire à votre navigateur. Alors, profitez de vos films et séries les plus attendus et le meilleur, c’est que cette extension est gratuite.",
+      title: "O Trueadblockerze",
+      text: "Ten adblocker Chrome extension jest najlepszy, ponieważ chroni Cię przed hakerami z zewnątrz i blokuje wszelkiego rodzaju niechciane reklamy. Jest to najsłynniejszy program blokujący reklamy, z którego korzystają tysiące ludzi na całym świecie. Najlepsze jest to, że korzystanie z niego jest bezpłatne. Wspiera także ochronę prywatności. | | Jego jedynym celem jest zapewnienie najlepszych wrażeń poprzez usunięcie wszystkich przerwanych reklam, które rozpraszają Cię podczas przeglądania lub przesyłania strumieniowego ulubionych programów. Przyspiesza także ładowanie strony i blokuje całe złośliwe oprogramowanie, które może uszkodzić Twoją przeglądarkę. Więc na co czekasz? ciesz się najbardziej oczekiwanymi filmami i serialami, a najlepsze jest to, że to rozszerzenie jest bezpłatne.",
     },
     footer: {
       title: "Get it free and block ads",
@@ -678,9 +676,9 @@ const page = () => {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
-      button2: "À propos de nous",
-      button3: "Contactez-nous",
+      button1: "Zablokuj wszystkie reklamy teraz – to nic nie kosztuje",
+      button2: " O nas",
+      button3: "Skontaktuj się z nami",
       popularSearch: [
         {
           data: "adblocker chrome extension",
@@ -740,22 +738,22 @@ const page = () => {
         },
       ],
       popularKeywords:
-        "adblock, adblock chrome, chrome web store, bloqueur de pub, adblock plus, ad block, adguard, abp, adblock firefox, stop pub, adblock android, google extension, extension chrome, adblock gratuit, bloqueur de pub chrome, adblock chrome android, telecharger adblock",
+        "adblock, adblock chrome, ad block, adblock plus, adblock firefox, adblocker, jak wyłączyć adblocka, addblock, blokowanie reklam, add block, adblock opera, adblock chrome android, adblock na telefon, chrome adblock",
       links: [
         {
-          name: "Contactez-nous",
+          name: "Skontaktuj się z nami",
           link: "/contact-us",
         },
         {
-          name: "EULA",
+          name: "Eula",
           link: "/terms",
         },
         {
-          name: "Conditions de services",
+          name: "Warunki korzystania z usług",
           link: "/terms",
         },
         {
-          name: "Politique de confidentialité",
+          name: "Polityka prywatności",
           link: "privacy-policy",
         },
       ],

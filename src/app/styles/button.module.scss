@@ -1,47 +1,45 @@
 .btn {
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  font-weight: 200;
-  background-color: transparent;
+  font-weight: 300;
+  background: transparent;
   border: solid 1px #ffffff;
   border-radius: 3rem;
   color: #ffffff;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  transition: all 0.2s linear;
   z-index: 100 !important;
+  transition: all 0.1s ease-in;
   position: relative;
 
   &::before {
     top: 0;
-    content: "";
-    position: absolute;
-    top: 0;
     left: 0;
-    right: 0;
     bottom: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    content: "";
     border-radius: 3rem;
-    z-index: -1;
-    transform-origin: left;
-    transition: all 0.2s ease;
-    transform: scaleX(0);
+    background: transparent;
+    transition: all 0.2s ease-in;
+  }
+  &:hover::before {
+    bottom: -8px;
+    right: -8px;
+    top: -8px;
+    left: -8px;
+    border: solid 1px white;
+    box-sizing: border-box;
+  }
+
+  &:hover {
+    border: solid 1px transparent;
     background: linear-gradient(
       90deg,
       rgb(151, 82, 242) 0%,
       rgb(233, 90, 166) 100%
     );
-  }
-  &:hover {
-    border: transparent;
-    // scale: 1;
-    // font-size: 1.8rem;
-  }
-  &:hover::before {
-    transform: scaleX(1);
-    // scale: 1;
   }
 }
 

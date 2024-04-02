@@ -5,15 +5,15 @@ const Privacy = ({ data }) => {
   return (
     <div className={styles.container}>
       <Image src={background} className={styles.background} alt="bg" />
-      <h2 className={styles.heading}>{data.title}</h2>
-      <h3 className={styles.subHeading}>{data.subTitle}</h3>
+      <h2 className={styles.heading}>{data?.title}</h2>
+      <h3 className={styles.subHeading}>{data?.subTitle}</h3>
       <div className={styles.cardContainer}>
-        {data.privacy.map((data, index) => (
+        {data?.privacy.map((data, index) => (
           <PrivacyCard
             key={index}
-            title={data.title}
-            text={data.text}
-            icon={data.icon}
+            title={data?.title}
+            text={data?.text}
+            icon={data?.icon}
           />
         ))}
       </div>

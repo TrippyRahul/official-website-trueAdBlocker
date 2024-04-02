@@ -7,6 +7,94 @@ import Image from "next/image";
 import Button from "./Button";
 
 const Footer = ({ data }) => {
+  const footer = {
+    title: "Get it free and block ads",
+    subTitle:
+      "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
+    subText:
+      "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
+    button1: "Block All Ads Now - it's Free",
+    button2: "About Us",
+    button3: "Contact Us",
+    popularSearch: [
+      {
+        data: "adblocker chrome extension",
+        link: "https://www.trueadblocker.net/",
+      },
+      {
+        data: "adblock plus chrome",
+        link: "https://www.trueadblocker.net/korean",
+      },
+      {
+        data: "ad blocker google chrome",
+        link: "https://www.trueadblocker.net/dutch",
+      },
+      {
+        data: "blocker chrome",
+        link: "https://www.trueadblocker.net/italian",
+      },
+      {
+        data: "ad blocker in chrome",
+        link: "https://www.trueadblocker.net/germany",
+      },
+      {
+        data: "hulu adblock",
+        link: "https://www.huluadblocker.net/",
+      },
+      {
+        data: "Spotify adblock",
+        link: "https://www.spotifyadblocker.co/",
+      },
+      {
+        data: "youtube adblocker",
+        link: "https://www.youtubeadblocker.net/",
+      },
+      {
+        data: "pop up blocker chrome",
+        link: "https://www.trueadblocker.net/polish",
+      },
+      {
+        data: "Best ad blocker firefox",
+        link: "https://www.trueadblocker.net/french",
+      },
+      {
+        data: "Best ad blocker firefox",
+        link: "https://www.trueadblocker.net/french",
+      },
+      {
+        data: "ad blocker google chrome",
+        link: "https://www.trueadblocker.net/turkish",
+      },
+      {
+        data: "chrome extension",
+        link: "https://www.trueadblocker.net/spanish",
+      },
+      {
+        data: "chrome ad blocker",
+        link: "https://www.trueadblocker.net/portuguese",
+      },
+    ],
+    popularKeywords:
+      "advertisement blocker chrome, abp plus chrome, adb plus chrome, browser chrome, youtube no ads, hulu without ads, adguard ablocker and Pop-up ads",
+    links: [
+      {
+        name: "Contact Us",
+        link: "/contact-us",
+      },
+      {
+        name: "EULA",
+        link: "/terms",
+      },
+      {
+        name: "Terms of service",
+        link: "/terms",
+      },
+      {
+        name: " Privacy Policy",
+        link: "privacy-policy",
+      },
+    ],
+  };
   return (
     <div className={styles.footer}>
       <Image src={background} className={styles.background} alt="bg" />
@@ -16,38 +104,67 @@ const Footer = ({ data }) => {
         alt="footerbackground"
       />
       <div className={styles.container}>
-        <h2 className={styles.heading}>{data.title}</h2>
-        <p className={styles.subHeading}>{data.subTitle}</p>
-        <p className={styles.subText}>{data.subText}</p>
+        <h2 className={styles.heading}>{data?.title || footer.title}</h2>
+        <p className={styles.subHeading}>{data?.subTitle || footer.subTitle}</p>
+        <p className={styles.subText}>{data?.subText || footer.subText}</p>
         <div className={styles.buttonContainer}>
-          <Button text={data.button1}></Button>
+          <Button text={data?.button1 || footer.button1}></Button>
           <Link href="/about-us" className={styles.btn}>
-            {data.button2}
+            {data?.button2 || footer.button2}
           </Link>
           <Link href="/contact-us" className={styles.btn}>
-            {data.button3}
+            {data?.button3 || footer.button3}
           </Link>
         </div>
         <hr className={styles.line} />
         <div className={styles.popularSearch}>
           <span className={styles.heading}>Popular searchs: </span>
-          {data.popularSearch.map((data, index) => (
-            <span key={index}>
-              <a href={data.link}>
-                {data.data}
-                {", "}
-              </a>
+          {data ? (
+            <span>
+              {data?.popularSearch.map((data, index) => (
+                <>
+                  <span key={index}>
+                    <a href={data.link}>
+                      {data.data}
+                      {", "}
+                    </a>
+                  </span>
+                  <span>{data?.popularKeywords}</span>
+                </>
+              ))}
             </span>
-          ))}
-          <span>{data.popularKeywords}</span>
+          ) : (
+            <span>
+              {footer.popularSearch.map((data, index) => (
+                <span key={index}>
+                  <a href={data?.link}>
+                    {data?.data}
+                    {", "}
+                  </a>
+                </span>
+              ))}
+            </span>
+          )}
         </div>
         <div className={styles.content}>
           <ul className={styles.contentLinkContainer}>
-            {data.links.map((item, index) => (
-              <li key={index}>
-                <Link href={item.link}>{item.name}</Link>
-              </li>
-            ))}
+            {data ? (
+              <>
+                {data?.links.map((item, index) => (
+                  <li key={index}>
+                    <Link href={item.link}>{item.name}</Link>
+                  </li>
+                ))}
+              </>
+            ) : (
+              <>
+                {footer.links.map((item, index) => (
+                  <li key={index}>
+                    <Link href={item.link}>{item.name}</Link>
+                  </li>
+                ))}
+              </>
+            )}
           </ul>
           <ul className={styles.socials}>
             <li>
