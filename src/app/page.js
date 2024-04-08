@@ -469,7 +469,7 @@ export default function Home() {
           ),
         },
         {
-          title: "It has the best technical assistance",
+          title: "It has the best assistance",
           icon1: (
             <svg
               width="100%"
