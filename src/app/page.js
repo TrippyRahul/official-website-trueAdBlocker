@@ -23,7 +23,7 @@ export default function Home() {
       subHeading: "Your Best Choice",
       subTitle:
         "It is the best Adblocker Chrome Extension That Blocks All Annoying Ads.",
-      button: "Block All Ads Now - it's Free",
+      button: "Add to Chrome it's Free",
       Navbar: {
         title1: "About Us",
         title2: "Contact Us",
@@ -539,7 +539,7 @@ export default function Home() {
           text: "Watch your favorite video freely as it will block all the disturbing ads",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "Add to Chrome it's Free",
     },
     faq: {
       title: "FAQs",
@@ -648,7 +648,7 @@ export default function Home() {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
+      button1: "Add to Chrome it's Free",
       button2: "About Us",
       button3: "Contact Us",
       popularSearch: [
