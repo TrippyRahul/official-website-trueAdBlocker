@@ -221,7 +221,7 @@ const Navbar = ({ data }) => {
             </li>
           </ul>
           <div className={styles.buttonContainer}>
-            <Button text="Block All Ads Now - it's Free" />
+            <Button text="Add to Chrome it's free" />
             <select
               value={selectedLanguage}
               onChange={(e) => handleLanguageChange(e.target.value)}

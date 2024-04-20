@@ -564,7 +564,7 @@ const page = () => {
           text: "Bekijk probleemloos je favoriete video op Twitch, YouTube en nog veel meer",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "Add to Chrome it's free",
     },
     faq: {
       title: "FAQs",

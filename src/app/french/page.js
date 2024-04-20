@@ -47,7 +47,7 @@ const page = () => {
       subHeading: "Votre meilleur choix",
       subTitle:
         "Il s'agit de la meilleure extension Chrome Adblocker qui bloque toutes les publicités ennuyeuses.",
-      button: "Block All Ads Now - it's Free",
+      button: "Add to Chrome it's free",
       Navbar: {
         title1: "À propos de nous",
         title2: "Contactez-nous",
@@ -568,7 +568,7 @@ const page = () => {
           text: "Enfin, vous pouvez diffuser toutes vos vidéos préférées sur Twitch, YouTube et bien d'autres sans aucun problème.",
         },
       ],
-      button: "Block All Ads Now - it's Free",
+      button: "Add to Chrome it's free",
     },
     faq: {
       title: "FAQs",
@@ -678,7 +678,7 @@ const page = () => {
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Block All Ads Now - it's Free",
+      button1: "Add to Chrome it's free",
       button2: "À propos de nous",
       button3: "Contactez-nous",
       popularSearch: [
