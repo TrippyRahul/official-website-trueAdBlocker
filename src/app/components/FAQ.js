@@ -5,7 +5,6 @@ import Image from "next/image";
 import background from "../../../public/3.png";
 import faqBackground from "../../../public/faqBackground.png";
 import { usePathname, useRouter } from "next/navigation";
-import Link from "next/link";
 
 const FrequentlyAskedQuestion = ({ data }) => {
   const pathname = usePathname();
@@ -31,7 +30,7 @@ const FrequentlyAskedQuestion = ({ data }) => {
       />
       <div className={styles.container}>
         <h2 className={styles.heading}>{data?.title}</h2>
-        {pathname !== "/faq" ? (
+        {pathname === "/" || pathname === `/${data.lang}` ? (
           <ol>
             {limitedQuestions.map((question) => (
               <li key={question.id} onClick={() => toggleAnswer(question.id)}>
@@ -70,9 +69,8 @@ const FrequentlyAskedQuestion = ({ data }) => {
                 </div>
                 {showAnswer === question.id && (
                   <div
-                    className={`${styles.answer} ${
-                      showAnswer === question.id ? styles.active : ""
-                    }`}
+                    className={`${styles.answer} ${showAnswer === question.id ? styles.active : ""
+                      }`}
                   >
                     <p>{question.ans}</p>
                   </div>
@@ -119,9 +117,8 @@ const FrequentlyAskedQuestion = ({ data }) => {
                 </div>
                 {showAnswer === question.id && (
                   <div
-                    className={`${styles.answer} ${
-                      showAnswer === question.id ? styles.active : ""
-                    }`}
+                    className={`${styles.answer} ${showAnswer === question.id ? styles.active : ""
+                      }`}
                   >
                     <p>{question.ans}</p>
                   </div>
@@ -130,12 +127,12 @@ const FrequentlyAskedQuestion = ({ data }) => {
             ))}
           </ol>
         )}
-        {pathname !== "/faq" ? (
+        {pathname === "/faq" || pathname === `/${data.lang}` ? (
           <div className={styles.buttonContainer}>
             <button
               className={styles.button}
               onClick={() => {
-                router.push("/faq");
+                router.push(`/faq/${data.lang}`);
               }}
             >
               {data?.button}

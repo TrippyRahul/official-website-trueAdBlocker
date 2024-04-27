@@ -16,6 +16,8 @@ import avatar3 from "../../public/avatar_3.png";
 import avatar4 from "../../public/avatar_4.png";
 import avatar5 from "../../public/avatar_5.png";
 
+
+
 export default function Home() {
   const data = {
     hero: {
@@ -542,6 +544,7 @@ export default function Home() {
       button: "Add to Chrome it's Free",
     },
     faq: {
+      lang: "english",
       title: "FAQs",
       button: "More Questions",
       questions: [
@@ -742,7 +745,7 @@ export default function Home() {
       <HowToUse data={data.howToUse} />
       <FrequentlyAskedQuestion data={data.faq} />
       <Reviews data={data.reviews} />
-      {/* <Blogs /> */}
+      <Blogs showbg={true}/>
       <AboutTrueAdBlocker data={data.about} />
       <Footer data={data.footer} />
     </div>

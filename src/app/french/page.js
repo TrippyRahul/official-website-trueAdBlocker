@@ -572,6 +572,7 @@ const page = () => {
     },
     faq: {
       title: "FAQs",
+      lang: "french",
       button: "Plus de questions",
       questions: [
         {
@@ -772,7 +773,7 @@ const page = () => {
       <HowToUse data={data.howToUse} />
       <FrequentlyAskedQuestion data={data.faq} />
       <Reviews data={data.reviews} />
-      {/* <Blogs /> */}
+      <Blogs showbg={true}/>
       <AboutTrueAdBlocker data={data.about} />
       <Footer data={data.footer} />
     </div>

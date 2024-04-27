@@ -567,6 +567,7 @@ const page = () => {
     },
     faq: {
       title: "FAQs",
+      lang: "korean",
       button: "더 많은 질문",
       questions: [
         {
@@ -766,7 +767,7 @@ const page = () => {
       <HowToUse data={data.howToUse} />
       <FrequentlyAskedQuestion data={data.faq} />
       <Reviews data={data.reviews} />
-      {/* <Blogs /> */}
+      <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
       <Footer data={data.footer} />
     </div>
