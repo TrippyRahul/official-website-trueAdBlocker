@@ -1,0 +1,108 @@
+.blogs {
+    background-color: #111;
+    color: #fff;
+    position: relative;
+    min-height: 100vh;
+
+    .container {
+        width: 72%;
+        margin: auto;
+        padding: 8rem;
+
+        .blogImage {
+            height: 50%;
+            width: 50%;
+            border: solid 1px white;
+            border-radius: 2rem;
+            float: left;
+            margin-right: 3.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .text {
+            flex-direction: column;
+
+            h1 {
+                font-size: 4.5rem;
+                font-weight: 400;
+                margin-bottom: 2.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                color: #dfdfdfc6;
+            }
+
+            b {
+                color: white;
+                font-size: 2rem;
+                font-weight: 500;
+            }
+
+            h3,
+            h2 {
+                font-size: 2.5rem;
+                font-weight: 300;
+                margin-bottom: 1.8rem;
+            }
+
+            h4 {
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 1.8rem;
+            }
+
+            ul {
+                width: 60%;
+
+                li {
+                    list-style-type: disc;
+                    font-size: 1.5rem;
+                    margin-bottom: 2rem;
+                    color: #dfdfdfc6;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .blogs {
+        .container {
+            width: 95%;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .blogs {
+        .container {
+            .text {
+                h1 {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 650px) {
+    .blogs {
+        .container {
+            padding: 4rem;
+            .blogImage{
+                float: none;
+                width: 100%;
+            }
+            .text{
+                p, ul li {
+                    font-size: 2rem;
+                   
+                }
+                ul{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

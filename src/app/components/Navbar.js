@@ -13,7 +13,6 @@ const Navbar = ({ data }) => {
   const pathname = usePathname();
   useEffect(() => {
     const currentLanguage = pathname.substring(1);
-    console.log("CURRENT LAG : ", currentLanguage);
     setSelectedLanguage(currentLanguage);
   }, [pathname]);
 
@@ -186,9 +185,9 @@ const Navbar = ({ data }) => {
             <option value="turkish">Turkish</option>
           </select>
           <ul className={styles.links}>
-            {/* <li className={styles.link}>
+            <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
-            </li> */}
+            </li>
             {/* <li className={styles.link}>
               <Link href="/blogs">All Adblockers</Link>
             </li> */}
@@ -213,6 +212,9 @@ const Navbar = ({ data }) => {
       {isOpen && (
         <div className={styles.mobile}>
           <ul className={styles.links}>
+          <li className={styles.link}>
+              <Link href="/blogs">Blogs</Link>
+            </li>
             <li className={styles.link}>
               <Link href="/about-us">{data?.title1 || "About Us"}</Link>
             </li>

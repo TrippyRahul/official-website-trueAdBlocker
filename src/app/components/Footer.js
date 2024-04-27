@@ -115,11 +115,14 @@ const Footer = ({ data }) => {
           <Link href="/contact-us" className={styles.btn}>
             {data?.button3 || footer.button3}
           </Link>
+          <Link href="/blogs" className={styles.btn}>
+           Blogs
+          </Link>
         </div>
         <hr className={styles.line} />
         <div className={styles.popularSearch}>
           <span className={styles.heading}>Popular searchs: </span>
-          {data ? (
+          {data?.popularSearch ? (
             <span>
               {data?.popularSearch.map((data, index) => (
                 <>
@@ -135,7 +138,7 @@ const Footer = ({ data }) => {
             </span>
           ) : (
             <span>
-              {footer.popularSearch.map((data, index) => (
+              {footer?.popularSearch.map((data, index) => (
                 <span key={index}>
                   <a href={data?.link}>
                     {data?.data}
@@ -145,7 +148,13 @@ const Footer = ({ data }) => {
               ))}
             </span>
           )}
+          {data?.popularKeywords ? (
+            <span>
+              {data?.popularKeywords}
+            </span>
+          ) : null}
         </div>
+
         <div className={styles.content}>
           <ul className={styles.contentLinkContainer}>
             {data ? (

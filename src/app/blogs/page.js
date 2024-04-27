@@ -1,14 +1,18 @@
-import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Blogs from "../components/Blogs"
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
+import styles from "../styles/blogpage.module.scss";
 
-const Blogs = () => {
-  return (
-    <>
-      <Header />
-      <Footer />
-    </>
-  );
-};
+const Page = () => {
+    return (
+        <div className={styles.blogs}>
+            <Navbar />
+            <div style={{minHeight: "100vh", margin: "auto"}}>
+                <Blogs showbg={false}/>
+            </div>
+            <Footer />
+        </div>
+    )
+}
 
-export default Blogs;
+export default Page
