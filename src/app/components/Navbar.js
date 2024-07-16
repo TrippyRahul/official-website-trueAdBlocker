@@ -186,6 +186,9 @@ const Navbar = ({ data }) => {
           </select>
           <ul className={styles.links}>
             <li className={styles.link}>
+              <Link href="/features">Features</Link>
+            </li>
+            <li className={styles.link}>
               <Link href="/blogs">Blogs</Link>
             </li>
             {/* <li className={styles.link}>
