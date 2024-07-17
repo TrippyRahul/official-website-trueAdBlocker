@@ -1,0 +1,43 @@
+.experience {
+    padding: 0rem 10rem 4rem;
+    color: #fff;
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      opacity: 0.2;
+      width: 100%;
+      z-index: 1;
+    }
+    .BrowsingBackground {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      z-index: 10;
+      width: 70%;
+      }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .experience {
+      .container {
+        width: 100%;
+      }
+    }
+  }
+
+  

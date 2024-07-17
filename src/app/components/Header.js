@@ -16,10 +16,10 @@ const Header = ({ data }) => {
       <Image src={element} className={styles.element} alt="element" />
       <Navbar data={data?.Navbar} />
       <div className="grid grid-cols-12 h-full">
-        {path=="/features"&&<div className="col-span-5">
+        {path=="/features"&&<div className="hidden md:block col-span-5">
           <Image src={'/feature.png'} height={300} width={300} quality={100} className="w-full "/>
         </div>}
-        <div className={`${styles.container} ${path=='/'?'col-span-12':'col-span-7'}`}>
+        <div className={`${styles.container} ${path=='/'?'col-span-12':'col-span-12 md:col-span-7'}`}>
           <Button customClass={styles.headerButton} text={data?.button} />
           <p className={styles.subtitle1}>{data?.subHeading}</p>
           <h1

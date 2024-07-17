@@ -70,26 +70,15 @@
     text-align: center;
     z-index: 10;
   }
-  .UsageCardContainer {
-    display: flex;
-    width: 70%;
-    z-index: 10;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-  }
 }
 
 .usageCard {
-  
   color: #ffffff;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  padding: 3rem;
+  padding: 2rem 3rem;
   border-radius: 2rem;
-  width: calc(50% - 0.5rem);
+  z-index: 99;
 }
 .usageIcon {
   width: 5rem;
@@ -103,6 +92,7 @@
   font-size: 1.6rem;
   font-weight: 300;
   text-align: center;
+  padding-top: 3rem;
 }
 
 @media screen and (max-width: 1200px) {

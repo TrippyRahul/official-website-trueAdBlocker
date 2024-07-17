@@ -1,22 +1,21 @@
 import React from 'react'
-import Header from '../components/Header'
 import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import PlatformIcons from '../components/PlatformIcons'
+import Navbar from '../components/Navbar'
 
 export const metadata = {
-  title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-  description:"With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+  title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
+  description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
   icons: {
       icon: '/favicon.png',
   },
   openGraph: {
-      title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-      description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+      title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
+      description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
       type: 'website',
-      siteName: "TrueAdblocker Features",
+      siteName: "Twitch ad blocker",
       images: "/favicon.png",
   },
   alternates: {
@@ -25,27 +24,16 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
-    hero: {
-      title: "<span class='capitalize'>Discover the Joy of</span> <br/><span class='bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text'>Ad-Free Exploration</span>",
-      subHeading: "",
-      subTitle:
-        "Are you tired of having to dodge annoying advertisements all the time like a digital ninja?",
-      button: "Add to Chrome it's Free",
-      Navbar: {
-        title1: "About Us",
-        title2: "Contact Us",
-      },
-    },
     usage: {
-      title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
+      title: "Enjoy Ad-Free Content with Twitch Adblocker Chrome extension",
       expTitle: "Have the best online experience with this adblock Chrome",
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
       usage: [
         {
-          title: "Fasten up your speed",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Customization Features",
+          text: "We provide customization options for our extension twitch adblock. You may be able to permit specific adverts to support your favorite streams, safelist particular channels, or decide which kinds of ads to prohibit.",
           icon: (
             <svg
               width="100%"
@@ -63,8 +51,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Maintain the privacy",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Peace of mind",
+          text: "Malicious software occasionally poses as advertisements. Twitch Adblocker can lessen the chance of inadvertently clicking on malicious links by blocking advertisements.",
           icon: (
             <svg
               width="100%"
@@ -82,27 +70,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Parenting Contro",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
-          icon: (
-            <svg
-              width="100%"
-              height="100%"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
-                fill="white"
-              />
-            </svg>
-          ),
-          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
-        },
-        {
-          title: "Website Assistance",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Improved User Experience",
+          text: "Some advertisements take up a large amount of the screen, which can be bothersome. These interruptions are removed by our Twitch adblock extension Chrome, allowing you to concentrate on the material without interruption.",
           icon: (
             <svg
               width="100%"
@@ -117,6 +86,26 @@ const pages = () => {
               />
             </svg>
           ),
+          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
+        },
+        {
+          title: "Safety of Personal Information",
+          text: "It's common knowledge that advertisements may monitor your browsing preferences and behaviors, invading your privacy. Our twitch ads extension protects your privacy by blocking these tracking technologies and restricting the sharing of your information with outside parties.",
+          icon: (
+            <svg
+            width="100%"
+            height="100%"
+            viewBox="0 0 60 60"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
+              fill="white"
+            />
+          </svg>
+           
+          ),
           gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
       ],
@@ -128,54 +117,49 @@ const pages = () => {
       questions: [
         {
           id: 1,
-          ques: "What is Trueadblocker?",
-          ans: "Trueadblocker is a powerful ad-blocking solution that removes obtrusive adverts from web pages, resulting in a cleaner and more enjoyable browsing experience.",
+          ques: "What is a Twitch Adblocker?",
+          ans: "With the ability to filter ads on Twitch, viewers can have a more uninterrupted streaming experience. Twitch Adblocker is a potent tool for this purpose.",
         },
         {
           id: 2,
-          ques: "How does Trueadblocker work?",
-          ans: "Trueadblocker uses powerful algorithms to recognize and block a variety of advertising, including pop-ups, banners, and video adverts. It operates silently in the background of your browser, removing undesirable stuff before it hits your screen.",
+          ques: "How Does an Adblocker on Twitch Work?",
+          ans: "Twitch Adblocker uses advanced algorithms to identify and block different kinds of ads. It ensures uninterrupted viewing by quietly running in the background of your streaming program or browser.",
         },
         {
           id: 3,
-          ques: "Is Trueadblocker slowing down my browsing speed?",
-          ans: "No, Trueadblocker is intended to have minimum influence on your browsing speed. In reality, Trueadblocker can improve your browsing experience by removing advertising and other extra content from websites, resulting in faster page load times.",
+          ques: "Is the Twitch Adblocker slowing down my streaming experience?",
+          ans: "Twitch Adblocker is designed to keep your streaming speed as low as possible while blocking adverts and other undesirable information.",
         },
         {
           id: 4,
-          ques: "Is Trueadblocker collecting any personal information?",
-          ans: "Trueadblocker does not collect personal information from its users. We value privacy and security, and our primary goal is to provide you with the greatest ad-blocking experience available.",
+          ques: "Does Twitch Adblocker gather private information?",
+          ans: "No, personal information is not collected by Twitch Adblocker. Our primary concerns are still user security and privacy.",
         },
         {
-          id: 5,
-          ques: "Is Trueadblocker free to use?",
-          ans: "Yes, Trueadblocker has a free version that includes basic ad-blocking functionality. However, for greater functionality and further customization, we also provide a premium version at a reasonable cost.",
-        }
+            id: 5,
+            ques: "Is there a free version of Twitch Adblocker?",
+            ans: "Indeed, Twitch Adblocker has a free version that offers the most basic functions for preventing ads. We now offer a premium edition for users looking for more customization choices and increased functionality.",
+          }
       ],
     },
     browsData: [
       {
-        heading: 'Safeguard Your Browsing Experience',
-        desc: "Here is the best place to go for a safer internet experience! Are you sick and weary of having your privacy compromised, your screen cluttered with unwanted adverts, and your browsing slowed down? There's nowhere else to look! Regaining control over your internet experience is simple with our adblock plus chrome software. It just takes a few clicks to download our extension. Just go to our official website, where the download link will be clearly visible. You can wave goodbye to intrusive advertisements and take advantage of a faster, cleaner browsing experience with only a few minutes of your time. Concerned about malware or viruses? Don't worry; our application has undergone extensive testing and has been found to be virus-free. Our first concern is your security; thus, we go above and beyond to make sure that our software satisfies the strictest dependability and safety requirements. With our ad blocker google chrome extension, you can easily download and install the application easily"
+        heading: 'Stream Smoother With Our Ad Remover',
+        desc: "Our approach with Adblock Twitch Extension improves your viewing experience by subtly preventing annoying adverts in the background, whether you're watching live events, gaming tournaments, or creative broadcasts. It's simple, streamlined, and made to meet your entertainment requirements. Countless customers have used our cutting-edge ad remover to enjoy a cleaner, ad-free streaming experience; become one of them. Easily immerse yourself in unbroken streams to maximize your enjoyment today."
       },
       {
-        heading: 'Enjoy Ad Free Experience With Trueadblocker',
-        desc: "Come browse without ads and join the millions of happy users who have already done so. Bid farewell to interruptions and welcome to a more seamless and pleasurable virtual experience. Take the first step toward a safer, cleaner internet experience by downloading our application now."
+        heading: 'Stream Without Interruptions with Our Trustworthy and Safe Plugin',
+        desc: "Wave goodbye to obtrusive advertisements on your preferred platforms with our trustworthy and safe Twitch no-ads extension. Whether you're streaming live streams on Twitch, enjoying music on Spotify, or keeping up with the newest videos on YouTube, we've got you covered. You can continue to uninterruptible enjoy your favorite material with our faultless cross-platform adblocker."
       },
       {
-        heading: 'Block ads everywhere, including Twitch, Hulu, YouTube, Spotify, and more!',
-        desc: "Welcome to our ad-blocking software! With our powerful extension, you can say goodbye to those irritating ads on all of your favorite platforms using the adblock browser chrome. Whether you're streaming on Twitch, watching episodes on Hulu, or grooving out on Spotify, we've got you covered. Our adblocker works flawlessly across several platforms, providing uninterrupted pleasure without the nuisance of advertisements. Experience the web the way it was meant to be: ad-free. Say welcome to a cleaner, faster browsing experience today!"
-      },
-      {
-        heading: 'Trueadblocker: Experience Ad-Free Bliss!',
-        desc: "Enter the land of Trueadblocker, where advertisements slip into the shadows! Tired of avoiding digital distractions like a pro? With our adblock chrome features, you may enjoy uninterrupted browsing bliss. Glide through the web waves with ease, reclaiming your peace of mind with every click. Say goodbye to the clutter and embrace the peace of ad-free serenity. Let us work together to create a more serene and clean online experience."
+        heading: 'Twitch Adblocker: The Ultimate Ad Blasting Extension ',
+        desc: "Are those annoying Twitch commercials getting on your nerves? Presenting our effective Adblock Twitch Chrome Extension that doesn't contain any malicious garbage! Bid farewell to disruptions and welcome to blissful, uninterrupted streaming. This quirky, virus-free addon is going to be your new best friend in the fight against intrusive advertising. Your watching experience has just been enhanced with the Twitch Ad Blocking addon; you may now resume watching immediately as an ad ends. It's simple to use, efficient, and made to ensure that your Twitch streams remain ad-free."
       }
     ]
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Header data={data.hero} />
-      <PlatformIcons />
+      <Navbar data={data?.Navbar} />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />
