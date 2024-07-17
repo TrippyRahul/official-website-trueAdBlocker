@@ -93,6 +93,7 @@ const Footer = ({ data }) => {
         name: " Privacy Policy",
         link: "privacy-policy",
       },
+      
     ],
   };
   return (
@@ -117,6 +118,18 @@ const Footer = ({ data }) => {
           </Link>
           <Link href="/blogs" className={styles.btn}>
            Blogs
+          </Link>
+          <Link href="/youtube-adblocker" className={styles.btn}>
+           Youtube Adblocker
+          </Link>
+          <Link href="/hulu-adblocker" className={styles.btn}>
+           Hulu Adblocker
+          </Link>
+          <Link href="/spotify-adblocker" className={styles.btn}>
+           Spotify Adblocker
+          </Link>
+          <Link href="/twitch-adblocker" className={styles.btn}>
+           Twitch Adblocker
           </Link>
         </div>
         <hr className={styles.line} />

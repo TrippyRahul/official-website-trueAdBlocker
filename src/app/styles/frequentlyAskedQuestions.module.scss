@@ -1,5 +1,5 @@
 .frequently {
-  padding: 10rem 4rem;
+  padding: 0rem 10rem 4rem;
   color: #fff;
   position: relative;
   position: relative;
@@ -180,7 +180,7 @@
 @media screen and (max-width: 800px) {
   .frequently {
     .container {
-      width: 90%;
+      width: 100%;
       ol {
         li {
           .questionHeading {
