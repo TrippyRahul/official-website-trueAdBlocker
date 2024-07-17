@@ -2,10 +2,10 @@ import Image from 'next/image';
 import React from 'react';
 
 const PlatformIcons = () => {
-   const icons1 = ['/hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
-   const icons2 = ['/hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
-   const icons3 = ['/hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
-   const icons4 = ['/hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
+   const icons1 = ['/Hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
+   const icons2 = ['/Hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
+   const icons3 = ['/Hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
+   const icons4 = ['/Hulu.png', '/youtube.png', '/twitch.png', '/Spotify.png']
    const icons = [...icons1, ...icons2, ...icons3,...icons4]
    return (
       <div class="slider w-[340px] md:w-full">
