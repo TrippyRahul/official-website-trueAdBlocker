@@ -19,7 +19,7 @@ const Header = ({ data }) => {
         {path=="/features"&&<div className="hidden md:block col-span-5">
           <Image src={'/feature.png'} height={300} width={300} quality={100} className="w-full "/>
         </div>}
-        <div className={`${styles.container} ${path=='/'?'col-span-12':'col-span-12 md:col-span-7'}`}>
+        <div className={`${styles.container} ${path!=='/features'?'col-span-12':'col-span-12 md:col-span-7'}`}>
           <Button customClass={styles.headerButton} text={data?.button} />
           <p className={styles.subtitle1}>{data?.subHeading}</p>
           <h1
