@@ -31,7 +31,7 @@ const BrowsingExperience = ({browsingData}) => {
                             </div>
                             <div className={`col-span-12 md:col-span-6 pt-8 md:pt-0 text-[1.7rem] ${ind%2===1?'order-1 md:order-1':'order-2'}`}>
                                 <p className='pb-3 transition-all'>{state===ind?item.desc:item.desc.substring(0,300)}..</p>
-                                <button onClick={()=>setState(ind)} className='bg-black text-white text-[1.2rem] px-6 py-3 rounded-xl '>Read More</button>
+                                <button onClick={()=>setState(ind)} className='bg-black border border-white text-white text-[1.2rem] px-6 py-3 rounded-full '>Read More</button>
                             </div>
                         </div>
                     ))

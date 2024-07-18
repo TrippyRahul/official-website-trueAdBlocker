@@ -30,6 +30,7 @@ export default function Home() {
         title1: "About Us",
         title2: "Contact Us",
       },
+      element:'/1.png'
     },
     features: {
       title: "Browse The Web Freely And Safely",

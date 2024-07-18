@@ -3,7 +3,7 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 export const metadata = {
   title: "Install Hulu adblocker Chrome extension and enjoy movies",
@@ -24,6 +24,19 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text'>Enjoy latest series on Hulu</span>",
+      subHeading: "",
+      subTitle:
+        "Watch all your favorite shows from your wishlist with Hulu adblocker.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element:'/8.png',
+      bannerImage:'/huluad.png'
+    },
     usage: {
       title: "Enjoy Ad-Free Content with Hulu adblocker Chrome extension ",
       expTitle: "Have the best online experience with this adblock Chrome",
@@ -159,7 +172,7 @@ const pages = () => {
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

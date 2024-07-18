@@ -11,7 +11,7 @@
   position: relative;
 .background{
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: -5%;
   height: 50%;
   opacity: 0.1;
@@ -19,18 +19,18 @@
   width: 100%;
 }
 .element{
-   position: absolute;
-  top: 15%;
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: -1;
-  height: 80%;
+  height: 100%;
   width: 100%;
 }
   .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 10rem);
+    // height: calc(100vh - 10rem);
     flex-direction: column;
     color: #fff;
     gap: 2.5rem;
@@ -50,7 +50,7 @@
     }
 
     .heading {
-      font-size: 6rem;
+      font-size: 4rem;
       font-weight: 600;
       text-transform: uppercase;
       text-align: center;
@@ -61,7 +61,7 @@
       font-size: 2.5rem;
       font-weight: 300;
       text-align: center;
-      margin-top: 2rem;
+      padding-bottom: 2rem;
     }
   }
 }

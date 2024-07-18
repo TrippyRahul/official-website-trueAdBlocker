@@ -8,19 +8,19 @@ import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-  description:"With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+  description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
   icons: {
-      icon: '/favicon.png',
+    icon: '/favicon.png',
   },
   openGraph: {
-      title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-      description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
-      type: 'website',
-      siteName: "TrueAdblocker Features",
-      images: "/favicon.png",
+    title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
+    description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+    type: 'website',
+    siteName: "TrueAdblocker Features",
+    images: "/favicon.png",
   },
   alternates: {
-      canonical: "/",
+    canonical: "/",
   },
 };
 const pages = () => {
@@ -29,23 +29,27 @@ const pages = () => {
       title: "<span class='capitalize'>Discover the Joy of</span> <br/><span class='bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text'>Ad-Free Exploration</span>",
       subHeading: "",
       subTitle:
-        "Are you tired of having to dodge annoying advertisements all the time like a digital ninja?",
+        "",
       button: "Add to Chrome it's Free",
       Navbar: {
         title1: "About Us",
         title2: "Contact Us",
       },
+      element:'/6.png',
+      bannerImage:'/feature.png'
     },
     usage: {
       title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
-      expTitle: "Have the best online experience with this adblock Chrome",
+      titlePara: 'Are you sick of seeing the same obtrusive advertisements on websites you visit? Trueadblocker our advertisement blocker chrome is the gateway to a more streamlined and hygienic online experience. Welcome to the solution. Bid farewell to interruptions and side trips. Your browsing experience can now be fully restored with our ad blocking technology. The biggest advantages of using our website to prevent ads are listed below.',
+      CardbottomPara: 'Experience the internet the way it was intended: clean, fast, and ad-free. Join millions of other users who have discovered the benefits of ad blocking at Trueadblocker.',
+      expTitle: "",
       expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
-      subTitle: " Download and install the Adblocker | Chrome extension now.",
+        "",
+      subTitle: "",
       usage: [
         {
-          title: "Fasten up your speed",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Faster loading time",
+          text: "Advertisements may drastically slow down page loading speeds, rendering your online experience extremely frustrating. By disabling advertisements, you'll get faster page loads and smoother browsing.",
           icon: (
             <svg
               width="100%"
@@ -63,8 +67,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Maintain the privacy",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Enhanced Privacy",
+          text: "Many advertisements follow your online activity, compromising your privacy and collecting personal information without your permission. Ad block chrome allows you to preserve your privacy and browse the internet without worrying about unwanted tracking.",
           icon: (
             <svg
               width="100%"
@@ -82,8 +86,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Parenting Contro",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Improved Security",
+          text: "Ads are not only bothersome; they can also be a security risk. Malicious advertisements, often known as malvertising, may include malware and expose you to cyber dangers. By eliminating advertisements, you lower your chances of falling victim to online fraud and virus attacks.",
           icon: (
             <svg
               width="100%"
@@ -98,26 +102,26 @@ const pages = () => {
               />
             </svg>
           ),
-          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
+          gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
         {
-          title: "Website Assistance",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Focus on Content",
+          text: "Without distracting adverts on your screen, you can concentrate on the content that is most important to you. Whether you're reading news articles, viewing videos, or buying something online, ad blocker chrome lets you focus on what you came for without distractions.",
           icon: (
             <svg
-              width="100%"
-              height="100%"
-              viewBox="0 0 60 60"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M54.375 30V48.75C54.375 51.2364 53.3873 53.6209 51.6291 55.3791C49.871 57.1372 47.4864 58.125 45 58.125H31.875C31.3777 58.125 30.9008 57.9274 30.5492 57.5758C30.1975 57.2242 30 56.7472 30 56.25C30 55.7527 30.1975 55.2758 30.5492 54.9241C30.9008 54.5725 31.3777 54.375 31.875 54.375H45C46.4918 54.375 47.9226 53.7823 48.9775 52.7274C50.0324 51.6725 50.625 50.2418 50.625 48.75H45C43.5082 48.75 42.0774 48.1573 41.0225 47.1024C39.9676 46.0475 39.375 44.6168 39.375 43.125V33.75C39.375 32.2581 39.9676 30.8274 41.0225 29.7725C42.0774 28.7176 43.5082 28.125 45 28.125H50.543C50.1881 24.2272 48.7316 20.5108 46.3434 17.4099C43.9553 14.309 40.7341 11.9517 37.0561 10.6132C33.3782 9.27477 29.3953 9.01045 25.5728 9.85114C21.7502 10.6918 18.2457 12.6028 15.4688 15.3609C12.0156 18.7685 9.88576 23.2923 9.45938 28.125H15C16.4918 28.125 17.9226 28.7176 18.9775 29.7725C20.0324 30.8274 20.625 32.2581 20.625 33.75V43.125C20.625 44.6168 20.0324 46.0475 18.9775 47.1024C17.9226 48.1573 16.4918 48.75 15 48.75H11.25C9.75816 48.75 8.32742 48.1573 7.27252 47.1024C6.21763 46.0475 5.625 44.6168 5.625 43.125V30C5.63026 25.1716 7.06787 20.4533 9.75587 16.4424C12.4439 12.4314 16.2614 9.30809 20.7253 7.46773C25.1892 5.62737 30.0987 5.15272 34.8325 6.10386C39.5662 7.055 43.9114 9.38916 47.318 12.8109C49.5671 15.071 51.3482 17.7527 52.5592 20.7023C53.7701 23.6519 54.3872 26.8115 54.375 30Z"
-                fill="white"
-              />
-            </svg>
+            width="100%"
+            height="100%"
+            viewBox="0 0 60 60"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M54.375 30V48.75C54.375 51.2364 53.3873 53.6209 51.6291 55.3791C49.871 57.1372 47.4864 58.125 45 58.125H31.875C31.3777 58.125 30.9008 57.9274 30.5492 57.5758C30.1975 57.2242 30 56.7472 30 56.25C30 55.7527 30.1975 55.2758 30.5492 54.9241C30.9008 54.5725 31.3777 54.375 31.875 54.375H45C46.4918 54.375 47.9226 53.7823 48.9775 52.7274C50.0324 51.6725 50.625 50.2418 50.625 48.75H45C43.5082 48.75 42.0774 48.1573 41.0225 47.1024C39.9676 46.0475 39.375 44.6168 39.375 43.125V33.75C39.375 32.2581 39.9676 30.8274 41.0225 29.7725C42.0774 28.7176 43.5082 28.125 45 28.125H50.543C50.1881 24.2272 48.7316 20.5108 46.3434 17.4099C43.9553 14.309 40.7341 11.9517 37.0561 10.6132C33.3782 9.27477 29.3953 9.01045 25.5728 9.85114C21.7502 10.6918 18.2457 12.6028 15.4688 15.3609C12.0156 18.7685 9.88576 23.2923 9.45938 28.125H15C16.4918 28.125 17.9226 28.7176 18.9775 29.7725C20.0324 30.8274 20.625 32.2581 20.625 33.75V43.125C20.625 44.6168 20.0324 46.0475 18.9775 47.1024C17.9226 48.1573 16.4918 48.75 15 48.75H11.25C9.75816 48.75 8.32742 48.1573 7.27252 47.1024C6.21763 46.0475 5.625 44.6168 5.625 43.125V30C5.63026 25.1716 7.06787 20.4533 9.75587 16.4424C12.4439 12.4314 16.2614 9.30809 20.7253 7.46773C25.1892 5.62737 30.0987 5.15272 34.8325 6.10386C39.5662 7.055 43.9114 9.38916 47.318 12.8109C49.5671 15.071 51.3482 17.7527 52.5592 20.7023C53.7701 23.6519 54.3872 26.8115 54.375 30Z"
+              fill="white"
+            />
+          </svg>
           ),
-          gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
+          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
       ],
     },
@@ -177,7 +181,7 @@ const pages = () => {
       <Header data={data.hero} />
       <PlatformIcons />
       <Usage data={data.usage} />
-      <BrowsingExperience browsingData={data.browsData}/>
+      <BrowsingExperience browsingData={data.browsData} />
       <FrequentlyAskedQuestion data={data.faq} />
       <Footer />
     </div>

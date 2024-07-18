@@ -108,8 +108,8 @@ const Footer = ({ data }) => {
         <h2 className={styles.heading}>{data?.title || footer.title}</h2>
         <p className={styles.subHeading}>{data?.subTitle || footer.subTitle}</p>
         <p className={styles.subText}>{data?.subText || footer.subText}</p>
+        <Button text={data?.button1 || footer.button1}></Button>
         <div className={styles.buttonContainer}>
-          <Button text={data?.button1 || footer.button1}></Button>
           <Link href="/about-us" className={styles.btn}>
             {data?.button2 || footer.button2}
           </Link>
@@ -142,7 +142,6 @@ const Footer = ({ data }) => {
                   <span key={index}>
                     <a href={data.link}>
                       {data.data}
-                      {", "}
                     </a>
                   </span>
                   <span>{data?.popularKeywords}</span>
@@ -155,8 +154,8 @@ const Footer = ({ data }) => {
                 <span key={index}>
                   <a href={data?.link}>
                     {data?.data}
-                    {", "}
                   </a>
+                  {index === footer?.popularSearch.length - 1?' ':' , '}
                 </span>
               ))}
             </span>

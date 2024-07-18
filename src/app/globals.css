@@ -97,6 +97,12 @@ html {
   top: 0;
 }
 
+.slider:hover .slide-track {
+  animation: none;
+  display: flex;
+  align-items: center;
+  width: calc(250px * 14);
+}
 .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
@@ -104,7 +110,9 @@ html {
   width: calc(250px * 14);
 }
 
+
 .slider .slide {
   height: 100px;
   width: 250px;
 }
+

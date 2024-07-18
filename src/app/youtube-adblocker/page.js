@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
 import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 export const metadata = {
   title: "YouTube adblocker Chrome extension blocks all types of ads",
@@ -24,6 +25,19 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#FFD6D6] to-[#FF0000] text-transparent bg-clip-text'>Watch your favorite movie without ads</span>",
+      subHeading: "",
+      subTitle:
+        "YouTube adblocker is the perfect extension that allows you to stream videos effortlessly.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element:'/7.png',
+      bannerImage:'/ytbanner.png'
+    },
     usage: {
       title: "Enjoy Ad-Free Content with YouTube adblocker Chrome extension ",
       expTitle: "Have the best online experience with this adblock Chrome",
@@ -154,7 +168,7 @@ const pages = () => {
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

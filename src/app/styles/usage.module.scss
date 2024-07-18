@@ -70,19 +70,33 @@
     text-align: center;
     z-index: 10;
   }
+  .UsageCardContainer {
+    display: flex;
+    width: 70%;
+    z-index: 10;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
 }
 
 .usageCard {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   align-items: center;
   justify-content: center;
-  padding: 2rem 3rem;
+  gap: 2rem;
+  padding: 3rem;
   border-radius: 2rem;
-  z-index: 99;
+  width: calc(50% - 0.5rem);
+  height: fit-content;
+  margin: auto;
 }
 .usageIcon {
-  width: 5rem;
-  height: 5rem;
+  width: 10%;
+  height: 20%;
 }
 .usageHeading {
   font-size: 2rem;
@@ -92,7 +106,6 @@
   font-size: 1.6rem;
   font-weight: 300;
   text-align: center;
-  padding-top: 3rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -131,8 +144,6 @@
       .heading {
         font-size: 2rem;
         font-weight: 600;
-        border-right: none;
-        border-bottom: solid 1px white;
       }
       .text {
         font-size: 1.8rem;

@@ -3,7 +3,7 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 export const metadata = {
   title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
@@ -24,6 +24,18 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#D6BFE1] to-[#8C4FFF] text-transparent bg-clip-text'>Skip ads and stream your most awaited videos</span>",
+      subHeading: "",
+      subTitle:"Download Twitch Adblocker and enjoy live streaming without those annoying ads.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element:'/10.png',
+      bannerImage:'/twitchad.png'
+    },
     usage: {
       title: "Enjoy Ad-Free Content with Twitch Adblocker Chrome extension",
       expTitle: "Have the best online experience with this adblock Chrome",
@@ -152,6 +164,10 @@ const pages = () => {
         desc: "Wave goodbye to obtrusive advertisements on your preferred platforms with our trustworthy and safe Twitch no-ads extension. Whether you're streaming live streams on Twitch, enjoying music on Spotify, or keeping up with the newest videos on YouTube, we've got you covered. You can continue to uninterruptible enjoy your favorite material with our faultless cross-platform adblocker."
       },
       {
+        heading: 'Twitch Adblock extension: Your Ultimate Stream Dream Extension ',
+        desc: "Put an end to disruptions by using twitch adblocker extension! With the help of this stylish adblocker extension, you can enjoy flawless, ad-free streaming on Twitch, and continuous entertainment without waiting for those annoying advertisements to end. It's just you and your favorite content with our twitch ad block extension—no unwanted breaks. So put on your favorite music, binge-watch your favorite show, and enjoy hassle-free live streaming—our adblock twitch extension has you covered!"
+      },
+      {
         heading: 'Twitch Adblocker: The Ultimate Ad Blasting Extension ',
         desc: "Are those annoying Twitch commercials getting on your nerves? Presenting our effective Adblock Twitch Chrome Extension that doesn't contain any malicious garbage! Bid farewell to disruptions and welcome to blissful, uninterrupted streaming. This quirky, virus-free addon is going to be your new best friend in the fight against intrusive advertising. Your watching experience has just been enhanced with the Twitch Ad Blocking addon; you may now resume watching immediately as an ad ends. It's simple to use, efficient, and made to ensure that your Twitch streams remain ad-free."
       }
@@ -159,7 +175,7 @@ const pages = () => {
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

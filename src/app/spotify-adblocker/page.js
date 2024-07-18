@@ -3,7 +3,7 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 export const metadata = {
   title: "Spotify adblocker blocks annoying ads",
@@ -24,6 +24,19 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#A8FEC7] to-[#1ED760] text-transparent bg-clip-text'><br/>Enjoy your favorite music with Spotify</span>",
+      subHeading: "",
+      subTitle:
+        "With Spotify adblocker, you can feel the lyrics of your favorite songs without any disturbance.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element:'/9.png',
+      bannerImage:'/spotifyad.png'
+    },
     usage: {
       title: "Enjoy The World Of Endless Music With Spotify Ad Blocking Extension",
       expTitle: "Have the best online experience with this adblock Chrome",
@@ -154,7 +167,7 @@ const pages = () => {
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />
