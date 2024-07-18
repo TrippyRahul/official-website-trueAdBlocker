@@ -12,10 +12,13 @@ const BrowsingExperience = ({browsingData}) => {
         <div className={styles.experience}>
             <Image src={background} quality={100} className={styles.background} alt="bg" />
             <Image
-                src={Background}
+                src={browsingData?.background}
                 className={styles.BrowsingBackground}
-                alt="faqBackground"
+                alt="Background"
                 quality={100}
+                width={500}
+                height={500}
+            
             />
             <div className={styles.container}>
                 <div className='bg-[#101010] px-16 py-8 rounded-3xl'>
@@ -23,10 +26,10 @@ const BrowsingExperience = ({browsingData}) => {
                 </div>
                 {
 
-                    browsingData?.map((item, ind) => (
+                    browsingData.browsData?.map((item, ind) => (
                         <div key={ind} className='grid pt-10 md:pt-20 grid-cols-12 md:gap-x-10'>
                             <div className={`col-span-12 md:col-span-6 ${ind%2===1?'order-1 md:order-2':'order-1'}`}>
-                                <div className={`${ind%2===1?'md:text-end':'text-start'} text-[4rem] pb-3 bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text`}>{item.heading}</div>
+                                <div className={`${ind%2===1?'md:text-end':'text-start'} text-[4rem] font-semibold pb-3 bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text`}>{item.heading}</div>
                                 <Image src={Line} quality={100} alt="bg" className={`${ind%2===1?'md:ml-auto md:rotate-180':'mr-auto'} `}/>
                             </div>
                             <div className={`col-span-12 md:col-span-6 pt-8 md:pt-0 text-[1.7rem] ${ind%2===1?'order-1 md:order-1':'order-2'}`}>

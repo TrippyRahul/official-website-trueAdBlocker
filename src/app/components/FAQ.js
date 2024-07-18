@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import styles from "../styles/frequentlyAskedQuestions.module.scss";
 import Image from "next/image";
 import background from "../../../public/3.png";
-import faqBackground from "../../../public/faqBackground.png";
 import { usePathname, useRouter } from "next/navigation";
 
 const FrequentlyAskedQuestion = ({ data }) => {
@@ -24,9 +23,12 @@ const FrequentlyAskedQuestion = ({ data }) => {
     <div className={styles.frequently}>
       <Image src={background} className={styles.background} alt="bg" />
       <Image
-        src={faqBackground}
+        src={data?.faqBackground}
         className={styles.faqBackground}
         alt="faqBackground"
+        height={500}
+        width={500}
+        quality={100}
       />
       <div className={styles.container}>
         <h2 className={styles.heading}>{data?.title}</h2>

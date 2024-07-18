@@ -82,7 +82,6 @@ html {
   content: "";
   height: 100px;
   position: absolute;
-  width: 200px;
   z-index: 2;
 }
 
@@ -101,7 +100,6 @@ html {
   animation: none;
   display: flex;
   align-items: center;
-  width: calc(250px * 14);
 }
 .slider .slide-track {
   animation: scroll 40s linear infinite;
@@ -111,8 +109,5 @@ html {
 }
 
 
-.slider .slide {
-  height: 100px;
-  width: 250px;
-}
+
 

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
 import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
@@ -42,6 +43,8 @@ const pages = () => {
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      featureTitle:"Understand The Benefits Of Our Twitch Adblocker",
+      featureText:"Do you still need clarification about our chrome extension twitch adblock? Is it the right choice for you? Do not worry; here, we have listed some of the best benefits of your ad-blocking extension to make your decision-making process easy and smooth.",
       usage: [
         {
           title: "Customization Features",
@@ -176,6 +179,7 @@ const pages = () => {
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

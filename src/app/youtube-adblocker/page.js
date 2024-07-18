@@ -5,6 +5,7 @@ import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "YouTube adblocker Chrome extension blocks all types of ads",
@@ -169,6 +170,7 @@ const pages = () => {
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

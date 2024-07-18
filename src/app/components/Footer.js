@@ -2,11 +2,10 @@ import React from "react";
 import styles from "../styles/footer.module.scss";
 import Link from "next/link";
 import background from "../../../public/3.png";
-import footerBackground from "../../../public/footer.png";
 import Image from "next/image";
 import Button from "./Button";
 
-const Footer = ({ data }) => {
+const Footer = ({ Footerdata,data }) => {
   const footer = {
     title: "Get it free and block ads",
     subTitle:
@@ -100,9 +99,12 @@ const Footer = ({ data }) => {
     <div className={styles.footer}>
       <Image src={background} className={styles.background} alt="bg" />
       <Image
-        src={footerBackground}
+        src={Footerdata?.footerBackground}
         className={styles.footerbackground}
         alt="footerbackground"
+        width={500}
+        height={500}
+        quality={100}
       />
       <div className={styles.container}>
         <h2 className={styles.heading}>{data?.title || footer.title}</h2>

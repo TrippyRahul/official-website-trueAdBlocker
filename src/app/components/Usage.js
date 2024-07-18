@@ -3,8 +3,6 @@ import React from "react";
 import styles from "../styles/usage.module.scss";
 import Image from "next/image";
 import background from "../../../public/3.png";
-import usage1 from "../../../public/usage1.png";
-import usage2 from "../../../public/usage2.png";
 import { useState } from "react";
 
 const Usage = ({ data }) => {
@@ -13,18 +11,22 @@ const Usage = ({ data }) => {
   return (
     <div className={styles.usageContainer}>
       <Image src={background} className={styles.background} alt="bg" />
-      <Image src={usage1} className={styles.usage1} alt="usage1" />
-      <Image src={usage2} className={styles.usage2} alt="usage2" />
+      <Image src={data?.usage1} height={500} width={500} quality={100} className={styles.usage1} alt="usage1" />
+      <Image src={data?.usage2} height={500} width={500} quality={100} className={styles.usage2} alt="usage2" />
       <h2 className={styles.heading}>{data?.title}</h2>
+      {data?.titlePara&&<p className={'text-center w-[55%] text-[1.9rem]'}>{data?.titlePara}</p>}
       {data?.expTitle&&<div className={styles.experienceCard}>
         <h2 className={styles.heading}>{data?.expTitle}</h2>
         <p className={styles.text}>{data?.expText}</p>
       </div>}
-      {data?.titlePara&&<p className={'text-center w-[70%] text-[1.8rem]'}>{data?.titlePara}</p>}
       <h3
         className={styles.subHeading}
         dangerouslySetInnerHTML={{ __html: `<span>${subTitle}</span>` }}
       />
+      {data?.featureTitle&&<div className={styles.experienceCard}>
+        <h2 className={styles.heading}>{data?.featureTitle}</h2>
+        <p className={styles.text}>{data?.featureText}</p>
+      </div>}
        <div className={styles.UsageCardContainer}>
         {data?.usage.map((data, index) => (
           <UsageCard

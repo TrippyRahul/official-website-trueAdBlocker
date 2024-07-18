@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
 import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Spotify adblocker blocks annoying ads",
@@ -35,14 +36,16 @@ const pages = () => {
         title2: "Contact Us",
       },
       element:'/9.png',
-      bannerImage:'/spotifyad.png'
+      bannerImage:'/spotifyad.png',
     },
     usage: {
       title: "Enjoy The World Of Endless Music With Spotify Ad Blocking Extension",
       expTitle: "Have the best online experience with this adblock Chrome",
-      expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
+      titlePara:"Welcome to Spotify, the home of limitless music, carefully crafted playlists, and obtrusive advertisements that ruin your mood. These advertisements break the immersion and make music discovery an obstacle course for free users. They are the unwanted hitchhikers on your music journey. Thankfully, you can block these hitchhikers with our spotify ad blocker chrome. ",
+      expText:"It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      featureTitle:"Let Us Tell You Why Our adblock extension for spotify Stand Outs",
+      featureText:"Do those endless commercials also irritate you? A few clicks will mute most of the advertising with our Spotify ad blocker, keeping your experience uninterrupted. The following are some main advantages of utilizing our Adblock Spotify extension",
       usage: [
         {
           title: "Saving Internet Data Usage",
@@ -168,6 +171,7 @@ const pages = () => {
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />

@@ -17,12 +17,14 @@
       font-weight: 600;
       line-height: 5.9rem;
       letter-spacing: 0em;
-      text-align: center;
       text-transform: uppercase;
     }
 
     .content {
       padding: 2rem;
+    border: 2px solid #6511c4;
+    border-radius: 30px;
+
 
       h4 {
         font-size: 2.5rem;
@@ -40,7 +42,6 @@
         text-align: left;
         color: gray;
         margin-bottom: 4rem;
-        text-align: center;
       }
 
       ul {
