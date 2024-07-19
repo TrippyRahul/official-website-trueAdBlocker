@@ -3,7 +3,8 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Install Hulu adblocker Chrome extension and enjoy movies",
@@ -24,12 +25,29 @@ export const metadata = {
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text'>Enjoy latest series on Hulu</span>",
+      subHeading: "",
+      subTitle:
+        "Watch all your favorite shows from your wishlist with Hulu adblocker.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element:'/8.png',
+      bannerImage:'/huluad.png'
+    },
     usage: {
       title: "Enjoy Ad-Free Content with Hulu adblocker Chrome extension ",
       expTitle: "Have the best online experience with this adblock Chrome",
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      featureTitle:"Wondering Why It Is Better? Here’s Why… ",
+      featureText:"Do you also find it annoying that those intrusive, eye-catching ads never go away, no matter what you do? Stressing yourself out is unnecessary when the answer is only a few keystrokes away. You can quickly block most adverts with our Hulu ad blocker chrome without interfering with your browsing.",
+      usage1:'/huluusage1.png',
+      usage2:'/huluusage2.png',
       usage: [
         {
           title: "Better User Experience",
@@ -114,6 +132,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground:'/huluusage2.png',
       questions: [
         {
           id: 1,
@@ -142,28 +161,38 @@ const pages = () => {
         }
       ],
     },
-    browsData: [
-      {
-        heading: 'Enjoy Your Favorite Shows With Adblocker for hulu',
-        desc: "Are you sick of having your favorite Hulu episodes and movies constantly interrupted by commercials? We know how annoying it may be to have advertisements continuously interrupt your video experience. We therefore have the ideal remedy for you. Presenting our cutting-edge adblocker, created significantly to improve your Hulu experience by eliminating all commercials.  Our ad blocker that works on hulu perfectly, whether you're a serial binge-watcher who loves to watch series after series or someone who prefers a calm movie night. It allows you to unwind and enjoy your entertainment without interruptions."
-      },
-      {
-        heading: 'Protect Your Browsing and Watching History and Data With Our Hulu Ad Remover Extension',
-        desc: "Hulu adblocker is accessible to download with only a few clicks. Visit our official website to download the link safely and without any delays. With our ad blocker for Hulu chrome plugin, say goodbye to flashy and annoying advertisements and start enjoying faster, cleaner browsing in minutes."
-      },
-      {
-        heading: 'Continue to Browse and Stream Without Any Breaks',
-        desc: "With our reliable and secure plugin, the block hulu ads chrome, you can wave goodbye to intrusive advertising on your preferred platforms. Whether you're watching Hulu, listening to Spotify, or streaming on Twitch, we've got you covered. With our faultless cross-platform adblocker, you can continue to watch your favorite content uninterrupted. Enjoy the internet without ads, the way it should be."
-      }
-    ]
+    browsData:{
+      background:'/huluusage1.png',
+      Line:'/HuluLine.png',
+      mainHeadingColor:'bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Enjoy Your Favorite Shows With Adblocker for hulu</span>',
+          desc: "Are you sick of having your favorite Hulu episodes and movies constantly interrupted by commercials? We know how annoying it may be to have advertisements continuously interrupt your video experience. We therefore have the ideal remedy for you. Presenting our cutting-edge adblocker, created significantly to improve your Hulu experience by eliminating all commercials.  Our ad blocker that works on hulu perfectly, whether you're a serial binge-watcher who loves to watch series after series or someone who prefers a calm movie night. It allows you to unwind and enjoy your entertainment without interruptions."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Protect Your Browsing and Watching History and Data With Our Hulu Ad Remover Extension</span>',
+          desc: "Hulu adblocker is accessible to download with only a few clicks. Visit our official website to download the link safely and without any delays. With our ad blocker for Hulu chrome plugin, say goodbye to flashy and annoying advertisements and start enjoying faster, cleaner browsing in minutes."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Continue to Browse and Stream Without Any Breaks</span>',
+          desc: "With our reliable and secure plugin, the block hulu ads chrome, you can wave goodbye to intrusive advertising on your preferred platforms. Whether you're watching Hulu, listening to Spotify, or streaming on Twitch, we've got you covered. With our faultless cross-platform adblocker, you can continue to watch your favorite content uninterrupted. Enjoy the internet without ads, the way it should be."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/huluusage1.png'
+    }
+   
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
+      <PlatformIcons/>
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
+      <Footer Footerdata={data.footer}/>
     </div>
   )
 }

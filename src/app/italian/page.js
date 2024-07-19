@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Rilevatore di annunci definitivo",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "La tua scelta migliore",
       subTitle:
         "È la migliore estensione Chrome Adblocker che blocca tutti gli annunci fastidiosi.",
-      button: "Blocca tutti gli annunci adesso: è gratis",
+      button: "Aggiungi a Chrome è gratis",
       Navbar: {
         title1: "Chi siamo",
         title2: "Contattaci",
+        title3:'caratteristiche',
+        title4:'Blogs'
       },
+      element:'/1.png'
     },
     features: {
       title: "Navigare correttamente sul Web",
@@ -162,6 +166,8 @@ const page = () => {
       expText:
         "Adblocker Chrome extension migliora la tua esperienza online. Che si tratti di banner pubblicitari o pop-up, questa estensione funziona perfettamente bloccando tutti i tipi di annunci indesiderati. Quindi, con questa estensione vivi un viaggio senza pubblicità e dì addio a tutte le fastidiose pubblicità.",
       subTitle: "Scarica e installa il Adblocker | Chrome extension Ora",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Chrome Adblock accelera il caricamento della pagina",
@@ -566,12 +572,13 @@ const page = () => {
           text: "Preparati a trasmettere in streaming i tuoi contenuti preferiti su Hulu, Twitch, YouTube e molti altri senza problemi.",
         },
       ],
-      button: "Blocca tutti gli annunci adesso: è gratis",
+      button: "Aggiungi a Chrome è gratis",
     },
     faq: {
       title: "FAQs",
       lang: "italian",
       button: "Più domande",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -637,7 +644,7 @@ const page = () => {
         },
         {
           image: avatar2,
-          name: "Ronaldo",
+          name: "Ashish Soni",
           data: "feb 09,24",
           reviewText:
             "Utilizzo questa estensione da anni e ho avuto un'ottima esperienza.",
@@ -670,13 +677,13 @@ const page = () => {
       title: "Informazioni su Trueadblocker",
       text: "Questo adblocker Chrome extension è il migliore in quanto ti protegge dagli hacker di terze parti e blocca tutti i tipi di pubblicità irritanti. È l'estensione più popolare ed è utilizzata da migliaia di persone in tutto il mondo. Supporta la protezione della privacy e la parte migliore è che puoi utilizzare l'estensione gratuitamente. | | Il suo unico obiettivo è offrirti la migliore esperienza bloccando tutti gli elementi di disturbo che ti distraggono durante la navigazione. Inoltre accelera il caricamento della pagina e blocca tutto il malware che può danneggiare il tuo browser. Allora, cosa stai aspettando? Guarda un film virtuale con il tuo partner e vivi la migliore esperienza.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Blocca tutti gli annunci adesso: è gratis",
+      button1: "Aggiungi a Chrome è gratis",
       button2: "Chi siamo",
       button3: "Contattaci",
       popularSearch: [
@@ -758,10 +765,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Tutto in uno'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -772,7 +783,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

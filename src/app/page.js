@@ -15,6 +15,7 @@ import avatar2 from "../../public/avatar_2.png";
 import avatar3 from "../../public/avatar_3.png";
 import avatar4 from "../../public/avatar_4.png";
 import avatar5 from "../../public/avatar_5.png";
+import PlatformIcons from "./components/PlatformIcons";
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
         title1: "About Us",
         title2: "Contact Us",
       },
+      element:'/1.png'
     },
     features: {
       title: "Browse The Web Freely And Safely",
@@ -139,6 +141,8 @@ export default function Home() {
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Fasten up your speed",
@@ -547,6 +551,7 @@ export default function Home() {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -733,10 +738,14 @@ export default function Home() {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons />
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -747,7 +756,7 @@ export default function Home() {
       <Reviews data={data.reviews} />
       <Blogs showbg={true}/>
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer Footerdata={data.footer}/>
     </div>
   );
 }

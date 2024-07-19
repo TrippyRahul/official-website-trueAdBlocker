@@ -70,7 +70,7 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
-      <Footer />
+      <Footer Footerdata={{footerBackground:'/usage1.png'}}/>
     </div>
   );
 };

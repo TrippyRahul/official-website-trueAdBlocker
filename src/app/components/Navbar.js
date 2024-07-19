@@ -186,10 +186,10 @@ const Navbar = ({ data }) => {
           </select>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/features">Features</Link>
+              <Link href="/features">{data?.title3||'Features'}</Link>
             </li>
             <li className={styles.link}>
-              <Link href="/blogs">Blogs</Link>
+              <Link href="/blogs">{data?.title4||'Blogs'}</Link>
             </li>
             {/* <li className={styles.link}>
               <Link href="/blogs">All Adblockers</Link>

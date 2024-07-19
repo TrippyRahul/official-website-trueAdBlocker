@@ -82,7 +82,6 @@ html {
   content: "";
   height: 100px;
   position: absolute;
-  width: 200px;
   z-index: 2;
 }
 
@@ -97,14 +96,26 @@ html {
   top: 0;
 }
 
+.slider:hover .slide-track {
+  animation: none;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
   align-items: center;
   width: calc(250px * 14);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.slider .slide {
-  height: 100px;
-  width: 250px;
+.slide:hover{
+  transform: scale(1.2);
+  transition: .4s;
 }
+
+
+

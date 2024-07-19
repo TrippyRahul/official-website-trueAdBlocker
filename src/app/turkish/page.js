@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Ultimate Reklam dedektörü.",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "En iyi seçimin",
       subTitle:
         "Bu en iyisi Adblocker Chrome Extension Bu, Tüm Sinir bozucu Reklamları Engeller.",
-      button: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
+      button: "Chrome'a ​​ekle ücretsizdir",
       Navbar: {
         title1: "Hakkımızda",
         title2: "Bize Ulaşın",
+        title3:'Özellikler',
+        title4:'Bloglar'
       },
+      element:'/1.png'
     },
     features: {
       title: "Web'de güvenle gezinin",
@@ -163,6 +167,8 @@ const page = () => {
       expText:
         "Bu uzantı çevrimiçi deneyiminizi geliştirir. Bu uzantı, istenmeyen reklamları engellemede mükemmel bir şekilde çalışır ve reklamsız bir yolculuk sağlar. Artık deneyiminizi mahveden tüm sinir bozucu reklamlara veda etmenin zamanı geldi. İle chrome youtube reklam engelleme, En sevdiğiniz videoyu izlerken araya giren tüm YouTube reklamlarını görebilirsiniz.",
       subTitle: "İndirip yükleyin Adblocker | Chrome extension Şimdi.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Web sayfanızın yüklenmesini hızlandırın",
@@ -566,12 +572,13 @@ const page = () => {
           text: "En sevdiğiniz videoyu en çok tercih ettiğiniz çevrimiçi platformda yayınlayabilirsiniz.",
         },
       ],
-      button: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
+      button: "Chrome'a ​​ekle ücretsizdir",
     },
     faq: {
       title: "FAQs",
       lang: "turkish",
       button: "Daha çok soru",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -670,13 +677,13 @@ const page = () => {
       title: "Trueadblocker Hakkında",
       text: "Sizi üçüncü taraf bilgisayar korsanlarından koruyan ve gereksiz tüm reklamları ortadan kaldıran en iyi uzantıdır. Bu adblocker Chrome extension bilinen en ünlü reklam engelleyicidir ve dünya çapında binlerce kişi tarafından kullanılmaktadır. Kullanımı çok kolaydır. Ayrıca gizlilik korumasını da destekler. | | Amacımız, favori programlarınıza göz atarken veya yayın yaparken dikkatinizi dağıtan tüm kesintiye uğramış reklamları kaldırarak size en iyi deneyimi sunmaktır. Ayrıca sayfanızın yüklenmesini hızlandırır ve tarayıcınıza zarar verebilecek tüm kötü amaçlı yazılımları engeller. Bu nedenle, en çok beklediğiniz filmlerin ve dizilerin keyfini çıkarın ve en iyi yanı, bu uzantının kullanımının ücretsiz olmasıdır.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Tüm Reklamları Şimdi Engelleyin - Ücretsiz",
+      button1: "Chrome'a ​​ekle ücretsizdir",
       button2: "Hakkımızda",
       button3: "Bize Ulaşın",
       popularSearch: [
@@ -758,10 +765,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Hepsi bir arada'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -772,7 +783,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

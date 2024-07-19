@@ -3,33 +3,51 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Spotify adblocker blocks annoying ads",
   description: "Spotify adblocker is the perfect extension that blocks all types of ads and lets you enjoy your favorite music without any pause.  ",
   icons: {
-      icon: '/favicon.png',
+    icon: '/favicon.png',
   },
   openGraph: {
-      title: "Spotify adblocker blocks annoying ads",
-      description: "Spotify adblocker is the perfect extension that blocks all types of ads and lets you enjoy your favorite music without any pause.",
-      type: 'website',
-      siteName: "Spotify ad blocker",
-      images: "/favicon.png",
+    title: "Spotify adblocker blocks annoying ads",
+    description: "Spotify adblocker is the perfect extension that blocks all types of ads and lets you enjoy your favorite music without any pause.",
+    type: 'website',
+    siteName: "Spotify ad blocker",
+    images: "/favicon.png",
   },
   alternates: {
-      canonical: "/",
+    canonical: "/",
   },
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#A8FEC7] to-[#1ED760] text-transparent bg-clip-text'><br/>Enjoy your favorite music with Spotify</span>",
+      subHeading: "",
+      subTitle:
+        "With Spotify adblocker, you can feel the lyrics of your favorite songs without any disturbance.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element: '/9.png',
+      bannerImage: '/spotifyad.png',
+    },
     usage: {
       title: "Enjoy The World Of Endless Music With Spotify Ad Blocking Extension",
       expTitle: "Have the best online experience with this adblock Chrome",
-      expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
+      titlePara: "Welcome to Spotify, the home of limitless music, carefully crafted playlists, and obtrusive advertisements that ruin your mood. These advertisements break the immersion and make music discovery an obstacle course for free users. They are the unwanted hitchhikers on your music journey. Thankfully, you can block these hitchhikers with our spotify ad blocker chrome. ",
+      expText: "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      featureTitle: "Let Us Tell You Why Our adblock extension for spotify Stand Outs",
+      featureText: "Do those endless commercials also irritate you? A few clicks will mute most of the advertising with our Spotify ad blocker, keeping your experience uninterrupted. The following are some main advantages of utilizing our Adblock Spotify extension",
+      usage1: '/spotifyShade.png',
+      usage2: '/spotifyShade.png',
       usage: [
         {
           title: "Saving Internet Data Usage",
@@ -93,18 +111,18 @@ const pages = () => {
           text: "No complicated setup is necessary! With our seamless Spotify integration, you can concentrate on your favorite music.",
           icon: (
             <svg
-            width="100%"
-            height="100%"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
-              fill="white"
-            />
-          </svg>
-           
+              width="100%"
+              height="100%"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
+                fill="white"
+              />
+            </svg>
+
           ),
           gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
@@ -114,6 +132,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/spotifyShade.png',
       questions: [
         {
           id: 1,
@@ -137,28 +156,37 @@ const pages = () => {
         }
       ],
     },
-    browsData: [
-      {
-        heading: 'Join The Ad-Free Revolution ',
-        desc: "Are you ready to let go of the interruptions and experience the bliss of continuous music again? There's nowhere else to look! Get our spotify adblock extension now to explore a world of uninterrupted music pleasure. We provide a range of choices to meet your needs, from a feature-rich premium plan to a free basic version."
-      },
-      {
-        heading: 'Use Our Spotify Ad Skipper For An Ad Free Music Experience',
-        desc: "Think of yourself as being in the zone. Lost in a masterfully composed playlist, building to that dramatic guitar solo or the vocalist's intense emotional peak. And then, just like that, a startling mattress commercial interrupts, dragging you out of the song. The forced sales pitch has taken the place of the momentum. The annoyance doesn't end there. These advertisements frequently seem monotonous, repeating the same few over, making them into auditory hell. You can easily enjoy the in your zone with your music without any ad interruptions with our Spotify ad blocker chrome extension. "
-      },
-      {
-        heading: 'Put an End to the Interruptions and Enjoy the Music',
-        desc: "Are you sick of your carefully chosen playlist being interrupted by the same auto commercial? You're not the only one. Spotify's free tiers interrupt the listening experience and slow it down by barrageing users with advertisements. However, there is a method to take back control that does not need to give up your music collection. You can easily block those annoying audio and video adverts with our spotify ads blocker on Windows plugin by integrating it with your desktop client."
-      }
-    ]
+    browsData: {
+      background: '/spotifyShade.png',
+      Line: '/spotifyLine.png',
+      mainHeadingColor: 'bg-gradient-to-r to-[#1ED760] from-[#A8FEC7] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r to-[#1ED760] from-[#A8FEC7] text-transparent bg-clip-text">Join The Ad-Free Revolution</span>',
+          desc: "Are you ready to let go of the interruptions and experience the bliss of continuous music again? There's nowhere else to look! Get our spotify adblock extension now to explore a world of uninterrupted music pleasure. We provide a range of choices to meet your needs, from a feature-rich premium plan to a free basic version."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#1ED760] from-[#A8FEC7]  text-transparent bg-clip-text">Use Our Spotify Ad Skipper For An Ad Free Music Experience</span>',
+          desc: "Think of yourself as being in the zone. Lost in a masterfully composed playlist, building to that dramatic guitar solo or the vocalist's intense emotional peak. And then, just like that, a startling mattress commercial interrupts, dragging you out of the song. The forced sales pitch has taken the place of the momentum. The annoyance doesn't end there. These advertisements frequently seem monotonous, repeating the same few over, making them into auditory hell. You can easily enjoy the in your zone with your music without any ad interruptions with our Spotify ad blocker chrome extension. "
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#1ED760] from-[#A8FEC7]  text-transparent bg-clip-text">Put an End to the Interruptions and Enjoy the Music</span>',
+          desc: "Are you sick of your carefully chosen playlist being interrupted by the same auto commercial? You're not the only one. Spotify's free tiers interrupt the listening experience and slow it down by barrageing users with advertisements. However, there is a method to take back control that does not need to give up your music collection. You can easily block those annoying audio and video adverts with our spotify ads blocker on Windows plugin by integrating it with your desktop client."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/spotifyShade.png'
+    }
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+      <Header data={data.hero} />
+      <PlatformIcons />
       <Usage data={data.usage} />
-      <BrowsingExperience browsingData={data.browsData}/>
+      <BrowsingExperience browsingData={data.browsData} />
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
+      <Footer Footerdata={data.footer}/>
     </div>
   )
 }

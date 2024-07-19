@@ -8,19 +8,19 @@ import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-  description:"With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+  description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
   icons: {
-      icon: '/favicon.png',
+    icon: '/favicon.png',
   },
   openGraph: {
-      title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-      description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
-      type: 'website',
-      siteName: "TrueAdblocker Features",
-      images: "/favicon.png",
+    title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
+    description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+    type: 'website',
+    siteName: "TrueAdblocker Features",
+    images: "/favicon.png",
   },
   alternates: {
-      canonical: "/",
+    canonical: "/",
   },
 };
 const pages = () => {
@@ -35,17 +35,23 @@ const pages = () => {
         title1: "About Us",
         title2: "Contact Us",
       },
+      element: '/6.png',
+      bannerImage: '/feature.png'
     },
     usage: {
       title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
-      expTitle: "Have the best online experience with this adblock Chrome",
+      titlePara: 'Are you sick of seeing the same obtrusive advertisements on websites you visit? Trueadblocker our advertisement blocker chrome is the gateway to a more streamlined and hygienic online experience. Welcome to the solution. Bid farewell to interruptions and side trips. Your browsing experience can now be fully restored with our ad blocking technology. The biggest advantages of using our website to prevent ads are listed below.',
+      CardbottomPara: 'Experience the internet the way it was intended: clean, fast, and ad-free. Join millions of other users who have discovered the benefits of ad blocking at Trueadblocker.',
+      expTitle: "",
       expText:
-        "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
-      subTitle: " Download and install the Adblocker | Chrome extension now.",
+        "",
+      subTitle: "",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
-          title: "Fasten up your speed",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Faster loading time",
+          text: "Advertisements may drastically slow down page loading speeds, rendering your online experience extremely frustrating. By disabling advertisements, you'll get faster page loads and smoother browsing.",
           icon: (
             <svg
               width="100%"
@@ -63,8 +69,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #AE45EE 0%, #4345FD 100%)",
         },
         {
-          title: "Maintain the privacy",
-          text: "Eliminate all the disturbing ads that interrupt your browsing experience. With this adblocker Chrome extension, you can finally say goodbye to banner ads, video ads, pop-ups, and many more.",
+          title: "Enhanced Privacy",
+          text: "Many advertisements follow your online activity, compromising your privacy and collecting personal information without your permission. Ad block chrome allows you to preserve your privacy and browse the internet without worrying about unwanted tracking.",
           icon: (
             <svg
               width="100%"
@@ -82,8 +88,8 @@ const pages = () => {
           gradient: "linear-gradient(180deg, #49EDC7 0%, #3052B4 100%)",
         },
         {
-          title: "Parenting Contro",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Improved Security",
+          text: "Ads are not only bothersome; they can also be a security risk. Malicious advertisements, often known as malvertising, may include malware and expose you to cyber dangers. By eliminating advertisements, you lower your chances of falling victim to online fraud and virus attacks.",
           icon: (
             <svg
               width="100%"
@@ -98,11 +104,11 @@ const pages = () => {
               />
             </svg>
           ),
-          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
+          gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
         {
-          title: "Website Assistance",
-          text: "This adblock browser Chrome allows you to permit acceptable ads that will promote a robust online environment for websites.",
+          title: "Focus on Content",
+          text: "Without distracting adverts on your screen, you can concentrate on the content that is most important to you. Whether you're reading news articles, viewing videos, or buying something online, ad blocker chrome lets you focus on what you came for without distractions.",
           icon: (
             <svg
               width="100%"
@@ -117,7 +123,7 @@ const pages = () => {
               />
             </svg>
           ),
-          gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
+          gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
       ],
     },
@@ -125,6 +131,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -153,33 +160,41 @@ const pages = () => {
         }
       ],
     },
-    browsData: [
-      {
-        heading: 'Safeguard Your Browsing Experience',
-        desc: "Here is the best place to go for a safer internet experience! Are you sick and weary of having your privacy compromised, your screen cluttered with unwanted adverts, and your browsing slowed down? There's nowhere else to look! Regaining control over your internet experience is simple with our adblock plus chrome software. It just takes a few clicks to download our extension. Just go to our official website, where the download link will be clearly visible. You can wave goodbye to intrusive advertisements and take advantage of a faster, cleaner browsing experience with only a few minutes of your time. Concerned about malware or viruses? Don't worry; our application has undergone extensive testing and has been found to be virus-free. Our first concern is your security; thus, we go above and beyond to make sure that our software satisfies the strictest dependability and safety requirements. With our ad blocker google chrome extension, you can easily download and install the application easily"
-      },
-      {
-        heading: 'Enjoy Ad Free Experience With Trueadblocker',
-        desc: "Come browse without ads and join the millions of happy users who have already done so. Bid farewell to interruptions and welcome to a more seamless and pleasurable virtual experience. Take the first step toward a safer, cleaner internet experience by downloading our application now."
-      },
-      {
-        heading: 'Block ads everywhere, including Twitch, Hulu, YouTube, Spotify, and more!',
-        desc: "Welcome to our ad-blocking software! With our powerful extension, you can say goodbye to those irritating ads on all of your favorite platforms using the adblock browser chrome. Whether you're streaming on Twitch, watching episodes on Hulu, or grooving out on Spotify, we've got you covered. Our adblocker works flawlessly across several platforms, providing uninterrupted pleasure without the nuisance of advertisements. Experience the web the way it was meant to be: ad-free. Say welcome to a cleaner, faster browsing experience today!"
-      },
-      {
-        heading: 'Trueadblocker: Experience Ad-Free Bliss!',
-        desc: "Enter the land of Trueadblocker, where advertisements slip into the shadows! Tired of avoiding digital distractions like a pro? With our adblock chrome features, you may enjoy uninterrupted browsing bliss. Glide through the web waves with ease, reclaiming your peace of mind with every click. Say goodbye to the clutter and embrace the peace of ad-free serenity. Let us work together to create a more serene and clean online experience."
-      }
-    ]
+    browsData: {
+      background: '/usage1.png',
+      Line: '/Line.png',
+      mainHeadingColor: 'bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Safeguard Your Browsing Experience</span>',
+          desc: "Here is the best place to go for a safer internet experience! Are you sick and weary of having your privacy compromised, your screen cluttered with unwanted adverts, and your browsing slowed down? There's nowhere else to look! Regaining control over your internet experience is simple with our adblock plus chrome software. It just takes a few clicks to download our extension. Just go to our official website, where the download link will be clearly visible. You can wave goodbye to intrusive advertisements and take advantage of a faster, cleaner browsing experience with only a few minutes of your time. Concerned about malware or viruses? Don't worry; our application has undergone extensive testing and has been found to be virus-free. Our first concern is your security; thus, we go above and beyond to make sure that our software satisfies the strictest dependability and safety requirements. With our ad blocker google chrome extension, you can easily download and install the application easily"
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Enjoy Ad Free Experience With Trueadblocker</span>',
+          desc: "Come browse without ads and join the millions of happy users who have already done so. Bid farewell to interruptions and welcome to a more seamless and pleasurable virtual experience. Take the first step toward a safer, cleaner internet experience by downloading our application now."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Block ads everywhere, including Twitch, Hulu, YouTube, Spotify, and more!</span>',
+          desc: "Welcome to our ad-blocking software! With our powerful extension, you can say goodbye to those irritating ads on all of your favorite platforms using the adblock browser chrome. Whether you're streaming on Twitch, watching episodes on Hulu, or grooving out on Spotify, we've got you covered. Our adblocker works flawlessly across several platforms, providing uninterrupted pleasure without the nuisance of advertisements. Experience the web the way it was meant to be: ad-free. Say welcome to a cleaner, faster browsing experience today!"
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Trueadblocker: Experience Ad-Free Bliss!</span>',
+          desc: "Enter the land of Trueadblocker, where advertisements slip into the shadows! Tired of avoiding digital distractions like a pro? With our adblock chrome features, you may enjoy uninterrupted browsing bliss. Glide through the web waves with ease, reclaiming your peace of mind with every click. Say goodbye to the clutter and embrace the peace of ad-free serenity. Let us work together to create a more serene and clean online experience."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
       <PlatformIcons />
       <Usage data={data.usage} />
-      <BrowsingExperience browsingData={data.browsData}/>
+      <BrowsingExperience browsingData={data.browsData} />
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
+      <Footer Footerdata={data.footer}/>
     </div>
   )
 }

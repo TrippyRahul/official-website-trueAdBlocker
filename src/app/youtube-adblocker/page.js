@@ -3,33 +3,49 @@ import Usage from '../components/Usage'
 import Footer from '../components/Footer'
 import FrequentlyAskedQuestion from '../components/FAQ'
 import BrowsingExperience from '../components/BrowsingExperience'
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "YouTube adblocker Chrome extension blocks all types of ads",
   description: " YouTube adblocker Chrome extension is the best software that blocks all types of unwanted ads and lets you enjoy your content without any disturbance.",
   icons: {
-      icon: '/favicon.png',
+    icon: '/favicon.png',
   },
   openGraph: {
-      title: "YouTube adblocker Chrome extension blocks all types of ads",
-      description: " YouTube adblocker Chrome extension is the best software that blocks all types of unwanted ads and lets you enjoy your content without any disturbance.",
-      type: 'website',
-      siteName: "Youtube ad blocker",
-      images: "/favicon.png",
+    title: "YouTube adblocker Chrome extension blocks all types of ads",
+    description: " YouTube adblocker Chrome extension is the best software that blocks all types of unwanted ads and lets you enjoy your content without any disturbance.",
+    type: 'website',
+    siteName: "Youtube ad blocker",
+    images: "/favicon.png",
   },
   alternates: {
-      canonical: "/",
+    canonical: "/",
   },
 };
 const pages = () => {
   const data = {
+    hero: {
+      title: "<span class='bg-gradient-to-r from-[#FFD6D6] to-[#FF0000] text-transparent bg-clip-text'>Watch your favorite movie without ads</span>",
+      subHeading: "",
+      subTitle:
+        "YouTube adblocker is the perfect extension that allows you to stream videos effortlessly.",
+      button: "Add to Chrome it's Free",
+      Navbar: {
+        title1: "About Us",
+        title2: "Contact Us",
+      },
+      element: '/7.png',
+      bannerImage: '/ytbanner.png'
+    },
     usage: {
       title: "Enjoy Ad-Free Content with YouTube adblocker Chrome extension ",
       expTitle: "Have the best online experience with this adblock Chrome",
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
+      usage1: '/ytshade.png',
+      usage2: '/ytshade.png',
       usage: [
         {
           title: "Improved and Better Experience",
@@ -93,18 +109,18 @@ const pages = () => {
           text: "For those with data plans that are limited, this is a big worry. Our chrome ad blocker for youtube reduces data use when using a browser by preventing resource-intensive adverts from loading.",
           icon: (
             <svg
-            width="100%"
-            height="100%"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
-              fill="white"
-            />
-          </svg>
-           
+              width="100%"
+              height="100%"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
+                fill="white"
+              />
+            </svg>
+
           ),
           gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
@@ -114,6 +130,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/ytshade.png',
       questions: [
         {
           id: 1,
@@ -137,29 +154,38 @@ const pages = () => {
         }
       ],
     },
-    browsData: [
-      {
-        heading: 'Protect Your Data and Watch History with Our Virus-Free AdBlocker!',
-        desc: "Are you sick and weary of having your privacy violated by slow browsing and invasive ads? Our YouTube block Adblock allows you to regain control over your online experience. You only need to click a few times to download youtube ad blocker chrome. For a safe and secure download of the link, go to our official website. You may quickly enjoy faster, cleaner surfing and wave goodbye to obnoxious, flashy adverts by using our chrome addon youtube ad blocker."
-      },
-      {
-        heading: 'Watch Your Favorite Shows on chrome plugin youtube ad blocker',
-        desc: "Are you tired of advertising breaking up your favorite YouTube videos all the time? We are aware of how annoying it may be to have advertisements interfere with your enjoyment. We offer the ideal remedy for you. Presenting our state-of-the-art ad blocker, designed to enhance your YouTube experience by removing all advertisements. Our Chrome YouTube adblocker effortlessly fits in with your existing YouTube configuration, letting you unwind and take in your pleasure uninterrupted."
-      },
-      {
-        heading: 'Keep on Browsing and Streaming Without Stopping',
-        desc: "Our adblock for YouTube Firefox is a dependable and safe plugin that lets you remove bothersome advertisements from the websites you love. We provide support for all streaming services, including Twitch, Spotify, and YouTube videos."
-      }
-    ]
+    browsData: {
+      background: '/ytshade.png',
+      Line: '/ytLine.png',
+      mainHeadingColor: 'bg-gradient-to-r to-[#FF0000] from-[#FFD6D6] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r to-[#FF0000] from-[#FFD6D6] text-transparent bg-clip-text">Protect Your Data and Watch History with Our Virus-Free AdBlocker!</span>',
+          desc: "Are you sick and weary of having your privacy violated by slow browsing and invasive ads? Our YouTube block Adblock allows you to regain control over your online experience. You only need to click a few times to download youtube ad blocker chrome. For a safe and secure download of the link, go to our official website. You may quickly enjoy faster, cleaner surfing and wave goodbye to obnoxious, flashy adverts by using our chrome addon youtube ad blocker."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#FF0000] from-[#FFD6D6] text-transparent bg-clip-text">Watch Your Favorite Shows on chrome plugin youtube ad blocker</span>',
+          desc: "Are you tired of advertising breaking up your favorite YouTube videos all the time? We are aware of how annoying it may be to have advertisements interfere with your enjoyment. We offer the ideal remedy for you. Presenting our state-of-the-art ad blocker, designed to enhance your YouTube experience by removing all advertisements. Our Chrome YouTube adblocker effortlessly fits in with your existing YouTube configuration, letting you unwind and take in your pleasure uninterrupted."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#FF0000] from-[#FFD6D6] text-transparent bg-clip-text">Keep on Browsing and Streaming Without Stopping</span>',
+          desc: "Our adblock for YouTube Firefox is a dependable and safe plugin that lets you remove bothersome advertisements from the websites you love. We provide support for all streaming services, including Twitch, Spotify, and YouTube videos."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/ytshade.png'
+    }
   }
   return (
-    <div style={{ background: "rgba(27, 27, 27, 1)" }}>
-      <Navbar data={data?.Navbar} />
+    <div style={{ background: "rgba(27, 27, 27, 1)" }} >
+      <Header data={data.hero} />
+      <PlatformIcons />
       <Usage data={data.usage} />
-      <BrowsingExperience browsingData={data.browsData}/>
+      <BrowsingExperience browsingData={data.browsData} />
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
-    </div>
+      <Footer Footerdata={data.footer}/>
+    </div >
   )
 }
 

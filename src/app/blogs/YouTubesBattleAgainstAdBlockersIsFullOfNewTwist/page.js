@@ -43,7 +43,7 @@ const Blog_3 = () => {
                     <p dangerouslySetInnerHTML={{ __html: `<span>${data?.text3}</span>` }}></p>
                 </div>
             </div>
-            <Footer />
+            <Footer Footerdata={{footerBackground:'/usage1.png'}}/>
         </div>
     )
 }
