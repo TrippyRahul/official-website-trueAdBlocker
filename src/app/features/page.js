@@ -29,14 +29,14 @@ const pages = () => {
       title: "<span class='capitalize'>Discover the Joy of</span> <br/><span class='bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text'>Ad-Free Exploration</span>",
       subHeading: "",
       subTitle:
-        "",
+        "Are you tired of having to dodge annoying advertisements all the time like a digital ninja?",
       button: "Add to Chrome it's Free",
       Navbar: {
         title1: "About Us",
         title2: "Contact Us",
       },
-      element:'/6.png',
-      bannerImage:'/feature.png'
+      element: '/6.png',
+      bannerImage: '/feature.png'
     },
     usage: {
       title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
@@ -46,6 +46,8 @@ const pages = () => {
       expText:
         "",
       subTitle: "",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Faster loading time",
@@ -109,17 +111,17 @@ const pages = () => {
           text: "Without distracting adverts on your screen, you can concentrate on the content that is most important to you. Whether you're reading news articles, viewing videos, or buying something online, ad blocker chrome lets you focus on what you came for without distractions.",
           icon: (
             <svg
-            width="100%"
-            height="100%"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M54.375 30V48.75C54.375 51.2364 53.3873 53.6209 51.6291 55.3791C49.871 57.1372 47.4864 58.125 45 58.125H31.875C31.3777 58.125 30.9008 57.9274 30.5492 57.5758C30.1975 57.2242 30 56.7472 30 56.25C30 55.7527 30.1975 55.2758 30.5492 54.9241C30.9008 54.5725 31.3777 54.375 31.875 54.375H45C46.4918 54.375 47.9226 53.7823 48.9775 52.7274C50.0324 51.6725 50.625 50.2418 50.625 48.75H45C43.5082 48.75 42.0774 48.1573 41.0225 47.1024C39.9676 46.0475 39.375 44.6168 39.375 43.125V33.75C39.375 32.2581 39.9676 30.8274 41.0225 29.7725C42.0774 28.7176 43.5082 28.125 45 28.125H50.543C50.1881 24.2272 48.7316 20.5108 46.3434 17.4099C43.9553 14.309 40.7341 11.9517 37.0561 10.6132C33.3782 9.27477 29.3953 9.01045 25.5728 9.85114C21.7502 10.6918 18.2457 12.6028 15.4688 15.3609C12.0156 18.7685 9.88576 23.2923 9.45938 28.125H15C16.4918 28.125 17.9226 28.7176 18.9775 29.7725C20.0324 30.8274 20.625 32.2581 20.625 33.75V43.125C20.625 44.6168 20.0324 46.0475 18.9775 47.1024C17.9226 48.1573 16.4918 48.75 15 48.75H11.25C9.75816 48.75 8.32742 48.1573 7.27252 47.1024C6.21763 46.0475 5.625 44.6168 5.625 43.125V30C5.63026 25.1716 7.06787 20.4533 9.75587 16.4424C12.4439 12.4314 16.2614 9.30809 20.7253 7.46773C25.1892 5.62737 30.0987 5.15272 34.8325 6.10386C39.5662 7.055 43.9114 9.38916 47.318 12.8109C49.5671 15.071 51.3482 17.7527 52.5592 20.7023C53.7701 23.6519 54.3872 26.8115 54.375 30Z"
-              fill="white"
-            />
-          </svg>
+              width="100%"
+              height="100%"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M54.375 30V48.75C54.375 51.2364 53.3873 53.6209 51.6291 55.3791C49.871 57.1372 47.4864 58.125 45 58.125H31.875C31.3777 58.125 30.9008 57.9274 30.5492 57.5758C30.1975 57.2242 30 56.7472 30 56.25C30 55.7527 30.1975 55.2758 30.5492 54.9241C30.9008 54.5725 31.3777 54.375 31.875 54.375H45C46.4918 54.375 47.9226 53.7823 48.9775 52.7274C50.0324 51.6725 50.625 50.2418 50.625 48.75H45C43.5082 48.75 42.0774 48.1573 41.0225 47.1024C39.9676 46.0475 39.375 44.6168 39.375 43.125V33.75C39.375 32.2581 39.9676 30.8274 41.0225 29.7725C42.0774 28.7176 43.5082 28.125 45 28.125H50.543C50.1881 24.2272 48.7316 20.5108 46.3434 17.4099C43.9553 14.309 40.7341 11.9517 37.0561 10.6132C33.3782 9.27477 29.3953 9.01045 25.5728 9.85114C21.7502 10.6918 18.2457 12.6028 15.4688 15.3609C12.0156 18.7685 9.88576 23.2923 9.45938 28.125H15C16.4918 28.125 17.9226 28.7176 18.9775 29.7725C20.0324 30.8274 20.625 32.2581 20.625 33.75V43.125C20.625 44.6168 20.0324 46.0475 18.9775 47.1024C17.9226 48.1573 16.4918 48.75 15 48.75H11.25C9.75816 48.75 8.32742 48.1573 7.27252 47.1024C6.21763 46.0475 5.625 44.6168 5.625 43.125V30C5.63026 25.1716 7.06787 20.4533 9.75587 16.4424C12.4439 12.4314 16.2614 9.30809 20.7253 7.46773C25.1892 5.62737 30.0987 5.15272 34.8325 6.10386C39.5662 7.055 43.9114 9.38916 47.318 12.8109C49.5671 15.071 51.3482 17.7527 52.5592 20.7023C53.7701 23.6519 54.3872 26.8115 54.375 30Z"
+                fill="white"
+              />
+            </svg>
           ),
           gradient: "linear-gradient(180deg, #EF40F9 0%, #D9333C 100%)",
         },
@@ -129,6 +131,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -157,24 +160,32 @@ const pages = () => {
         }
       ],
     },
-    browsData: [
-      {
-        heading: 'Safeguard Your Browsing Experience',
-        desc: "Here is the best place to go for a safer internet experience! Are you sick and weary of having your privacy compromised, your screen cluttered with unwanted adverts, and your browsing slowed down? There's nowhere else to look! Regaining control over your internet experience is simple with our adblock plus chrome software. It just takes a few clicks to download our extension. Just go to our official website, where the download link will be clearly visible. You can wave goodbye to intrusive advertisements and take advantage of a faster, cleaner browsing experience with only a few minutes of your time. Concerned about malware or viruses? Don't worry; our application has undergone extensive testing and has been found to be virus-free. Our first concern is your security; thus, we go above and beyond to make sure that our software satisfies the strictest dependability and safety requirements. With our ad blocker google chrome extension, you can easily download and install the application easily"
-      },
-      {
-        heading: 'Enjoy Ad Free Experience With Trueadblocker',
-        desc: "Come browse without ads and join the millions of happy users who have already done so. Bid farewell to interruptions and welcome to a more seamless and pleasurable virtual experience. Take the first step toward a safer, cleaner internet experience by downloading our application now."
-      },
-      {
-        heading: 'Block ads everywhere, including Twitch, Hulu, YouTube, Spotify, and more!',
-        desc: "Welcome to our ad-blocking software! With our powerful extension, you can say goodbye to those irritating ads on all of your favorite platforms using the adblock browser chrome. Whether you're streaming on Twitch, watching episodes on Hulu, or grooving out on Spotify, we've got you covered. Our adblocker works flawlessly across several platforms, providing uninterrupted pleasure without the nuisance of advertisements. Experience the web the way it was meant to be: ad-free. Say welcome to a cleaner, faster browsing experience today!"
-      },
-      {
-        heading: 'Trueadblocker: Experience Ad-Free Bliss!',
-        desc: "Enter the land of Trueadblocker, where advertisements slip into the shadows! Tired of avoiding digital distractions like a pro? With our adblock chrome features, you may enjoy uninterrupted browsing bliss. Glide through the web waves with ease, reclaiming your peace of mind with every click. Say goodbye to the clutter and embrace the peace of ad-free serenity. Let us work together to create a more serene and clean online experience."
-      }
-    ]
+    browsData: {
+      background: '/usage1.png',
+      Line: '/Line.png',
+      mainHeadingColor: 'bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Safeguard Your Browsing Experience</span>',
+          desc: "Here is the best place to go for a safer internet experience! Are you sick and weary of having your privacy compromised, your screen cluttered with unwanted adverts, and your browsing slowed down? There's nowhere else to look! Regaining control over your internet experience is simple with our adblock plus chrome software. It just takes a few clicks to download our extension. Just go to our official website, where the download link will be clearly visible. You can wave goodbye to intrusive advertisements and take advantage of a faster, cleaner browsing experience with only a few minutes of your time. Concerned about malware or viruses? Don't worry; our application has undergone extensive testing and has been found to be virus-free. Our first concern is your security; thus, we go above and beyond to make sure that our software satisfies the strictest dependability and safety requirements. With our ad blocker google chrome extension, you can easily download and install the application easily"
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Enjoy Ad Free Experience With Trueadblocker</span>',
+          desc: "Come browse without ads and join the millions of happy users who have already done so. Bid farewell to interruptions and welcome to a more seamless and pleasurable virtual experience. Take the first step toward a safer, cleaner internet experience by downloading our application now."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Block ads everywhere, including Twitch, Hulu, YouTube, Spotify, and more!</span>',
+          desc: "Welcome to our ad-blocking software! With our powerful extension, you can say goodbye to those irritating ads on all of your favorite platforms using the adblock browser chrome. Whether you're streaming on Twitch, watching episodes on Hulu, or grooving out on Spotify, we've got you covered. Our adblocker works flawlessly across several platforms, providing uninterrupted pleasure without the nuisance of advertisements. Experience the web the way it was meant to be: ad-free. Say welcome to a cleaner, faster browsing experience today!"
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Trueadblocker: Experience Ad-Free Bliss!</span>',
+          desc: "Enter the land of Trueadblocker, where advertisements slip into the shadows! Tired of avoiding digital distractions like a pro? With our adblock chrome features, you may enjoy uninterrupted browsing bliss. Glide through the web waves with ease, reclaiming your peace of mind with every click. Say goodbye to the clutter and embrace the peace of ad-free serenity. Let us work together to create a more serene and clean online experience."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   }
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
@@ -183,7 +194,7 @@ const pages = () => {
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData} />
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
+      <Footer Footerdata={data.footer}/>
     </div>
   )
 }

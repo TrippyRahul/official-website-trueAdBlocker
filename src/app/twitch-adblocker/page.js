@@ -10,17 +10,17 @@ export const metadata = {
   title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
   description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
   icons: {
-      icon: '/favicon.png',
+    icon: '/favicon.png',
   },
   openGraph: {
-      title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
-      description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
-      type: 'website',
-      siteName: "Twitch ad blocker",
-      images: "/favicon.png",
+    title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
+    description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
+    type: 'website',
+    siteName: "Twitch ad blocker",
+    images: "/favicon.png",
   },
   alternates: {
-      canonical: "/",
+    canonical: "/",
   },
 };
 const pages = () => {
@@ -28,14 +28,14 @@ const pages = () => {
     hero: {
       title: "<span class='bg-gradient-to-r from-[#D6BFE1] to-[#8C4FFF] text-transparent bg-clip-text'>Skip ads and stream your most awaited videos</span>",
       subHeading: "",
-      subTitle:"Download Twitch Adblocker and enjoy live streaming without those annoying ads.",
+      subTitle: "Download Twitch Adblocker and enjoy live streaming without those annoying ads.",
       button: "Add to Chrome it's Free",
       Navbar: {
         title1: "About Us",
         title2: "Contact Us",
       },
-      element:'/10.png',
-      bannerImage:'/twitchad.png'
+      element: '/10.png',
+      bannerImage: '/twitchad.png'
     },
     usage: {
       title: "Enjoy Ad-Free Content with Twitch Adblocker Chrome extension",
@@ -43,8 +43,10 @@ const pages = () => {
       expText:
         "It is the best extension that improves your online experience. This adblocker Chrome extension is expertise in blocking unwanted ads and provides ad free journey. So, it’s time to say hello to seamless browsing and goodbye to all the disturbances.",
       subTitle: " Download and install the Adblocker | Chrome extension now.",
-      featureTitle:"Understand The Benefits Of Our Twitch Adblocker",
-      featureText:"Do you still need clarification about our chrome extension twitch adblock? Is it the right choice for you? Do not worry; here, we have listed some of the best benefits of your ad-blocking extension to make your decision-making process easy and smooth.",
+      featureTitle: "Understand The Benefits Of Our Twitch Adblocker",
+      featureText: "Do you still need clarification about our chrome extension twitch adblock? Is it the right choice for you? Do not worry; here, we have listed some of the best benefits of your ad-blocking extension to make your decision-making process easy and smooth.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Customization Features",
@@ -108,18 +110,18 @@ const pages = () => {
           text: "It's common knowledge that advertisements may monitor your browsing preferences and behaviors, invading your privacy. Our twitch ads extension protects your privacy by blocking these tracking technologies and restricting the sharing of your information with outside parties.",
           icon: (
             <svg
-            width="100%"
-            height="100%"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
-              fill="white"
-            />
-          </svg>
-           
+              width="100%"
+              height="100%"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48.75 9.375H11.25C10.2554 9.375 9.30161 9.77009 8.59835 10.4733C7.89509 11.1766 7.5 12.1304 7.5 13.125V26.8992C7.5 47.9016 25.2703 54.8695 28.8281 56.0531C29.588 56.3115 30.412 56.3115 31.1719 56.0531C34.7344 54.8695 52.5 47.9016 52.5 26.8992V13.125C52.5 12.1304 52.1049 11.1766 51.4016 10.4733C50.6984 9.77009 49.7446 9.375 48.75 9.375ZM40.7016 25.7016L27.5766 38.8266C27.4024 39.0009 27.1956 39.1392 26.968 39.2336C26.7404 39.3279 26.4964 39.3765 26.25 39.3765C26.0036 39.3765 25.7596 39.3279 25.532 39.2336C25.3044 39.1392 25.0976 39.0009 24.9234 38.8266L19.2984 33.2016C18.9466 32.8497 18.749 32.3726 18.749 31.875C18.749 31.3774 18.9466 30.9003 19.2984 30.5484C19.6503 30.1966 20.1274 29.999 20.625 29.999C21.1226 29.999 21.5997 30.1966 21.9516 30.5484L26.25 34.8469L38.0484 23.0484C38.2226 22.8742 38.4295 22.736 38.6571 22.6418C38.8847 22.5475 39.1286 22.499 39.375 22.499C39.6214 22.499 39.8653 22.5475 40.0929 22.6418C40.3205 22.736 40.5274 22.8742 40.7016 23.0484C40.8758 23.2226 41.014 23.4295 41.1082 23.6571C41.2025 23.8847 41.251 24.1286 41.251 24.375C41.251 24.6214 41.2025 24.8653 41.1082 25.0929C41.014 25.3205 40.8758 25.5274 40.7016 25.7016Z"
+                fill="white"
+              />
+            </svg>
+
           ),
           gradient: "linear-gradient(180deg, #9A52EF 0%, #E359AE 100%)",
         },
@@ -129,6 +131,7 @@ const pages = () => {
       lang: "english",
       title: "FAQs",
       button: "More Questions",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -151,40 +154,48 @@ const pages = () => {
           ans: "No, personal information is not collected by Twitch Adblocker. Our primary concerns are still user security and privacy.",
         },
         {
-            id: 5,
-            ques: "Is there a free version of Twitch Adblocker?",
-            ans: "Indeed, Twitch Adblocker has a free version that offers the most basic functions for preventing ads. We now offer a premium edition for users looking for more customization choices and increased functionality.",
-          }
+          id: 5,
+          ques: "Is there a free version of Twitch Adblocker?",
+          ans: "Indeed, Twitch Adblocker has a free version that offers the most basic functions for preventing ads. We now offer a premium edition for users looking for more customization choices and increased functionality.",
+        }
       ],
     },
-    browsData: [
-      {
-        heading: 'Stream Smoother With Our Ad Remover',
-        desc: "Our approach with Adblock Twitch Extension improves your viewing experience by subtly preventing annoying adverts in the background, whether you're watching live events, gaming tournaments, or creative broadcasts. It's simple, streamlined, and made to meet your entertainment requirements. Countless customers have used our cutting-edge ad remover to enjoy a cleaner, ad-free streaming experience; become one of them. Easily immerse yourself in unbroken streams to maximize your enjoyment today."
-      },
-      {
-        heading: 'Stream Without Interruptions with Our Trustworthy and Safe Plugin',
-        desc: "Wave goodbye to obtrusive advertisements on your preferred platforms with our trustworthy and safe Twitch no-ads extension. Whether you're streaming live streams on Twitch, enjoying music on Spotify, or keeping up with the newest videos on YouTube, we've got you covered. You can continue to uninterruptible enjoy your favorite material with our faultless cross-platform adblocker."
-      },
-      {
-        heading: 'Twitch Adblock extension: Your Ultimate Stream Dream Extension ',
-        desc: "Put an end to disruptions by using twitch adblocker extension! With the help of this stylish adblocker extension, you can enjoy flawless, ad-free streaming on Twitch, and continuous entertainment without waiting for those annoying advertisements to end. It's just you and your favorite content with our twitch ad block extension—no unwanted breaks. So put on your favorite music, binge-watch your favorite show, and enjoy hassle-free live streaming—our adblock twitch extension has you covered!"
-      },
-      {
-        heading: 'Twitch Adblocker: The Ultimate Ad Blasting Extension ',
-        desc: "Are those annoying Twitch commercials getting on your nerves? Presenting our effective Adblock Twitch Chrome Extension that doesn't contain any malicious garbage! Bid farewell to disruptions and welcome to blissful, uninterrupted streaming. This quirky, virus-free addon is going to be your new best friend in the fight against intrusive advertising. Your watching experience has just been enhanced with the Twitch Ad Blocking addon; you may now resume watching immediately as an ad ends. It's simple to use, efficient, and made to ensure that your Twitch streams remain ad-free."
-      }
-    ]
-  }
-  return (
-    <div style={{ background: "rgba(27, 27, 27, 1)" }}>
+    browsData: {
+      background: '/usage1.png',
+      Line: '/twitchLine.png',
+      mainHeadingColor: 'bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text',
+      browsData: [
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Stream Smoother With Our Ad Remover</span>',
+          desc: "Our approach with Adblock Twitch Extension improves your viewing experience by subtly preventing annoying adverts in the background, whether you're watching live events, gaming tournaments, or creative broadcasts. It's simple, streamlined, and made to meet your entertainment requirements. Countless customers have used our cutting-edge ad remover to enjoy a cleaner, ad-free streaming experience; become one of them. Easily immerse yourself in unbroken streams to maximize your enjoyment today."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Stream Without Interruptions with Our Trustworthy and Safe Plugin</span>',
+          desc: "Wave goodbye to obtrusive advertisements on your preferred platforms with our trustworthy and safe Twitch no-ads extension. Whether you're streaming live streams on Twitch, enjoying music on Spotify, or keeping up with the newest videos on YouTube, we've got you covered. You can continue to uninterruptible enjoy your favorite material with our faultless cross-platform adblocker."
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Twitch Adblock extension: Your Ultimate Stream Dream Extension</span>',
+          desc: "Put an end to disruptions by using twitch adblocker extension! With the help of this stylish adblocker extension, you can enjoy flawless, ad-free streaming on Twitch, and continuous entertainment without waiting for those annoying advertisements to end. It's just you and your favorite content with our twitch ad block extension—no unwanted breaks. So put on your favorite music, binge-watch your favorite show, and enjoy hassle-free live streaming—our adblock twitch extension has you covered!"
+        },
+        {
+          heading: '<span class="bg-gradient-to-r to-[#8C4FFF] from-[#D6BFE1] text-transparent bg-clip-text">Twitch Adblocker: The Ultimate Ad Blasting Extension</span>',
+          desc: "Are those annoying Twitch commercials getting on your nerves? Presenting our effective Adblock Twitch Chrome Extension that doesn't contain any malicious garbage! Bid farewell to disruptions and welcome to blissful, uninterrupted streaming. This quirky, virus-free addon is going to be your new best friend in the fight against intrusive advertising. Your watching experience has just been enhanced with the Twitch Ad Blocking addon; you may now resume watching immediately as an ad ends. It's simple to use, efficient, and made to ensure that your Twitch streams remain ad-free."
+        }
+      ]
+    },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
+    }
+  return(
+    <div style = {{ background: "rgba(27, 27, 27, 1)" }} >
       <Header data={data.hero} />
       <PlatformIcons />
       <Usage data={data.usage} />
       <BrowsingExperience browsingData={data.browsData}/>
       <FrequentlyAskedQuestion data={data.faq} />
-      <Footer />
-    </div>
+      <Footer Footerdata={data.footer}/>
+    </div >
   )
 }
 

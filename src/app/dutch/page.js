@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Ultieme advertentiedetector",
@@ -47,11 +48,13 @@ const page = () => {
       subHeading: "Uw beste keuze",
       subTitle:
         "Het is de beste Adblocker Chrome-extensie die alle vervelende advertenties blokkeert.",
-      button: "Blokkeer nu alle advertenties - het is gratis",
+      button: "Toevoegen aan Chrome is gratis",
       Navbar: {
-        title1: "About Us",
-        title2: "Contact Us",
+        title1: "Over ons",
+        title2: "Neem contact met ons op",
+        title3:'Functies',
       },
+      element: '/1.png',
     },
     features: {
       title: "Surf veilig op internet",
@@ -162,6 +165,8 @@ const page = () => {
       expText:
         "Deze extensie verbetert uw online ervaring. Deze extensie werkt perfect bij het blokkeren van ongewenste advertenties en biedt een advertentievrij traject. Het is dus tijd om afscheid te nemen van alle vervelende advertenties die uw ervaring verpesten.",
       subTitle: " Download en installeer de Adblocker | Chrome extension nu.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Versnel het laden van uw webpagina",
@@ -564,12 +569,13 @@ const page = () => {
           text: "Bekijk probleemloos je favoriete video op Twitch, YouTube en nog veel meer",
         },
       ],
-      button: "Add to Chrome it's free",
+      button: "Toevoegen aan Chrome is gratis",
     },
     faq: {
       title: "FAQs",
       lang: "dutch",
       button: "Meer vragen",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -668,13 +674,13 @@ const page = () => {
       title: "Over Trueadblocker",
       text: "Trueadblocker is de beste omdat het u beschermt tegen hackers van derden en alle onnodige advertenties elimineert. Dit adblocker Chrome extension is de bekendste bekende adblocker en wordt door duizenden mensen over de hele wereld gebruikt. Het is het beste en zeer gemakkelijk te gebruiken. Het ondersteunt ook privacybescherming. | | Ons doel is om u de beste ervaring te bieden door alle onderbroken advertenties te blokkeren die u afleiden tijdens het browsen of streamen van uw favoriete programma's. Het versnelt ook het laden van uw pagina en blokkeert alle malware die uw browser kan beschadigen. Geniet dus van je langverwachte films en series en het beste is dat deze extensie gratis te gebruiken is.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: " Blokkeer nu alle advertenties - het is gratis",
+      button1: "Toevoegen aan Chrome is gratis",
       button2: "Over ons",
       button3: "Neem contact met ons op",
       popularSearch: [
@@ -756,10 +762,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Alles in een'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -770,7 +780,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs  showbg={true}/>
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

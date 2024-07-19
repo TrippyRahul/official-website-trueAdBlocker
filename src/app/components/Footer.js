@@ -1,11 +1,15 @@
+"use client"
 import React from "react";
 import styles from "../styles/footer.module.scss";
 import Link from "next/link";
 import background from "../../../public/3.png";
 import Image from "next/image";
 import Button from "./Button";
+import { usePathname } from "next/navigation";
 
-const Footer = ({ Footerdata,data }) => {
+const Footer = ({ Footerdata, data }) => {
+  const expectedroutes = ['/','/features', '/youtube-adblocker', '/hulu-adblocker', '/spotify-adblocker', '/twitch-adblocker','/dutch','/french','/german','/italian','/korean','/polish','/portuguese','/spanish','/turkish']
+ const path=usePathname()
   const footer = {
     title: "Get it free and block ads",
     subTitle:
@@ -92,7 +96,7 @@ const Footer = ({ Footerdata,data }) => {
         name: " Privacy Policy",
         link: "privacy-policy",
       },
-      
+
     ],
   };
   return (
@@ -119,20 +123,22 @@ const Footer = ({ Footerdata,data }) => {
             {data?.button3 || footer.button3}
           </Link>
           <Link href="/blogs" className={styles.btn}>
-           Blogs
+            Blogs
           </Link>
-          <Link href="/youtube-adblocker" className={styles.btn}>
-           Youtube Adblocker
-          </Link>
-          <Link href="/hulu-adblocker" className={styles.btn}>
-           Hulu Adblocker
-          </Link>
-          <Link href="/spotify-adblocker" className={styles.btn}>
-           Spotify Adblocker
-          </Link>
-          <Link href="/twitch-adblocker" className={styles.btn}>
-           Twitch Adblocker
-          </Link>
+          {!expectedroutes.includes(path)&&<>
+            <Link href="/youtube-adblocker" className={styles.btn}>
+              Youtube Adblocker
+            </Link>
+            <Link href="/hulu-adblocker" className={styles.btn}>
+              Hulu Adblocker
+            </Link>
+            <Link href="/spotify-adblocker" className={styles.btn}>
+              Spotify Adblocker
+            </Link>
+            <Link href="/twitch-adblocker" className={styles.btn}>
+              Twitch Adblocker
+            </Link>
+          </>}
         </div>
         <hr className={styles.line} />
         <div className={styles.popularSearch}>
@@ -157,7 +163,7 @@ const Footer = ({ Footerdata,data }) => {
                   <a href={data?.link}>
                     {data?.data}
                   </a>
-                  {index === footer?.popularSearch.length - 1?' ':' , '}
+                  {index === footer?.popularSearch.length - 1 ? ' ' : ' , '}
                 </span>
               ))}
             </span>

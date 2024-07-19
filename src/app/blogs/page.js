@@ -10,7 +10,7 @@ const Page = () => {
             <div style={{minHeight: "100vh", margin: "auto"}}>
                 <Blogs showbg={false}/>
             </div>
-            <Footer />
+            <Footer Footerdata={{footerBackground:'/usage1.png'}}/>
         </div>
     )
 }

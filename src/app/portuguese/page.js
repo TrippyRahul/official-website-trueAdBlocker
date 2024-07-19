@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Detector de anúncios definitivo",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "Sua melhor escolha",
       subTitle:
         "É a melhor extensão Adblocker do Chrome que bloqueia todos os anúncios irritantes.",
-      button: "Bloqueie todos os anúncios agora - é grátis",
+      button: "Adicionar ao Chrome é grátis",
       Navbar: {
         title1: "Sobre nós",
         title2: "Contate-nos",
+        title3:'características',
+        title4:'Blogues'
       },
+      element:'/1.png'
     },
     features: {
       title: "Navegue na internet com segurança",
@@ -163,6 +167,8 @@ const page = () => {
       expText:
         "É a melhor extensão que aprimora sua experiência online. Esta extensão funciona perfeitamente no bloqueio de anúncios indesejados e oferece uma jornada sem anúncios. Então, é hora de dizer adeus a todos os anúncios irritantes que estragam sua experiência.",
       subTitle: "Baixe e instale o Adblocker | Chrome extension agora.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Acelere o carregamento da sua página da web",
@@ -567,12 +573,13 @@ const page = () => {
           text: "Assista ao seu vídeo favorito no Twitch, youtube e muito mais sem problemas instalando o bloqueador de anuncios twitch.",
         },
       ],
-      button: "Bloqueie todos os anúncios agora - é grátis",
+      button: "Adicionar ao Chrome é grátis",
     },
     faq: {
       title: "FAQs",
       lang: "portuguese",
       button: "Mais perguntas",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -670,13 +677,13 @@ const page = () => {
       title: "Sobre o Trueadblocker",
       text: "Esta extensão do navegador é a melhor, pois protege você contra hackers de terceiros e elimina todos os anúncios desnecessários. Esse adblocker Chrome extension é o bloqueador de anúncios mais conhecido e usado por milhares de pessoas em todo o mundo. É o melhor e muito fácil de usar. Ele também oferece suporte à proteção de privacidade. | | Seu objetivo é oferecer a melhor experiência, removendo todos os anúncios perturbadores que distraem você enquanto trabalha ou transmite seus programas favoritos. Ele também acelera o carregamento da sua página e bloqueia todos os malwares que podem danificar o seu navegador. Então, aproveite seus filmes e séries mais aguardados e o melhor é que essa extensão é de uso gratuito.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Bloqueie todos os anúncios agora - é grátis",
+      button1: "Adicionar ao Chrome é grátis",
       button2: "Sobre nós",
       button3: "Contate-nos",
       popularSearch: [
@@ -758,10 +765,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Tudo em um'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -772,7 +783,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

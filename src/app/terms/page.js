@@ -17,7 +17,7 @@ const TermsAndCondition = () => {
               (collectively, the &quot;Agreement&quot;) are an agreement between
               Total Security Limited (incorporated in England under number
               10161957) conducting business (or trading) as
-              Trueadblocker(&quot;Total Security Group&quot;, &quot;we&quot; or
+              Trueadblocker(&quot;Security Group&quot;, &quot;we&quot; or
               &quot;our&quot;) and you (&quot;you,&quot; &quot;yourself,&quot;
               &quot;User&quot; or &quot;Customer&quot;). This Agreement
               establishes the terms and conditions for your use of all our
@@ -135,7 +135,7 @@ const TermsAndCondition = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer Footerdata={{footerBackground:'/usage1.png'}}/>
     </div>
   );
 };

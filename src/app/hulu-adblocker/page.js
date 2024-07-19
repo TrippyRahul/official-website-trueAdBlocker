@@ -163,17 +163,19 @@ const pages = () => {
     },
     browsData:{
       background:'/huluusage1.png',
+      Line:'/HuluLine.png',
+      mainHeadingColor:'bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text',
       browsData: [
         {
-          heading: 'Enjoy Your Favorite Shows With Adblocker for hulu',
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Enjoy Your Favorite Shows With Adblocker for hulu</span>',
           desc: "Are you sick of having your favorite Hulu episodes and movies constantly interrupted by commercials? We know how annoying it may be to have advertisements continuously interrupt your video experience. We therefore have the ideal remedy for you. Presenting our cutting-edge adblocker, created significantly to improve your Hulu experience by eliminating all commercials.  Our ad blocker that works on hulu perfectly, whether you're a serial binge-watcher who loves to watch series after series or someone who prefers a calm movie night. It allows you to unwind and enjoy your entertainment without interruptions."
         },
         {
-          heading: 'Protect Your Browsing and Watching History and Data With Our Hulu Ad Remover Extension',
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Protect Your Browsing and Watching History and Data With Our Hulu Ad Remover Extension</span>',
           desc: "Hulu adblocker is accessible to download with only a few clicks. Visit our official website to download the link safely and without any delays. With our ad blocker for Hulu chrome plugin, say goodbye to flashy and annoying advertisements and start enjoying faster, cleaner browsing in minutes."
         },
         {
-          heading: 'Continue to Browse and Stream Without Any Breaks',
+          heading: '<span class="bg-gradient-to-r from-[#C9FFF5] to-[#12931F] text-transparent bg-clip-text">Continue to Browse and Stream Without Any Breaks</span>',
           desc: "With our reliable and secure plugin, the block hulu ads chrome, you can wave goodbye to intrusive advertising on your preferred platforms. Whether you're watching Hulu, listening to Spotify, or streaming on Twitch, we've got you covered. With our faultless cross-platform adblocker, you can continue to watch your favorite content uninterrupted. Enjoy the internet without ads, the way it should be."
         }
       ]

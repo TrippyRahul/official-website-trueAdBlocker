@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Détecteur de publicité ultime",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "Votre meilleur choix",
       subTitle:
         "Il s'agit de la meilleure extension Chrome Adblocker qui bloque toutes les publicités ennuyeuses.",
-      button: "Add to Chrome it's free",
+      button: "Ajouter à Chrome c'est gratuit",
       Navbar: {
         title1: "À propos de nous",
         title2: "Contactez-nous",
+        title3:'Caractéristiques',
+        title4:'Blogues'
       },
+      element:'/1.png'
     },
     features: {
       title: "Naviguez sur le Web en toute sécurité",
@@ -163,6 +167,8 @@ const page = () => {
       expText:
         "Adblocker Chrome extension améliore votre expérience en ligne. Il fonctionne en bloquant les publicités indésirables et offre un voyage sans publicité. Il est donc temps de télécharger l’extension et de dire adieu à toutes les publicités ennuyeuses qui gâchent votre expérience.",
       subTitle: " Download en installeer de Adblocker | Chrome extension nu.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Adblock Chrome accélère le chargement de votre page Web",
@@ -568,12 +574,13 @@ const page = () => {
           text: "Enfin, vous pouvez diffuser toutes vos vidéos préférées sur Twitch, YouTube et bien d'autres sans aucun problème.",
         },
       ],
-      button: "Add to Chrome it's free",
+      button: "Ajouter à Chrome c'est gratuit",
     },
     faq: {
       title: "FAQs",
       lang: "french",
       button: "Plus de questions",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -673,13 +680,13 @@ const page = () => {
       title: "À propos de Trueadblocker",
       text: "C'est le best adblocker qui bloque non seulement les publicités, mais vous protège également des pirates tiers. Ce adblocker Chrome extension est le bloqueur de publicités le plus populaire utilisé par des milliers de personnes dans le monde. Il prend également en charge la protection de la vie privée et le meilleur, c’est que son utilisation est gratuite. | | Notre objectif est d'offrir à nos clients la meilleure expérience en éliminant toutes les publicités interrompues qui peuvent gâcher votre humeur lors de la diffusion de vos émissions préférées. Il accélère également le chargement de votre page et supprime tous les logiciels malveillants cachés qui peuvent nuire à votre navigateur. Alors, profitez de vos films et séries les plus attendus et le meilleur, c’est que cette extension est gratuite.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Add to Chrome it's free",
+      button1: "Ajouter à Chrome c'est gratuit",
       button2: "À propos de nous",
       button3: "Contactez-nous",
       popularSearch: [
@@ -761,10 +768,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Tout en un'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -775,7 +786,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true}/>
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

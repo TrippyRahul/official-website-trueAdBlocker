@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - 최고의 광고 탐지기",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "최선의 선택",
       subTitle:
         "모든 성가신 광고를 차단하는 최고의 Adblocker Chrome 확장 프로그램입니다.",
-      button: "지금 모든 광고를 차단하세요 - 무료입니다",
+      button: "크롬에 추가하면 무료예요",
       Navbar: {
         title1: "회사 소개",
         title2: "문의하기",
+        title3:'특징',
+        title4:'블로그'
       },
+      element:'/1.png'
     },
     features: {
       title: "웹을 제대로 탐색하세요",
@@ -161,6 +165,8 @@ const page = () => {
       expText:
         "Adblock Chrome은 온라인 경험을 향상시킵니다. 이 확장 프로그램은 원치 않는 광고를 차단하는 데 완벽하게 작동하며 광고 없는 여행을 제공합니다. 이제 모든 성가신 광고에 작별을 고할 시간입니다.",
       subTitle: "다운로드 및 설치 Adblocker | Chrome extension 지금.",
+      usage1: '/usage1.png',
+      usage2: '/usage2.png',
       usage: [
         {
           title: "Chrome Adblock은 페이지 로딩 속도를 높여줍니다.",
@@ -563,12 +569,13 @@ const page = () => {
           text: "Hulu, Twitch, YouTube 등에서 좋아하는 콘텐츠를 번거로움 없이 시청하세요.",
         },
       ],
-      button: "지금 모든 광고를 차단하세요 - 무료입니다",
+      button: "크롬에 추가하면 무료예요",
     },
     faq: {
       title: "FAQs",
       lang: "korean",
       button: "더 많은 질문",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -667,13 +674,13 @@ const page = () => {
       title: "Trueadblocker 정보",
       text: "이것 adblocker Chrome extension 제3자 해커로부터 사용자를 보호하고 모든 유형의 짜증나는 광고를 차단하므로 최고입니다. 가장 널리 알려진 광고 차단기이며 전 세계 수천 명의 사람들이 사용합니다. 개인 정보 보호를 지원하며 가장 좋은 점은 확장 프로그램을 무료로 사용할 수 있다는 것입니다. | | 유일한 목표는 탐색하는 동안 방해가 되는 모든 중단된 광고를 차단하여 최고의 경험을 제공하는 것입니다. 또한 페이지 로딩 속도를 높이고 브라우저에 해를 끼칠 수 있는 모든 악성 코드를 차단합니다. 그래서, 당신은 무엇을 기다리고 있습니까? 파트너와 함께 가상 영화를 계획하고 최고의 경험을 해보세요.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "지금 모든 광고를 차단하세요 - 무료입니다",
+      button1: "크롬에 추가하면 무료예요",
       button2: " 회사 소개",
       button3: "문의하기",
       popularSearch: [
@@ -755,10 +762,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'올인원'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -769,7 +780,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };

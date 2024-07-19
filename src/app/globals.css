@@ -100,14 +100,22 @@ html {
   animation: none;
   display: flex;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .slider .slide-track {
   animation: scroll 40s linear infinite;
   display: flex;
   align-items: center;
   width: calc(250px * 14);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
+.slide:hover{
+  transform: scale(1.2);
+  transition: .4s;
+}
 
 
 

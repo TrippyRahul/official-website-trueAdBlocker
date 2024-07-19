@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const PlatformIcons = () => {
+const PlatformIcons = ({heading}) => {
    const icons1 = [
       {
          link: '/hulu-adblocker',
@@ -78,7 +78,7 @@ const PlatformIcons = () => {
    const icons = [...icons1, ...icons2, ...icons3, ...icons4]
    return (
       <div className='pb-20'>
-         <div className='text-white text-[6rem] font-semibold text-center pb-16 tracking-wide'>All in One</div>
+         <div className='text-white text-[6rem] font-semibold text-center pb-16 tracking-wide'>{heading?heading:'All in One'}</div>
          <div className="slider w-[340px] md:w-full">
             <div className="slide-track">
                {

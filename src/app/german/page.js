@@ -15,6 +15,7 @@ import avatar2 from "../../../public/avatar_2.png";
 import avatar3 from "../../../public/avatar_3.png";
 import avatar4 from "../../../public/avatar_4.png";
 import avatar5 from "../../../public/avatar_5.png";
+import PlatformIcons from "../components/PlatformIcons";
 
 export const metadata = {
   title: "Trueadblocker chrome extension - Ultimativer Anzeigendetektor",
@@ -47,11 +48,14 @@ const page = () => {
       subHeading: "Deine beste Wahl",
       subTitle:
         "Es ist die beste Adblocker-Erweiterung für Chrome, die alle lästigen Anzeigen blockiert.",
-      button: "Blockieren Sie jetzt alle Anzeigen – es ist kostenlos",
+      button: "Zu Chrome hinzufügen, es ist kostenlos",
       Navbar: {
         title1: "Über uns",
         title2: "Kontaktiere uns",
+        title3: "Merkmale",
+        title4: "Blogs",
       },
+      element:'/1.png'
     },
     features: {
       title: "Surfen Sie sicher im Internet",
@@ -164,6 +168,8 @@ const page = () => {
         "Es ist die beste Erweiterung, die Ihr Online-Erlebnis verbessert. Diese Erweiterung blockiert unerwünschte Werbung perfekt und ermöglicht eine werbefreie Reise. Es ist also an der Zeit, sich von all der störenden Werbung zu verabschieden, die Ihr Erlebnis ruiniert.",
       subTitle:
         " Laden Sie das herunter und installieren Sie es Adblocker | Chrome extension Jetz",
+        usage1: '/usage1.png',
+        usage2: '/usage2.png',
       usage: [
         {
           title: "Beschleunigen Sie das Laden Ihrer Seite",
@@ -567,12 +573,13 @@ const page = () => {
           text: "Sehen Sie sich Ihr Lieblingsvideo problemlos an, da alle störenden Werbeanzeigen blockiert werden",
         },
       ],
-      button: "Blockieren Sie jetzt alle Anzeigen – es ist kostenlos",
+      button: "Zu Chrome hinzufügen, es ist kostenlos",
     },
     faq: {
       title: "FAQs",
       lang: "german",
       button: "Mehr Fragen",
+      faqBackground: '/usage1.png',
       questions: [
         {
           id: 1,
@@ -671,13 +678,13 @@ const page = () => {
       title: "Über Trueadblocker",
       text: "Es ist die beste Browsererweiterung, die Sie vor Hackern Dritter schützt und alle unnötigen Anzeigen eliminiert. Dasadblocker Chrome extension ist der beliebteste Adblocker und wird von Tausenden von Menschen auf der ganzen Welt verwendet. Es ist sehr einfach zu bedienen und unterstützt zudem den Schutz der Privatsphäre. | | Ziel ist es, Ihnen das bestmögliche Erlebnis zu bieten, indem alle störenden Werbeanzeigen blockiert werden, die Sie beim Arbeiten oder Streamen Ihrer Lieblingssendungen ablenken. Außerdem beschleunigt es das Laden Ihrer Seite und blockiert sämtliche Malware, die Ihrem Browser schaden kann. Genießen Sie also Ihre am meisten erwarteten Shows und das Beste daran ist, dass die Nutzung dieser Erweiterung kostenlos ist.",
     },
-    footer: {
+    footers: {
       title: "Get it free and block ads",
       subTitle:
         "This is the best extension that blocks all kinds of ads for free including banner ads, video ads, pop-ups, and many more.",
       subText:
         "Ad-free freedom with Trueadblocker Get ready to use this ad-free extension now",
-      button1: "Blockieren Sie jetzt alle Anzeigen – es ist kostenlos",
+      button1: "Zu Chrome hinzufügen, es ist kostenlos",
       button2: "Über uns",
       button3: "Kontaktiere uns",
       popularSearch: [
@@ -759,10 +766,14 @@ const page = () => {
         },
       ],
     },
+    footer:{
+      footerBackground:'/usage1.png'
+    }
   };
   return (
     <div style={{ background: "rgba(27, 27, 27, 1)" }}>
       <Header data={data.hero} />
+      <PlatformIcons heading={'Alles in einem'}/>
       <Feature data={data.features} />
       <Usage data={data.usage} />
       <Privacy data={data.privacy} />
@@ -773,7 +784,7 @@ const page = () => {
       <Reviews data={data.reviews} />
       <Blogs showbg={true} />
       <AboutTrueAdBlocker data={data.about} />
-      <Footer data={data.footer} />
+      <Footer data={data.footers} Footerdata={data.footer}/>
     </div>
   );
 };
