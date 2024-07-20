@@ -8,13 +8,13 @@ import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-  description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+  description: "",
   icons: {
-    icon: '/favicon.png',
-  },
+    icon: '/favicon.png',      
+  },    
   openGraph: {
     title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-    description: "With the Hulu adblocker Chrome extension, you can enjoy your favorite documentary or movie without any interruptions.",
+    description: "",
     type: 'website',
     siteName: "TrueAdblocker Features",
     images: "/favicon.png",
@@ -27,7 +27,7 @@ const pages = () => {
   const data = {
     hero: {
       title: "<span class='capitalize'>Discover the Joy of</span> <br/><span class='bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text'>Ad-Free Exploration</span>",
-      subHeading: "",
+      subHeading: "Trueadblocker is a simple effective adblocker Chrome extension for an ad-free Twitch, Hulu , Spotify, and Youtube and browsing",
       subTitle:
         "Are you tired of having to dodge annoying advertisements all the time like a digital ninja?",
       button: "Add to Chrome it's Free",
@@ -39,7 +39,7 @@ const pages = () => {
       bannerImage: '/feature.png'
     },
     usage: {
-      title: "Enjoy Ad-Free Content with this adblocker Chrome extension",
+      title: "Enjoy Ad-Free Content with this Chrome extension",
       titlePara: 'Are you sick of seeing the same obtrusive advertisements on websites you visit? Trueadblocker our advertisement blocker chrome is the gateway to a more streamlined and hygienic online experience. Welcome to the solution. Bid farewell to interruptions and side trips. Your browsing experience can now be fully restored with our ad blocking technology. The biggest advantages of using our website to prevent ads are listed below.',
       CardbottomPara: 'Experience the internet the way it was intended: clean, fast, and ad-free. Join millions of other users who have discovered the benefits of ad blocking at Trueadblocker.',
       expTitle: "",

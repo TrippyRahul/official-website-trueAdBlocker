@@ -7,13 +7,13 @@ import Header from '../components/Header'
 import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
-  title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
+  title: "Stop Twitch Ads Now with Twitch adblocker Chrome extension",
   description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
   icons: {
     icon: '/favicon.png',
   },
   openGraph: {
-    title: "Twitch adblocker Chrome Extension lets you enjoy your favorite content without ads.",
+    title: "Stop Twitch Ads Now with Twitch adblocker Chrome extension",
     description: "The twitch adblocker chrome extension is the best way to block all types of annoying ads so that you can stream without any hassle.",
     type: 'website',
     siteName: "Twitch ad blocker",

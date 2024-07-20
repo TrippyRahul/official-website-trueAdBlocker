@@ -14,9 +14,9 @@ const Blogs = ({showbg}) => {
       />
       <h2 className={styles.heading}>Blogs</h2>
       <div className={styles.cardContainer}>
-        <Card src="/blog1.png" text="How does ad blocking work" link="/blogs/Howdoesadblockingwork" subtext="Ad blocking stops advertisements from loading on any website you visit. Ads of any kind, anyplace. Ad blockers are not only magic, unlike what some people may think." />
-        <Card src="/blog2.png" text="TrueAdblocker – Adblock extension for Internet Explorer" subtext="Microsoft Windows operating systems come with Internet Explorer, which was once the most widely used web browser and is currently ranked second globally." link="/blogs/AdblockextensionforInternetExplorer" />
-        <Card src="/blog3.png" text="YouTube's Battle Against Ad Blockers Is Full Of New Twist" subtext="Reddit users were the first to notice that YouTube is stepping up its campaign against ad blockers." link="/blogs/YouTubesBattleAgainstAdBlockersIsFullOfNewTwist" />
+        <Card src="/blog1.png" text="How does ad blocking work" link="/blogs/How-does-adblocking-work" subtext="Ad blocking stops advertisements from loading on any website you visit. Ads of any kind, anyplace. Ad blockers are not only magic, unlike what some people may think." />
+        <Card src="/blog2.png" text="TrueAdblocker – Adblock extension for Internet Explorer" subtext="Microsoft Windows operating systems come with Internet Explorer, which was once the most widely used web browser and is currently ranked second globally." link="/blogs/Adblock-extension-for-Internet-Explorer" />
+        <Card src="/blog3.png" text="YouTube's Battle Against Ad Blockers Is Full Of New Twist" subtext="Reddit users were the first to notice that YouTube is stepping up its campaign against ad blockers." link="/blogs/YouTubes-Battle-Against-AdBlockers-is-Full-of-New-Twist" />
 
       </div>
     </div>

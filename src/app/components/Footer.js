@@ -94,7 +94,7 @@ const Footer = ({ Footerdata, data }) => {
       },
       {
         name: " Privacy Policy",
-        link: "privacy-policy",
+        link: "/privacy-policy",
       },
 
     ],
