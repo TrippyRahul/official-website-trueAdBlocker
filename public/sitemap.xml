@@ -1,87 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.s.org/schemas//0.9"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.s.org/schemas//0.9
-            http://www.s.org/schemas//0.9/.xsd">
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://www.trueadblocker.net/</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/blogs</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/features</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/contact-us</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/blogs</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.trueadblocker.net/about-us</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/germany</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/contact-us</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/portuguese</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/hulu-adblocker</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/dutch</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/youtube-adblocker</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/turkish</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/twitch-adblocker</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/spanish</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/spotify-adblocker</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.trueadblocker.net/polish</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <loc>https://www.trueadblocker.net/blogs/Howdoesadblockingwork</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/blogs/AdblockextensionforInternetExplorer</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/blogs/YouTubesBattleAgainstAdBlockersIsFullOfNewTwist</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.trueadblocker.net/korean</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/dutch</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.trueadblocker.net/italian</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/germany</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/polish</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.trueadblocker.net/french</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/turkish</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/spanish</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/portuguese</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.trueadblocker.net/terms</loc>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.trueadblocker.net/privacy-policy</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
+  <lastmod>2024-07-20T04:57:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-</url>
-<url>
-  <loc>https://www.trueadblocker.net/terms</loc>
-  <lastmod>2023-09-18T04:12:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
 </urlset>
