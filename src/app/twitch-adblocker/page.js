@@ -69,7 +69,7 @@ const pages = () => {
         },
         {
           title: "Peace of mind",
-          text: "Malicious software occasionally poses as advertisements. Twitch Adblocker can lessen the chance of inadvertently clicking on malicious links by blocking advertisements.",
+          text: "Doubtful software occasionally poses as advertisements can be risky. Twitch Adblocker can lessen the chance of inadvertently clicking on phishing links by blocking advertisements.",
           icon: (
             <svg
               width="100%"
