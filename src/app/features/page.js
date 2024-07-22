@@ -8,13 +8,13 @@ import PlatformIcons from '../components/PlatformIcons'
 
 export const metadata = {
   title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-  description: "",
+  description: "Trueadblocker is a simple effective adblocker Chrome extension for an ad-free Twitch, Hulu , Spotify, and Youtube and browsing",
   icons: {
     icon: '/favicon.png',      
   },    
   openGraph: {
     title: "Trueadblocker: Discover the Joy of Ad-Free Exploration",
-    description: "",
+    description: "Trueadblocker is a simple effective adblocker Chrome extension for an ad-free Twitch, Hulu , Spotify, and Youtube and browsing",
     type: 'website',
     siteName: "TrueAdblocker Features",
     images: "/favicon.png",
@@ -27,7 +27,7 @@ const pages = () => {
   const data = {
     hero: {
       title: "<span class='capitalize'>Discover the Joy of</span> <br/><span class='bg-gradient-to-r from-[#E2C9FF] to-[#4F07AA] text-transparent bg-clip-text'>Ad-Free Exploration</span>",
-      subHeading: "Trueadblocker is a simple effective adblocker Chrome extension for an ad-free Twitch, Hulu , Spotify, and Youtube and browsing",
+      subHeading: "",
       subTitle:
         "Are you tired of having to dodge annoying advertisements all the time like a digital ninja?",
       button: "Add to Chrome it's Free",
@@ -89,7 +89,7 @@ const pages = () => {
         },
         {
           title: "Improved Security",
-          text: "Ads are not only bothersome; they can also be a security risk. Malicious advertisements, often known as malvertising, may include malware and expose you to cyber dangers. By eliminating advertisements, you lower your chances of falling victim to online fraud and virus attacks.",
+          text: "Ads are not only bothersome; they can also be a safety hazard. Harmful advertisements, often known as doubtful advertising, may include adware and expose you to cyber security. By eliminating advertisements, you lower your chances of falling victim to phishing and adware.      ",
           icon: (
             <svg
               width="100%"

@@ -14,7 +14,7 @@ const Usage = ({ data }) => {
       <Image src={data?.usage1} height={500} width={500} quality={100} className={styles.usage1} alt="usage1" />
       <Image src={data?.usage2} height={500} width={500} quality={100} className={styles.usage2} alt="usage2" />
       <h2 className={styles.heading}>{data?.title}</h2>
-      {data?.titlePara&&<p className={'text-center w-[55%] text-[1.9rem]'}>{data?.titlePara}</p>}
+      {data?.titlePara&&<p className={'text-center w-[90%] md:w-[55%] text-[1.9rem]'}>{data?.titlePara}</p>}
       {data?.expTitle&&<div className={styles.experienceCard}>
         <h2 className={styles.heading}>{data?.expTitle}</h2>
         <p className={styles.text}>{data?.expText}</p>
@@ -38,7 +38,7 @@ const Usage = ({ data }) => {
           />
         ))}
       </div>
-      {data?.CardbottomPara&&<p className={'text-center pt-10 z-50 w-[60%] text-[2rem]'}>{data?.CardbottomPara}</p>}
+      {data?.CardbottomPara&&<p className={'text-center pt-10 z-50 w-[90%] md:w-[60%] text-[2rem]'}>{data?.CardbottomPara}</p>}
     </div>
   );
 };

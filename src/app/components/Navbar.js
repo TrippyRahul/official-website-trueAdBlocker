@@ -224,6 +224,9 @@ const Navbar = ({ data }) => {
             <li className={styles.link}>
               <Link href="/contact-us">{data?.title2 || "Contact Us"}</Link>
             </li>
+            <li className={styles.link}>
+              <Link href="/features">{'Features'}</Link>
+            </li>
           </ul>
           <div className={styles.buttonContainer}>
             <Button text="Add to Chrome it's free" />
